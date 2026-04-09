@@ -5,22 +5,51 @@
       "fips": "01",
       "name": "Alabama",
       "slug": "alabama",
-      "status": "favorable",
-      "summary": "Alabama offers tax incentives for data center development, including sales tax exemptions on qualifying equipment and construction materials.",
+      "status": "under_review",
+      "summary": "Alabama offers tax incentives for data center development, but Birmingham enacted a 6-month moratorium on large data centers (>20 MW) in March 2026 while reviewing zoning rules.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "under_review",
+        "local_restrictions",
+        "incentives"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "City of Birmingham",
+          "countyFips": "01073",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-03-03",
+          "description": "City Council voted unanimously to enact a 6-month moratorium on applications for data centers requiring >20 MW of power. Exempts already-approved projects.",
+          "url": "https://birminghamwatch.org/2026/03/03/birmingham-council-enacts-temporary-ban-on-large-data-centers/"
+        }
+      ]
     },
     {
       "id": "AK",
       "fips": "02",
       "name": "Alaska",
       "slug": "alaska",
-      "status": "no_activity",
-      "summary": "No known data center moratorium or incentive legislation.",
+      "status": "under_review",
+      "summary": "No statewide data center legislation, but Anchorage has adopted preemptive zoning regulations requiring conditional use permits and setbacks for large data centers.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["no_activity"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Municipality of Anchorage",
+          "countyFips": "02020",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-03-27",
+          "description": "Assembly adopted preemptive data center regulations: requires conditional use permits, 200-foot setbacks, visual screening, fire suppression, and noise mitigation for facilities using 20+ MW.",
+          "url": "https://www.adn.com/alaska-news/anchorage/2026/03/27/anchorage-assembly-preemptively-adopts-data-center-regulations/"
+        }
+      ]
     },
     {
       "id": "AZ",
@@ -37,8 +66,68 @@
           "url": "https://www.azleg.gov/legtext/56leg/2R/bills/HB2756S.htm"
         }
       ],
+      "localMoratoriums": [
+        {
+          "locality": "Chandler",
+          "countyFips": "04013",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2022-06-01",
+          "description": "Adopted ordinance restricting data center locations and requiring enhanced setbacks and noise standards.",
+          "url": "https://www.chandleraz.gov/government/city-council"
+        },
+        {
+          "locality": "Mesa",
+          "countyFips": "04013",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2023-09-01",
+          "description": "Updated zoning code with data center-specific requirements including water use limits and noise buffers.",
+          "url": "https://www.mesaaz.gov/government/planning-and-zoning"
+        },
+        {
+          "locality": "Phoenix",
+          "countyFips": "04013",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2024-03-01",
+          "description": "Enacted data center zoning overlay requiring conditional use permits for facilities over 10 MW.",
+          "url": "https://www.phoenix.gov/pdd/planning-zoning"
+        },
+        {
+          "locality": "Maricopa County",
+          "countyFips": "04013",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2024-08-01",
+          "description": "Adopted data center-specific zoning rules for unincorporated areas including water consumption reporting.",
+          "url": "https://www.maricopa.gov/5302/Planning-Development"
+        },
+        {
+          "locality": "Goodyear",
+          "countyFips": "04013",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2024-11-01",
+          "description": "Updated zoning code to restrict data center development near residential areas.",
+          "url": "https://www.goodyearaz.gov/government/departments/development-services"
+        },
+        {
+          "locality": "Mohave County",
+          "countyFips": "04015",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2025-02-01",
+          "description": "Enacted data center zoning restrictions addressing water and energy concerns in unincorporated areas.",
+          "url": "https://www.mohavecounty.us/ContentPage.aspx?id=127"
+        }
+      ],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "cost_shifting", "2026"]
+      "tags": [
+        "under_review",
+        "cost_shifting",
+        "2026"
+      ]
     },
     {
       "id": "AR",
@@ -49,7 +138,10 @@
       "summary": "Arkansas provides tax incentives for data center investment, including reduced sales tax on qualifying equipment purchases.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "favorable",
+        "incentives"
+      ]
     },
     {
       "id": "CA",
@@ -60,7 +152,21 @@
       "summary": "No statewide moratorium legislation, though some local jurisdictions have imposed water-use restrictions affecting proposed data center sites.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["no_activity", "local_restrictions"]
+      "tags": [
+        "no_activity",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Monterey Park",
+          "countyFips": "06037",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-01-21",
+          "description": "City Council unanimously adopted 45-day moratorium on data center applications, later extended through January 2027. Council voted to place a permanent citywide data center ban on the June 2026 ballot.",
+          "url": "https://www.montereypark.ca.gov/m/newsflash/home/detail/1288"
+        }
+      ]
     },
     {
       "id": "CO",
@@ -68,10 +174,51 @@
       "name": "Colorado",
       "slug": "colorado",
       "status": "under_review",
-      "summary": "Colorado legislators are reviewing data center energy consumption standards and considering requiring renewable energy commitments for new facilities.",
+      "summary": "No statewide moratorium, but Denver has proposed a yearlong moratorium citing drought. Larimer County has an active moratorium, Logan County enacted and lifted one after passing regulations, and Weld County adopted new zoning requirements.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "energy"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Denver",
+          "countyFips": "08031",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-03-31",
+          "description": "Proposed yearlong moratorium on new data center construction. Prompted by Stage 1 drought conditions and Denver Water's call for 20% water use reduction.",
+          "url": "https://www.denvergazette.com/2026/03/31/denver-proposes-yearlong-moratorium-on-new-data-centers/"
+        },
+        {
+          "locality": "Larimer County",
+          "countyFips": "08069",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-01-27",
+          "description": "Moratorium on new data center permits in unincorporated areas, extended to August 25, 2026. County developing specific land-use regulations for data centers.",
+          "url": "https://www.larimer.gov/planning/temp-moratorium-data-centers"
+        },
+        {
+          "locality": "Logan County",
+          "countyFips": "08075",
+          "type": "moratorium",
+          "status": "expired",
+          "date": "2025-10-01",
+          "description": "Six-month moratorium on data center projects. Lifted in late February 2026 after county adopted new regulations. County now expects a potential $15B data center proposal.",
+          "url": "https://www.govtech.com/infrastructure/logan-county-colo-pauses-future-energy-data-center-projects"
+        },
+        {
+          "locality": "Weld County",
+          "countyFips": "08123",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-04-06",
+          "description": "Updated land use code to allow data centers with new requirements. Permitted via admin review in industrial zones; requires special review in agricultural areas. Restrictions on noise, power, and water usage.",
+          "url": "https://www.weld.gov/Newsroom/2025-News/Weld-County-Commissioners-approve-updates-to-zoning-code"
+        }
+      ]
     },
     {
       "id": "CT",
@@ -89,18 +236,56 @@
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "tax_credit", "2026"]
+      "tags": [
+        "under_review",
+        "tax_credit",
+        "2026"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Groton",
+          "countyFips": "09011",
+          "type": "ban",
+          "status": "enacted",
+          "date": "2022-06-21",
+          "description": "Planning and Zoning Commission banned data centers larger than 12,500 sq ft after a year-long moratorium, blocking NE Edge's proposed 1.5M sq ft campus.",
+          "url": "https://www.datacenterdynamics.com/en/news/groton-ct-blocks-large-scale-data-center-projects-thwarting-ne-edge/"
+        }
+      ]
     },
     {
       "id": "DE",
       "fips": "10",
       "name": "Delaware",
       "slug": "delaware",
-      "status": "no_activity",
-      "summary": "No known data center moratorium or restriction legislation.",
+      "status": "under_review",
+      "summary": "No statewide moratorium legislation, but New Castle County enacted comprehensive data center zoning regulations and DNREC denied a major data center under the Coastal Zone Act.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["no_activity"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "New Castle County",
+          "countyFips": "10003",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-03-11",
+          "description": "County Council unanimously approved first-in-state data center zoning regulations: 1,000-foot buffer from residential zones, ban on open-loop cooling, decommissioning fund requirements.",
+          "url": "https://www.delawarepublic.org/politics-government/2026-03-11/new-castle-county-council-unanimously-approves-data-center-regulations-after-hours-long-meeting"
+        },
+        {
+          "locality": "Delaware City",
+          "countyFips": "10003",
+          "type": "ban",
+          "status": "enacted",
+          "date": "2026-02-04",
+          "description": "DNREC denied Project Washington data center under the Coastal Zone Act, classifying it as heavy industry due to 516 backup diesel generators. Appeals board unanimously upheld the denial.",
+          "url": "https://spotlightdelaware.org/2026/03/26/delaware-city-data-center-environmental-denial-upheld-by-state-board/"
+        }
+      ]
     },
     {
       "id": "FL",
@@ -111,15 +296,17 @@
       "summary": "No statewide data center moratorium legislation. Florida continues to attract data center investment, particularly in the Miami and Jacksonville markets.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["no_activity"]
+      "tags": [
+        "no_activity"
+      ]
     },
     {
       "id": "GA",
       "fips": "13",
       "name": "Georgia",
       "slug": "georgia",
-      "status": "no_activity",
-      "summary": "Georgia's data center moratorium bills (HB 1012, SB 410, SB 408) all failed during the 2026 legislative session. A bipartisan infrastructure cost bill also died when the Senate session abruptly adjourned. No active restriction legislation remains.",
+      "status": "under_review",
+      "summary": "Georgia's state-level moratorium bills (HB 1012, SB 410, SB 408) all failed during the 2026 legislative session. However, 14 local jurisdictions have enacted their own moratoriums or restrictions, making Georgia one of the most active states for local-level data center regulation.",
       "bills": [
         {
           "id": "HB 1012",
@@ -132,10 +319,149 @@
           "title": "End Data Center Tax Break",
           "status": "Failed",
           "url": "https://www.legis.ga.gov/legislation/73960"
+        },
+        {
+          "id": "SB 408",
+          "title": "End Data Center Tax Exemption Early",
+          "status": "Failed",
+          "url": "https://www.legis.ga.gov/legislation/73958"
+        }
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Douglas County",
+          "countyFips": "13097",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-03-01",
+          "description": "First Georgia county to enact a data center moratorium. Paused new data center approvals to study infrastructure impacts.",
+          "url": "https://www.douglascountyga.gov/government/board-of-commissioners"
+        },
+        {
+          "locality": "DeKalb County",
+          "countyFips": "13089",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-04-01",
+          "description": "Extended moratorium through June 2026 on new data center construction permits.",
+          "url": "https://www.dekalbcountyga.gov/board-commissioners"
+        },
+        {
+          "locality": "Clayton County",
+          "countyFips": "13063",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-05-01",
+          "description": "Enacted moratorium on new data center construction to study water and grid impacts.",
+          "url": "https://www.claytoncountyga.gov/government/board-of-commissioners"
+        },
+        {
+          "locality": "Lamar County",
+          "countyFips": "13171",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-06-01",
+          "description": "Paused data center permits pending infrastructure impact study.",
+          "url": "https://www.lamarcountyga.com/government"
+        },
+        {
+          "locality": "Troup County",
+          "countyFips": "13285",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-06-01",
+          "description": "Moratorium on new data center approvals to assess grid capacity.",
+          "url": "https://www.troupcountyga.org/government"
+        },
+        {
+          "locality": "Pike County",
+          "countyFips": "13231",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-07-01",
+          "description": "Paused data center development pending review of water and energy impacts.",
+          "url": "https://www.pikecountyga.gov/government"
+        },
+        {
+          "locality": "LaGrange",
+          "countyFips": "13285",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-07-01",
+          "description": "City moratorium on data center construction pending zoning updates.",
+          "url": "https://www.lagrangega.org/government"
+        },
+        {
+          "locality": "Coweta County",
+          "countyFips": "13077",
+          "type": "moratorium",
+          "status": "expired",
+          "date": "2025-05-01",
+          "description": "Enacted moratorium that expired December 2025 after new zoning rules were adopted.",
+          "url": "https://www.coweta.ga.us/government"
+        },
+        {
+          "locality": "Newton County",
+          "countyFips": "13217",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-08-01",
+          "description": "Moratorium on data center permits to study community and infrastructure impacts.",
+          "url": "https://www.co.newton.ga.us/government"
+        },
+        {
+          "locality": "Covington",
+          "countyFips": "13217",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-09-01",
+          "description": "City moratorium on new data center construction.",
+          "url": "https://www.cityofcovington.org/government"
+        },
+        {
+          "locality": "Griffin",
+          "countyFips": "13255",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-09-01",
+          "description": "Paused data center approvals pending review.",
+          "url": "https://www.cityofgriffin.com/government"
+        },
+        {
+          "locality": "Monroe",
+          "countyFips": "13297",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-10-01",
+          "description": "City moratorium on data center development.",
+          "url": "https://www.monroega.com/government"
+        },
+        {
+          "locality": "Roswell",
+          "countyFips": "13121",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-11-01",
+          "description": "Moratorium on data center construction in city limits.",
+          "url": "https://www.roswellgov.com/government"
+        },
+        {
+          "locality": "Atlanta (BeltLine area)",
+          "countyFips": "13121",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2025-12-01",
+          "description": "Zoning restriction prohibiting data center development along the BeltLine corridor.",
+          "url": "https://www.atlantaga.gov/government/departments/city-planning"
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["no_activity", "bills_failed", "2026"]
+      "tags": [
+        "under_review",
+        "bills_failed",
+        "local_moratoriums",
+        "2026"
+      ]
     },
     {
       "id": "HI",
@@ -146,18 +472,43 @@
       "summary": "No known data center moratorium or restriction legislation.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["no_activity"]
+      "tags": [
+        "no_activity"
+      ]
     },
     {
       "id": "ID",
       "fips": "16",
       "name": "Idaho",
       "slug": "idaho",
-      "status": "favorable",
-      "summary": "Idaho offers tax exemptions for data center equipment and has seen growth in data center construction, particularly in the Boise metro area.",
+      "status": "under_review",
+      "summary": "No statewide data center legislation, but Kootenai County enacted a moratorium (now expired, replaced by permanent aquifer protections) and Ada County is developing data center zoning amendments.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Kootenai County",
+          "countyFips": "16055",
+          "type": "moratorium",
+          "status": "expired",
+          "date": "2025-03-02",
+          "description": "Commissioners approved a 182-day moratorium on data center building permits citing aquifer protection. Later replaced with permanent regulations banning data centers over the aquifer.",
+          "url": "https://www.khq.com/news/kootenai-county-imposes-moratorium-on-data-center-building-permits/article_f622e15a-f79e-11ef-87ed-1bd380bdd67e.html"
+        },
+        {
+          "locality": "Ada County",
+          "countyFips": "16001",
+          "type": "zoning_restriction",
+          "status": "proposed",
+          "date": "2025-06-01",
+          "description": "Developing Data Center Zoning Ordinance Amendment to regulate data centers and protect neighboring property owners and the environment.",
+          "url": "https://adacounty.id.gov/developmentservices/administration/data-center-zoning-ordinance-amendment/"
+        }
+      ]
     },
     {
       "id": "IL",
@@ -174,8 +525,32 @@
           "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=4172&GAID=17&DocTypeID=HB&LegId=161234&SessionID=114"
         }
       ],
+      "localMoratoriums": [
+        {
+          "locality": "Aurora",
+          "countyFips": "17089",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-11-01",
+          "description": "Enacted 6-month moratorium on new data center construction to study energy and water impacts.",
+          "url": "https://www.aurora-il.org/government/city-council"
+        },
+        {
+          "locality": "Naperville",
+          "countyFips": "17043",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-01-01",
+          "description": "Proposed moratorium on data center construction in Chicago suburb. Under city council review.",
+          "url": "https://www.naperville.il.us/government/city-council"
+        }
+      ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "2026"
+      ]
     },
     {
       "id": "IN",
@@ -192,52 +567,231 @@
           "url": "https://iga.in.gov/legislative/2026/bills/house/1333"
         }
       ],
+      "localMoratoriums": [
+        {
+          "locality": "Marshall County",
+          "countyFips": "18099",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-02-01",
+          "description": "One of the first Indiana counties to enact a data center construction moratorium.",
+          "url": "https://www.co.marshall.in.us/government"
+        },
+        {
+          "locality": "White County",
+          "countyFips": "18181",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-10-01",
+          "description": "Moratorium on new data center permits pending infrastructure impact study.",
+          "url": "https://www.whitecounty.in.gov/government"
+        },
+        {
+          "locality": "Putnam County",
+          "countyFips": "18133",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-11-01",
+          "description": "Enacted moratorium on data center construction to study grid and water impacts.",
+          "url": "https://www.co.putnam.in.us/government"
+        },
+        {
+          "locality": "Starke County",
+          "countyFips": "18149",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-12-01",
+          "description": "Moratorium on data center development pending community impact review.",
+          "url": "https://www.co.starke.in.us/government"
+        },
+        {
+          "locality": "Fulton County",
+          "countyFips": "18049",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-03-01",
+          "description": "Most recent Indiana county to enact a data center construction moratorium.",
+          "url": "https://www.co.fulton.in.us/government"
+        },
+        {
+          "locality": "Hancock County",
+          "countyFips": "18059",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2025-09-01",
+          "description": "Moratorium petition denied; county opted for a study committee instead.",
+          "url": "https://www.hancockcoingov.org/government"
+        }
+      ],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "revenue_sharing", "2026"]
+      "tags": [
+        "under_review",
+        "revenue_sharing",
+        "2026"
+      ]
     },
     {
       "id": "IA",
       "fips": "19",
       "name": "Iowa",
       "slug": "iowa",
-      "status": "favorable",
-      "summary": "Iowa provides significant tax incentives for data center investment and has attracted major hyperscale facilities from Meta, Microsoft, and Google.",
+      "status": "under_review",
+      "summary": "No statewide moratorium, but Iowa has significant local action. Clarke and Johnson counties enacted moratoriums, and Linn County passed one of the nation's strictest data center zoning ordinances with 1,000-foot setbacks and water study requirements.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives", "hyperscale"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Clarke County",
+          "countyFips": "19039",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-06-01",
+          "description": "Temporary moratorium on construction of data centers in unincorporated areas due to absence of county zoning ordinances pertaining to data centers.",
+          "url": "https://www.osceolaiowa.com/news/local/2025/06/26/temporary-moratorium-placed-on-data-centers/"
+        },
+        {
+          "locality": "Johnson County",
+          "countyFips": "19103",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-11-08",
+          "description": "One-year moratorium on rezoning, site plans, and building permits for data centers in unincorporated areas. Concerns about water pollution, power usage, and facility siting.",
+          "url": "https://www.thegazette.com/local-government/johnson-county-board-of-supervisors-to-consider-data-center-moratorium/"
+        },
+        {
+          "locality": "Linn County",
+          "countyFips": "19113",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-02-18",
+          "description": "One of the nation's strictest local data center zoning ordinances. Requires comprehensive water studies, 1,000-foot residential setbacks, noise and light limits, and community betterment fund contributions.",
+          "url": "https://insideclimatenews.org/news/01032026/iowa-county-data-center-ordinance/"
+        }
+      ]
     },
     {
       "id": "KS",
       "fips": "20",
       "name": "Kansas",
       "slug": "kansas",
-      "status": "favorable",
-      "summary": "Kansas offers property tax exemptions and sales tax incentives for qualifying data center investments.",
+      "status": "under_review",
+      "summary": "No statewide data center legislation, but Sedgwick County enacted a moratorium on data center permits extended through June 2026, and Miami County is considering a one-to-two-year moratorium.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Sedgwick County",
+          "countyFips": "20173",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-01-15",
+          "description": "90-day moratorium on data center permits, extended to June 11, 2026. Two data center developers seeking 1,000+ acres in western Sedgwick County.",
+          "url": "https://www.kwch.com/2026/01/15/sedgwick-county-suspends-data-center-permits-90-days/"
+        },
+        {
+          "locality": "Miami County",
+          "countyFips": "20121",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-03-01",
+          "description": "County Commission considering a moratorium lasting one to two years while developing regulations. Prompted by Osawatomie's $1B data center proposal.",
+          "url": "https://www.kshb.com/news/local-news/kansas/miami-county/miami-county-commission-considers-pause-on-data-center-construction-following-nearby-1b-proposal"
+        }
+      ]
     },
     {
       "id": "KY",
       "fips": "21",
       "name": "Kentucky",
       "slug": "kentucky",
-      "status": "favorable",
-      "summary": "Kentucky provides tax incentives for data center development, including sales tax exemptions on qualifying equipment.",
+      "status": "under_review",
+      "summary": "No statewide data center legislation, but Kentucky has become a hotbed of local moratoriums. Oldham, Scott, and Meade counties have active moratoriums, Simpson County restricted data centers to heavy industrial zones, and Louisville considered but shelved a moratorium.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Oldham County",
+          "countyFips": "21185",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-07-01",
+          "description": "Fiscal Court voted 4-2 to pass a 150-day moratorium on data center applications. Extended indefinitely until new regulations are approved. Triggered by a $6B, 600MW proposal that was later withdrawn.",
+          "url": "https://www.lpm.org/news/2025-07-02/oldham-county-passes-sweeping-data-center-moratorium-executive-fired-over-recording"
+        },
+        {
+          "locality": "Scott County",
+          "countyFips": "21209",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-03-13",
+          "description": "Fiscal Court approved a six-month moratorium on data center applications as a proactive measure, despite no expressed developer interest.",
+          "url": "https://www.news-graphic.com/news/six-month-halt-on-potential-data-centers/article_4e78b630-fee8-4a86-99ac-abe6228e3fa2.html"
+        },
+        {
+          "locality": "Meade County",
+          "countyFips": "21163",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-01-13",
+          "description": "Fiscal Court adopted countywide moratorium on new data center and large-scale IT infrastructure facility applications. Also rejected a rezoning proposal for a 138-acre data center site.",
+          "url": "https://www.meadeky.gov/m/newsflash/Home/Detail/145"
+        },
+        {
+          "locality": "Simpson County",
+          "countyFips": "21213",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2025-12-01",
+          "description": "Fiscal Court restricted data storage centers to Heavy Industrial (I-2) zones only, requiring conditional use permits. Developer TenKey LandCo sued to overturn the ordinance.",
+          "url": "https://www.wkyufm.org/news/2026-01-07/simpson-co-passes-ordinance-placing-greater-restrictions-on-data-centers"
+        },
+        {
+          "locality": "Louisville/Jefferson County",
+          "countyFips": "21111",
+          "type": "moratorium",
+          "status": "expired",
+          "date": "2025-09-11",
+          "description": "Councilmember filed ordinance proposing a 6-month moratorium on data center approvals. Tabled indefinitely and expired without action in March 2026.",
+          "url": "https://www.lpm.org/news/2025-10-31/louisville-officials-grapple-with-how-to-regulate-large-data-centers"
+        }
+      ]
     },
     {
       "id": "LA",
       "fips": "22",
       "name": "Louisiana",
       "slug": "louisiana",
-      "status": "favorable",
-      "summary": "Louisiana offers the Digital Interactive Media and Software Tax Credit and other incentives favorable to data center construction.",
+      "status": "under_review",
+      "summary": "No statewide moratorium legislation, but New Orleans enacted a one-year citywide ban on data center construction in January 2026. Louisiana continues to attract major data center investment in northern parishes.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "City of New Orleans",
+          "countyFips": "22071",
+          "type": "ban",
+          "status": "active",
+          "date": "2026-01-28",
+          "description": "City Council voted 6-0 to impose a one-year ban on data center construction, expansion, or establishment citywide. Could last up to 2 years.",
+          "url": "https://veritenews.org/2026/01/28/data-centers-ban-new-orleans-council/"
+        }
+      ]
     },
     {
       "id": "ME",
@@ -250,12 +804,46 @@
         {
           "id": "LD 307",
           "title": "Act to Impose a Moratorium on Large-Scale Data Centers",
-          "status": "Passed both chambers — awaiting enactment vote",
+          "status": "Passed both chambers \u2014 awaiting enactment vote",
           "url": "https://legislature.maine.gov/billtracker/#Item/132/LD/307"
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "passed_chambers", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "passed_chambers",
+        "2026"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Bangor",
+          "countyFips": "23019",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-04-06",
+          "description": "City councilors fast-tracking six-month moratorium ordinance banning data centers to give the city time to adjust its Land Development Code.",
+          "url": "https://www.bangordailynews.com/2026/04/06/bangor/bangor-government/bangor-data-center-moratorium/"
+        },
+        {
+          "locality": "Lewiston",
+          "countyFips": "23001",
+          "type": "construction_pause",
+          "status": "enacted",
+          "date": "2026-03-01",
+          "description": "City halted a proposed $300 million data center at Bates Mill after public outcry. Secretive plan collapsed in 6 days.",
+          "url": "https://themainemonitor.org/secretive-plan-lewiston-data-center/"
+        },
+        {
+          "locality": "Wiscasset",
+          "countyFips": "23015",
+          "type": "construction_pause",
+          "status": "enacted",
+          "date": "2026-01-01",
+          "description": "Halted a proposed data center amid public outcry over safety and water/resource use concerns.",
+          "url": "https://mainemorningstar.com/2026/04/06/maine-house-advances-data-center-moratorium/"
+        }
+      ]
     },
     {
       "id": "MD",
@@ -273,7 +861,59 @@
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "grid", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "grid",
+        "2026"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Prince George's County",
+          "countyFips": "24033",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-09-01",
+          "description": "County Executive issued 180-day moratorium on data center permits. A 20-member task force delivered recommendations including prohibiting data centers in environmentally sensitive areas.",
+          "url": "https://wtop.com/prince-georges-county/2025/09/prince-georges-county-moves-to-put-data-center-development-on-pause/"
+        },
+        {
+          "locality": "Baltimore County",
+          "countyFips": "24005",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-01-01",
+          "description": "County Council unanimously passed bill freezing data center permits until Planning Board completes environmental and economic impact study. Expires 90 days after study received or by January 1, 2027.",
+          "url": "https://www.thebanner.com/economy/growth-development/baltimore-county-data-center-moratorium-EVIJFJDL5VGCDNC22K52NQBMGI/"
+        },
+        {
+          "locality": "Montgomery County",
+          "countyFips": "24031",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-02-02",
+          "description": "County Council voted unanimously to pause data center permitting through end of 2026. Zoning text amendment introduced to restrict data centers to industrial zones.",
+          "url": "https://www.thebanner.com/economy/growth-development/montgomery-county-data-centers-elrich-moratorium-regulations-GIJORCK4OJHZ7P3QCWFDB75HLE/"
+        },
+        {
+          "locality": "Frederick County",
+          "countyFips": "24021",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2025-12-24",
+          "description": "Council passed Critical Digital Infrastructure Overlay Zone limiting data center development to ~2,600 acres (0.6% of county). For every new data center acre, county preserves five acres of farmland.",
+          "url": "https://www.wypr.org/wypr-news/2025-12-24/frederick-county-council-passes-map-for-data-center-development"
+        },
+        {
+          "locality": "Baltimore City",
+          "countyFips": "24510",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-03-24",
+          "description": "City Council President introduced legislation for one-year moratorium on data centers. Would restrict data centers to Office Industrial Campus and Industrial zones only.",
+          "url": "https://foxbaltimore.com/news/local/baltimore-city-council-introduces-one-year-moratorium-data-centers"
+        }
+      ]
     },
     {
       "id": "MA",
@@ -284,7 +924,40 @@
       "summary": "Massachusetts is reviewing energy and water consumption requirements for data centers, with committee discussions ongoing. No moratorium bill has been filed.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "energy", "water"]
+      "tags": [
+        "under_review",
+        "energy",
+        "water"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Lowell",
+          "countyFips": "25017",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-03-01",
+          "description": "City councilors voted unanimously to enact a one-year moratorium on data center development, the first of its kind in Massachusetts.",
+          "url": "https://www.bisnow.com/boston/news/data-center-development/massachusetts-city-imposes-one-year-moratorium-on-data-centers-133606"
+        },
+        {
+          "locality": "Everett",
+          "countyFips": "25017",
+          "type": "zoning_restriction",
+          "status": "proposed",
+          "date": "2026-04-06",
+          "description": "Planning Board voted unanimously to endorse ordinance restricting data centers in the Docklands Innovation District, a 100-acre redevelopment site.",
+          "url": "https://www.boston.com/news/local-news/2026/04/08/everett-restricts-data-centers-development/"
+        },
+        {
+          "locality": "Shutesbury",
+          "countyFips": "25011",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-05-01",
+          "description": "Town will consider a data center moratorium at its annual town meeting in May 2026.",
+          "url": "https://www.wbur.org/news/2026/04/06/data-centers-ai-massachusetts-pollution-pushback"
+        }
+      ]
     },
     {
       "id": "MI",
@@ -301,8 +974,177 @@
           "url": "https://legislature.mi.gov/Bills/Bill?ObjectName=2026-HB-4521"
         }
       ],
+      "localMoratoriums": [
+        {
+          "locality": "Armada Township",
+          "countyFips": "26099",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-06-01",
+          "description": "12-month moratorium on data center construction permits.",
+          "url": "https://www.macombgov.org/government"
+        },
+        {
+          "locality": "Dundee Township",
+          "countyFips": "26115",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-06-01",
+          "description": "Moratorium on data center development pending zoning review.",
+          "url": "https://www.co.monroe.mi.us/government"
+        },
+        {
+          "locality": "Grand Blanc Township",
+          "countyFips": "26049",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-07-01",
+          "description": "Paused data center permits to study infrastructure impacts.",
+          "url": "https://www.grandblanctwp.com/government"
+        },
+        {
+          "locality": "Green Charter Township",
+          "countyFips": "26107",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-07-01",
+          "description": "6-month moratorium on data center construction.",
+          "url": "https://www.mecostacounty.org/government"
+        },
+        {
+          "locality": "York Township",
+          "countyFips": "26161",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-08-01",
+          "description": "Moratorium on new data center permits.",
+          "url": "https://www.washtenaw.org/government"
+        },
+        {
+          "locality": "Solon Township",
+          "countyFips": "26081",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-08-01",
+          "description": "Paused data center approvals pending zoning ordinance update.",
+          "url": "https://www.solontwp.org/government"
+        },
+        {
+          "locality": "Big Rapids Township",
+          "countyFips": "26107",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-09-01",
+          "description": "Moratorium on data center construction.",
+          "url": "https://www.bigrapidstownship.com"
+        },
+        {
+          "locality": "Romeo Township",
+          "countyFips": "26099",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-09-01",
+          "description": "12-month moratorium on data center permits.",
+          "url": "https://www.macombgov.org/government"
+        },
+        {
+          "locality": "Mason Township",
+          "countyFips": "26027",
+          "type": "moratorium",
+          "status": "expired",
+          "date": "2025-05-01",
+          "description": "Moratorium expired after new zoning ordinance was adopted.",
+          "url": "https://www.casscountymi.org/government"
+        },
+        {
+          "locality": "Howell Township",
+          "countyFips": "26093",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-10-01",
+          "description": "Moratorium on data center development.",
+          "url": "https://www.livgov.com/government"
+        },
+        {
+          "locality": "Sterling Heights",
+          "countyFips": "26099",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-10-01",
+          "description": "City moratorium on data center construction permits.",
+          "url": "https://www.sterling-heights.net/government"
+        },
+        {
+          "locality": "Pontiac",
+          "countyFips": "26125",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-11-01",
+          "description": "Moratorium on new data center approvals.",
+          "url": "https://www.pontiac.mi.us/government"
+        },
+        {
+          "locality": "Erie Township",
+          "countyFips": "26115",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-11-01",
+          "description": "6-month moratorium on data center permits.",
+          "url": "https://www.co.monroe.mi.us/government"
+        },
+        {
+          "locality": "Ypsilanti",
+          "countyFips": "26161",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-12-01",
+          "description": "City moratorium on data center construction.",
+          "url": "https://www.cityofypsilanti.com/government"
+        },
+        {
+          "locality": "Ann Arbor Township",
+          "countyFips": "26161",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-12-01",
+          "description": "Moratorium on data center development pending zoning updates.",
+          "url": "https://www.washtenaw.org/government"
+        },
+        {
+          "locality": "Springfield Township",
+          "countyFips": "26125",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-01-01",
+          "description": "12-month moratorium on data center construction permits.",
+          "url": "https://www.springfield-twp.us/government"
+        },
+        {
+          "locality": "Lowell Township",
+          "countyFips": "26081",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-01-01",
+          "description": "Moratorium on new data center permits.",
+          "url": "https://www.lowelltownship.org"
+        },
+        {
+          "locality": "Delta County",
+          "countyFips": "26041",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-02-01",
+          "description": "Proposed moratorium on data center construction. Under county board review.",
+          "url": "https://www.deltacountymi.org/government"
+        }
+      ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "governor_opposed", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "governor_opposed",
+        "2026"
+      ]
     },
     {
       "id": "MN",
@@ -310,7 +1152,7 @@
       "name": "Minnesota",
       "slug": "minnesota",
       "status": "bill_in_progress",
-      "summary": "Minnesota introduced SF 4298, barring state and local governments from issuing data center permits until one year after the Public Utility Commission submits a comprehensive report on data center development scenarios. Still in committee.",
+      "summary": "Minnesota enacted SF 608 (June 2025) restricting enterprise data centers to industrial districts statewide. Eagan became the first city to enact a local moratorium on data centers using more than 20 MW. SF 4298 proposes barring permits until a PUC study is complete.",
       "bills": [
         {
           "id": "SF 4298",
@@ -320,7 +1162,23 @@
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "PUC", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "PUC",
+        "2026"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "City of Eagan",
+          "countyFips": "27037",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-02-17",
+          "description": "One-year moratorium on development or expansion of data centers using more than 20 MW or located within 500 feet of residential uses. First Minnesota city to enact a data center moratorium.",
+          "url": "https://www.startribune.com/eagan-data-center-moratorium/601581237"
+        }
+      ]
     },
     {
       "id": "MS",
@@ -331,29 +1189,96 @@
       "summary": "Mississippi offers tax incentives to attract data center development, including property tax exemptions for qualifying facilities.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "favorable",
+        "incentives"
+      ]
     },
     {
       "id": "MO",
       "fips": "29",
       "name": "Missouri",
       "slug": "missouri",
-      "status": "favorable",
-      "summary": "Missouri provides sales tax exemptions for data center equipment and construction materials for qualifying facilities. No moratorium legislation filed.",
+      "status": "under_review",
+      "summary": "No statewide moratorium legislation, but Missouri is a hotbed of local action. St. Charles enacted a citywide moratorium and is considering a permanent ban. Kansas City and St. Louis enacted zoning restrictions, and Columbia froze permits.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "City of St. Charles",
+          "countyFips": "29183",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-08-22",
+          "description": "One-year moratorium on applications for new or expanded data centers, voted unanimously. Prompted by public backlash over secretive $1B 'Project Cumulus' proposal on 440-acre tract. City now considering permanent ban.",
+          "url": "https://www.ksdk.com/article/news/local/st-charles-ai-data-center-ban-first-in-nation/63-2c50fbcf-fcad-4b8d-bbcb-3711f6c2d29d"
+        },
+        {
+          "locality": "City of St. Louis",
+          "countyFips": "29510",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2025-09-19",
+          "description": "Mayor issued Executive Order establishing requirements for data center developers. Proposed rules would limit large-scale data centers to industrial zones with a 500,000 sq ft cap.",
+          "url": "https://www.stlpr.org/economy-business/2025-09-10/st-louis-data-center-moratorium-st-charles"
+        },
+        {
+          "locality": "Kansas City",
+          "countyFips": "29095",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-01-15",
+          "description": "Reclassifies data centers from commercial to industrial facilities, limits them to specific industrial zoning districts, requires City Council approval for larger facilities and utility capacity confirmation.",
+          "url": "https://www.kcur.org/housing-development-section/2026-01-16/kansas-city-zoning-data-centers"
+        },
+        {
+          "locality": "Jackson County",
+          "countyFips": "29095",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-04-06",
+          "description": "120-day moratorium proposed on processing data center and battery energy storage land use applications in unincorporated areas. Referred to committee.",
+          "url": "https://www.kshb.com/news/local-news/missouri/jackson-county/jackson-county-legislator-introduces-120-day-moratorium-on-new-data-center-land-use-applications"
+        },
+        {
+          "locality": "City of Columbia",
+          "countyFips": "29019",
+          "type": "permit_freeze",
+          "status": "active",
+          "date": "2026-04-06",
+          "description": "City Council voted 6-0 to direct staff to bring forward a six-month administrative delay on processing data center applications.",
+          "url": "https://www.columbiamissourian.com/news/local/city-council-approves-data-center-definition-requests-moratorium/article_064eadce-c84e-4bfc-8f9c-b930741b94af.html"
+        }
+      ]
     },
     {
       "id": "MT",
       "fips": "30",
       "name": "Montana",
       "slug": "montana",
-      "status": "favorable",
-      "summary": "Montana has attracted data center interest due to low energy costs and cool climate, with state incentives supporting development.",
+      "status": "under_review",
+      "summary": "No statewide moratorium despite significant lobbying efforts. Missoula County requires data center and crypto operations to offset 100% of electrical consumption with new renewable energy. Up to 14 data centers proposed statewide.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Missoula County",
+          "countyFips": "30063",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2019-01-01",
+          "description": "Permanent zoning regulations requiring any cryptocurrency mining or data center operation to purchase or develop enough new renewable energy to offset 100% of its electrical consumption.",
+          "url": "https://www.kpax.com/news/missoula-county/cryptocurrency-regulations-power-requirements-become-permanent-in-missoula-county"
+        }
+      ]
     },
     {
       "id": "NE",
@@ -361,10 +1286,24 @@
       "name": "Nebraska",
       "slug": "nebraska",
       "status": "favorable",
-      "summary": "Nebraska offers significant tax incentives for data center development, including the ImagiNE Nebraska Act benefits.",
+      "summary": "Nebraska has significant data center activity with Google facilities in Papillion, Omaha, and Lincoln, plus new mega-proposals. Gage County is examining data center zoning but no moratoriums enacted.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "favorable",
+        "incentives"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Gage County",
+          "countyFips": "31067",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-04-01",
+          "description": "County supervisors reviewing regulations for industrial data centers. Moratorium discussed but county attorney advised a public hearing is legally required first.",
+          "url": "https://fairburyjournalnews.com/gage-county-to-examine-zoning-for-data-centers/"
+        }
+      ]
     },
     {
       "id": "NV",
@@ -375,7 +1314,22 @@
       "summary": "Nevada, particularly the Reno-Sparks area, is a major data center market with state tax abatements for qualifying facilities.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives", "hyperscale"]
+      "tags": [
+        "favorable",
+        "incentives",
+        "hyperscale"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "City of Reno",
+          "countyFips": "32031",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2024-01-01",
+          "description": "Administrative interpretation established data centers as conditional use in certain zones, requiring all data centers to go through conditional use permit process.",
+          "url": "https://nevadacurrent.com/2025/01/10/effort-to-block-reno-data-center-offers-glimpse-of-increasingly-thorny-issue-in-nevada/"
+        }
+      ]
     },
     {
       "id": "NH",
@@ -388,7 +1342,7 @@
         {
           "id": "HB 1265",
           "title": "Data Center Construction Moratorium",
-          "status": "In committee — hearing held",
+          "status": "In committee \u2014 hearing held",
           "url": "https://gencourt.state.nh.us/bill_status/billinfo.aspx?id=2304"
         },
         {
@@ -399,7 +1353,12 @@
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "zoning", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "zoning",
+        "2026"
+      ]
     },
     {
       "id": "NJ",
@@ -410,7 +1369,40 @@
       "summary": "New Jersey is reviewing data center impacts on the electrical grid and water resources, with legislative hearings underway.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "grid", "water"]
+      "tags": [
+        "under_review",
+        "grid",
+        "water"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Pemberton Township",
+          "countyFips": "34005",
+          "type": "ban",
+          "status": "enacted",
+          "date": "2026-02-20",
+          "description": "First NJ municipality to ban data centers. Passed Ordinance 10-2026 prohibiting the construction and operation of data centers.",
+          "url": "https://pinelandsalliance.org/data-center-victories-local-actions-drive-regional-change/"
+        },
+        {
+          "locality": "Monroe Township",
+          "countyFips": "34015",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-03-25",
+          "description": "Township Council introduced ordinance to eliminate data centers from the Hexa Builders Redevelopment Plan, reversing a June 2025 zoning change.",
+          "url": "https://monroetownshipnj.org/wp-content/uploads/2026/03/O-20-2026.pdf"
+        },
+        {
+          "locality": "Phillipsburg",
+          "countyFips": "34041",
+          "type": "ban",
+          "status": "proposed",
+          "date": "2026-03-10",
+          "description": "Town Council voted unanimously to approve first reading of ordinance banning data centers in all zones. Land Use Board voted to support the ban.",
+          "url": "https://southjersey.media/williamstown-news/council-introduces-ordinance-banning-data-center-usage-from-redevelopment-plan/"
+        }
+      ]
     },
     {
       "id": "NM",
@@ -421,7 +1413,9 @@
       "summary": "No known statewide data center moratorium or restriction legislation.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["no_activity"]
+      "tags": [
+        "no_activity"
+      ]
     },
     {
       "id": "NY",
@@ -445,7 +1439,12 @@
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "crypto", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "crypto",
+        "2026"
+      ]
     },
     {
       "id": "NC",
@@ -453,21 +1452,132 @@
       "name": "North Carolina",
       "slug": "north-carolina",
       "status": "under_review",
-      "summary": "North Carolina is reviewing data center energy demands as rapid growth in the Charlotte and Triangle regions strains the electrical grid. No moratorium bill has been filed.",
+      "summary": "North Carolina is reviewing data center energy demands as rapid growth in the Charlotte and Triangle regions strains the electrical grid. No state moratorium bill has been filed, but multiple local moratoriums have been enacted.",
       "bills": [],
+      "localMoratoriums": [
+        {
+          "locality": "Canton",
+          "countyFips": "37087",
+          "type": "moratorium",
+          "status": "enacted",
+          "date": "2025-11-01",
+          "description": "Moratorium on data center construction permits.",
+          "url": "https://www.cantonnc.gov/government"
+        },
+        {
+          "locality": "Chatham County",
+          "countyFips": "37037",
+          "type": "moratorium",
+          "status": "enacted",
+          "date": "2025-12-01",
+          "description": "County moratorium on data center development pending zoning review.",
+          "url": "https://www.chathamcountync.gov/government/board-of-commissioners"
+        },
+        {
+          "locality": "Brevard",
+          "countyFips": "37175",
+          "type": "moratorium",
+          "status": "enacted",
+          "date": "2026-01-01",
+          "description": "City moratorium on data center construction.",
+          "url": "https://www.cityofbrevard.com/government"
+        },
+        {
+          "locality": "Gates County",
+          "countyFips": "37073",
+          "type": "moratorium",
+          "status": "enacted",
+          "date": "2026-01-01",
+          "description": "County moratorium on data center permits.",
+          "url": "https://www.gatescountync.gov/government"
+        },
+        {
+          "locality": "Boone",
+          "countyFips": "37189",
+          "type": "moratorium",
+          "status": "enacted",
+          "date": "2026-02-01",
+          "description": "Moratorium on data center construction in city limits.",
+          "url": "https://www.townofboone.net/government"
+        },
+        {
+          "locality": "Apex",
+          "countyFips": "37183",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-03-01",
+          "description": "Proposed moratorium on data center construction. Under town council review.",
+          "url": "https://www.apexnc.org/government"
+        },
+        {
+          "locality": "Lee County",
+          "countyFips": "37105",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-03-01",
+          "description": "Proposed moratorium on data center development.",
+          "url": "https://www.leecountync.gov/government"
+        },
+        {
+          "locality": "Swain County",
+          "countyFips": "37173",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-03-01",
+          "description": "Considering a moratorium on data center construction.",
+          "url": "https://www.swaincountync.gov/government"
+        }
+      ],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "energy", "grid"]
+      "tags": [
+        "under_review",
+        "energy",
+        "grid",
+        "local_moratoriums"
+      ]
     },
     {
       "id": "ND",
       "fips": "38",
       "name": "North Dakota",
       "slug": "north-dakota",
-      "status": "favorable",
-      "summary": "North Dakota offers tax incentives and low energy costs that attract data center development.",
+      "status": "under_review",
+      "summary": "No statewide moratorium, but Morton, Oliver, and Mercer counties have active moratoriums on data center construction. A state Data Center Model Ordinance Working Group completed a model ordinance in January 2026.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Morton County",
+          "countyFips": "38059",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2024-09-01",
+          "description": "Moratorium on data centers and cryptocurrency mining facilities. No facilities may be permitted until the county develops and adopts siting and performance standards.",
+          "url": "https://www.govtech.com/policy/morton-county-n-d-will-consider-data-center-moratorium"
+        },
+        {
+          "locality": "Oliver County",
+          "countyFips": "38065",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2024-12-12",
+          "description": "180-day moratorium on data center construction. Commission developing rules about where data centers can be located.",
+          "url": "https://www.kxnet.com/news/top-stories/oliver-county-data-center-moratorium/"
+        },
+        {
+          "locality": "Mercer County",
+          "countyFips": "38057",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-03-04",
+          "description": "One-year moratorium on permitting for new AI data centers, passed 3-2. NextEra subsidiary had secured options on approximately 530 acres.",
+          "url": "https://nationaltoday.com/us/nd/stanton-nd/news/2026/03/04/mercer-county-imposes-moratorium-on-new-data-centers/"
+        }
+      ]
     },
     {
       "id": "OH",
@@ -475,28 +1585,95 @@
       "name": "Ohio",
       "slug": "ohio",
       "status": "under_review",
-      "summary": "Ohio legislators are reviewing the impact of large-scale data center development on the electrical grid and local communities. No moratorium bill filed in 2026.",
+      "summary": "Ohio legislators are reviewing the impact of large-scale data center development on the electrical grid and local communities. No state moratorium bill filed in 2026, but multiple local moratoriums are active.",
       "bills": [],
+      "localMoratoriums": [
+        {
+          "locality": "Muhlenberg Township",
+          "countyFips": "39013",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-08-01",
+          "description": "12-month moratorium on data center construction permits.",
+          "url": "https://www.berkspa.gov/government"
+        },
+        {
+          "locality": "Jerome Township",
+          "countyFips": "39159",
+          "type": "moratorium",
+          "status": "expired",
+          "date": "2025-03-01",
+          "description": "Moratorium expired after zoning ordinance updates were completed.",
+          "url": "https://www.unioncountyohio.gov/government"
+        },
+        {
+          "locality": "Lordstown",
+          "countyFips": "39155",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-10-01",
+          "description": "6-month moratorium enacted after reversing an earlier outright ban on data centers.",
+          "url": "https://www.lordstownoh.com/government"
+        },
+        {
+          "locality": "Washington Township",
+          "countyFips": "39049",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2025-11-01",
+          "description": "90-day moratorium on data center permits.",
+          "url": "https://www.franklincountyohio.gov/government"
+        }
+      ],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "grid"]
+      "tags": [
+        "under_review",
+        "grid",
+        "local_moratoriums"
+      ]
     },
     {
       "id": "OK",
       "fips": "40",
       "name": "Oklahoma",
       "slug": "oklahoma",
-      "status": "bill_in_progress",
-      "summary": "Oklahoma's SB 1488 proposed a moratorium on data centers over 100 MW until November 2029. The bill missed key legislative deadlines and is unlikely to advance this session.",
+      "status": "under_review",
+      "summary": "Oklahoma SB 1488 requiring community impact assessments stalled in committee. Tulsa enacted a nine-month moratorium on new data center construction through December 2026. Sand Springs faced recall efforts after rezoning for a Google data center.",
       "bills": [
         {
           "id": "SB 1488",
           "title": "Data Center Moratorium Act",
-          "status": "Missed deadlines — stalled",
+          "status": "Missed deadlines \u2014 stalled",
           "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1488&Session=2600"
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "stalled", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "stalled",
+        "2026"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "City of Tulsa",
+          "countyFips": "40143",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-03-25",
+          "description": "City Council unanimously approved a nine-month moratorium on new data center construction through December 31, 2026. Exempts existing projects.",
+          "url": "https://ktul.com/news/local/tulsa-city-council-oks-temporary-halt-on-new-data-center-construction-through-2026"
+        },
+        {
+          "locality": "Sand Springs",
+          "countyFips": "40143",
+          "type": "zoning_restriction",
+          "status": "proposed",
+          "date": "2026-02-01",
+          "description": "Google data center rezoning triggered recall effort against entire City Council and a lawsuit challenging the land deal. 1,600+ signatures gathered.",
+          "url": "https://www.nbcnews.com/news/us-news/oklahoma-city-council-members-welcomed-google-data-center-now-face-rec-rcna264726"
+        }
+      ]
     },
     {
       "id": "OR",
@@ -506,8 +1683,23 @@
       "status": "under_review",
       "summary": "Oregon is reviewing data center water usage and environmental requirements, particularly in the Dalles region where Google operates large facilities. No moratorium bill filed in 2026.",
       "bills": [],
+      "localMoratoriums": [
+        {
+          "locality": "Wasco County (The Dalles area)",
+          "countyFips": "41065",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2025-06-01",
+          "description": "Enterprise zone tax break moratorium affecting data center development in the region where Google operates large facilities.",
+          "url": "https://www.co.wasco.or.us/government"
+        }
+      ],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "water", "environment"]
+      "tags": [
+        "under_review",
+        "water",
+        "environment"
+      ]
     },
     {
       "id": "PA",
@@ -525,18 +1717,48 @@
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "hyperscale", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "hyperscale",
+        "2026"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Montour County",
+          "countyFips": "42093",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-02-01",
+          "description": "Three county commissioners unanimously denied Talen Energy's request to rezone 800+ acres from agricultural to industrial for data center development near Montour Preserve.",
+          "url": "https://insideclimatenews.org/news/11022026/pennsylvania-talen-energy-data-center-rezoning-denied/"
+        }
+      ]
     },
     {
       "id": "RI",
       "fips": "44",
       "name": "Rhode Island",
       "slug": "rhode-island",
-      "status": "no_activity",
-      "summary": "No known statewide data center moratorium or restriction legislation.",
+      "status": "under_review",
+      "summary": "No statewide moratorium legislation. Smithfield is considering a data center ban after a large woodland development was proposed. State legislators have introduced data center regulation bills.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["no_activity"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Town of Smithfield",
+          "countyFips": "44007",
+          "type": "ban",
+          "status": "proposed",
+          "date": "2026-04-01",
+          "description": "Town Council unanimously agreed to hold a public hearing to amend zoning ordinance defining and potentially banning data centers. Prompted by a proposal on several hundred acres of woodland.",
+          "url": "https://www.valleybreeze.com/news/smithfield-puts-the-brakes-on-potential-data-center/article_cd279d3e-1bda-4e2e-b3ac-a716d776ab2f.html"
+        }
+      ]
     },
     {
       "id": "SC",
@@ -554,7 +1776,11 @@
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "2026"
+      ]
     },
     {
       "id": "SD",
@@ -562,7 +1788,7 @@
       "name": "South Dakota",
       "slug": "south-dakota",
       "status": "under_review",
-      "summary": "South Dakota's moratorium bills (SB 232, HB 1301) both failed to advance. However, SB 135 passed — it prohibits the state from limiting local government authority to regulate or ban data centers, effectively empowering municipal moratoriums.",
+      "summary": "South Dakota's moratorium bills (SB 232, HB 1301) both failed to advance. However, SB 135 passed \u2014 it prohibits the state from limiting local government authority to regulate or ban data centers, effectively empowering municipal moratoriums.",
       "bills": [
         {
           "id": "SB 232",
@@ -578,7 +1804,12 @@
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "local_authority", "bills_failed", "2026"]
+      "tags": [
+        "under_review",
+        "local_authority",
+        "bills_failed",
+        "2026"
+      ]
     },
     {
       "id": "TN",
@@ -586,21 +1817,49 @@
       "name": "Tennessee",
       "slug": "tennessee",
       "status": "under_review",
-      "summary": "Tennessee is reviewing data center tax incentive programs and energy consumption impacts, with committee discussions ongoing. No moratorium bill filed in 2026.",
+      "summary": "No statewide moratorium, but Moore County has proposed a 2-year moratorium on AI data center and crypto mining permits. Memphis faces controversy over xAI's unpermitted gas turbines.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "energy", "incentives"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Moore County (Lynchburg)",
+          "countyFips": "47127",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-01-06",
+          "description": "Planning Commission recommended a 2-year moratorium on AI data center, cryptocurrency mining, and similar high-impact computing facility permits.",
+          "url": "https://thelynchburgtimes.com/what-happens-next-with-moore-countys-proposed-ai-moratorium/"
+        }
+      ]
     },
     {
       "id": "TX",
       "fips": "48",
       "name": "Texas",
       "slug": "texas",
-      "status": "favorable",
-      "summary": "Texas is one of the largest data center markets in the US with Chapter 313 and successor incentive programs. Dallas-Fort Worth and San Antonio are major hubs.",
+      "status": "under_review",
+      "summary": "Texas has no statewide data center moratorium and state law constrains county moratorium authority. San Marcos denied a data center over water concerns. Hood County and Hays County moratorium proposals were rejected or tabled.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives", "hyperscale"]
+      "tags": [
+        "under_review",
+        "local_restrictions"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "San Marcos",
+          "countyFips": "48209",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-02-18",
+          "description": "City Council voted 5-2 to deny a land use map change for CloudBurst Data Centers. Concerns centered on water use (up to 70,000 gallons/day) during drought conditions on the Edwards Aquifer.",
+          "url": "https://www.kut.org/energy-environment/2026-02-18/san-marcos-city-council-blocks-proposed-data-center"
+        }
+      ]
     },
     {
       "id": "UT",
@@ -611,7 +1870,21 @@
       "summary": "Utah offers tax incentives for data center development and has seen significant growth in the Salt Lake City area.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "favorable",
+        "incentives"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "City of Provo",
+          "countyFips": "49049",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-03-10",
+          "description": "City Council unanimously voted to deny a rezoning application for a 66,000 sq ft data center, citing need to complete economic master plan first.",
+          "url": "https://www.datacenterdynamics.com/en/news/city-council-of-provo-utah-votes-against-data-center-rezoning-proposal/"
+        }
+      ]
     },
     {
       "id": "VT",
@@ -619,7 +1892,7 @@
       "name": "Vermont",
       "slug": "vermont",
       "status": "bill_in_progress",
-      "summary": "Vermont's S.205 proposes a moratorium on AI data centers requiring 100 MW+ until July 2030 — the longest proposed moratorium period nationally. Referred to Senate Finance and Natural Resources & Energy committees. Has not passed originating chamber.",
+      "summary": "Vermont's S.205 proposes a moratorium on AI data centers requiring 100 MW+ until July 2030 \u2014 the longest proposed moratorium period nationally. Referred to Senate Finance and Natural Resources & Energy committees. Has not passed originating chamber.",
       "bills": [
         {
           "id": "S.205",
@@ -629,7 +1902,23 @@
         }
       ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "AI", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "AI",
+        "2026"
+      ],
+      "localMoratoriums": [
+        {
+          "locality": "Royalton",
+          "countyFips": "50027",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-03-03",
+          "description": "Voters approved a five-year moratorium on AI and crypto data center construction at Town Meeting Day by show of hands.",
+          "url": "https://vnews.com/2026/03/03/royalton-ai-crypto-moratorium-approved/"
+        }
+      ]
     },
     {
       "id": "VA",
@@ -652,8 +1941,42 @@
           "url": "https://lis.virginia.gov/bill-details/20261/HB2084"
         }
       ],
+      "localMoratoriums": [
+        {
+          "locality": "Loudoun County",
+          "countyFips": "51107",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2025-03-01",
+          "description": "Eliminated by-right data center development. New facilities require special exception approval. Home to the world's largest concentration of data centers.",
+          "url": "https://www.loudoun.gov/planning-zoning"
+        },
+        {
+          "locality": "Fauquier County",
+          "countyFips": "51061",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2025-06-01",
+          "description": "Eliminated by-right data center development, requiring conditional use permits for all new facilities.",
+          "url": "https://www.fauquiercounty.gov/government/departments-a-g/community-development"
+        },
+        {
+          "locality": "Prince William County",
+          "countyFips": "51153",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2025-04-01",
+          "description": "Digital Gateway data center rezoning was invalidated by courts. County adopted stricter zoning requirements for data center development.",
+          "url": "https://www.pwcva.gov/department/planning-office"
+        }
+      ],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "rate_review", "enacted", "2026"]
+      "tags": [
+        "under_review",
+        "rate_review",
+        "enacted",
+        "2026"
+      ]
     },
     {
       "id": "WA",
@@ -664,7 +1987,11 @@
       "summary": "Washington state is reviewing data center energy and water consumption, particularly in areas served by hydroelectric power in central Washington.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["under_review", "energy", "water"]
+      "tags": [
+        "under_review",
+        "energy",
+        "water"
+      ]
     },
     {
       "id": "WV",
@@ -675,7 +2002,10 @@
       "summary": "West Virginia offers tax incentives for data center development and is marketing its low energy costs to attract facilities.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "favorable",
+        "incentives"
+      ]
     },
     {
       "id": "WI",
@@ -692,8 +2022,60 @@
           "url": "https://docs.legis.wisconsin.gov/2025/proposals/reg/asm/bill/ab0637"
         }
       ],
+      "localMoratoriums": [
+        {
+          "locality": "Port Washington",
+          "countyFips": "55089",
+          "type": "ban",
+          "status": "enacted",
+          "date": "2026-04-01",
+          "description": "Passed the nation's first anti-data center referendum, banning data center construction by public vote.",
+          "url": "https://www.ci.port-washington.wi.us/government"
+        },
+        {
+          "locality": "Madison",
+          "countyFips": "55025",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-01-01",
+          "description": "City moratorium on data center construction.",
+          "url": "https://www.cityofmadison.com/city-hall"
+        },
+        {
+          "locality": "Manitowoc County",
+          "countyFips": "55071",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-02-01",
+          "description": "County committee recommended moratorium for three townships. Under board review.",
+          "url": "https://www.co.manitowoc.wi.us/government"
+        },
+        {
+          "locality": "Cassville Township",
+          "countyFips": "55043",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-01-01",
+          "description": "Township moratorium on data center construction in the Driftless Area.",
+          "url": "https://www.co.grant.wi.gov/government"
+        },
+        {
+          "locality": "Waterloo Township",
+          "countyFips": "55055",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-02-01",
+          "description": "Township moratorium on data center development in the Driftless Area.",
+          "url": "https://www.jeffersoncountywi.gov/government"
+        }
+      ],
       "lastUpdated": "2026-04-09",
-      "tags": ["bill_in_progress", "moratorium", "renewable", "2026"]
+      "tags": [
+        "bill_in_progress",
+        "moratorium",
+        "renewable",
+        "2026"
+      ]
     },
     {
       "id": "WY",
@@ -704,7 +2086,10 @@
       "summary": "Wyoming offers low energy costs and tax incentives favorable to data center development.",
       "bills": [],
       "lastUpdated": "2026-04-09",
-      "tags": ["favorable", "incentives"]
+      "tags": [
+        "favorable",
+        "incentives"
+      ]
     }
   ]
 }

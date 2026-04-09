@@ -7,7 +7,23 @@
       "Bash(npm uninstall:*)",
       "Bash(/opt/homebrew/bin/npx next:*)",
       "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "WebSearch",
+      "WebFetch(domain:goodjobsfirst.org)",
+      "WebFetch(domain:www.multistate.us)",
+      "WebFetch(domain:insideclimatenews.org)",
+      "mcp__scheduled-tasks__list_scheduled_tasks",
+      "Bash(export PATH=\"/usr/local/bin:/opt/homebrew/bin:$PATH\")",
+      "Bash(for f:*)",
+      "Bash(do echo:*)",
+      "Read(//private/tmp/claude-501/-Users-will-datacenters/11ed1e68-89d9-4833-8d0b-79542c9b92cc/tasks/**)",
+      "Bash(python3 -c \"import sys,json; d=json.loads\\(sys.stdin.read\\(\\)\\); print\\(d.get\\(''''type'''',''''?''''\\), ''''/'''', d.get\\(''''message'''',{}\\).get\\(''''role'''',''''?''''\\) if isinstance\\(d.get\\(''''message''''\\),dict\\) else ''''?''''\\)\")",
+      "Bash(done)",
+      "Bash(python3 -c \"import sys,json; d=json.loads\\(sys.stdin.read\\(\\)\\); print\\(d.get\\(''''type'''',''''?''''\\)\\)\")",
+      "Read(//Users/will/datacenters/**)",
+      "Bash(python3 /tmp/add_moratoriums.py)",
+      "Bash(python3 /tmp/add_batch3.py)",
+      "Bash(python3 -c \":*)"
     ]
   }
 }

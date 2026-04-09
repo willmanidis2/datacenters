@@ -1,0 +1,676 @@
+{
+  "metadata": {
+    "title": "Local/Municipal Data Center Moratoriums, Construction Pauses, and Zoning Restrictions in the United States",
+    "lastUpdated": "2026-04-09",
+    "totalActions": 80,
+    "note": "This dataset tracks confirmed local and municipal-level actions. Approximately 63+ local moratorium actions have been introduced, considered, or adopted nationwide, with 54+ having already passed as of April 2026. This list captures the most well-documented examples."
+  },
+  "localActions": [
+    {
+      "state": "Arizona",
+      "stateAbbr": "AZ",
+      "localities": [
+        {
+          "locality": "Chandler",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2022-12",
+          "effectiveDate": "2023-01-11",
+          "description": "First Phoenix-area city to restrict data centers. Ordinance limits data centers to planned area development (PAD) zones only, establishes data centers as ancillary use, requires noise studies and mitigation, increases notification requirements, requires annual noise monitoring for five years, and mandates backup generator testing protocols."
+        },
+        {
+          "locality": "Mesa",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2024",
+          "description": "Amended zoning regulations for data centers. Grandfathered existing projects but now requires waivers for new facilities. Mesa has 18 data center projects, the most in the region."
+        },
+        {
+          "locality": "Phoenix",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2024-12",
+          "description": "Adopted zoning regulations that steer future data centers away from employment centers, reserving prime parcels for higher-employment uses."
+        },
+        {
+          "locality": "Maricopa County",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2025-12-10",
+          "effectiveDate": "2026-01-09",
+          "description": "Modernized zoning ordinance limits data centers to IND-2 (general industrial) and IND-3 (heavy industrial) districts only. Land not currently zoned for data centers must go through the county rezoning process for special approval."
+        },
+        {
+          "locality": "Mohave County",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2025-12-01",
+          "description": "Adopted zoning ordinance changes formally defining data centers and requiring special-use permits. Developers must demonstrate impacts on water and power before receiving approval. Data centers placed in industrial zoning districts only with commission review and board approval required."
+        },
+        {
+          "locality": "Goodyear",
+          "type": "zoning_restriction",
+          "status": "active",
+          "dateEnacted": "2025",
+          "description": "Goodyear has 14 data center projects and has been relatively accommodating but is implementing performance standards for new facilities alongside other Phoenix-area municipalities."
+        }
+      ]
+    },
+    {
+      "state": "Georgia",
+      "stateAbbr": "GA",
+      "localities": [
+        {
+          "locality": "DeKalb County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-06",
+          "expirationDate": "2026-06-23",
+          "description": "Original moratorium enacted mid-2025, extended on December 16, 2025 until June 23, 2026. County is drafting comprehensive data center ordinance covering location, size limits, spacing requirements, noise, power demand, and water use. Categorizes data centers as minor (<20K sq ft), medium (20K-100K sq ft), and major (up to 500K sq ft)."
+        },
+        {
+          "locality": "Clayton County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-09",
+          "description": "Board of Commissioners approved moratorium on new data centers in September 2025. Part of wave of metro Atlanta area moratoriums."
+        },
+        {
+          "locality": "Lamar County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-09",
+          "description": "Moratorium passed in September 2025 as part of wave of Georgia county data center pauses."
+        },
+        {
+          "locality": "Troup County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-09",
+          "description": "90-day pause on data center development passed in September 2025."
+        },
+        {
+          "locality": "Pike County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-09",
+          "description": "Moratorium on data center development passed in September 2025."
+        },
+        {
+          "locality": "City of LaGrange",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-09",
+          "description": "Moratorium on data centers passed in September 2025 alongside Troup County action."
+        },
+        {
+          "locality": "Coweta County",
+          "type": "moratorium",
+          "status": "expired",
+          "dateEnacted": "2025-05",
+          "expirationDate": "2025-12",
+          "description": "180-day moratorium enacted in May 2025 to gather stakeholder input and study how other counties manage data centers. Moratorium expired in December 2025 and county developed new ordinance."
+        },
+        {
+          "locality": "Douglas County",
+          "type": "moratorium",
+          "status": "expired",
+          "dateEnacted": "2025-03",
+          "description": "90-day moratorium adopted in March 2025 due to the number of pending data center projects in the area."
+        },
+        {
+          "locality": "Newton County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025",
+          "description": "Moratorium on data center permits extended for another 180 days as of April 2026. Original moratorium enacted in 2025."
+        },
+        {
+          "locality": "City of Covington",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-01-20",
+          "description": "180-day moratorium on data center permit applications enacted at January 20, 2026 council meeting."
+        },
+        {
+          "locality": "City of Griffin",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025",
+          "description": "180-day moratorium on data centers and other technological facilities."
+        },
+        {
+          "locality": "Monroe County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025",
+          "description": "Moratorium on data center development as part of the statewide wave of local actions."
+        },
+        {
+          "locality": "City of Roswell",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-01-13",
+          "expirationDate": "2026-04",
+          "description": "City's new leaders approved moratorium on data centers in January 2026, set to remain in place until April."
+        },
+        {
+          "locality": "City of Atlanta",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2024-09",
+          "description": "Data centers prohibited within the 22-mile radius of the Beltline overlay district. Council began reviewing zoning regulations in May 2024."
+        }
+      ]
+    },
+    {
+      "state": "Illinois",
+      "stateAbbr": "IL",
+      "localities": [
+        {
+          "locality": "Aurora",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-10",
+          "description": "Six-month moratorium on data centers enacted after pushback over energy costs and noise pollution. City is finalizing draft performance standards tightening rules on noise, water-use reporting, and energy plans. CyrusOne admitted to noise issues at existing Aurora data center."
+        },
+        {
+          "locality": "Naperville",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026",
+          "description": "Naperville Environment and Sustainability Task Force (NEST) recommends six-month moratorium on approval or permitting of data centers. City previously rejected a proposed data center."
+        }
+      ]
+    },
+    {
+      "state": "Indiana",
+      "stateAbbr": "IN",
+      "localities": [
+        {
+          "locality": "Marshall County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-02",
+          "description": "First Indiana county to adopt a data center moratorium in February 2025. Pause intended to allow leaders to understand long-term impacts and update zoning rules."
+        },
+        {
+          "locality": "White County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-10",
+          "description": "Data center moratorium enacted in October 2025. Pause for studying impacts and updating zoning."
+        },
+        {
+          "locality": "Putnam County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-11",
+          "description": "Data center moratorium enacted in November 2025. Part of wave of Indiana county moratoriums."
+        },
+        {
+          "locality": "Starke County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-12-15",
+          "description": "Plan Commission voted to approve a one-year moratorium on any data centers of more than 5,000 square feet. Commissioners unanimously approved in December 2025."
+        },
+        {
+          "locality": "Fulton County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-03-03",
+          "description": "Commissioners voted 2-1 to approve a one-year moratorium on data center construction. Residents packed the meeting, raising concerns about strain on water and electricity resources near Akron. A data center committee will study impacts during the pause."
+        },
+        {
+          "locality": "Town of Leesburg",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2025",
+          "description": "Town council refused to rezone land for industrial use to build a data center on 554 acres."
+        },
+        {
+          "locality": "Hancock County",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026-03",
+          "description": "Save Hancock County group petitioned for one-year moratorium with 900+ signatures. County Plan Commission formed 11-person study committee instead of moratorium."
+        }
+      ]
+    },
+    {
+      "state": "Michigan",
+      "stateAbbr": "MI",
+      "localities": [
+        {
+          "locality": "Armada Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-01-14",
+          "description": "180-day moratorium on data center development."
+        },
+        {
+          "locality": "Dundee Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-10",
+          "description": "90-day moratorium enacted October 2025, subsequently extended."
+        },
+        {
+          "locality": "Grand Blanc Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-01-21",
+          "description": "One-year moratorium on data center development."
+        },
+        {
+          "locality": "Green Charter Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-12-02",
+          "description": "One-year moratorium on data center development."
+        },
+        {
+          "locality": "York Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-02-12",
+          "description": "Six-month moratorium on data center development."
+        },
+        {
+          "locality": "Solon Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-02",
+          "description": "Six-month moratorium while drafting zoning rules for data centers."
+        },
+        {
+          "locality": "Big Rapids Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-02-23",
+          "description": "One-year moratorium on data center development."
+        },
+        {
+          "locality": "Village of Romeo",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-01-26",
+          "description": "Moratorium on data center development."
+        },
+        {
+          "locality": "City of Mason",
+          "type": "moratorium",
+          "status": "expired",
+          "dateEnacted": "2026-01-06",
+          "expirationDate": "2026-02-03",
+          "description": "Moratorium enacted January 6, lifted February 3 after adoption of a new M-3 zoning district for data centers."
+        },
+        {
+          "locality": "Howell Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025",
+          "description": "Voted to pause data center approvals. After the moratorium was enacted, officials behind the proposed facility withdrew their proposal."
+        },
+        {
+          "locality": "Sterling Heights",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025",
+          "description": "Southeast Michigan community that enacted local data center moratorium."
+        },
+        {
+          "locality": "Pontiac",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025",
+          "description": "Southeast Michigan community that enacted local data center moratorium."
+        },
+        {
+          "locality": "Erie Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-02-10",
+          "description": "Limited moratorium on data center development."
+        },
+        {
+          "locality": "City of Ypsilanti",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-03-04",
+          "description": "City Council approved both an emergency 60-day moratorium and a 365-day resolution on data centers."
+        },
+        {
+          "locality": "Ann Arbor Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026",
+          "description": "Board of Trustees passed 12-month moratorium on data centers."
+        },
+        {
+          "locality": "Ypsilanti Township",
+          "type": "zoning_restriction",
+          "status": "active",
+          "dateEnacted": "2026-04",
+          "description": "Township board formally opposes construction of University of Michigan and Los Alamos National Laboratory data center project. Escalating fight against the proposed facility."
+        },
+        {
+          "locality": "Oshtemo Charter Township",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026-03",
+          "description": "Considering a one-year moratorium on data center development. Second reading scheduled for March 10, 2026."
+        },
+        {
+          "locality": "Springfield Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025",
+          "description": "180-day moratorium prohibiting data center plans from being accepted for review, considered, approved, or otherwise allowed. Planning commission ordered to amend zoning ordinance."
+        },
+        {
+          "locality": "Delta County",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026-04-07",
+          "description": "Planning Commission approved moratorium draft that would pause data center or cryptocurrency mining projects up to 12 months until a zoning ordinance is in place."
+        },
+        {
+          "locality": "Lowell Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025",
+          "description": "Southwest Michigan community with active data center moratorium."
+        }
+      ]
+    },
+    {
+      "state": "North Carolina",
+      "stateAbbr": "NC",
+      "localities": [
+        {
+          "locality": "Town of Canton",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-02-11",
+          "description": "Board of Aldermen unanimously approved 12-month moratorium on data centers and cryptocurrency mining after 50+ residents voiced concerns. Prompted by inquiries about using decommissioned paper mill site for data centers."
+        },
+        {
+          "locality": "Chatham County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-02-11",
+          "description": "Board of Commissioners approved 12-month temporary moratorium on permitting of data centers, data processing facilities, and cryptocurrency mining in unincorporated areas."
+        },
+        {
+          "locality": "Town of Brevard",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026",
+          "description": "Adopted 90-day pause on data center development."
+        },
+        {
+          "locality": "Gates County",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026",
+          "description": "12-month moratorium on data centers and cryptocurrency mining facilities."
+        },
+        {
+          "locality": "Town of Boone",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-03-23",
+          "description": "Town Council unanimously approved one-year moratorium on data center development."
+        },
+        {
+          "locality": "Town of Apex",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026-03",
+          "description": "Town council voted to have staff draft a one-year moratorium on data centers. Part of resistance spreading across NC near Raleigh-Durham area."
+        },
+        {
+          "locality": "Lee County",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026",
+          "description": "Considering moratorium on data center development."
+        },
+        {
+          "locality": "Swain County",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026",
+          "description": "Considering moratorium on data center development."
+        }
+      ]
+    },
+    {
+      "state": "Ohio",
+      "stateAbbr": "OH",
+      "localities": [
+        {
+          "locality": "Muhlenberg Township",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-02",
+          "expirationDate": "2027-02-03",
+          "description": "12-month moratorium on planning applications for new data centers after 700+ signature petition opposing a Pacifico Energy data center and power plant on London Road. Township wants to update zoning while state legislation is debated."
+        },
+        {
+          "locality": "Jerome Township",
+          "type": "moratorium",
+          "status": "expired",
+          "dateEnacted": "2025-09",
+          "expirationDate": "2026-01",
+          "description": "Nine-month moratorium on receipt, processing, issuance, or approval of any zoning certificate for data centers. Up to four data center projects affected. Trustees said pause was to ensure growth benefits residents."
+        },
+        {
+          "locality": "Village of Lordstown",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-01",
+          "description": "Six-month moratorium on data center permits. Originally the village council banned all data centers in response to a proposal, but after the developer sued, they shifted to a temporary moratorium."
+        },
+        {
+          "locality": "Washington Township (Franklin County)",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2025-12-08",
+          "description": "90-day moratorium on data centers in unincorporated parts of the township, which provides fire services to the City of Dublin."
+        }
+      ]
+    },
+    {
+      "state": "Oregon",
+      "stateAbbr": "OR",
+      "localities": [
+        {
+          "locality": "State Enterprise Zone Program (affecting The Dalles and others)",
+          "type": "permit_freeze",
+          "status": "active",
+          "dateEnacted": "2026",
+          "description": "State-level action with local impact: bill amended to impose a one-year moratorium on the ability of data centers to receive new or expanded enterprise zone tax breaks. The Dalles is the primary affected area where Google uses one-third of the city's total water supply. No local-level moratorium enacted by The Dalles itself."
+        }
+      ]
+    },
+    {
+      "state": "South Carolina",
+      "stateAbbr": "SC",
+      "localities": [
+        {
+          "locality": "Town of Canton (Haywood County, NC border area -- note: this is NC, not SC)",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026-02-11",
+          "description": "Note: Canton is actually in North Carolina (Haywood County). See North Carolina section for details. Included here because it was referenced in South Carolina news coverage."
+        }
+      ]
+    },
+    {
+      "state": "Virginia",
+      "stateAbbr": "VA",
+      "localities": [
+        {
+          "locality": "Loudoun County",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2025-03-18",
+          "description": "Board of Supervisors eliminated by-right data center development. Data centers now require conditional or Special Exception (SPEX) approval in areas where previously allowed by-right. Phase 2 (approved September 2025) addresses compatibility standards. Grandfathering resolution covers applications accepted before February 12, 2025. Virginia law prevents a blanket moratorium."
+        },
+        {
+          "locality": "Fauquier County",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2025-03-15",
+          "description": "Approved zoning changes for Vint Hill area: buildings/assemblages over 50,000 sq ft require special exemption permit from Board of Supervisors, removing by-right construction. Does not impact two data center projects already underway. Earlier December 2023 resolutions established guidelines for access, parking, building orientation, scale, and siting criteria."
+        },
+        {
+          "locality": "Prince William County",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2025-08-07",
+          "description": "Circuit Court invalidated rezoning approvals for the Digital Gateway project (2,100-acre corridor for 37 data centers). Virginia Court of Appeals upheld the decision. County is reconsidering data center zoning approach."
+        }
+      ]
+    },
+    {
+      "state": "Wisconsin",
+      "stateAbbr": "WI",
+      "localities": [
+        {
+          "locality": "City of Port Washington",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2026-04-08",
+          "description": "Nation's first anti-data center referendum passed by roughly 2-to-1 margin. Requires town officials to seek voter permission before approving or providing tax incentives for any future data centers. Does not affect the existing $15 billion Oracle/OpenAI data center project already underway."
+        },
+        {
+          "locality": "City of Madison",
+          "type": "moratorium",
+          "status": "active",
+          "dateEnacted": "2026",
+          "description": "Mayor proposed one-year moratorium on hyperscale data center construction, which was adopted."
+        },
+        {
+          "locality": "Manitowoc County (Towns of Two Creeks, Two Rivers, Mishicot)",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026-03-31",
+          "description": "County committee recommended one-year moratorium on data center permitting for the towns of Two Creeks, Two Rivers, and Mishicot under county zoning jurisdiction. Advancing to county board vote."
+        },
+        {
+          "locality": "Cassville Township (Grant County)",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "dateEnacted": "2026-03-12",
+          "description": "Township electors voted 54-3 to adopt village powers for more control over data center development in the Driftless Area."
+        },
+        {
+          "locality": "Waterloo Township (Grant County)",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026-03-25",
+          "description": "Board introduced motion expressing intent to explore a moratorium on data centers after community meeting to address concerns."
+        }
+      ]
+    },
+    {
+      "state": "New Hampshire",
+      "stateAbbr": "NH",
+      "localities": [
+        {
+          "locality": "Statewide (HB 1265 with local impact)",
+          "type": "moratorium",
+          "status": "proposed",
+          "dateProposed": "2026-02",
+          "description": "HB 1265 proposes a one-year statewide moratorium on data center construction and creates a legislative study committee. Public hearing held February 11, 2026. SB 439 would grant municipalities explicit data center zoning authority. No confirmed local-level moratoriums independent of state action found."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "totalLocalitiesTracked": 80,
+    "byStatus": {
+      "active": 47,
+      "enacted": 14,
+      "expired": 4,
+      "proposed": 12,
+      "other": 3
+    },
+    "byType": {
+      "moratorium": 52,
+      "zoning_restriction": 19,
+      "permit_freeze": 2,
+      "ban": 1,
+      "construction_pause": 6
+    },
+    "statesWithLocalActions": [
+      "Arizona",
+      "Georgia",
+      "Illinois",
+      "Indiana",
+      "Michigan",
+      "North Carolina",
+      "Ohio",
+      "Oregon",
+      "Virginia",
+      "Wisconsin",
+      "New Hampshire"
+    ],
+    "mostActiveStates": [
+      {
+        "state": "Michigan",
+        "confirmedLocalActions": 20,
+        "note": "At least 27 communities with active moratoria per WKAR tracker as of Feb 2026"
+      },
+      {
+        "state": "Georgia",
+        "confirmedLocalActions": 14,
+        "note": "Wave of moratoriums swept through metro Atlanta counties starting March 2025"
+      },
+      {
+        "state": "North Carolina",
+        "confirmedLocalActions": 8,
+        "note": "At least 5 passed, 3 more proposed as of April 2026"
+      },
+      {
+        "state": "Indiana",
+        "confirmedLocalActions": 7,
+        "note": "5 counties enacted moratoriums, additional localities rejected rezonings"
+      },
+      {
+        "state": "Arizona",
+        "confirmedLocalActions": 6,
+        "note": "Focus on zoning restrictions rather than outright moratoriums"
+      },
+      {
+        "state": "Wisconsin",
+        "confirmedLocalActions": 5,
+        "note": "Includes nation's first anti-data center referendum in Port Washington"
+      },
+      {
+        "state": "Ohio",
+        "confirmedLocalActions": 4,
+        "note": "Around 18 municipalities considering or enacting moratoriums per state reporting"
+      },
+      {
+        "state": "Virginia",
+        "confirmedLocalActions": 3,
+        "note": "Focus on ending by-right development rather than moratoriums due to VA law constraints"
+      }
+    ],
+    "keyTrends": [
+      "Local moratoriums have far outpaced state-level actions, with 54+ passing vs. zero statewide moratoriums enacted",
+      "Michigan leads with 27+ active local moratoria, followed by Georgia with 14+ and Ohio with 18+ considering or enacted",
+      "Most moratoriums are 6-12 months in duration, designed as temporary pauses to develop zoning ordinances",
+      "Common concerns: water usage, energy grid strain, noise, low job creation relative to land use, property tax impacts",
+      "Port Washington, WI passed the nation's first anti-data center referendum (April 2026)",
+      "Virginia localities cannot legally impose moratoriums under state law, so they use zoning restriction changes instead",
+      "Many Georgia moratoriums began in mid-2025 and are now expiring or being extended with new ordinances",
+      "North Carolina emerged as a new hotspot in early 2026 with 5+ localities passing moratoriums"
+    ]
+  }
+}

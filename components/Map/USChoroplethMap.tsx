@@ -9,7 +9,7 @@ import {
 } from "react-simple-maps";
 import { Tooltip } from "react-tooltip";
 import { StateData, Bill } from "@/lib/types";
-import { STATUS_CONFIG, GEO_URL } from "@/lib/constants";
+import { STATUS_CONFIG, GEO_URL, STATE_COUNTY_COUNTS } from "@/lib/constants";
 
 interface USChoroplethMapProps {
   states: StateData[];
@@ -114,6 +114,21 @@ function buildTooltipHtml(state: StateData): string {
     html += `<div style="font-size:12px;margin-top:4px;opacity:0.8">${state.summary.slice(0, 140)}${state.summary.length > 140 ? "..." : ""}</div>`;
   }
 
+  const localMoratoriums = state.localMoratoriums ?? [];
+  if (localMoratoriums.length > 0) {
+    const activeCount = localMoratoriums.filter(
+      (m) => m.status === "active" || m.status === "enacted"
+    ).length;
+    const uniqueCounties = new Set(localMoratoriums.map((m) => m.countyFips)).size;
+    const totalCounties = STATE_COUNTY_COUNTS[state.id] ?? 0;
+    const pct = totalCounties > 0 ? Math.round((uniqueCounties / totalCounties) * 100) : 0;
+
+    html += `<div style="margin-top:6px;padding:4px 8px;background:rgba(239,68,68,0.15);border-radius:6px;font-size:11px">`;
+    html += `<span style="color:#f87171;font-weight:600">${activeCount} local ban${activeCount !== 1 ? "s" : ""} passed</span>`;
+    html += `<span style="opacity:0.7"> &middot; ${uniqueCounties} of ${totalCounties} counties (${pct}%)</span>`;
+    html += `</div>`;
+  }
+
   html += `<div style="font-size:10px;opacity:0.5;margin-top:6px">Click for details</div>`;
   html += `</div>`;
   return html;
@@ -124,25 +139,26 @@ function buildProgressBar(bill: Bill): string {
   let stage = 0;
   let stageLabel = bill.status;
 
-  if (statusLower.includes("introduced") || statusLower.includes("filed")) {
-    stage = 1;
-    stageLabel = "Introduced";
-  } else if (statusLower.includes("committee")) {
-    stage = 2;
-    stageLabel = "In Committee";
-  } else if (statusLower.includes("passed") && statusLower.includes("one")) {
-    stage = 3;
-    stageLabel = "Passed One Chamber";
+  if (statusLower.includes("enacted") || statusLower.includes("signed")) {
+    stage = 4;
+    stageLabel = "Enacted";
+  } else if (statusLower.includes("passed both") || statusLower.includes("awaiting enactment")) {
+    stage = 3.5;
+    stageLabel = "Passed Both Chambers";
   } else if (statusLower.includes("passed") || statusLower.includes("floor")) {
     stage = 3;
     stageLabel = "Floor Vote";
-  } else if (statusLower.includes("enacted") || statusLower.includes("signed")) {
-    stage = 4;
-    stageLabel = "Enacted";
-  } else if (statusLower.includes("committee")) {
+  } else if (statusLower.includes("introduced") || statusLower.includes("filed") || statusLower.includes("introduction")) {
+    stage = 1;
+    stageLabel = "Introduced";
+  } else if (statusLower.includes("failed") || statusLower.includes("stalled") || statusLower.includes("carried over")) {
     stage = 2;
+    stageLabel = bill.status;
+  } else if (statusLower.includes("committee") || statusLower.includes("hearing")) {
+    stage = 2;
+    stageLabel = "In Committee";
   } else {
-    stage = 2; // Default to "In committee" for most active bills
+    stage = 2;
   }
 
   const totalStages = 4;

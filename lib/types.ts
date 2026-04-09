@@ -13,6 +13,16 @@ export interface Bill {
   url?: string;
 }
 
+export interface LocalMoratorium {
+  locality: string;
+  countyFips: string;
+  type: "moratorium" | "construction_pause" | "zoning_restriction" | "ban" | "permit_freeze";
+  status: "active" | "expired" | "proposed" | "enacted";
+  date: string;
+  description: string;
+  url?: string;
+}
+
 export interface StateData {
   id: string; // Two-letter abbreviation (e.g., "NY")
   fips: string; // Zero-padded FIPS code (e.g., "36")
@@ -21,6 +31,7 @@ export interface StateData {
   status: LegislativeStatus;
   summary: string;
   bills: Bill[];
+  localMoratoriums?: LocalMoratorium[];
   lastUpdated: string; // ISO date string
   tags: string[];
 }
