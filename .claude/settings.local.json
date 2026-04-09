@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-next-app@14 . --typescript --tailwind --eslint --app --src-dir=false --import-alias=\"@/*\" --use-npm)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(npx next:*)",
+      "Bash(npm uninstall:*)",
+      "Bash(/opt/homebrew/bin/npx next:*)",
+      "Bash(export PATH=\"/opt/homebrew/bin:$PATH\")",
+      "Bash(npm install:*)"
+    ]
+  }
+}
