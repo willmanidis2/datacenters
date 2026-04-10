@@ -1439,7 +1439,7 @@
       "fips": "41",
       "name": "Oregon",
       "slug": "oregon",
-      "status": "active_restrictions",
+      "status": "under_discussion",
       "summary": "Oregon is reviewing data center water usage and environmental requirements, particularly in the Dalles region where Google operates large facilities. No moratorium bill filed in 2026.",
       "bills": [],
       "localMoratoriums": [
@@ -1455,7 +1455,7 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "active_restrictions",
+        "under_discussion",
         "local_restrictions"
       ]
     },
