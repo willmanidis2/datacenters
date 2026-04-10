@@ -1385,6 +1385,15 @@
           "date": "2026-01-01",
           "description": "Temporary moratorium on all data centers.",
           "url": "https://www.wkbn.com/news/local-news/lordstown-news/hearing-could-determine-data-center-future-in-lordstown/"
+        },
+        {
+          "locality": "Muhlenberg Township",
+          "countyFips": "39129",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-02-03",
+          "description": "12-month moratorium on Pacifico Energy data center + power plant. 700+ petition signatures. Unanimous vote.",
+          "url": "https://www.circlevilleherald.com/community/muhlenberg-trustees-pass-12-month-moratorium-on-data-centers/article_1669c51d-3606-432b-b2c5-633b7e5a25fb.html"
         }
       ],
       "lastUpdated": "2026-04-09",
@@ -1476,20 +1485,9 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "legislation_advancing",
-        "local_restrictions"
+        "legislation_advancing"
       ],
-      "localMoratoriums": [
-        {
-          "locality": "Muhlenberg Township",
-          "countyFips": "42011",
-          "type": "moratorium",
-          "status": "active",
-          "date": "2026-02-03",
-          "description": "12-month moratorium on Pacifico Energy data center + power plant. 700+ petition signatures. Unanimous vote.",
-          "url": "https://www.circlevilleherald.com/community/muhlenberg-trustees-pass-12-month-moratorium-on-data-centers/article_1669c51d-3606-432b-b2c5-633b7e5a25fb.html"
-        }
-      ]
+      "localMoratoriums": []
     },
     {
       "id": "RI",
