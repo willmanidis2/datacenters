@@ -5,14 +5,13 @@
       "fips": "01",
       "name": "Alabama",
       "slug": "alabama",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "Alabama offers tax incentives for data center development, but Birmingham enacted a 6-month moratorium on large data centers (>20 MW) in March 2026 while reviewing zoning rules.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "local_restrictions",
-        "incentives"
+        "active_restrictions",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -31,12 +30,12 @@
       "fips": "02",
       "name": "Alaska",
       "slug": "alaska",
-      "status": "under_review",
+      "status": "under_discussion",
       "summary": "No statewide data center legislation, but Anchorage has adopted preemptive zoning regulations requiring conditional use permits and setbacks for large data centers.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "under_discussion",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -56,7 +55,7 @@
       "fips": "04",
       "name": "Arizona",
       "slug": "arizona",
-      "status": "under_review",
+      "status": "under_discussion",
       "summary": "Arizona has introduced HB 2756 to prevent data center grid connection costs from being shifted to residential ratepayers. The state remains a major data center hub with active incentive programs.",
       "bills": [
         {
@@ -124,9 +123,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "cost_shifting",
-        "2026"
+        "under_discussion",
+        "local_restrictions"
       ]
     },
     {
@@ -148,12 +146,12 @@
       "fips": "06",
       "name": "California",
       "slug": "california",
-      "status": "no_activity",
+      "status": "active_restrictions",
       "summary": "No statewide moratorium legislation, though some local jurisdictions have imposed water-use restrictions affecting proposed data center sites.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "no_activity",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -173,12 +171,12 @@
       "fips": "08",
       "name": "Colorado",
       "slug": "colorado",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "No statewide moratorium, but Denver has proposed a yearlong moratorium citing drought. Larimer County has an active moratorium, Logan County enacted and lifted one after passing regulations, and Weld County adopted new zoning requirements.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -225,7 +223,7 @@
       "fips": "09",
       "name": "Connecticut",
       "slug": "connecticut",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "Connecticut introduced SB 43 to update data center tax credits with a 5-year minimum use period requirement. Committee review ongoing.",
       "bills": [
         {
@@ -237,9 +235,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "tax_credit",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -258,12 +255,12 @@
       "fips": "10",
       "name": "Delaware",
       "slug": "delaware",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "No statewide moratorium legislation, but New Castle County enacted comprehensive data center zoning regulations and DNREC denied a major data center under the Coastal Zone Act.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -292,12 +289,12 @@
       "fips": "12",
       "name": "Florida",
       "slug": "florida",
-      "status": "no_activity",
+      "status": "no_action",
       "summary": "No statewide data center moratorium legislation. Florida continues to attract data center investment, particularly in the Miami and Jacksonville markets.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "no_activity"
+        "no_action"
       ]
     },
     {
@@ -305,7 +302,7 @@
       "fips": "13",
       "name": "Georgia",
       "slug": "georgia",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "Georgia HB 1012 has been proposed at the state level. Multiple counties in central/west Georgia have enacted moratoriums including DeKalb, Pike, Lamar, Troup counties and the City of LaGrange. Atlanta requires special use permits within the Beltline radius.",
       "bills": [
         {
@@ -382,10 +379,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "bills_failed",
-        "local_moratoriums",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ]
     },
     {
@@ -393,12 +388,12 @@
       "fips": "15",
       "name": "Hawaii",
       "slug": "hawaii",
-      "status": "no_activity",
+      "status": "no_action",
       "summary": "No known data center moratorium or restriction legislation.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "no_activity"
+        "no_action"
       ]
     },
     {
@@ -406,12 +401,12 @@
       "fips": "16",
       "name": "Idaho",
       "slug": "idaho",
-      "status": "under_review",
+      "status": "under_discussion",
       "summary": "No statewide data center legislation, but Kootenai County enacted a moratorium (now expired, replaced by permanent aquifer protections) and Ada County is developing data center zoning amendments.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "under_discussion",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -440,7 +435,7 @@
       "fips": "17",
       "name": "Illinois",
       "slug": "illinois",
-      "status": "bill_in_progress",
+      "status": "active_restrictions",
       "summary": "Illinois introduced HB 4172 proposing a statewide data center moratorium. The separate POWER Act would shift energy costs to data center companies, incentivize clean energy, and limit water use. HB 4172 has not passed its originating chamber.",
       "bills": [
         {
@@ -481,9 +476,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ]
     },
     {
@@ -491,7 +485,7 @@
       "fips": "18",
       "name": "Indiana",
       "slug": "indiana",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "Indiana introduced HB 1333 taking a revenue-sharing approach, requiring data centers to share 1% of sales tax exemption savings with local governments rather than imposing a moratorium.",
       "bills": [
         {
@@ -559,9 +553,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "revenue_sharing",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ]
     },
     {
@@ -569,12 +562,12 @@
       "fips": "19",
       "name": "Iowa",
       "slug": "iowa",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "No statewide moratorium, but Iowa has significant local action. Clarke and Johnson counties enacted moratoriums, and Linn County passed one of the nation's strictest data center zoning ordinances with 1,000-foot setbacks and water study requirements.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -621,12 +614,12 @@
       "fips": "20",
       "name": "Kansas",
       "slug": "kansas",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "No statewide data center legislation, but Sedgwick County enacted a moratorium on data center permits extended through June 2026, and Miami County is considering a one-to-two-year moratorium.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -664,12 +657,12 @@
       "fips": "21",
       "name": "Kentucky",
       "slug": "kentucky",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "No statewide data center legislation, but Kentucky has become a hotbed of local moratoriums. Oldham, Scott, and Meade counties have active moratoriums, Simpson County restricted data centers to heavy industrial zones, and Louisville considered but shelved a moratorium.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -725,12 +718,12 @@
       "fips": "22",
       "name": "Louisiana",
       "slug": "louisiana",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "No statewide moratorium legislation, but New Orleans enacted a one-year citywide ban on data center construction in January 2026. Louisiana continues to attract major data center investment in northern parishes.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -750,7 +743,7 @@
       "fips": "23",
       "name": "Maine",
       "slug": "maine",
-      "status": "bill_in_progress",
+      "status": "active_restrictions",
       "summary": "Maine's LD 307 passed the House 82-62 on April 6 and the Senate 19-13 on April 7, 2026. It awaits final enactment votes in both chambers. If enacted, it would be the first statewide data center moratorium in the US, banning facilities over 20 MW until November 2027 and creating a Data Center Coordination Council.",
       "bills": [
         {
@@ -762,10 +755,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "passed_chambers",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -802,7 +793,7 @@
       "fips": "24",
       "name": "Maryland",
       "slug": "maryland",
-      "status": "bill_in_progress",
+      "status": "active_restrictions",
       "summary": "Maryland introduced HB 120, prohibiting new data center construction unless the General Assembly enacts legislation related to co-location with power generation (including natural gas, nuclear, or SMRs). Still in committee.",
       "bills": [
         {
@@ -814,10 +805,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "grid",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -872,14 +861,13 @@
       "fips": "25",
       "name": "Massachusetts",
       "slug": "massachusetts",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "Massachusetts is reviewing energy and water consumption requirements for data centers, with committee discussions ongoing. No moratorium bill has been filed.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "energy",
-        "water"
+        "active_restrictions",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -916,7 +904,7 @@
       "fips": "26",
       "name": "Michigan",
       "slug": "michigan",
-      "status": "bill_in_progress",
+      "status": "active_restrictions",
       "summary": "Michigan introduced a House bill package proposing a one-year moratorium preventing EGLE and local governments from issuing data center permits until April 2027. Governor Whitmer has publicly opposed moratorium efforts, making passage unlikely.",
       "bills": [
         {
@@ -1011,10 +999,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "governor_opposed",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ]
     },
     {
@@ -1022,7 +1008,7 @@
       "fips": "27",
       "name": "Minnesota",
       "slug": "minnesota",
-      "status": "bill_in_progress",
+      "status": "legislation_advancing",
       "summary": "Minnesota enacted SF 608 (June 2025) restricting enterprise data centers to industrial districts statewide. Eagan became the first city to enact a local moratorium on data centers using more than 20 MW. SF 4298 proposes barring permits until a PUC study is complete.",
       "bills": [
         {
@@ -1034,10 +1020,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "PUC",
-        "2026"
+        "legislation_advancing",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -1070,12 +1054,12 @@
       "fips": "29",
       "name": "Missouri",
       "slug": "missouri",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "No statewide moratorium legislation, but Missouri is a hotbed of local action. St. Charles enacted a citywide moratorium and is considering a permanent ban. Kansas City and St. Louis enacted zoning restrictions, and Columbia froze permits.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1140,12 +1124,12 @@
       "fips": "30",
       "name": "Montana",
       "slug": "montana",
-      "status": "under_review",
+      "status": "under_discussion",
       "summary": "No statewide moratorium despite significant lobbying efforts. Missoula County requires data center and crypto operations to offset 100% of electrical consumption with new renewable energy. Up to 14 data centers proposed statewide.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "under_discussion",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1165,13 +1149,13 @@
       "fips": "31",
       "name": "Nebraska",
       "slug": "nebraska",
-      "status": "favorable",
+      "status": "under_discussion",
       "summary": "Nebraska has significant data center activity with Google facilities in Papillion, Omaha, and Lincoln, plus new mega-proposals. Gage County is examining data center zoning but no moratoriums enacted.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "favorable",
-        "incentives"
+        "under_discussion",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -1190,14 +1174,13 @@
       "fips": "32",
       "name": "Nevada",
       "slug": "nevada",
-      "status": "favorable",
+      "status": "under_discussion",
       "summary": "Nevada, particularly the Reno-Sparks area, is a major data center market with state tax abatements for qualifying facilities.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "favorable",
-        "incentives",
-        "hyperscale"
+        "under_discussion",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -1216,7 +1199,7 @@
       "fips": "33",
       "name": "New Hampshire",
       "slug": "new-hampshire",
-      "status": "bill_in_progress",
+      "status": "legislation_advancing",
       "summary": "New Hampshire's HB 1265 proposes a one-year moratorium on data center construction. Public hearing held February 11, 2026. Related bill SB 439 on municipal data center zoning authority had a House committee hearing on April 7.",
       "bills": [
         {
@@ -1234,10 +1217,7 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "zoning",
-        "2026"
+        "legislation_advancing"
       ]
     },
     {
@@ -1245,14 +1225,13 @@
       "fips": "34",
       "name": "New Jersey",
       "slug": "new-jersey",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "New Jersey is reviewing data center impacts on the electrical grid and water resources, with legislative hearings underway.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "grid",
-        "water"
+        "active_restrictions",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -1289,12 +1268,12 @@
       "fips": "35",
       "name": "New Mexico",
       "slug": "new-mexico",
-      "status": "no_activity",
+      "status": "no_action",
       "summary": "No known statewide data center moratorium or restriction legislation.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "no_activity"
+        "no_action"
       ]
     },
     {
@@ -1302,7 +1281,7 @@
       "fips": "36",
       "name": "New York",
       "slug": "new-york",
-      "status": "bill_in_progress",
+      "status": "legislation_advancing",
       "summary": "New York has proposed S9144/A10141, a 3-year moratorium on permits for data centers using 20 MW+. Both bills referred to Environmental Conservation committees in February 2026 but have not moved since. The state previously enacted a 2-year moratorium on proof-of-work crypto mining in 2022.",
       "bills": [
         {
@@ -1320,10 +1299,7 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "crypto",
-        "2026"
+        "legislation_advancing"
       ]
     },
     {
@@ -1331,7 +1307,7 @@
       "fips": "37",
       "name": "North Carolina",
       "slug": "north-carolina",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "North Carolina is reviewing data center energy demands as rapid growth in the Charlotte and Triangle regions strains the electrical grid. No state moratorium bill has been filed, but multiple local moratoriums have been enacted.",
       "bills": [],
       "localMoratoriums": [
@@ -1374,10 +1350,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "energy",
-        "grid",
-        "local_moratoriums"
+        "active_restrictions",
+        "local_restrictions"
       ]
     },
     {
@@ -1385,12 +1359,12 @@
       "fips": "38",
       "name": "North Dakota",
       "slug": "north-dakota",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "No statewide moratorium, but Morton, Oliver, and Mercer counties have active moratoriums on data center construction. A state Data Center Model Ordinance Working Group completed a model ordinance in January 2026.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1437,7 +1411,7 @@
       "fips": "39",
       "name": "Ohio",
       "slug": "ohio",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "Ohio legislators are reviewing the impact of large-scale data center development on the electrical grid and local communities. No state moratorium bill filed in 2026, but multiple local moratoriums are active.",
       "bills": [],
       "localMoratoriums": [
@@ -1462,9 +1436,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "grid",
-        "local_moratoriums"
+        "active_restrictions",
+        "local_restrictions"
       ]
     },
     {
@@ -1472,7 +1445,7 @@
       "fips": "40",
       "name": "Oklahoma",
       "slug": "oklahoma",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "Oklahoma SB 1488 requiring community impact assessments stalled in committee. Tulsa enacted a nine-month moratorium on new data center construction through December 2026. Sand Springs faced recall efforts after rezoning for a Google data center.",
       "bills": [
         {
@@ -1484,10 +1457,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "stalled",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -1515,7 +1486,7 @@
       "fips": "41",
       "name": "Oregon",
       "slug": "oregon",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "Oregon is reviewing data center water usage and environmental requirements, particularly in the Dalles region where Google operates large facilities. No moratorium bill filed in 2026.",
       "bills": [],
       "localMoratoriums": [
@@ -1531,9 +1502,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "water",
-        "environment"
+        "active_restrictions",
+        "local_restrictions"
       ]
     },
     {
@@ -1541,7 +1511,7 @@
       "fips": "42",
       "name": "Pennsylvania",
       "slug": "pennsylvania",
-      "status": "bill_in_progress",
+      "status": "active_restrictions",
       "summary": "Pennsylvania Sen. Katie Muth is planning a three-year moratorium on hyperscale data center development. Separate data center regulation bills have advanced in the PA House. During the pause, agencies would study environmental, energy, and community impacts.",
       "bills": [
         {
@@ -1553,10 +1523,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "hyperscale",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -1575,12 +1543,12 @@
       "fips": "44",
       "name": "Rhode Island",
       "slug": "rhode-island",
-      "status": "under_review",
+      "status": "under_discussion",
       "summary": "No statewide moratorium legislation. Smithfield is considering a data center ban after a large woodland development was proposed. State legislators have introduced data center regulation bills.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "under_discussion",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1600,7 +1568,7 @@
       "fips": "45",
       "name": "South Carolina",
       "slug": "south-carolina",
-      "status": "bill_in_progress",
+      "status": "legislation_advancing",
       "summary": "South Carolina's H. 5286 bars state and local governments from granting permits, approvals, or incentives for new data centers until January 2028. Covers rezoning, special use permits, building permits, and economic incentives. Filed March 2026, referred to Ways and Means.",
       "bills": [
         {
@@ -1618,9 +1586,7 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "2026"
+        "legislation_advancing"
       ]
     },
     {
@@ -1628,7 +1594,7 @@
       "fips": "46",
       "name": "South Dakota",
       "slug": "south-dakota",
-      "status": "under_review",
+      "status": "legislation_advancing",
       "summary": "South Dakota's moratorium bills (SB 232, HB 1301) both failed to advance. However, SB 135 passed \u2014 it prohibits the state from limiting local government authority to regulate or ban data centers, effectively empowering municipal moratoriums.",
       "bills": [
         {
@@ -1646,10 +1612,7 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "local_authority",
-        "bills_failed",
-        "2026"
+        "legislation_advancing"
       ]
     },
     {
@@ -1657,12 +1620,12 @@
       "fips": "47",
       "name": "Tennessee",
       "slug": "tennessee",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "No statewide moratorium legislation, but Washington County enacted a ~15 month moratorium on data centers and crypto mines in March 2026.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1682,12 +1645,12 @@
       "fips": "48",
       "name": "Texas",
       "slug": "texas",
-      "status": "under_review",
+      "status": "under_discussion",
       "summary": "Texas has no statewide data center moratorium and state law constrains county moratorium authority. San Marcos denied a data center over water concerns. Hood County and Hays County moratorium proposals were rejected or tabled.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
+        "under_discussion",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1707,13 +1670,13 @@
       "fips": "49",
       "name": "Utah",
       "slug": "utah",
-      "status": "favorable",
+      "status": "under_discussion",
       "summary": "Utah offers tax incentives for data center development and has seen significant growth in the Salt Lake City area.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "favorable",
-        "incentives"
+        "under_discussion",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -1732,7 +1695,7 @@
       "fips": "50",
       "name": "Vermont",
       "slug": "vermont",
-      "status": "bill_in_progress",
+      "status": "active_restrictions",
       "summary": "Vermont's S.205 proposes a moratorium on AI data centers requiring 100 MW+ until July 2030 \u2014 the longest proposed moratorium period nationally. Referred to Senate Finance and Natural Resources & Energy committees. Has not passed originating chamber.",
       "bills": [
         {
@@ -1744,10 +1707,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "AI",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ],
       "localMoratoriums": [
         {
@@ -1766,7 +1727,7 @@
       "fips": "51",
       "name": "Virginia",
       "slug": "virginia",
-      "status": "under_review",
+      "status": "active_restrictions",
       "summary": "Virginia's HB 1515 moratorium was carried over to the 2027 session (effectively dead for 2026). However, HB 2084 directing the SCC to review data center rate classifications was enacted and signed by the governor. Over 60 data center bills were considered in 2026. Virginia remains the world's largest data center market.",
       "bills": [
         {
@@ -1813,10 +1774,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "rate_review",
-        "enacted",
-        "2026"
+        "active_restrictions",
+        "local_restrictions"
       ]
     },
     {
@@ -1824,14 +1783,12 @@
       "fips": "53",
       "name": "Washington",
       "slug": "washington",
-      "status": "under_review",
+      "status": "under_discussion",
       "summary": "Washington state is reviewing data center energy and water consumption, particularly in areas served by hydroelectric power in central Washington.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_review",
-        "energy",
-        "water"
+        "under_discussion"
       ]
     },
     {
@@ -1839,13 +1796,12 @@
       "fips": "54",
       "name": "West Virginia",
       "slug": "west-virginia",
-      "status": "favorable",
+      "status": "no_action",
       "summary": "West Virginia offers tax incentives for data center development and is marketing its low energy costs to attract facilities.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "favorable",
-        "incentives"
+        "no_action"
       ]
     },
     {
@@ -1853,7 +1809,7 @@
       "fips": "55",
       "name": "Wisconsin",
       "slug": "wisconsin",
-      "status": "bill_in_progress",
+      "status": "legislation_advancing",
       "summary": "Wisconsin's Democratic caucus proposed a broad moratorium on data center construction requiring 100% renewable energy, prevailing wages, no subsidies, and a planning authority before construction can proceed. The bill faces a Republican legislative majority.",
       "bills": [
         {
@@ -1918,10 +1874,8 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "bill_in_progress",
-        "moratorium",
-        "renewable",
-        "2026"
+        "legislation_advancing",
+        "local_restrictions"
       ]
     },
     {
@@ -1929,13 +1883,12 @@
       "fips": "56",
       "name": "Wyoming",
       "slug": "wyoming",
-      "status": "favorable",
+      "status": "no_action",
       "summary": "Wyoming offers low energy costs and tax incentives favorable to data center development.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "favorable",
-        "incentives"
+        "no_action"
       ]
     }
   ]

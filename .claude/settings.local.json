@@ -23,7 +23,14 @@
       "Read(//Users/will/datacenters/**)",
       "Bash(python3 /tmp/add_moratoriums.py)",
       "Bash(python3 /tmp/add_batch3.py)",
-      "Bash(python3 -c \":*)"
+      "Bash(python3 -c \":*)",
+      "Bash(./node_modules/.bin/next build:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(PATH=\"/opt/homebrew/bin:/usr/local/bin:$PATH\" npm install --save-dev @types/topojson-client @types/d3-geo)",
+      "WebFetch(domain:www.interconnectedcapital.com)",
+      "Bash(python3 /tmp/fix_data.py)"
     ]
   }
 }

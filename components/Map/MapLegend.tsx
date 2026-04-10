@@ -6,11 +6,10 @@ interface MapLegendProps {
 }
 
 const STATUS_ORDER: LegislativeStatus[] = [
-  "moratorium_enacted",
-  "ban_enacted",
-  "bill_in_progress",
-  "under_review",
-  "no_activity",
+  "active_restrictions",
+  "legislation_advancing",
+  "under_discussion",
+  "no_action",
   "favorable",
 ];
 

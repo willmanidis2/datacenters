@@ -9,19 +9,17 @@ interface StatusThermometerProps {
 }
 
 const SEGMENT_ORDER: LegislativeStatus[] = [
-  "ban_enacted",
-  "moratorium_enacted",
-  "bill_in_progress",
-  "under_review",
-  "no_activity",
+  "active_restrictions",
+  "legislation_advancing",
+  "under_discussion",
+  "no_action",
   "favorable",
 ];
 
 const RESTRICTION_STATUSES: LegislativeStatus[] = [
-  "ban_enacted",
-  "moratorium_enacted",
-  "bill_in_progress",
-  "under_review",
+  "active_restrictions",
+  "legislation_advancing",
+  "under_discussion",
 ];
 
 export default function StatusThermometer({ states }: StatusThermometerProps) {
@@ -89,7 +87,7 @@ export default function StatusThermometer({ states }: StatusThermometerProps) {
                   className="text-xs font-bold select-none"
                   style={{
                     color:
-                      status === "no_activity" ? "#64748b" : "rgba(255,255,255,0.9)",
+                      status === "no_action" ? "#64748b" : "rgba(255,255,255,0.9)",
                   }}
                 >
                   {count}

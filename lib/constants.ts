@@ -4,11 +4,10 @@ export const STATUS_CONFIG: Record<
   LegislativeStatus,
   { color: string; label: string }
 > = {
-  moratorium_enacted: { color: "#FF3B30", label: "Moratorium Enacted" },
-  ban_enacted: { color: "#AF52DE", label: "Ban Enacted" },
-  bill_in_progress: { color: "#FF9500", label: "Bill In Progress" },
-  under_review: { color: "#5856D6", label: "Under Review" },
-  no_activity: { color: "#C7C7CC", label: "No Known Activity" },
+  active_restrictions: { color: "#FF3B30", label: "Active Bans / Moratoriums" },
+  legislation_advancing: { color: "#FF9500", label: "Legislation Advancing" },
+  under_discussion: { color: "#5856D6", label: "Under Discussion" },
+  no_action: { color: "#C7C7CC", label: "No Action" },
   favorable: { color: "#34C759", label: "Favorable / Incentives" },
 };
 
