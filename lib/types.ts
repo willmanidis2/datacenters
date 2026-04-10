@@ -72,3 +72,52 @@ export interface TimelineEvent {
 }
 
 export type MapView = "moratoriums" | "construction";
+
+// LegiScan types
+export type LegiScanBillStatus =
+  | "introduced"
+  | "engrossed"
+  | "enrolled"
+  | "passed"
+  | "vetoed"
+  | "failed"
+  | "pending";
+
+export interface LegiScanBill {
+  bill_id: number;
+  bill_number: string;
+  state: string;
+  title: string;
+  status: LegiScanBillStatus;
+  last_action_date: string;
+  last_action: string;
+  relevance: number;
+  url: string;
+  text_url: string;
+  research_url: string;
+  change_hash: string;
+  search_query: string;
+}
+
+export interface LegiScanBillDetail {
+  bill_id: number;
+  bill_number: string;
+  state: string;
+  title: string;
+  description: string;
+  status: string;
+  status_date: string;
+  sponsors: { name: string; party: string; role: string }[];
+  history: { date: string; action: string; chamber: string }[];
+  subjects: string[];
+  url: string;
+  text_url: string;
+  state_link: string;
+}
+
+export interface LegislationCache {
+  bills: LegiScanBill[];
+  lastRefreshed: string;
+  queryTerms: string[];
+  totalResults: number;
+}

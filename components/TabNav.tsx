@@ -5,14 +5,15 @@ import { usePathname } from "next/navigation";
 
 const TABS = [
   { href: "/", label: "Moratoriums" },
-  { href: "/construction", label: "Construction Tracker" },
+  { href: "/construction", label: "Construction" },
+  { href: "/legislation", label: "AI Legislation" },
 ];
 
 export default function TabNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="flex gap-1 bg-slate-100 rounded-xl p-1 max-w-md mx-auto">
+    <nav className="flex gap-1 bg-slate-100 rounded-xl p-1 max-w-lg mx-auto">
       {TABS.map((tab) => {
         const isActive =
           tab.href === "/"
