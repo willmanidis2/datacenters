@@ -5,12 +5,12 @@
       "fips": "01",
       "name": "Alabama",
       "slug": "alabama",
-      "status": "under_discussion",
+      "status": "favorable",
       "summary": "Alabama offers tax incentives for data center development, but Birmingham enacted a 6-month moratorium on large data centers (>20 MW) in March 2026 while reviewing zoning rules.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_discussion",
+        "favorable",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -30,12 +30,12 @@
       "fips": "02",
       "name": "Alaska",
       "slug": "alaska",
-      "status": "under_discussion",
+      "status": "no_action",
       "summary": "No statewide data center legislation, but Anchorage has adopted preemptive zoning regulations requiring conditional use permits and setbacks for large data centers.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_discussion",
+        "no_action",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -288,12 +288,12 @@
       "fips": "12",
       "name": "Florida",
       "slug": "florida",
-      "status": "under_discussion",
+      "status": "no_action",
       "summary": "No statewide data center moratorium legislation. Florida continues to attract data center investment, particularly in the Miami and Jacksonville markets.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_discussion"
+        "no_action"
       ]
     },
     {
@@ -1122,12 +1122,12 @@
       "fips": "30",
       "name": "Montana",
       "slug": "montana",
-      "status": "under_discussion",
+      "status": "no_action",
       "summary": "No statewide moratorium despite significant lobbying efforts. Missoula County requires data center and crypto operations to offset 100% of electrical consumption with new renewable energy. Up to 14 data centers proposed statewide.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_discussion",
+        "no_action",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1172,12 +1172,12 @@
       "fips": "32",
       "name": "Nevada",
       "slug": "nevada",
-      "status": "under_discussion",
+      "status": "favorable",
       "summary": "Nevada, particularly the Reno-Sparks area, is a major data center market with state tax abatements for qualifying facilities.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_discussion",
+        "favorable",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1618,12 +1618,12 @@
       "fips": "47",
       "name": "Tennessee",
       "slug": "tennessee",
-      "status": "under_discussion",
+      "status": "no_action",
       "summary": "No statewide moratorium legislation, but Washington County enacted a ~15 month moratorium on data centers and crypto mines in March 2026.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_discussion",
+        "no_action",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1643,12 +1643,12 @@
       "fips": "48",
       "name": "Texas",
       "slug": "texas",
-      "status": "under_discussion",
+      "status": "favorable",
       "summary": "Texas has no statewide data center moratorium and state law constrains county moratorium authority. San Marcos denied a data center over water concerns. Hood County and Hays County moratorium proposals were rejected or tabled.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_discussion",
+        "favorable",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1668,12 +1668,12 @@
       "fips": "49",
       "name": "Utah",
       "slug": "utah",
-      "status": "under_discussion",
+      "status": "favorable",
       "summary": "Utah offers tax incentives for data center development and has seen significant growth in the Salt Lake City area.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "under_discussion",
+        "favorable",
         "local_restrictions"
       ],
       "localMoratoriums": [
