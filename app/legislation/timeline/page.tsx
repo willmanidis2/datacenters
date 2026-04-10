@@ -1,15 +1,14 @@
 import TabNav from "@/components/TabNav";
-import LegislationSummary from "@/components/Legislation/LegislationSummary";
-import LegislationView from "@/components/Legislation/LegislationView";
+import TimelineView from "@/components/Legislation/TimelineView";
 import type { Metadata } from "next";
 import { LegislationCache } from "@/lib/types";
 import fs from "fs";
 import path from "path";
 
 export const metadata: Metadata = {
-  title: "AI Legislation — Data Center Moratoriums",
+  title: "AI Legislation Timeline — Data Center Moratoriums",
   description:
-    "Track AI and data center legislation across all 50 states. Bills tracked via LegiScan.",
+    "Gantt chart timeline of AI and data center legislation across all 50 states.",
 };
 
 function readCacheFile(): LegislationCache | null {
@@ -22,51 +21,34 @@ function readCacheFile(): LegislationCache | null {
   }
 }
 
-export default function LegislationPage() {
+export default function TimelinePage() {
   const cache = readCacheFile();
   const bills = cache?.bills ?? [];
-  const lastRefreshed = cache?.lastRefreshed ?? null;
 
   return (
     <main>
-      <section className="max-w-6xl mx-auto px-4 pt-12 pb-6">
+      <section className="max-w-7xl mx-auto px-4 pt-12 pb-6">
         <TabNav />
         <div className="text-center mt-8 mb-2">
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-tight">
-            AI Legislation Tracker
+            Legislative Timeline
           </h1>
           <p className="mt-3 text-lg text-slate-600 max-w-2xl mx-auto">
-            Data center and AI-related bills across all 50 states
+            Gantt chart view of AI bills by state — filter by party, category, and status
           </p>
           <p className="mt-2 text-sm text-slate-400">
-            {bills.length} bills tracked &middot;{" "}
-            {new Set(bills.map((b) => b.state)).size} states &middot; Data from{" "}
             <a
-              href="https://legiscan.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-slate-500 hover:text-slate-700 underline"
+              href="/legislation"
+              className="text-blue-500 hover:text-blue-700 font-medium"
             >
-              LegiScan
-            </a>
-          </p>
-          <p className="mt-2">
-            <a
-              href="/legislation/timeline"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-blue-600 hover:text-blue-800 transition-colors"
-            >
-              View Timeline / Gantt Chart &rarr;
+              &larr; Back to bill list
             </a>
           </p>
         </div>
       </section>
 
-      <section className="max-w-6xl mx-auto px-4 pb-4">
-        <LegislationSummary bills={bills} lastRefreshed={lastRefreshed} />
-      </section>
-
-      <section className="max-w-6xl mx-auto px-4 pb-8">
-        <LegislationView bills={bills} lastRefreshed={lastRefreshed} />
+      <section className="max-w-7xl mx-auto px-4 pb-12">
+        <TimelineView bills={bills} />
       </section>
 
       <footer className="border-t border-slate-200 mt-12 py-8 text-center text-sm text-slate-400">

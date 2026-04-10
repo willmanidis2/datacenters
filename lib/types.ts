@@ -112,7 +112,7 @@ export interface LegiScanBill {
   category: AIBillCategory;
   // Enrichment fields (computed once per day during cache refresh)
   ai_summary?: string;
-  introducer_party?: "D" | "R" | "I" | "unknown";
+  introducer_party?: "D" | "R" | "B" | "I" | "unknown";
   introducer_name?: string;
   vote_counts?: {
     yea: number;
