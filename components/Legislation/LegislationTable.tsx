@@ -8,24 +8,34 @@ interface LegislationTableProps {
   onSelectBill: (id: number | null) => void;
 }
 
-// Map status to a stage number (1-5) for the dot progression
-function getStageInfo(status: LegiScanBillStatus): { stage: number; label: string; color: string } {
+// Pipeline stages in order
+const PIPELINE_STAGES = ["Filed", "Committee", "Floor", "Crossover", "Final"] as const;
+
+function getPipelineInfo(status: LegiScanBillStatus): {
+  filledTo: number; // 0-5, how many stages filled
+  label: string;
+  barColor: string;
+  bgColor: string;
+  borderColor: string;
+  terminal?: "passed" | "failed" | "vetoed";
+} {
   switch (status) {
     case "introduced":
-      return { stage: 1, label: "Introduced", color: "text-blue-600" };
-    case "engrossed":
-      return { stage: 3, label: "Chamber 2", color: "text-purple-600" };
-    case "enrolled":
-      return { stage: 4, label: "Enrolled", color: "text-indigo-600" };
-    case "passed":
-      return { stage: 5, label: "Enacted", color: "text-green-600" };
-    case "vetoed":
-      return { stage: 5, label: "Vetoed", color: "text-orange-600" };
-    case "failed":
-      return { stage: 2, label: "Failed", color: "text-red-600" };
+      return { filledTo: 1, label: "Filed", barColor: "#3b82f6", bgColor: "bg-blue-500", borderColor: "border-l-blue-500" };
     case "pending":
+      return { filledTo: 2, label: "In Committee", barColor: "#6366f1", bgColor: "bg-indigo-500", borderColor: "border-l-indigo-500" };
+    case "engrossed":
+      return { filledTo: 3, label: "Passed Chamber", barColor: "#8b5cf6", bgColor: "bg-violet-500", borderColor: "border-l-violet-500" };
+    case "enrolled":
+      return { filledTo: 4, label: "Enrolled", barColor: "#6366f1", bgColor: "bg-indigo-500", borderColor: "border-l-indigo-500" };
+    case "passed":
+      return { filledTo: 5, label: "Signed", barColor: "#16a34a", bgColor: "bg-green-600", borderColor: "border-l-green-600", terminal: "passed" };
+    case "vetoed":
+      return { filledTo: 5, label: "Vetoed", barColor: "#ea580c", bgColor: "bg-orange-500", borderColor: "border-l-orange-500", terminal: "vetoed" };
+    case "failed":
+      return { filledTo: 2, label: "Dead", barColor: "#dc2626", bgColor: "bg-red-500", borderColor: "border-l-red-500", terminal: "failed" };
     default:
-      return { stage: 2, label: "Committee", color: "text-slate-500" };
+      return { filledTo: 1, label: "Pending", barColor: "#94a3b8", bgColor: "bg-slate-400", borderColor: "border-l-slate-400" };
   }
 }
 
@@ -62,30 +72,53 @@ const PARTY_STYLES: Record<string, { bg: string; label: string }> = {
   I: { bg: "bg-gray-400", label: "I" },
 };
 
-function StageDots({ stage, total = 5, color }: { stage: number; total?: number; color: string }) {
-  // Map color class to actual fill colors
-  const fillColors: Record<string, string> = {
-    "text-blue-600": "#2563eb",
-    "text-purple-600": "#9333ea",
-    "text-indigo-600": "#4f46e5",
-    "text-green-600": "#16a34a",
-    "text-orange-600": "#ea580c",
-    "text-red-600": "#dc2626",
-    "text-slate-500": "#64748b",
-  };
-  const activeFill = fillColors[color] || "#64748b";
+function ProgressTrack({
+  filledTo,
+  barColor,
+  label,
+  terminal,
+  isSelected,
+}: {
+  filledTo: number;
+  barColor: string;
+  label: string;
+  terminal?: "passed" | "failed" | "vetoed";
+  isSelected: boolean;
+}) {
+  const pct = (filledTo / PIPELINE_STAGES.length) * 100;
 
   return (
-    <div className="flex items-center gap-1">
-      {Array.from({ length: total }).map((_, i) => (
+    <div className="w-full">
+      {/* Track */}
+      <div className={`relative h-[6px] rounded-full overflow-hidden ${isSelected ? "bg-white/20" : "bg-slate-100"}`}>
         <div
-          key={i}
-          className="w-2 h-2 rounded-full"
+          className="absolute inset-y-0 left-0 rounded-full transition-all"
           style={{
-            backgroundColor: i < stage ? activeFill : "#e2e8f0",
+            width: `${pct}%`,
+            backgroundColor: isSelected ? "rgba(255,255,255,0.6)" : barColor,
           }}
         />
-      ))}
+        {/* Terminal marker */}
+        {terminal && (
+          <div
+            className="absolute top-1/2 -translate-y-1/2 w-2 h-2 rounded-full border border-white"
+            style={{
+              right: terminal === "failed" ? `${100 - pct}%` : 0,
+              left: terminal !== "failed" ? `calc(${pct}% - 4px)` : undefined,
+              backgroundColor: isSelected ? "rgba(255,255,255,0.8)" : barColor,
+            }}
+          />
+        )}
+      </div>
+      {/* Label */}
+      <div
+        className={`text-[10px] font-semibold mt-0.5 ${
+          isSelected ? "text-slate-300" : ""
+        }`}
+        style={{ color: isSelected ? undefined : barColor }}
+      >
+        {label}
+      </div>
     </div>
   );
 }
@@ -107,7 +140,7 @@ export default function LegislationTable({
     <div className="rounded-xl border border-slate-200 bg-white overflow-hidden">
       {/* Header */}
       <div className="flex items-center px-5 py-3 border-b border-slate-100 bg-slate-50/80 text-xs font-semibold text-slate-500 uppercase tracking-wider">
-        <div className="w-28 shrink-0">Stage</div>
+        <div className="w-24 shrink-0">Progress</div>
         <div className="w-20 shrink-0">Bill</div>
         <div className="flex-1 min-w-0">Title</div>
         <div className="w-10 shrink-0 text-center">Pty</div>
@@ -118,7 +151,7 @@ export default function LegislationTable({
       <div className="divide-y divide-slate-100">
         {bills.map((bill) => {
           const isSelected = selectedBillId === bill.bill_id;
-          const { stage, label, color } = getStageInfo(bill.status);
+          const pipeline = getPipelineInfo(bill.status);
           const party = PARTY_STYLES[bill.introducer_party || ""] || null;
           const catColor = CATEGORY_COLORS[bill.category] || CATEGORY_COLORS.ai_other;
           const catLabel = CATEGORY_LABELS[bill.category] || bill.category;
@@ -127,22 +160,21 @@ export default function LegislationTable({
             <div
               key={bill.bill_id || `${bill.state}-${bill.bill_number}`}
               onClick={() => onSelectBill(isSelected ? null : bill.bill_id)}
-              className={`flex items-start px-5 py-4 cursor-pointer transition-colors ${
+              className={`flex items-start px-5 py-3.5 cursor-pointer transition-colors border-l-[3px] ${
                 isSelected
-                  ? "bg-slate-900 text-white"
-                  : "hover:bg-slate-50"
+                  ? "bg-slate-900 text-white border-l-white"
+                  : `hover:bg-slate-50 ${pipeline.borderColor}`
               }`}
             >
-              {/* Stage */}
-              <div className="w-28 shrink-0 pt-0.5">
-                <StageDots stage={stage} color={isSelected ? "text-slate-500" : color} />
-                <span
-                  className={`text-xs font-semibold mt-1 block ${
-                    isSelected ? "text-slate-300" : color
-                  }`}
-                >
-                  {label}
-                </span>
+              {/* Progress track */}
+              <div className="w-24 shrink-0 pt-0.5 pr-3">
+                <ProgressTrack
+                  filledTo={pipeline.filledTo}
+                  barColor={pipeline.barColor}
+                  label={pipeline.label}
+                  terminal={pipeline.terminal}
+                  isSelected={isSelected}
+                />
               </div>
 
               {/* Bill number */}
