@@ -1,19 +1,31 @@
 "use client";
 
-import { useState } from "react";
-import { ConstructionProject } from "@/lib/types";
+import { useState, useMemo } from "react";
+import { ConstructionProject, StateData } from "@/lib/types";
 import ConstructionMap from "./ConstructionMap";
 import ProjectTable from "./ProjectTable";
 import ProjectDetail from "./ProjectDetail";
 
 interface ConstructionViewProps {
   projects: ConstructionProject[];
+  states: StateData[];
 }
 
-export default function ConstructionView({ projects }: ConstructionViewProps) {
+export default function ConstructionView({
+  projects,
+  states,
+}: ConstructionViewProps) {
   const [selectedProject, setSelectedProject] = useState<string | null>(null);
 
   const selected = projects.find((p) => p.name === selectedProject) ?? null;
+
+  const statesByIdMap = useMemo(() => {
+    const map = new Map<string, StateData>();
+    for (const s of states) {
+      map.set(s.id, s);
+    }
+    return map;
+  }, [states]);
 
   return (
     <div>
@@ -56,6 +68,7 @@ export default function ConstructionView({ projects }: ConstructionViewProps) {
         <div className="mb-6">
           <ProjectDetail
             project={selected}
+            stateData={statesByIdMap.get(selected.stateId)}
             onClose={() => setSelectedProject(null)}
           />
         </div>

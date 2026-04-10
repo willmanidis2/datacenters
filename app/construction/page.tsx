@@ -1,5 +1,6 @@
 import constructionData from "@/data/construction-projects.json";
-import { ConstructionProject } from "@/lib/types";
+import stateStatusesData from "@/data/state-statuses.json";
+import { ConstructionProject, StateData } from "@/lib/types";
 import TabNav from "@/components/TabNav";
 import ConstructionSummary from "@/components/Construction/ConstructionSummary";
 import ConstructionView from "@/components/Construction/ConstructionView";
@@ -13,6 +14,7 @@ export const metadata: Metadata = {
 
 export default function ConstructionPage() {
   const projects = constructionData.projects as ConstructionProject[];
+  const states = stateStatusesData.states as StateData[];
 
   return (
     <main>
@@ -44,7 +46,7 @@ export default function ConstructionPage() {
       </section>
 
       <section className="max-w-6xl mx-auto px-4 pb-8">
-        <ConstructionView projects={projects} />
+        <ConstructionView projects={projects} states={states} />
       </section>
 
       <footer className="border-t border-slate-200 mt-12 py-8 text-center text-sm text-slate-400">

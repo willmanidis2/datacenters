@@ -1,9 +1,12 @@
 "use client";
 
-import { ConstructionProject } from "@/lib/types";
+import { ConstructionProject, StateData } from "@/lib/types";
+import ProjectNews from "./ProjectNews";
+import OutrageScore from "./OutrageScore";
 
 interface ProjectDetailProps {
   project: ConstructionProject;
+  stateData: StateData | undefined;
   onClose: () => void;
 }
 
@@ -15,7 +18,11 @@ const STATUS_COLORS: Record<string, string> = {
   cancelled: "#FF3B30",
 };
 
-export default function ProjectDetail({ project, onClose }: ProjectDetailProps) {
+export default function ProjectDetail({
+  project,
+  stateData,
+  onClose,
+}: ProjectDetailProps) {
   const color = STATUS_COLORS[project.status] || "#34C759";
 
   return (
@@ -35,7 +42,8 @@ export default function ProjectDetail({ project, onClose }: ProjectDetailProps) 
                   color: color,
                 }}
               >
-                {project.status.charAt(0).toUpperCase() + project.status.slice(1)}
+                {project.status.charAt(0).toUpperCase() +
+                  project.status.slice(1)}
               </span>
               {project.project && (
                 <span className="text-sm text-slate-500">
@@ -63,7 +71,11 @@ export default function ProjectDetail({ project, onClose }: ProjectDetailProps) 
         />
         <Stat
           label="Power"
-          value={project.powerMW > 0 ? `${project.powerMW.toLocaleString()} MW` : "TBD"}
+          value={
+            project.powerMW > 0
+              ? `${project.powerMW.toLocaleString()} MW`
+              : "TBD"
+          }
         />
         <Stat
           label="Capital Cost"
@@ -87,8 +99,13 @@ export default function ProjectDetail({ project, onClose }: ProjectDetailProps) 
 
       {/* Notes */}
       <div className="px-6 py-4 border-t border-slate-100">
-        <p className="text-sm text-slate-600 leading-relaxed">{project.notes}</p>
+        <p className="text-sm text-slate-600 leading-relaxed">
+          {project.notes}
+        </p>
       </div>
+
+      {/* Community Resistance Score */}
+      <OutrageScore stateId={project.stateId} stateData={stateData} />
 
       {/* Timeline */}
       {project.timelineEvents.length > 0 && (
@@ -122,6 +139,13 @@ export default function ProjectDetail({ project, onClose }: ProjectDetailProps) 
         </div>
       )}
 
+      {/* Local News */}
+      <ProjectNews
+        projectName={project.name}
+        ownerName={project.owner}
+        stateName={project.state}
+      />
+
       {/* Sources */}
       {project.sources.length > 0 && (
         <div className="px-6 py-4 border-t border-slate-100">
@@ -130,7 +154,12 @@ export default function ProjectDetail({ project, onClose }: ProjectDetailProps) 
           </h4>
           <div className="space-y-1">
             {project.sources.map((url, i) => {
-              const domain = new URL(url).hostname.replace("www.", "");
+              let domain = url;
+              try {
+                domain = new URL(url).hostname.replace("www.", "");
+              } catch {
+                /* keep original */
+              }
               return (
                 <a
                   key={i}
