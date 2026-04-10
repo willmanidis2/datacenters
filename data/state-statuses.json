@@ -1164,7 +1164,7 @@
         {
           "id": "SB 439",
           "title": "Municipal Data Center Zoning Authority",
-          "status": "In committee",
+          "status": "Enacted",
           "url": "https://gencourt.state.nh.us/bill_status/billinfo.aspx?id=2478"
         }
       ],
@@ -1529,12 +1529,6 @@
           "title": "Data Center Permit and Incentive Freeze",
           "status": "In committee",
           "url": "https://www.scstatehouse.gov/billsearch.php?billnumbers=5286&session=126&summary=B"
-        },
-        {
-          "id": "H5286",
-          "title": "Data Center Permit Moratorium",
-          "status": "Proposed",
-          "url": "https://legiscan.com/SC/bill/H5286/2025"
         }
       ],
       "lastUpdated": "2026-04-09",
@@ -1547,8 +1541,8 @@
       "fips": "46",
       "name": "South Dakota",
       "slug": "south-dakota",
-      "status": "legislation_advancing",
-      "summary": "South Dakota's moratorium bills (SB 232, HB 1301) both failed to advance. However, SB 135 passed \u2014 it prohibits the state from limiting local government authority to regulate or ban data centers, effectively empowering municipal moratoriums.",
+      "status": "favorable",
+      "summary": "South Dakota rejected moratorium bills (SB 232, HB 1301) but enacted SB 135 and HB 1038, requiring data centers with 10+ MW to pay for increased electricity rates and preserving local governments' ability to regulate.",
       "bills": [
         {
           "id": "SB 232",
@@ -1565,7 +1559,7 @@
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "legislation_advancing"
+        "favorable"
       ]
     },
     {
@@ -1573,12 +1567,12 @@
       "fips": "47",
       "name": "Tennessee",
       "slug": "tennessee",
-      "status": "no_action",
+      "status": "under_discussion",
       "summary": "No statewide moratorium legislation, but Washington County enacted a ~15 month moratorium on data centers and crypto mines in March 2026.",
       "bills": [],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "no_action",
+        "under_discussion",
         "local_restrictions"
       ],
       "localMoratoriums": [
