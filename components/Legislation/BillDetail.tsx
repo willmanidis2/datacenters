@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { LegiScanBillDetail } from "@/lib/types";
+import { LegiScanBill, LegiScanBillDetail } from "@/lib/types";
 
 interface BillDetailProps {
   billId: number;
-  bill?: { ai_summary?: string; introducer_party?: string; introducer_name?: string; session_end_date?: string };
+  bill?: LegiScanBill;
   onClose: () => void;
 }
 
@@ -17,11 +17,11 @@ interface DetailWithEnrichment extends LegiScanBillDetail {
 export default function BillDetail({ billId, bill, onClose }: BillDetailProps) {
   const [detail, setDetail] = useState<DetailWithEnrichment | null>(null);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(false);
+  const [apiFailed, setApiFailed] = useState(false);
 
   useEffect(() => {
     setLoading(true);
-    setError(false);
+    setApiFailed(false);
 
     fetch(`/api/legislation/${billId}`)
       .then((res) => {
@@ -32,7 +32,7 @@ export default function BillDetail({ billId, bill, onClose }: BillDetailProps) {
         if (data.error) throw new Error(data.error);
         setDetail(data);
       })
-      .catch(() => setError(true))
+      .catch(() => setApiFailed(true))
       .finally(() => setLoading(false));
   }, [billId]);
 
@@ -47,12 +47,17 @@ export default function BillDetail({ billId, bill, onClose }: BillDetailProps) {
     );
   }
 
-  if (error || !detail) {
+  // If API failed but we have cached bill data, render from cache
+  if ((apiFailed || !detail) && bill) {
+    return <CachedBillDetail bill={bill} onClose={onClose} />;
+  }
+
+  if (!detail) {
     return (
       <div className="bg-white border border-slate-200 rounded-2xl shadow-lg p-6 mb-6">
         <div className="flex items-center justify-between">
           <p className="text-sm text-slate-400">
-            Could not load bill details. The bill may require a LegiScan API key.
+            Could not load bill details.
           </p>
           <button
             onClick={onClose}
@@ -378,4 +383,122 @@ function getDaysRemaining(endDate: string): number {
   const now = new Date();
   const diff = end.getTime() - now.getTime();
   return Math.ceil(diff / (1000 * 60 * 60 * 24));
+}
+
+// Fallback view when LegiScan API is unavailable — renders from cached bill data
+function CachedBillDetail({ bill, onClose }: { bill: LegiScanBill; onClose: () => void }) {
+  const sessionEnd = bill.session_end_date;
+  const daysRemaining = sessionEnd ? getDaysRemaining(sessionEnd) : null;
+
+  return (
+    <div className="bg-white border border-slate-200 rounded-2xl shadow-lg overflow-hidden mb-6">
+      {/* Header */}
+      <div className="px-6 py-5 border-b border-slate-100">
+        <div className="flex items-start justify-between">
+          <div>
+            <div className="flex items-center gap-3">
+              <span className="text-lg font-bold font-mono text-slate-900">
+                {bill.state} {bill.bill_number}
+              </span>
+              <span className="inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700">
+                {bill.status.charAt(0).toUpperCase() + bill.status.slice(1)}
+              </span>
+              {bill.introducer_party && bill.introducer_party !== "unknown" && (
+                <span
+                  className={`inline-flex items-center justify-center w-6 h-6 rounded-full text-xs font-bold text-white ${
+                    bill.introducer_party === "D"
+                      ? "bg-blue-500"
+                      : bill.introducer_party === "R"
+                      ? "bg-red-500"
+                      : "bg-purple-500"
+                  }`}
+                >
+                  {bill.introducer_party}
+                </span>
+              )}
+              {daysRemaining !== null && (
+                <span
+                  className={`inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold ${
+                    daysRemaining <= 30
+                      ? "bg-red-50 text-red-700"
+                      : daysRemaining <= 90
+                      ? "bg-amber-50 text-amber-700"
+                      : "bg-slate-50 text-slate-600"
+                  }`}
+                >
+                  {daysRemaining > 0
+                    ? `${daysRemaining} days left in session`
+                    : "Session ended"}
+                </span>
+              )}
+            </div>
+            <h3 className="text-base text-slate-700 mt-1">{bill.title}</h3>
+            {bill.introducer_name && (
+              <p className="text-sm text-slate-500 mt-1">
+                Introduced by {bill.introducer_name}
+              </p>
+            )}
+          </div>
+          <button
+            onClick={onClose}
+            className="text-slate-400 hover:text-slate-600 text-xl leading-none p-1"
+            aria-label="Close"
+          >
+            &times;
+          </button>
+        </div>
+      </div>
+
+      {/* AI Summary */}
+      {bill.ai_summary && (
+        <div className="px-6 py-4 border-b border-slate-100 bg-blue-50/30">
+          <h4 className="text-xs font-semibold text-blue-600 mb-1.5 uppercase tracking-wider">
+            AI Summary
+          </h4>
+          <p className="text-sm text-slate-700 leading-relaxed">{bill.ai_summary}</p>
+        </div>
+      )}
+
+      {/* Last Action */}
+      {bill.last_action && (
+        <div className="px-6 py-4 border-b border-slate-100">
+          <h4 className="text-sm font-semibold text-slate-700 mb-1">
+            Last Action
+          </h4>
+          <p className="text-sm text-slate-600">
+            {bill.last_action}
+            <span className="text-slate-400 ml-2 text-xs font-mono">
+              {bill.last_action_date}
+            </span>
+          </p>
+        </div>
+      )}
+
+      {/* Links */}
+      <div className="px-6 py-4">
+        <div className="flex flex-wrap gap-3">
+          {bill.url && (
+            <a
+              href={bill.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-blue-600 hover:text-blue-800 font-medium"
+            >
+              View on LegiScan &rarr;
+            </a>
+          )}
+          {bill.text_url && (
+            <a
+              href={bill.text_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm text-blue-600 hover:text-blue-800 font-medium"
+            >
+              View Full Text &rarr;
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  );
 }
