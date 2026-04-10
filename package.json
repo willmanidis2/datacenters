@@ -20,10 +20,12 @@
     "topojson-client": "^3.1.0"
   },
   "devDependencies": {
+    "@types/d3-geo": "^3.1.0",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "@types/react-simple-maps": "^3.0.6",
+    "@types/topojson-client": "^3.1.5",
     "eslint": "^8",
     "eslint-config-next": "14.2.35",
     "postcss": "^8",
