@@ -55,7 +55,7 @@
       "fips": "04",
       "name": "Arizona",
       "slug": "arizona",
-      "status": "active_restrictions",
+      "status": "under_discussion",
       "summary": "Arizona has introduced HB 2756 to prevent data center grid connection costs from being shifted to residential ratepayers. The state remains a major data center hub with active incentive programs.",
       "bills": [
         {
@@ -71,59 +71,14 @@
           "countyFips": "04013",
           "type": "zoning_restriction",
           "status": "enacted",
-          "date": "2022-06-01",
-          "description": "Adopted ordinance restricting data center locations and requiring enhanced setbacks and noise standards.",
+          "date": "2023-01-05",
+          "description": "Ongoing restrictions limiting data centers to planned developments only. Concerns over noise and limited job creation.",
           "url": "https://www.chandleraz.gov/government/city-council"
-        },
-        {
-          "locality": "Mesa",
-          "countyFips": "04013",
-          "type": "zoning_restriction",
-          "status": "enacted",
-          "date": "2023-09-01",
-          "description": "Updated zoning code with data center-specific requirements including water use limits and noise buffers.",
-          "url": "https://www.mesaaz.gov/government/planning-and-zoning"
-        },
-        {
-          "locality": "Phoenix",
-          "countyFips": "04013",
-          "type": "zoning_restriction",
-          "status": "enacted",
-          "date": "2024-03-01",
-          "description": "Enacted data center zoning overlay requiring conditional use permits for facilities over 10 MW.",
-          "url": "https://www.phoenix.gov/pdd/planning-zoning"
-        },
-        {
-          "locality": "Maricopa County",
-          "countyFips": "04013",
-          "type": "zoning_restriction",
-          "status": "enacted",
-          "date": "2024-08-01",
-          "description": "Adopted data center-specific zoning rules for unincorporated areas including water consumption reporting.",
-          "url": "https://www.maricopa.gov/5302/Planning-Development"
-        },
-        {
-          "locality": "Goodyear",
-          "countyFips": "04013",
-          "type": "zoning_restriction",
-          "status": "enacted",
-          "date": "2024-11-01",
-          "description": "Updated zoning code to restrict data center development near residential areas.",
-          "url": "https://www.goodyearaz.gov/government/departments/development-services"
-        },
-        {
-          "locality": "Mohave County",
-          "countyFips": "04015",
-          "type": "zoning_restriction",
-          "status": "enacted",
-          "date": "2025-02-01",
-          "description": "Enacted data center zoning restrictions addressing water and energy concerns in unincorporated areas.",
-          "url": "https://www.mohavecounty.us/ContentPage.aspx?id=127"
         }
       ],
       "lastUpdated": "2026-04-09",
       "tags": [
-        "active_restrictions",
+        "under_discussion",
         "local_restrictions"
       ]
     },
