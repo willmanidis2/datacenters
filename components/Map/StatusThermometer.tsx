@@ -19,7 +19,6 @@ const SEGMENT_ORDER: LegislativeStatus[] = [
 const RESTRICTION_STATUSES: LegislativeStatus[] = [
   "active_restrictions",
   "legislation_advancing",
-  "under_discussion",
 ];
 
 export default function StatusThermometer({ states }: StatusThermometerProps) {
