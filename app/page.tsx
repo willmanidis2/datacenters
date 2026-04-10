@@ -1,6 +1,7 @@
 import stateStatusesData from "@/data/state-statuses.json";
 import { StateData } from "@/lib/types";
 import Hero from "@/components/Hero";
+import TabNav from "@/components/TabNav";
 import USChoroplethMap from "@/components/Map/USChoroplethMap";
 import MapLegend from "@/components/Map/MapLegend";
 import StatusThermometer from "@/components/Map/StatusThermometer";
@@ -12,6 +13,10 @@ export default function Home() {
 
   return (
     <main>
+      <section className="max-w-6xl mx-auto px-4 pt-12 pb-2">
+        <TabNav />
+      </section>
+
       <section className="max-w-6xl mx-auto px-4">
         <Hero states={states} />
       </section>

@@ -46,3 +46,29 @@ export interface NewsItem {
 export interface StateStatusesData {
   states: StateData[];
 }
+
+export interface ConstructionProject {
+  name: string;
+  owner: string;
+  users: string[];
+  powerMW: number;
+  capitalCostB: number;
+  lat: number;
+  lng: number;
+  state: string;
+  stateId: string;
+  status: "active" | "delayed" | "deferred" | "cancelled" | "planned";
+  address: string;
+  project: string | null;
+  h100Equivalents: number;
+  notes: string;
+  sources: string[];
+  timelineEvents: TimelineEvent[];
+}
+
+export interface TimelineEvent {
+  date: string;
+  description: string;
+}
+
+export type MapView = "moratoriums" | "construction";
