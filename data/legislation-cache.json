@@ -15,7 +15,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-04-01"
+      "session_end_date": "2026-04-01",
+      "ai_summary": "Idaho SB1227 establishes a generative AI framework for public education focusing on student privacy protection, AI literacy curriculum, and teacher professional development in AI use. The bill is now law after Governor Little's signature on April 26, 2026.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 56,
@@ -32,7 +34,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California SB947 would protect workers from potentially harmful AI use in employment decisions and workplace monitoring by establishing worker protections and disclosure requirements. The bill is currently in Labor Committee hearing as of April 8, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 164,
@@ -49,7 +53,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "New Hampshire HB1406 would regulate health insurance carriers' use of AI in clinical judgment decisions, likely requiring transparency or limitations on automated coverage denials. The bill is currently in Senate Commerce hearing as of April 7, 2026.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 249,
@@ -66,7 +72,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California SB1015 criminalizes the creation and use of deepfakes for extortion, harassment, or threats, adding penalties for non-consensual synthetic media used to harm others. The bill is currently in Public Safety Committee hearing as of April 7, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 250,
@@ -83,7 +91,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California SB1050 would require AI-generated advertisements to include clear disclosures notifying consumers that the ad was created using artificial intelligence. The bill is currently in Privacy Committee hearing as of April 6, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 251,
@@ -100,7 +110,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California SB867 would prohibit the sale and distribution of AI-powered chatbot toys designed to simulate human interaction with children. The bill is currently in Privacy Committee hearing as of April 6, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 135,
@@ -117,7 +129,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Colorado HB1263 establishes safety requirements and protections for minors interacting with chatbots, likely including age verification and content guardrails. The bill is currently at House floor hearing as of April 2, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 151,
@@ -134,7 +148,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Missouri HB2032 requires chatbots to implement age verification mechanisms and incorporate harm prevention features to protect minors from dangerous content. The bill passed its HCS committee 9-0 on April 2, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 120,
@@ -151,7 +167,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Georgia SB540 requires chatbots to disclose they are AI and implement child safety protections including content filtering and parental controls. The bill is on the Governor's desk as of April 1, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 122,
@@ -168,7 +186,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Georgia SB444 would prohibit health insurance companies from using AI in coverage decisions and medical treatment denials, restricting algorithmic healthcare rationing. The bill is on the Governor's desk as of April 1, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 182,
@@ -185,7 +205,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "Maryland SB141 regulates the creation and distribution of deepfakes in political materials, requiring disclosures and establishing penalties for deceptive AI-generated campaign content. The bill passed the Senate 44-0 and is currently in House hearing as of April 1, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 121,
@@ -202,7 +224,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Georgia SR789 creates a legislative study committee to examine AI's impact on Georgia's economy, workforce, and regulatory environment. The resolution passed the Senate on March 31, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -219,7 +243,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Virginia HB153 requires data centers to conduct sound impact assessments for residential units and schools within 500 feet, addressing noise pollution from AI infrastructure. The bill is enrolled as of March 30, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -236,7 +262,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Virginia HB496 mandates that data centers report water consumption data to enable public monitoring of resource use by AI and computing facilities. The bill is enrolled as of March 30, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 113,
@@ -253,7 +281,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-01"
+      "session_end_date": "2026-04-01",
+      "ai_summary": "Idaho SB1297 establishes safety and transparency requirements for conversational AI systems, likely including safeguards against harmful outputs and user disclosure of AI interaction. The bill is on the Governor's desk as of March 28, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 115,
@@ -270,7 +300,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-01"
+      "session_end_date": "2026-04-01",
+      "ai_summary": "Idaho HB542 addresses AI-driven child safety by restricting addictive social media design features that disproportionately affect minors through algorithmic engagement. The bill is on the Governor's desk as of March 28, 2026.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 68,
@@ -287,7 +319,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Illinois SB3261 requires AI systems used in public safety and child protection to maintain transparency in their operations and algorithmic decision-making. The bill is past the AI Committee deadline as of March 27, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 64,
@@ -304,7 +338,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Illinois HB5044 establishes liability standards for chatbot providers when their systems cause harm, enabling injured parties to pursue legal action against developers. The bill is currently in Judiciary Committee hearing as of March 26, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 155,
@@ -321,7 +357,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Missouri HB1913 criminalizes the creation and distribution of non-consensual intimate images created or manipulated using AI, including deepfake pornography. The bill passed its HCS committee 10-0 on March 26, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 66,
@@ -338,7 +376,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Illinois HB5113 creates a commission to study and develop recommendations for AI use in K-12 schools, addressing curriculum integration and student impacts. The bill is currently in Education Committee hearing as of March 25, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 114,
@@ -355,7 +395,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-04-01"
+      "session_end_date": "2026-04-01",
+      "ai_summary": "Idaho HB727 criminalizes the creation and distribution of synthetic media depicting non-consensual intimate images or voyeuristic videos without consent. The bill is now law after Governor signature on March 25, 2026.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 183,
@@ -372,7 +414,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "Maryland HB883 prohibits chatbots from providing mental health therapy or diagnosis services, restricting AI use in clinical therapeutic settings. The bill passed the House 110-23 and is currently in Senate Finance as of March 25, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -389,7 +433,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Ohio HB784 requires data centers to publicly report monthly and yearly water consumption while prohibiting non-disclosure agreements that hide environmental impact data from local governments. The bill was referred to House Energy Committee as of March 24, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -406,7 +452,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-29"
+      "session_end_date": "2026-05-29",
+      "ai_summary": "Oklahoma HB2992 protects consumers and data center host communities by establishing transparency and customer protection standards for large data center operations. The bill passed the House (engrossed) as of March 24, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 29,
@@ -423,7 +471,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-26"
+      "session_end_date": "2026-04-26",
+      "ai_summary": "Washington HB2225 requires AI chatbots to implement safety protocols for minors including content safeguards and crisis intervention for suicidal ideation. The bill is now law after Governor Ferguson's signature on March 24, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 30,
@@ -440,7 +490,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-26"
+      "session_end_date": "2026-04-26",
+      "ai_summary": "Requires AI-generated content to include watermarks and clear disclosure labels to help consumers identify synthetic media. This law is now in effect after being signed by the governor.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 239,
@@ -457,7 +509,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Mandates that businesses notify consumers when generative AI is used in decision-making or content creation that affects them. Currently in committee review at the consumer protection hearing stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 131,
@@ -474,7 +528,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-06-03"
+      "session_end_date": "2026-06-03",
+      "ai_summary": "Prohibits the use of deceptive synthetic media (deepfakes) in election campaigns and materials to protect electoral integrity. The bill is undergoing final legislative drafting before potential passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 215,
@@ -491,7 +547,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-05-29"
+      "session_end_date": "2026-05-29",
+      "ai_summary": "Requires schools to use AI in education only under direct educator supervision and establishes oversight standards for classroom AI tools. The bill passed the full Senate unanimously and is now being sent to the House for consideration.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 65,
@@ -508,7 +566,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Establishes regulatory standards for AI systems used to provide therapy or mental health services, ensuring safety and efficacy. The bill is currently in the health subcommittee stage with further review needed.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 99,
@@ -525,7 +585,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Restricts AI chatbots targeting children by requiring age verification, parental consent, and prohibiting manipulative design practices. Senate leadership approved the bill and it is moving forward in the legislative process.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 100,
@@ -542,7 +604,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Requires generative AI systems to track and disclose provenance data showing the origin and training sources of generated content. The bill received house caucus approval and is advancing toward passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 101,
@@ -559,7 +623,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Mandates that schools teach AI ethics and responsible AI use as part of the standard curriculum starting in K-12 education. Senate caucus approved the bill, moving it closer to final passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 136,
@@ -576,7 +642,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Regulates the use of AI in psychotherapy services by requiring transparency, informed consent, and oversight by licensed mental health professionals. The bill passed its third reading in the House and is advancing toward final passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 137,
@@ -593,7 +661,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Establishes regulations for healthcare AI systems including transparency requirements, bias auditing, and physician oversight in clinical decisions. The bill passed third reading in the House and is now moving forward.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 142,
@@ -610,7 +680,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Protects children from predatory AI chatbots by prohibiting targeted manipulation, requiring parental notification, and establishing safety standards. The bill is advancing with a positive recommendation for passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 152,
@@ -627,7 +699,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Prohibits the use of AI systems to provide mental health treatment or therapy without licensed professional oversight. The bill received a favorable committee recommendation and is progressing through the legislature.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 153,
@@ -644,7 +718,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Creates accountability requirements for AI-generated content including disclosure labels, liability protections, and enforcement mechanisms for misleading synthetic media. The bill passed committee review unanimously.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 154,
@@ -661,7 +737,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Criminalizes the creation and distribution of deepfakes used for sexual extortion, impersonation, or fraud with specific penalties. The bill passed committee review with unanimous support.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 159,
@@ -678,7 +756,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-05"
+      "session_end_date": "2026-06-05",
+      "ai_summary": "Establishes safety standards for conversational AI systems including transparency, bias testing, and content moderation requirements. The bill is attached to another legislative vehicle and is likely to pass.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 170,
@@ -695,7 +775,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Criminalizes the creation and distribution of non-consensual AI-generated intimate images and deepfake pornography. The House approved the bill overwhelmingly and it is now in Senate Judiciary committee review.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 173,
@@ -712,7 +794,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Requires disclosure and regulation of AI-generated political ads and campaign materials to prevent election manipulation and deception. The bill received committee approval and is moving forward.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 197,
@@ -729,7 +813,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Enhances criminal penalties for sexual extortion and sextortion cases, including those involving AI-generated intimate images. The Senate approved the bill unanimously.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 205,
@@ -746,7 +832,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-30"
+      "session_end_date": "2026-04-30",
+      "ai_summary": "Establishes safety standards and transparency requirements for conversational AI systems to protect users from harmful content and manipulation. The bill is scheduled for consideration as unfinished business on the calendar.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 206,
@@ -763,7 +851,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-04-30"
+      "session_end_date": "2026-04-30",
+      "ai_summary": "Regulates the use of AI in healthcare and insurance decision-making including prior authorization and coverage determinations with transparency and appeal rights. Concurrence between chambers is pending for final passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 220,
@@ -780,7 +870,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-04"
+      "session_end_date": "2026-06-04",
+      "ai_summary": "Addresses algorithmic harms from social media AI by restricting addictive design practices and requiring age-appropriate content protections for minors. The House passed it unanimously and the Senate is now reviewing it.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 70,
@@ -797,7 +889,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Requires meaningful human review and approval before AI systems make employment decisions including hiring, promotion, and termination. The bill is currently in committee review for further consideration.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 130,
@@ -814,7 +908,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-06-03"
+      "session_end_date": "2026-06-03",
+      "ai_summary": "Regulates automated employment decision systems (AI hiring tools) to ensure transparency, fairness testing, and employee rights to explanation and appeal. The bill is undergoing final legislative drafting.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 181,
@@ -831,7 +927,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "Creates protections against deepfakes and AI-generated sexual imagery including criminal penalties and civil remedies for victims. The Senate approved the bill unanimously.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -848,7 +946,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Establishes a commission to study the economic and infrastructure impacts of data centers and AI computing on state resources and planning. The House passed the bill unanimously to create this study group.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 128,
@@ -865,7 +965,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-03"
+      "session_end_date": "2026-06-03",
+      "ai_summary": "Establishes requirements for AI systems including companion chatbots, automated employment systems, and synthetic content generation, and creates a state policy office to oversee AI regulation. Currently with Legislative Commissioner as of March 17, 2026, indicating advanced legislative processing.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 129,
@@ -882,7 +984,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-03"
+      "session_end_date": "2026-06-03",
+      "ai_summary": "Promotes responsible AI innovation and use practices in Connecticut with broad application across sectors. Approved by committee with strong support (20-1 vote) on March 16, 2026, positioning it for further legislative advancement.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 27,
@@ -899,7 +1003,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Requires disclosure warnings to consumers about companion chatbots' nature and limitations in New York. Currently in early stage (introduced March 15, 2026) with no further action yet.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 31,
@@ -916,7 +1022,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-26"
+      "session_end_date": "2026-04-26",
+      "ai_summary": "Grants consumers a private right of action to sue developers of consumer-facing interactive AI systems for violations in Washington state. Passed the legislature on March 15, 2026, moving toward executive consideration.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 46,
@@ -933,7 +1041,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Prohibits California schools and educational technology providers from using student data to train AI models, protecting student privacy. At Senate Rules Committee stage as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 52,
@@ -950,7 +1060,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Amends California's Code of Civil Procedure to establish protections and disclosure requirements for attorney use of AI in legal practice. Currently in Appropriations Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 55,
@@ -967,7 +1079,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Regulates mental health professionals' use of AI transcription technology in California, ensuring appropriate safeguards for sensitive patient communications. At Senate Rules Committee stage as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 57,
@@ -984,7 +1098,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Requires AI systems in California to disclose their use of AI and provide data about training sources and content provenance. At Privacy Committee stage as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 58,
@@ -1001,7 +1117,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Creates comprehensive deepfake protections in California by prohibiting non-consensual synthetic sexual content and establishing legal remedies for victims. Amended at Privacy Committee stage as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 59,
@@ -1018,7 +1136,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Requires employers in California to disclose use of surveillance AI in the workplace and provide employees notice of monitoring. At Privacy Committee stage as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 60,
@@ -1035,7 +1155,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Establishes safety requirements for chatbots marketed to children in California, including protections against harmful content and inappropriate interactions. At Privacy Committee with amendments as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 98,
@@ -1052,7 +1174,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Prohibits creation and distribution of synthetic nudity and sexual depictions in Arizona without consent. Senate caucus approved the measure on March 15, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 110,
@@ -1069,7 +1193,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Regulates insurance coverage and payment decisions for healthcare AI systems in Alabama, ensuring appropriate review and authorization. At House calendar for second reading as of March 15, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 119,
@@ -1086,7 +1212,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-03-14"
+      "session_end_date": "2026-03-14",
+      "ai_summary": "Establishes a Bill of Rights framework for AI use in Florida, protecting consumer rights and establishing accountability standards. Passed the Senate but declined by the House on March 15, 2026, likely stalling progress.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 124,
@@ -1103,7 +1231,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-07"
+      "session_end_date": "2026-05-07",
+      "ai_summary": "Implements safeguards for AI companion systems marketed to minors in Hawaii, protecting children from exploitation and harmful interactions. Senate committees approved on March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 125,
@@ -1120,7 +1250,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-07"
+      "session_end_date": "2026-05-07",
+      "ai_summary": "Requires Hawaii AI operators to disclose their use of AI technology and establish clear operational protocols for consumer interactions. House committees approved on March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 138,
@@ -1137,7 +1269,9 @@
       "change_hash": "",
       "search_query": "data center",
       "category": "data_centers",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Establishes accountability standards for data centers in Colorado regarding environmental impact, resource use, and operational transparency. At Senate Transportation Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 139,
@@ -1154,7 +1288,9 @@
       "change_hash": "",
       "search_query": "data center",
       "category": "data_centers",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Regulates development and operation of data centers in Colorado with focus on environmental and community considerations. At Energy Committee stage as of March 15, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 146,
@@ -1171,7 +1307,9 @@
       "change_hash": "",
       "search_query": "algorithmic",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Prohibits AI systems from causing discriminatory effects in housing decisions and lending in Minnesota. At Senate Judiciary Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 147,
@@ -1188,7 +1326,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Requires companies in Minnesota to disclose when they use AI in consumer interactions and explain how AI affects decisions. At Commerce and Consumer Protection Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 148,
@@ -1205,7 +1345,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Regulates AI use in medical insurance decisions in Minnesota, requiring transparency and appeal mechanisms for AI-driven coverage denials. At Commerce and Consumer Protection Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 166,
@@ -1222,7 +1364,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Prohibits AI systems from providing services licensed to human professionals (attorneys, doctors, etc.) in New Hampshire. In House for consideration as of March 15, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 167,
@@ -1239,7 +1383,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Creates a new Attorney General division in New Hampshire dedicated to AI oversight and enforcement of AI regulations. At House Commerce and Consumer Affairs Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 171,
@@ -1256,7 +1402,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Regulates healthcare providers' use of AI in Louisiana, establishing standards for appropriate integration and oversight of AI in clinical practice. At Health/Welfare Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 172,
@@ -1273,7 +1421,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Requires disclosure to Louisiana consumers when AI-generated or AI-modified content is presented to them. At Commerce Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 174,
@@ -1290,7 +1440,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Establishes safety requirements for AI chatbots targeting children, including content filtering and parental controls. Currently in Louisiana Commerce Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 175,
@@ -1307,7 +1459,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Requires AI risk assessments for critical infrastructure systems and mandates security protocols to prevent AI-related failures. Currently in Louisiana Commerce Committee as of March 15, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 200,
@@ -1324,7 +1478,9 @@
       "change_hash": "",
       "search_query": "algorithmic",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-15"
+      "session_end_date": "2026-04-15",
+      "ai_summary": "Requires age verification for social media platforms and restricts algorithmic feeds designed to be addictive to minors. Currently in Kentucky Senate Judiciary Committee as of March 15, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 201,
@@ -1341,7 +1497,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-04-15"
+      "session_end_date": "2026-04-15",
+      "ai_summary": "Establishes licensing and oversight requirements for AI-powered mental health therapy chatbots to ensure clinical competency. Currently in Kentucky Senate Committee on Committees as of March 15, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 207,
@@ -1358,7 +1516,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_other",
-      "session_end_date": "2026-04-30"
+      "session_end_date": "2026-04-30",
+      "ai_summary": "Clarifies that creators retain ownership rights to outputs generated by AI tools they operate. Committee-approved and on Iowa calendar as of March 15, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 208,
@@ -1375,7 +1535,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-04-30"
+      "session_end_date": "2026-04-30",
+      "ai_summary": "Regulates the use of AI-generated content in election materials and voter interactions, requiring disclosure and accuracy standards. Passed Iowa House committee 18-3 as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 231,
@@ -1392,7 +1554,9 @@
       "change_hash": "",
       "search_query": "algorithmic",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Prohibits algorithmic price discrimination and requires transparency when AI sets different prices for different consumers. Currently in Minnesota Commerce and Consumer Protection Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 252,
@@ -1409,7 +1573,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Mandates that California State University maintain human instructors and prohibits AI from fully replacing classroom instruction. Currently in California Senate Rules Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 253,
@@ -1426,7 +1592,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Establishes regulations for AI use in healthcare settings, requiring transparency, validation, and physician oversight of diagnostic AI systems. Currently in California Labor and Employment Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 254,
@@ -1443,7 +1611,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_privacy",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Allows consumers to request disclosure of personal data used to train AI models under California's privacy law (CCPA). Currently in California Privacy Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 255,
@@ -1460,7 +1630,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Directs California to conduct a study on AI's impact on youth mental health and report findings to the legislature. Currently in California Senate Rules Committee as of March 15, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 209,
@@ -1477,7 +1649,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-01"
+      "session_end_date": "2026-05-01",
+      "ai_summary": "Prohibits AI systems from independently providing mental health services and requires licensed professionals to conduct all mental health therapy. Signed into law by Tennessee Governor on March 12, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 165,
@@ -1494,7 +1668,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Establishes a right for individuals to access and use computing resources without unreasonable interference or surveillance. Passed New Hampshire House by voice vote and sent to Senate as of March 11, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -1511,7 +1687,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Creates expedited permitting procedures for AI data centers powered by small modular nuclear reactors to streamline deployment. Introduced in New Jersey and referred to committee as of March 10, 2026.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 149,
@@ -1528,7 +1706,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-05"
+      "session_end_date": "2026-04-05",
+      "ai_summary": "Establishes a statutory definition of artificial intelligence for regulatory and legal purposes in Mississippi. Signed into law by Mississippi Governor on March 9, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -1545,7 +1725,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-06"
+      "session_end_date": "2026-03-06",
+      "ai_summary": "Proposed amendments to restrict public disclosure of data center operating information to protect corporate confidentiality. Failed in Utah as of March 6, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -1562,7 +1744,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-13"
+      "session_end_date": "2026-03-13",
+      "ai_summary": "Protects South Dakota residents from utility cost increases and shortages caused by data centers and clarifies state authority to regulate them. Passed South Dakota House 60-7 and enrolled as of March 5, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 210,
@@ -1579,7 +1763,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Requires synthetic media (deepfakes) used in election campaigns to be clearly labeled and discloses AI-generated content. Signed into law by Vermont Governor Scott on March 5, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 22,
@@ -1596,7 +1782,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Requires AI developers to disclose what training data was used to build their models and allow data subjects to request removal. In New York Senate third reading as of March 4, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 23,
@@ -1613,7 +1801,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Mandates disclosure labels on synthetic and AI-generated content to inform consumers about non-human creation. In New York Senate third reading as of March 4, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 24,
@@ -1630,7 +1820,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Creates a Chief AI Officer position within New York state government to oversee AI policy and implementation. In New York Senate third reading as of March 4, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 25,
@@ -1647,7 +1839,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Requires AI systems to disclose accuracy limitations and potential errors in their outputs to users. In New York Senate third reading as of March 4, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 177,
@@ -1664,7 +1858,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-06-16"
+      "session_end_date": "2026-06-16",
+      "ai_summary": "Establishes regulatory standards for AI-powered mental health services, requiring clinical oversight and licensing compliance. Recommended for passage in Maine as of March 4, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 178,
@@ -1681,7 +1877,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-16"
+      "session_end_date": "2026-06-16",
+      "ai_summary": "Regulates child access to AI chatbots by requiring age verification and safety protections for minors. Tabled in Maine as of March 4, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -1698,7 +1896,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-06"
+      "session_end_date": "2026-03-06",
+      "ai_summary": "Proposes amendments to Utah data center regulations covering operational standards and community impact mitigation. Recommends return to House rules committee as of March 2, 2026.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -1714,7 +1914,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "data center legislation",
-      "category": "data_centers"
+      "category": "data_centers",
+      "ai_summary": "Requires the FTC to establish public disclosure requirements for AI training data and algorithms used by companies. Currently referred to House Committee with no further action, meaning it has not advanced beyond initial assignment.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -1731,7 +1933,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Mandates public hearings and disclosure requirements before approving data center development projects in Minnesota. Still in committee referral stage with no advancement, so these requirements are not yet law.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -1748,7 +1952,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Requires environmental impact statements to be completed before data center construction in Minnesota. Referred to committee and not yet advanced, meaning current data center projects may not require this assessment.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 26,
@@ -1765,7 +1971,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Aims to establish safety standards for chatbots marketed to children, likely restricting harmful content and protecting minors' privacy. Currently in Senate Finance Committee and has not passed, so no protections are yet in effect.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 45,
@@ -1782,7 +1990,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Creates a new California AI Standards and Safety Commission to develop and enforce AI safety regulations statewide. In Appropriations Committee, so funding and implementation details are still being determined.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 51,
@@ -1799,7 +2009,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Prohibits chatbots from displaying sexually explicit content to minors in California. Has passed one chamber and moved to the other, indicating significant legislative progress toward becoming law.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 53,
@@ -1816,7 +2028,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Requires California state government to maintain an inventory of all automated decision systems it uses, improving transparency and accountability. Passed the initial chamber and advanced to Assembly, moving toward potential enactment.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 54,
@@ -1833,7 +2047,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Mandates human oversight for automated decision systems used in critical infrastructure to prevent fully autonomous harmful decisions. Currently in committee with no advancement, so these oversight requirements do not yet apply.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 126,
@@ -1850,7 +2066,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-07"
+      "session_end_date": "2026-05-07",
+      "ai_summary": "Prohibits the use of deepfake technology in advertisements in Hawaii to prevent consumer deception. Sent to Senate for consideration, representing moderate progress toward potential passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 127,
@@ -1867,7 +2085,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-07"
+      "session_end_date": "2026-05-07",
+      "ai_summary": "Restricts how health insurance companies can use AI in decision-making, likely requiring human review of coverage denials and rate-setting. Still in House committees without advancement, so no restrictions on insurance AI use are currently in effect.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 143,
@@ -1884,7 +2104,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_privacy",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Protects Michigan consumers from AI-based price discrimination and surveillance by limiting how retailers can use AI to set individual prices. In House Economic Competitiveness Committee and has not advanced beyond referral.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 168,
@@ -1901,7 +2123,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Establishes minimum safety testing and validation requirements that AI systems must meet before deployment in New Jersey. In Senate Commerce Committee without advancement, so no mandatory AI safety testing is currently required.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 169,
@@ -1918,7 +2142,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Proposes protections for whistleblowers who report safety and ethical concerns about generative AI systems in New Jersey. A resolution in Senate Labor Committee, which typically carries less binding force than legislation.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 198,
@@ -1935,7 +2161,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Requires transparency and disclosure when AI is used to make medical decisions in Kansas, likely mandating doctors inform patients of AI involvement. Referred to Financial Institutions Committee, an unusual routing suggesting early-stage consideration.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 212,
@@ -1952,7 +2180,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Requires educational technology companies using AI to register with Vermont and protect student privacy. Currently in committee without advancement, so no registration or privacy requirements are yet enforced.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 216,
@@ -1969,7 +2199,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_privacy",
-      "session_end_date": "2026-07-01"
+      "session_end_date": "2026-07-01",
+      "ai_summary": "Mandates data protection standards for chatbots and requires companies to disclose when AI is being used in North Carolina. In committee with no advancement, so these disclosure and protection requirements are not yet law.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 217,
@@ -1986,7 +2218,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-07-01"
+      "session_end_date": "2026-07-01",
+      "ai_summary": "Protects election integrity by regulating deceptive synthetic media and deepfakes, requiring disclosure or prohibition of materially false election-related AI content. In committee stage with no advancement toward becoming law.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 219,
@@ -2003,7 +2237,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-06-04"
+      "session_end_date": "2026-06-04",
+      "ai_summary": "Encourages schools to offer AI as an elective course in South Carolina to build student technical literacy. In committee, representing a non-regulatory education initiative rather than compliance requirements.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2020,7 +2256,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Establishes local zoning requirements for data centers including noise limits, setbacks from residential areas, and electrical capacity standards in New Hampshire municipalities. Engrossed status indicates it has passed initial chambers and is advanced in the legislative process.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2037,7 +2275,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Imposes a moratorium on new data center construction in Minnesota pending a Public Utility Commission report on environmental and grid impacts. Referred to committee, so the moratorium is not yet in effect.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2054,7 +2294,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-06"
+      "session_end_date": "2026-03-06",
+      "ai_summary": "Requires data centers in Utah to disclose their water usage and likely implement conservation measures or cleaner water sourcing practices. Engrossed status indicates strong legislative progress toward enactment.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2071,7 +2313,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "Blocks construction of new data centers in certain Baltimore City development districts unless they obtain a Certificate of Public Convenience and Necessity. Pending in Senate Rules Committee, so restrictions are not yet active but approaching potential passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2088,7 +2332,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Delays the effective date of a data center tax exemption in Virginia while adding clean energy requirements, meaning data centers face more regulatory conditions to qualify for tax relief. Already passed the House with a substantial majority, making it likely to become law.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2105,7 +2351,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-30"
+      "session_end_date": "2026-04-30",
+      "ai_summary": "Imposes reporting and tariff requirements on Iowa data centers regarding water and energy consumption to manage resource impacts. Referred to committee without advancement, so no mandatory reporting is yet required.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2122,7 +2370,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Establishes minimum operational standards for data center customers in Ohio, likely addressing energy efficiency, cooling systems, and resource usage. Newly introduced and referred to committee, representing early-stage consideration with no requirements yet in effect.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2139,7 +2389,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Establishes Virginia policy encouraging responsible data center operations that support grid reliability and renewable energy integration. The bill has passed both chambers and is ready for executive action.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2156,7 +2408,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "Imposes operational standards on Maryland data centers including noise and vibration limits, backup power requirements, and restrictions on siting in agricultural areas. Currently scheduled for committee hearing, indicating early legislative stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 109,
@@ -2173,7 +2427,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Establishes an Alabama study commission to examine AI's impacts on children's internet safety and develop policy recommendations. The commission has been approved and will now conduct its research.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2190,7 +2446,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Modifies Minnesota's existing data center tax exemptions and clarifies certain regulatory definitions. The bill is in early committee review stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2207,7 +2465,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-04"
+      "session_end_date": "2026-06-04",
+      "ai_summary": "Creates a South Carolina framework for regulating data center siting and development standards. Currently referred to judiciary committee for evaluation.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2224,7 +2484,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Imposes a New York state moratorium on new data center permits and requires the Public Service Commission to evaluate and minimize impacts on electricity and gas utility rates. Still in committee with no floor votes yet.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2241,7 +2503,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Establishes a New York statewide moratorium on new data center permits and directs the PSC to minimize electricity and gas rate impacts from data center operations. Senate companion bill currently in committee referral.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2258,7 +2522,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Requires Virginia data centers to track and report water consumption to state water management authorities. The bill has passed both chambers and is ready for executive action.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 196,
@@ -2275,7 +2541,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Criminalizes the creation, possession, and distribution of AI-generated child sexual abuse material in Kansas. This bill has been signed into law and is now effective.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2292,7 +2560,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Eliminates Pennsylvania's Computer Data Center Equipment Incentive Program, removing tax incentives for data center investment. Currently in committee for consideration.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 93,
@@ -2308,7 +2578,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "facial recognition",
-      "category": "ai_privacy"
+      "category": "ai_privacy",
+      "ai_summary": "Bans Immigration and Customs Enforcement and Customs and Border Protection from using facial recognition technology in federal operations. Introduced in Senate and awaiting committee assignment.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2325,7 +2597,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Michigan resolution urging a temporary pause on state discretionary incentives for data center construction and a comprehensive review of economic and environmental impacts. Pending in House committee with no floor action.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2342,7 +2616,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Creates a Pennsylvania regulatory sandbox program for AI and data center technologies, establishing expedited permitting for high-impact data center projects. Recently amended in Senate committee and advancing in the legislative process.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2359,7 +2635,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-13"
+      "session_end_date": "2026-03-13",
+      "ai_summary": "Imposes a one-year moratorium on construction and expansion of hyperscale data centers in South Dakota. Currently in committee referral stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2376,7 +2654,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Prohibits construction and development of new data centers in Georgia for a specified timeframe and requires impact assessments before approval. Referred to energy and utilities committee.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2393,7 +2673,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Requires Georgia electric utilities to shield residential and retail customers from cost increases caused by data center construction and operations. In committee review stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2410,7 +2692,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-29"
+      "session_end_date": "2026-05-29",
+      "ai_summary": "Requires Oklahoma's Corporation Commission to classify and define data center service categories and establish regulatory standards. Recently introduced and under committee consideration.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2427,7 +2711,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-13"
+      "session_end_date": "2026-03-13",
+      "ai_summary": "Allows South Dakota's Public Utilities Commission to assess actual operational costs against data centers rather than using flat rates. Passed both chambers and is ready for executive action.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2444,7 +2730,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-13"
+      "session_end_date": "2026-03-13",
+      "ai_summary": "Would require disclosure of confidential agreements related to data centers in South Dakota. Failed to pass the House by a narrow margin (30-37 vote).",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2461,7 +2749,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Requires California data centers to submit monthly operational reports to state regulators for transparency and monitoring purposes. Introduced and referred to committee.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2478,7 +2768,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Regulates large-load data centers in Colorado with environmental and operational standards. Failed proposed amendments in Senate committee, stalling further progress.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2495,7 +2787,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Establishes comprehensive environmental, water, and energy regulations for Illinois hyperscale data centers including cumulative impact assessments and water permitting requirements. Referred to committee for detailed review.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2512,7 +2806,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-30"
+      "session_end_date": "2026-04-30",
+      "ai_summary": "Conditions Iowa's data center sales and use tax exemptions on facility contributions to state higher education institutions. Referred to committee for evaluation.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2529,7 +2825,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "Establishes Maryland data center planning and transparency requirements for utilities and local governments. In early committee referral stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2546,7 +2844,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "Regulates Maryland data center energy administration, utility regulation, permitting, and fees to manage costs and environmental impacts. Referred to committee for consideration.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2563,7 +2863,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Modifies Minnesota's data center regulatory provisions, though specific policy changes are not detailed in available information. The bill is in early committee review stage.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2580,7 +2882,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-13"
+      "session_end_date": "2026-03-13",
+      "ai_summary": "Imposes a moratorium on new data center construction in South Dakota while imposing cost and risk limitations on electricity use by existing data centers. Currently in committee review.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 67,
@@ -2597,7 +2901,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Requires transparency and disclosure requirements for companies developing frontier AI models in Illinois. Bill was just introduced and has not yet advanced.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 69,
@@ -2614,7 +2920,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Establishes data provenance tracking requirements for AI systems used in Illinois, requiring documentation of training data sources and lineage. Bill is in early introduction stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 71,
@@ -2631,7 +2939,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Creates comprehensive safety and testing standards for AI systems deployed in Illinois, including pre-deployment auditing requirements. Bill was recently introduced with no committee action yet.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 88,
@@ -2647,7 +2957,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Federal legislation promoting AI innovation while establishing baseline safety and accountability frameworks for frontier AI model development. Currently in Senate committee review.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 157,
@@ -2664,7 +2976,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Establishes legal responsibility frameworks for AI systems in Missouri, clarifying that AI cannot achieve sentience and defining liability for AI-caused harms. Bill is under review in the General Laws Committee.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 160,
@@ -2681,7 +2995,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-05"
+      "session_end_date": "2026-06-05",
+      "ai_summary": "Requires Nebraska AI developers and deployers to publicly disclose risk management practices and safety measures for their systems. Bill is in the Banking/Commerce/Insurance Committee.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 235,
@@ -2698,7 +3014,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_privacy",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Establishes data privacy protections for individuals whose personal information is used to train or operate AI systems in Illinois. Bill was just introduced without committee assignment.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 236,
@@ -2715,7 +3033,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Mandates specific AI safety measures including testing, bias audits, and human oversight requirements for AI systems used in Illinois. Bill is in early introduction stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 237,
@@ -2732,7 +3052,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Sets design and architecture requirements for AI systems deployed in Illinois, including explainability and auditability standards. Bill was recently introduced with no further action.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 238,
@@ -2749,7 +3071,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Amends Illinois nursing practice laws to clarify scope of AI use in nursing care and establish guidelines for AI-assisted medical decisions. Bill is in early introduction stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2766,7 +3090,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Requires data center operators to compensate property owners for documented harm (property damage, environmental impact, etc.) caused by data center construction or operation within 1,000 feet. Bill has advanced to the House Rules Committee.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2783,7 +3109,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Implements a statewide moratorium in Georgia prohibiting local governments from issuing permits for new data center construction until March 1, 2027. Bill is in early committee review.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2800,7 +3128,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-26"
+      "session_end_date": "2026-04-26",
+      "ai_summary": "Removes existing tax exemptions in Washington for data center equipment replacement, increasing tax liability for data center operators. Bill has a public hearing scheduled, advancing toward floor consideration.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2817,7 +3147,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would have required California data center operators to report water use projections to local water suppliers before obtaining business licenses, but was vetoed by the Governor. Bill is dead for this session.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2834,7 +3166,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Imposes a moratorium on new data center construction in Wisconsin, halting expansion of the data center industry. Bill is in early committee review.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2851,7 +3185,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Assembly companion bill to Wisconsin's data center moratorium (SB1061), imposing the same halt on new data center construction. Bill is in early committee review.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2868,7 +3204,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-14"
+      "session_end_date": "2026-03-14",
+      "ai_summary": "Establishes approval process and requirements for new data center facility construction in Florida, likely including environmental and infrastructure standards. Bill is being reviewed in the Economic Infrastructure Subcommittee.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2885,7 +3223,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Directs Virginia's State Corporation Commission to study the feasibility and impact of requiring data centers to use cleaner Tier 4 equivalent generators instead of higher-emission Tier 2 units. Bill is in early committee review.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2902,7 +3242,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Requires Virginia data centers to report on energy generation and storage practices and mandates a study of environmental and infrastructure impacts. Bill is in early committee review.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2919,7 +3261,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-26"
+      "session_end_date": "2026-04-26",
+      "ai_summary": "Establishes regulatory oversight for emerging large energy-use facilities (primarily data centers) in Washington, likely including permitting and environmental requirements. Bill is in early committee review.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -2936,7 +3280,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-26"
+      "session_end_date": "2026-04-26",
+      "ai_summary": "Provides retail sales tax exemptions for construction and equipment of new data centers in eastern Washington counties, creating a financial incentive for data center development. Bill is in early committee review.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -2953,7 +3299,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Prohibits data center operators from using nondisclosure agreements to conceal information about their operations from the public, promoting transparency. Bill is in early committee review.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 19,
@@ -2970,7 +3318,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Enhances New York's RAISE Act to require frontier AI model developers to disclose safety testing and risk mitigation measures to regulators and the public. Bill was recently introduced in the Senate.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 218,
@@ -2987,7 +3337,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_privacy",
-      "session_end_date": "2026-06-04"
+      "session_end_date": "2026-06-04",
+      "ai_summary": "Requires online platforms and services to design features in an age-appropriate manner and implement safeguards for minors, addressing issues like addictive design and privacy protection. The bill has passed the South Carolina House and awaits the Governor's decision.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3004,7 +3356,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Mandates that proposed AI data centers and cryptocurrency mining facilities in New Jersey submit detailed energy usage plans and demonstrate use of clean energy sources. Currently in early legislative stage, referred to committee for consideration.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3021,7 +3375,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Requires New Jersey electric utilities to develop special tariff rates for data centers consuming at least 100 MW monthly, establishing regulatory framework for large-scale data center power agreements. Bill is in initial committee review phase.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3038,7 +3394,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-01"
+      "session_end_date": "2026-05-01",
+      "ai_summary": "Establishes an impact review process for data center projects in Tennessee to assess infrastructure, environmental, and community effects before approval. Currently referred to committee with no further action taken.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 0,
@@ -3055,7 +3413,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-01"
+      "session_end_date": "2026-05-01",
+      "ai_summary": "Requires Tennessee data center owners and operators to pay the full cost of all infrastructure (roads, utilities, drainage) needed to support their facilities rather than passing costs to local governments or ratepayers. Bill is in committee referral stage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3072,7 +3432,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-01"
+      "session_end_date": "2026-05-01",
+      "ai_summary": "Requires certain Tennessee data centers to register with the state and report their electricity usage and utility rates to increase transparency and regulatory oversight. Bill is in early committee stage.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -3089,7 +3451,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-01"
+      "session_end_date": "2026-05-01",
+      "ai_summary": "A companion bill to HB1847 that requires Tennessee data center owners and operators to bear full infrastructure costs needed to support their operations. Currently referred to committee for review.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -3106,7 +3470,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-04"
+      "session_end_date": "2026-06-04",
+      "ai_summary": "Imposes a moratorium in South Carolina prohibiting government entities from approving new data center applications, permits, or providing incentives until January 1, 2028, effectively halting data center expansion for nearly two years. Bill is in committee review.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -3123,7 +3489,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-04"
+      "session_end_date": "2026-06-04",
+      "ai_summary": "Addresses utility cost allocation for commercial data centers in South Carolina, likely aiming to prevent data centers from shifting costs to residential and small business ratepayers. Currently in committee.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -3140,7 +3508,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-04"
+      "session_end_date": "2026-06-04",
+      "ai_summary": "Requires commercial data centers in South Carolina to report their water usage, enabling the state to track and monitor the water consumption impact of data center operations. Bill referred to Judiciary Committee.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -3157,7 +3527,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-13"
+      "session_end_date": "2026-03-13",
+      "ai_summary": "Provides sales and use tax exemptions for equipment and services directly related to data center operations in South Dakota, reducing operational costs for data center developers. Advanced past committee with bipartisan support (9-3 vote).",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -3174,7 +3546,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Establishes environmental accountability standards for AI data centers in Missouri, requiring emissions reductions or environmental mitigation measures. Currently in early House floor stage.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -3191,7 +3565,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Requires hyperscale data centers in New York to offset their electricity demand by funding household electrification projects including heat pumps, solar panels, and battery storage systems. Bill referred to committee for consideration.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3208,7 +3584,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Imposes a temporary moratorium on new AI data center construction and operation in Vermont while the state studies their construction impacts and operational effects. Currently in Finance Committee following first reading.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3225,7 +3603,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Requires Pennsylvania data centers to submit annual reports on energy and water consumption, creating transparency for environmental and resource impact tracking. Bill referred to committee in early January.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3242,7 +3622,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Provides technical and financial assistance to Pennsylvania municipalities and counties in developing or implementing data center ordinances. Referred to committee for review.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 14,
@@ -3259,7 +3641,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "New York's RAISE Act, now law, requires developers of frontier AI models to provide transparency on model capabilities, training data, and safety testing results to state regulators. Signed into law by Governor Hochul in December 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 90,
@@ -3275,7 +3659,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Establishes best practices and documentation standards for AI model development and deployment at the federal level to improve transparency and safety. Referred to House committee for consideration.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 0,
@@ -3292,7 +3678,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Establishes requirements for data center operations in Wisconsin, likely addressing infrastructure, environmental, or utility issues related to large-scale data centers. Currently in committee referral stage.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 79,
@@ -3308,7 +3696,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Proposes a national AI strategy and seeks to remove regulatory barriers to AI development and deployment, positioning the U.S. for AI leadership. Referred to House committee.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 87,
@@ -3324,7 +3714,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_government"
+      "category": "ai_government",
+      "ai_summary": "Establishes federal inter-agency task forces to recruit and retain AI and technology talent within government agencies. Referred to Senate committee.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 0,
@@ -3341,7 +3733,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Creates a grid modernization surcharge on New York data centers that exceed specified electricity thresholds, with revenues directed to a grid modernization fund. Referred to committee in October.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3358,7 +3752,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Requires independent classification of large energy-consuming facilities like data centers to ensure cost accountability and prevent cost-shifting to residential ratepayers. Referred to Senate committee in October.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3375,7 +3771,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Now California law, establishes special rate structures for data centers to protect residential customers and small businesses from bearing disproportionate utility costs. Approved and chaptered as law in October 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3392,7 +3790,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Amends Pennsylvania's Tax Reform Code to modify the Computer Data Center Equipment Incentive Program, adjusting application requirements and eligibility criteria for tax incentives. Referred to committee for review in October 2025.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -3409,7 +3809,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Wisconsin bill that establishes fees for large energy customers, sets renewable resource tariffs, and imposes building requirements, water usage standards, and prevailing wage mandates for data center projects. Currently in committee and has not advanced.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3426,7 +3828,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Senate companion to WI AB722 with identical provisions regulating large energy customer fees, renewable tariffs, data center building standards, water usage, and prevailing wage requirements. Currently in committee with no advancement.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 85,
@@ -3442,7 +3846,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Federal Senate bill aimed at guaranteeing access to and innovation in artificial intelligence development and deployment. Currently in committee with unclear specific policy mechanisms from title alone.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 86,
@@ -3458,7 +3864,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Federal bill establishing security readiness standards and evaluation requirements for advanced artificial intelligence systems. Currently in committee pending further action.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -3475,7 +3883,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Pennsylvania bill regulating commercial data centers through PUC and state agency oversight and establishes a Low-Income Home Energy Assistance Program for areas affected by data center operations. Currently in committee as of September 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 21,
@@ -3492,7 +3902,9 @@
       "change_hash": "",
       "search_query": "algorithmic",
       "category": "ai_privacy",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "New York law now in effect requiring retailers and e-commerce platforms to disclose when they use algorithmic pricing and allow consumers to opt out or access non-personalized pricing. This directly impacts consumer protections against dynamic pricing discrimination.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 32,
@@ -3509,7 +3921,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law signed by Governor requiring transparency reports from frontier AI developers on model capabilities, limitations, and safety testing before deployment. This establishes baseline disclosure requirements for advanced AI systems.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 33,
@@ -3526,7 +3940,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law effective January 1, 2026 requiring AI developers to disclose the sources and characteristics of data used to train generative AI models. This addresses concerns about data provenance and intellectual property in AI training.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 34,
@@ -3543,7 +3959,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law requiring clear disclosure when content is AI-generated across platforms and media to combat misinformation and deception. This transparency requirement is now in effect.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 35,
@@ -3560,7 +3978,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law requiring AI chatbots and companion systems to disclose they are AI, clearly explain their limitations, and not form inappropriate relationships with users. Now in effect to protect vulnerable users.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 36,
@@ -3577,7 +3997,10 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law criminalizing the creation and distribution of non-consensual sexual deepfakes without consent to address intimate image abuse. Now enforceable as a criminal offense.",
+      "introducer_party": "D",
+      "introducer_name": "Shannon Grove"
     },
     {
       "bill_id": 37,
@@ -3594,7 +4017,10 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law requiring online platforms to implement reporting mechanisms and processes for deepfake nude images and to remove them expeditiously. Now in effect to combat non-consensual intimate imagery.",
+      "introducer_party": "D",
+      "introducer_name": "Laphonza Butler"
     },
     {
       "bill_id": 38,
@@ -3611,7 +4037,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law criminalizing the creation and distribution of AI-generated child sexual abuse material (CSAM), treating it as a felony offense. Now enforceable to prevent AI-facilitated child exploitation.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 39,
@@ -3628,7 +4056,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law protecting the digital likenesses and personas of deceased performers from unauthorized commercial use through estate rights. Now in effect to protect performer legacies and family interests.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 40,
@@ -3645,7 +4075,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law prohibiting the creation and distribution of election deepfakes that mislead voters about candidates or voting procedures close to elections. Now enforceable to protect election integrity.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 41,
@@ -3662,7 +4094,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California law requiring political advertisements using AI-generated content to disclose the use of AI and provide methods for viewers to identify AI-generated material. Now in effect for 2026 elections and beyond.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 42,
@@ -3679,7 +4113,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California bill regulating automated decision systems that make consequential decisions about employment, housing, credit, and benefits, requiring impact assessments and bias testing. Designated as two-year bill, returning for consideration in 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 78,
@@ -3695,7 +4131,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Federal House bill aimed at guaranteeing access to and innovation in artificial intelligence development across the United States. Currently in committee pending debate and potential floor action.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 84,
@@ -3711,7 +4149,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Federal bill requiring evaluation and risk assessment frameworks for artificial intelligence systems before deployment in high-impact applications. Currently in committee with no committee action to date.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 221,
@@ -3728,7 +4168,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "New York law now in effect allowing individuals to register their likeness and pursue civil remedies against unauthorized creation and use of synthetic media using their image. This creates private rights of action for deepfake harm.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 61,
@@ -3745,7 +4187,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Illinois law signed by Governor prohibiting the use of AI-based therapy or mental health treatment for certain vulnerable populations and establishing oversight requirements for AI mental health tools. Now in effect to protect patient safety.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -3762,7 +4206,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "Minnesota law passed during special session establishing comprehensive regulatory framework for data centers including operational standards, environmental requirements, and local authority provisions. Now in effect as Chapter 12.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 12,
@@ -3779,7 +4225,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Colorado law signed by Governor Polis delaying implementation of the state's comprehensive AI Act (SB 24-205) from January 1, 2026 to June 30, 2026 to allow more time for rule development. Implementation now postponed approximately six months.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 73,
@@ -3796,7 +4244,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-03-06"
+      "session_end_date": "2026-03-06",
+      "ai_summary": "Utah law extending the sunset date of the state's Artificial Intelligence Policy Act from July 1, 2025 to July 1, 2027 to continue regulatory oversight and data collection on AI impacts. This ensures continued state-level AI governance.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 89,
@@ -3812,7 +4262,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Federal bill proposing uniform national standards for AI development, deployment, and regulation to prevent state-by-state fragmentation and promote American competitiveness. Currently in committee without further action.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 83,
@@ -3828,7 +4280,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Establishes requirements for proactive oversight and governance of artificial intelligence data practices at the federal level. Currently in committee with no enacted status, representing an early-stage proposal for federal AI regulation.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 92,
@@ -3844,7 +4298,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "facial recognition",
-      "category": "ai_privacy"
+      "category": "ai_privacy",
+      "ai_summary": "Proposes federal restrictions on facial recognition technology use and deployment. Remains in committee as of July 2025 with no enacted effect on policy.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 63,
@@ -3861,7 +4317,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Prohibits community colleges in Illinois from employing AI systems or algorithms to teach programming courses, requiring human instructors instead. Enrolled and sent to Governor on June 24, 2025, indicating imminent implementation pending gubernatorial signature.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 1,
@@ -3878,7 +4336,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Creates comprehensive AI governance framework for Texas state government including standards, oversight mechanisms, and accountability measures. Signed into law by Governor Abbott on June 22, 2025, and now in effect.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 2,
@@ -3895,7 +4355,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Criminalizes creation and distribution of non-consensual intimate deepfakes and creates civil liability for victims in Texas. Signed into law on June 20, 2025, providing new criminal penalties and civil remedies.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 3,
@@ -3912,7 +4374,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Mandates social media platforms maintain complaint systems for deepfake content and remove verified non-consensual intimate deepfakes within a specified timeframe. Signed into law on June 20, 2025, creating platform compliance obligations.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 4,
@@ -3929,7 +4393,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Establishes civil liability in Texas for using AI or deception to impersonate others on social media platforms without consent. Signed into law on June 20, 2025, enabling victims to pursue damages.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 6,
@@ -3946,7 +4412,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Requires age verification systems on websites offering AI-generated sexual content involving minors and prohibits such content in Texas. Signed into law on June 20, 2025, implementing protective safeguards against AI-generated child sexual abuse material.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 7,
@@ -3963,7 +4431,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Mandates electronic health records be stored on U.S.-based servers and requires healthcare providers to disclose use of AI in diagnostics to patients in Texas. Signed into law on June 20, 2025, establishing data residency and AI transparency requirements.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 8,
@@ -3980,7 +4450,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Requires Texas state agencies to maintain AI inventories, adopt ethics codes, and conduct risk assessments for all AI systems they deploy. Signed into law on June 20, 2025, establishing accountability and oversight mechanisms for government AI use.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 9,
@@ -3997,7 +4469,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Creates a dedicated AI Division within Texas's Department of Information Resources to centralize state AI policy and governance. Signed into law on June 20, 2025, establishing institutional capacity for AI oversight.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 10,
@@ -4014,7 +4488,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Mandates AI and cybersecurity training programs for state and local government employees in Texas. Signed into law on June 20, 2025, requiring workforce development in AI competency.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -4031,7 +4507,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-03"
+      "session_end_date": "2026-06-03",
+      "ai_summary": "Proposed a study on energy efficiency requirements for AI data centers in Connecticut to address computational resource consumption. Died in committee on June 4, 2025, and will not advance without reintroduction.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 15,
@@ -4048,7 +4526,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Proposes comprehensive New York regulation of AI systems to prevent algorithmic discrimination and bias in decision-making. Currently in committee as of June 1, 2025, with no enacted effect.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 20,
@@ -4065,7 +4545,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Proposes New York legislation regulating the development, deployment, and use of AI systems across sectors. Currently in committee as of June 1, 2025, with no enacted effect.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 28,
@@ -4082,7 +4564,10 @@
       "change_hash": "",
       "search_query": "facial recognition",
       "category": "ai_privacy",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Proposes banning biometric identifying technology including facial recognition in New York schools to protect student privacy. Currently in committee as of June 1, 2025, with no enacted effect.",
+      "introducer_party": "D",
+      "introducer_name": "Julia Salazar"
     },
     {
       "bill_id": 43,
@@ -4099,7 +4584,10 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Proposes California requirements for information security and deployment standards for high-risk AI systems. Currently in committee as of June 1, 2025, with no enacted effect.",
+      "introducer_party": "D",
+      "introducer_name": "Monique Lim\u00f3n"
     },
     {
       "bill_id": 44,
@@ -4116,7 +4604,10 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Proposes California restrictions on automated AI decision-making in employment contexts to protect workers. Currently in committee as of June 1, 2025, with no enacted effect.",
+      "introducer_party": "D",
+      "introducer_name": "Laphonza Butler"
     },
     {
       "bill_id": 47,
@@ -4133,7 +4624,10 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_criminal_justice",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Proposes California regulation of law enforcement use of AI systems including restrictions and oversight mechanisms. Currently in committee as of June 1, 2025, with no enacted effect.",
+      "introducer_party": "D",
+      "introducer_name": "Shannon Grove"
     },
     {
       "bill_id": 48,
@@ -4150,7 +4644,10 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Proposes California requirements for healthcare providers to notify patients when AI is used in treatment decisions and services. Currently in committee as of June 1, 2025, with no enacted effect.",
+      "introducer_party": "D",
+      "introducer_name": "Angelique Ashby"
     },
     {
       "bill_id": 49,
@@ -4167,7 +4664,10 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Proposes California requirement for private sector organizations to conduct impact assessments of automated decision systems. Currently in committee as of June 1, 2025, with no enacted effect.",
+      "introducer_party": "D",
+      "introducer_name": "Angelique Ashby"
     },
     {
       "bill_id": 94,
@@ -4184,7 +4684,10 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Criminalizes creation and distribution of AI-generated child sexual abuse material in Arizona. Enacted on June 1, 2025, establishing criminal penalties for this offense.",
+      "introducer_party": "R",
+      "introducer_name": "John Kavanagh"
     },
     {
       "bill_id": 95,
@@ -4201,7 +4704,10 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Criminalizes creation of fraudulent AI-generated voice recordings impersonating others in Arizona. Enacted on June 1, 2025, creating new criminal liability for voice-based AI fraud.",
+      "introducer_party": "R",
+      "introducer_name": "Anthony Kern"
     },
     {
       "bill_id": 96,
@@ -4218,7 +4724,10 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Establishes criminal liability in Arizona for creating and distributing AI-generated intimate content without consent. Enacted on June 1, 2025, criminalizing non-consensual AI-generated sexual imagery.",
+      "introducer_party": "R",
+      "introducer_name": "John Kavanagh"
     },
     {
       "bill_id": 97,
@@ -4235,7 +4744,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Regulates use of AI in healthcare claims processing and prior authorization decisions in Arizona to ensure transparency and fairness. Enacted on June 1, 2025, governing AI deployment in insurance and healthcare administration.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 108,
@@ -4252,7 +4763,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "AL H365 requires AI studies and education programs focused on labor and employment impacts, now law as of June 2025. This establishes educational initiatives to prepare workers for AI-driven workplace changes.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 116,
@@ -4269,7 +4782,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "DE HB16 creates a state AI Commission to oversee AI policy and regulation in Delaware, effective immediately. The commission will develop frameworks for responsible AI deployment across sectors.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 117,
@@ -4286,7 +4801,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-03-14"
+      "session_end_date": "2026-03-14",
+      "ai_summary": "FL H907 authorizes AI use in pediatric rare disease diagnosis within healthcare settings, now enacted. This enables hospitals and clinicians to deploy diagnostic AI tools for rare pediatric conditions.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 118,
@@ -4303,7 +4820,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-03-14"
+      "session_end_date": "2026-03-14",
+      "ai_summary": "FL H827 would have mandated a study on automation's workforce impact but was vetoed by the Governor on June 1, 2025. The state will not conduct the requested labor market analysis.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 132,
@@ -4320,7 +4839,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-06-03"
+      "session_end_date": "2026-06-03",
+      "ai_summary": "CT SB10 establishes protections for health insurance patients against unfair AI-based decision-making in coverage determinations, now law. Insurers must disclose when AI influences claim denials and provide appeal rights.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 133,
@@ -4337,7 +4858,9 @@
       "change_hash": "",
       "search_query": "algorithmic",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "CO HB1004 would have prohibited AI algorithms from coordinating prices between competitors but was vetoed by Governor Polis on June 1, 2025. Price-fixing through AI remains unregulated under this measure.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 134,
@@ -4354,7 +4877,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "CO SB288 criminalizes creation and distribution of non-consensual intimate digital images and deepfake pornography, now law. Violators face criminal penalties for generating or sharing sexually explicit synthetic media without consent.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 140,
@@ -4371,7 +4896,10 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "MI HB4047 criminalizes creation and distribution of non-consensual intimate deepfakes, effective immediately. Violations are felonies with prison time and fines up to $100,000.",
+      "introducer_party": "D",
+      "introducer_name": "Jewell Jones"
     },
     {
       "bill_id": 141,
@@ -4388,7 +4916,10 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "MI HB4048 is a companion bill to HB4047 providing additional protections against non-consensual intimate deepfakes, now enacted. It strengthens enforcement mechanisms and victim remedies.",
+      "introducer_party": "D",
+      "introducer_name": "Jewell Jones"
     },
     {
       "bill_id": 144,
@@ -4405,7 +4936,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "MN HF971 criminalizes creation and distribution of non-consensual intimate images created or manipulated with AI, now law. Victims can pursue civil remedies and perpetrators face criminal charges.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 145,
@@ -4422,7 +4955,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-05-18"
+      "session_end_date": "2026-05-18",
+      "ai_summary": "MN SF1845 establishes a workforce development program to train workers in AI skills and prepare labor markets for automation, effective June 2025. Funding supports education and reskilling initiatives.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 150,
@@ -4439,7 +4974,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "MO HB1074 criminalizes creation and distribution of non-consensual intimate images using AI deepfake technology, now law. Penalties include fines and imprisonment for violations.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 161,
@@ -4456,7 +4993,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-06-05"
+      "session_end_date": "2026-06-05",
+      "ai_summary": "NE LB615 would prohibit distribution of deepfakes but remains in introduction stage as of June 2025. The bill has not advanced through the legislature.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 162,
@@ -4473,7 +5012,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-06-05"
+      "session_end_date": "2026-06-05",
+      "ai_summary": "NE LB172 would ban creation and distribution of AI-generated child sexual abuse material, currently introduced. No legislative action has occurred yet.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 163,
@@ -4490,7 +5031,9 @@
       "change_hash": "",
       "search_query": "algorithmic",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-05"
+      "session_end_date": "2026-06-05",
+      "ai_summary": "NE LB642 would prohibit discriminatory algorithmic decision-making in AI systems, still in introduction. The bill aims to prevent illegal discrimination in hiring, lending, and housing.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 176,
@@ -4507,7 +5050,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-06-16"
+      "session_end_date": "2026-06-16",
+      "ai_summary": "ME LD125 criminalizes creation and distribution of non-consensual intimate images using AI, now enacted. Maine joins other states in protecting individuals from synthetic intimate abuse.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 179,
@@ -4524,7 +5069,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "MD HB154 criminalizes creation and distribution of non-consensual deepfake pornography, now law. Penalties apply to anyone making or sharing intimate synthetic media without consent.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 180,
@@ -4541,7 +5088,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "MD HB956 establishes a study group to examine private sector AI practices and recommend regulations, effective immediately. The group will report findings to policymakers for future legislation.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 195,
@@ -4558,7 +5107,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "KS SB186 criminalizes synthetic media depicting minors in sexual situations and manipulated depictions of real people, now law. Penalties target child exploitation and fraudulent deepfakes.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 202,
@@ -4575,7 +5126,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-04-29"
+      "session_end_date": "2026-04-29",
+      "ai_summary": "IN HB1047 criminalizes creation of synthetic media depicting minors in sexual or violent content, now enacted. Violators face felony charges with significant prison sentences.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 203,
@@ -4592,7 +5145,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-04-29"
+      "session_end_date": "2026-04-29",
+      "ai_summary": "IN HB1133 requires disclosure labels on political synthetic media and deepfakes before election, now law. Politicians and campaigns must notify voters of AI-generated content.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 204,
@@ -4609,7 +5164,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-04-29"
+      "session_end_date": "2026-04-29",
+      "ai_summary": "IN HB1620 requires healthcare providers and insurers to disclose when AI is used in patient care or coverage decisions, currently in committee. The bill has not been voted on yet.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 211,
@@ -4626,7 +5183,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "VT S197 establishes a state AI Commission to develop AI governance policy and coordinate regulation, effective immediately. The commission will advise the legislature on AI matters.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 213,
@@ -4643,7 +5202,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-03-14"
+      "session_end_date": "2026-03-14",
+      "ai_summary": "WV HB3187 creates an AI Task Force to examine AI use in public sector agencies and recommend oversight policies, now law. The task force will report findings to improve government AI practices.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 214,
@@ -4660,7 +5221,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "VA HB2360 establishes an AI Advisory Council to develop recommendations for AI governance and policy in Virginia, now enacted. The council will guide the state's AI strategy and regulation.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 222,
@@ -4677,7 +5240,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-20"
+      "session_end_date": "2026-05-20",
+      "ai_summary": "Requires disclosure when deepfake media is used in election communications in Alaska. Currently stalled in committee as of June 2025, meaning it has not advanced toward passage.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 223,
@@ -4694,7 +5259,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-05-20"
+      "session_end_date": "2026-05-20",
+      "ai_summary": "Establishes liability standards for creators and distributors of synthetic media in Alaska. Currently stalled in committee as of June 2025 with no clear path to enactment.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 224,
@@ -4711,7 +5278,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-05-20"
+      "session_end_date": "2026-05-20",
+      "ai_summary": "Creates a legislative task force in Alaska to study AI policy and make recommendations. Currently stalled in committee as of June 2025.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 225,
@@ -4728,7 +5297,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Authorizes Colorado to use AI tools to assess language access needs for state services and improve access for non-English speakers. Now law as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 226,
@@ -4745,7 +5316,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Establishes a task force in Colorado to study how AI should be used and regulated in e-discovery for litigation. Now law as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 227,
@@ -4762,7 +5335,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-06-30"
+      "session_end_date": "2026-06-30",
+      "ai_summary": "Authorizes Arizona state agencies to integrate blockchain and AI technology into government operations. Now law as of June 2025.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 228,
@@ -4779,7 +5354,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Creates an AI Advisory Council in Texas to advise state leaders on AI policy and regulation. Now law as of June 2025.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 229,
@@ -4796,7 +5373,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Requires Texas state agencies to conduct impact assessments before deploying AI in public services, ensuring accountability for algorithmic decisions. Now law as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 233,
@@ -4813,7 +5392,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-06-28"
+      "session_end_date": "2026-06-28",
+      "ai_summary": "Prohibits AI systems from using protected medical professional titles in Oregon without a licensed practitioner. Now law as of June 2025, preventing AI from falsely claiming to be doctors or nurses.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 234,
@@ -4830,7 +5411,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-03"
+      "session_end_date": "2026-06-03",
+      "ai_summary": "Establishes new regulatory requirements for insurance companies using AI in Connecticut, including transparency and fairness standards. Now law as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 240,
@@ -4847,7 +5430,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would require AI developers and deployers in California to disclose how their systems work and their impacts on consumers. Currently stalled in committee as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 241,
@@ -4864,7 +5449,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would mandate that companies disclose what data was used to train generative AI systems in California. Currently stalled in committee as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 242,
@@ -4881,7 +5468,9 @@
       "change_hash": "",
       "search_query": "algorithmic",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would prohibit landlords and rental platforms in California from using algorithmic pricing to set rents dynamically. Currently stalled in committee as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 243,
@@ -4898,7 +5487,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would restrict employers in California from using AI-based surveillance tools to monitor workers without consent and disclosure. Currently stalled in committee as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 244,
@@ -4915,7 +5506,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would establish a study in California on the impacts of AI and algorithms on mental health outcomes. Currently stalled in committee as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 245,
@@ -4932,7 +5525,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would regulate workplace monitoring tools using AI in California, requiring employer disclosure and limiting invasive surveillance. Currently stalled in committee as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 246,
@@ -4949,7 +5544,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would create a California study examining how AI affects employment, hiring, and worker protections. Currently stalled in committee as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 247,
@@ -4966,7 +5563,9 @@
       "change_hash": "",
       "search_query": "algorithmic",
       "category": "ai_regulation",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would make algorithmic collusion\u2014where AI systems coordinate pricing or behavior illegally\u2014subject to antitrust enforcement in California. Currently stalled in committee as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 248,
@@ -4983,7 +5582,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "Would require disclosure when AI-generated or AI-manipulated content is used in election communications in California. Currently stalled in committee as of June 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 5,
@@ -5000,7 +5601,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_privacy",
-      "session_end_date": "2026-06-01"
+      "session_end_date": "2026-06-01",
+      "ai_summary": "Requires app stores to implement age verification and obtain parental consent before minors can download apps in Texas. Signed into law by Governor Abbott on May 27, 2025, creating new compliance requirements for digital marketplaces.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5017,7 +5620,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "Would have required data center operators to analyze and report environmental and community impacts in Maryland. Vetoed by the Governor on May 22, 2025 and did not become law.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5034,7 +5639,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-13"
+      "session_end_date": "2026-04-13",
+      "ai_summary": "Requires data center operators in Maryland to analyze and report environmental and community impacts. Vetoed by the Governor on May 22, 2025 but the veto was overridden in December 2025, making it law.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5051,7 +5658,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-25"
+      "session_end_date": "2026-04-25",
+      "ai_summary": "Would have directed Montana to study data center development and impacts. Died in standing committee on May 22, 2025 and did not advance.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5068,7 +5677,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-25"
+      "session_end_date": "2026-04-25",
+      "ai_summary": "Would have created a Montana data center development program and incentives. Died in the legislative process on May 20, 2025 and did not become law.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 75,
@@ -5084,7 +5695,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "deepfake",
-      "category": "deepfakes"
+      "category": "deepfakes",
+      "ai_summary": "Federally prohibits creation and distribution of nonconsensual intimate images and deepfakes, with criminal penalties. Signed into law by President Trump on May 19, 2025, establishing the first major federal prohibition on deepfake-based sexual abuse material.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 0,
@@ -5101,7 +5714,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-25"
+      "session_end_date": "2026-04-25",
+      "ai_summary": "Revises the tax classification and treatment of data center property in Montana to create a class 17 designation with modified tax rates. The bill has been enacted and assigned a chapter number, making it law effective immediately.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 72,
@@ -5118,7 +5733,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-03-06"
+      "session_end_date": "2026-03-06",
+      "ai_summary": "Requires businesses to disclose when AI is used in consumer transactions and obtain consent before deploying AI for decision-making affecting consumers. The law is now in effect as of May 7, 2025, establishing Utah as an early adopter of AI transparency requirements.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 82,
@@ -5134,7 +5751,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Would prohibit the federal government from procuring, using, or funding AI systems developed or controlled by foreign adversaries, with penalties for violations. The bill remains in early committee review with no timeline for passage.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 91,
@@ -5150,7 +5769,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "facial recognition",
-      "category": "ai_privacy"
+      "category": "ai_privacy",
+      "ai_summary": "Would prohibit the federal government from using facial recognition technology for identity verification purposes in any agency or program. The bill is still in committee with uncertain prospects for advancement.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 158,
@@ -5167,7 +5788,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-25"
+      "session_end_date": "2026-04-25",
+      "ai_summary": "Requires critical infrastructure operators to implement AI risk management practices and conduct assessments of AI systems used in their operations. The law is now in effect in Montana, establishing baseline AI governance requirements for essential services.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 232,
@@ -5184,7 +5807,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-30"
+      "session_end_date": "2026-04-30",
+      "ai_summary": "Criminalizes the use of AI-powered robots to harass or stalk individuals, adding penalties for automated harassment and stalking offenses. The law is now in effect in North Dakota, providing a new legal remedy against AI-enabled harassment.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 0,
@@ -5201,7 +5826,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-15"
+      "session_end_date": "2026-05-15",
+      "ai_summary": "Provides Kansas sales tax exemption for construction and remodeling of data centers that meet a minimum $250 million investment threshold, incentivizing major data center development. The bill was approved by the Governor on April 24, 2025, and is now law.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5218,7 +5845,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-07-01"
+      "session_end_date": "2026-07-01",
+      "ai_summary": "Establishes a Data Center Planning Commission to protect North Carolina ratepayers from unexpected costs and impacts of data center development on energy infrastructure. The bill is pending review in the House Rules Committee with no immediate action expected.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5235,7 +5864,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Would have required data centers to conduct site assessments evaluating impacts on sound profiles, water resources, and agricultural land before development. The Governor's veto kills this bill, blocking new environmental review requirements for data centers in Virginia.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5252,7 +5883,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-04"
+      "session_end_date": "2026-06-04",
+      "ai_summary": "Establishes a Data Center Development Office in South Carolina, requires siting permits for new data centers, and mandates performance-based energy efficiency standards. The bill is currently in committee review and has not yet advanced to a floor vote.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 76,
@@ -5268,7 +5901,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_regulation"
+      "category": "ai_regulation",
+      "ai_summary": "Would establish federal funding and resources to expand public access to AI tools and training for consumers and small businesses. The bill remains in committee without scheduled floor action.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 81,
@@ -5284,7 +5919,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_employment"
+      "category": "ai_employment",
+      "ai_summary": "Would establish a federal framework for developing and training the AI and critical technology workforce through grants and partnerships. The bill is in early committee stage with no timeline for consideration.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 102,
@@ -5301,7 +5938,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-04-15"
+      "session_end_date": "2026-04-15",
+      "ai_summary": "Protects individuals' publicity rights against unauthorized use of their likeness in AI-generated content without consent or compensation. The law is now in effect in Arkansas, giving people legal recourse against unauthorized AI impersonation.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 103,
@@ -5318,7 +5957,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-15"
+      "session_end_date": "2026-04-15",
+      "ai_summary": "Requires AI model developers to disclose training data sources and establishes ownership rights for individuals whose content is used to train AI systems. The law is now in effect in Arkansas, creating transparency and ownership protections in AI training.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 104,
@@ -5335,7 +5976,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "deepfakes",
-      "session_end_date": "2026-04-15"
+      "session_end_date": "2026-04-15",
+      "ai_summary": "Creates criminal liability for creating, distributing, or possessing AI-generated sexual imagery that appears indistinguishable from real minors. The law is now in effect in Arkansas, establishing felony penalties for synthetic child sexual abuse material.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 105,
@@ -5352,7 +5995,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-04-15"
+      "session_end_date": "2026-04-15",
+      "ai_summary": "Requires all public entities in Arkansas to develop and adopt formal AI policies governing procurement, use, and oversight of AI systems. The law is now in effect, establishing mandatory AI governance standards for state and local government.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 106,
@@ -5369,7 +6014,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-04-15"
+      "session_end_date": "2026-04-15",
+      "ai_summary": "Creates a private right of action allowing individuals to sue for damages when their likeness or voice is used in AI-generated content without authorization. The law is now in effect in Arkansas, enabling private lawsuits for AI-generated misuse.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 107,
@@ -5386,7 +6033,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-04-15"
+      "session_end_date": "2026-04-15",
+      "ai_summary": "Establishes criminal penalties for distributing synthetic intimate imagery of real people without consent, targeting deepfake pornography. The law is now in effect in Arkansas, criminalizing non-consensual AI-generated intimate content.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 111,
@@ -5403,7 +6052,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-04-01"
+      "session_end_date": "2026-04-01",
+      "ai_summary": "Prohibits the use of AI in certain medical record contexts, likely restricting automated decision-making in patient care or records management. The law is now in effect in Idaho, limiting AI deployment in specific healthcare settings.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 199,
@@ -5420,7 +6071,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-04-15"
+      "session_end_date": "2026-04-15",
+      "ai_summary": "Directs Kentucky to develop comprehensive AI policy standards and best practices for government and regulated industries. The law is now in effect, establishing a mandate for statewide AI governance framework development.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5436,7 +6089,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "data center legislation",
-      "category": "data_centers"
+      "category": "data_centers",
+      "ai_summary": "Would require data center operators to report energy and water consumption data to state governments and the EPA, creating transparency on resource use. The bill is pending in the Senate Environment and Public Works Committee with no immediate action scheduled.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5452,7 +6107,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "data center legislation",
-      "category": "data_centers"
+      "category": "data_centers",
+      "ai_summary": "Would impose a moratorium on new data center construction until Congress passes AI safeguard legislation addressing public safety risks. The bill remains in committee with limited prospects given its restrictive approach to data center development.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 13,
@@ -5469,7 +6126,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Would have regulated developers and deployers of high-risk AI systems through licensing, auditing, and liability requirements in Virginia. The Governor's veto blocks this comprehensive AI regulation bill, preventing new oversight mechanisms for high-risk AI deployment.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5486,7 +6145,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Regulates data center energy consumption, requires sustainability disclosures, and establishes a surcharge mechanism for excessive energy use in New York. The bill is in committee review and represents New York's attempt to regulate data center environmental impacts.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 74,
@@ -5503,7 +6164,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-03-06"
+      "session_end_date": "2026-03-06",
+      "ai_summary": "Establishes regulatory standards for mental health chatbots, likely including safety requirements, disclosure obligations, and limitations on clinical capabilities. The law is now in effect in Utah, creating the first state-level regulation of AI mental health applications.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 77,
@@ -5519,7 +6182,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_criminal_justice"
+      "category": "ai_criminal_justice",
+      "ai_summary": "Establishes a federal strategy to combat financial crimes and misinformation through AI oversight and coordination across agencies. Currently referred to committee with no movement toward passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 80,
@@ -5535,7 +6200,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "artificial intelligence",
-      "category": "ai_government"
+      "category": "ai_government",
+      "ai_summary": "Directs federal agencies to use AI to modernize and streamline the Code of Federal Regulations, reducing complexity and improving accessibility. Early committee stage with limited likelihood of near-term implementation.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5552,7 +6219,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Prohibits Georgia local governments from signing nondisclosure agreements about data centers' electricity and water usage, increasing transparency. Referred to committee on 3/5/25 with no further action.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5568,7 +6237,9 @@
       "research_url": "",
       "change_hash": "",
       "search_query": "data center legislation",
-      "category": "data_centers"
+      "category": "data_centers",
+      "ai_summary": "Requires federal reports on data centers' effects on air quality, water quality, and electricity consumption to establish environmental impact baseline. Referred to House Energy and Commerce Committee with early-stage status.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5585,7 +6256,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Extends Georgia's data center equipment sales tax exemption sunset date, continuing tax incentives for data center infrastructure investment. Referred to Senate Finance Committee.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5602,7 +6275,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Eliminates Georgia's data center equipment sales and use tax exemption, ending preferential tax treatment and potentially increasing state revenue. Referred to Senate Finance Committee where it competes with SB408.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 16,
@@ -5619,7 +6294,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Creates legal protections and rights for individuals affected by automated decision systems in New York, including transparency and appeal rights. Referred to committee with early-stage progression.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 17,
@@ -5636,7 +6313,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Requires disclosure of datasets used to train AI systems in New York to promote transparency and accountability. Recently introduced with minimal progress toward passage.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 18,
@@ -5653,7 +6332,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_education",
-      "session_end_date": "2026-06-19"
+      "session_end_date": "2026-06-19",
+      "ai_summary": "Integrates AI literacy education into New York's digital equity grant program to improve public understanding of AI systems. Recently introduced with no committee action yet.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 123,
@@ -5670,7 +6351,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_government",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Establishes accountability measures for Georgia government use of AI, including pilot programs and studies on AI impacts. In committee as of 3/1/25.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 184,
@@ -5687,7 +6370,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "data_centers",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Addresses emissions and environmental impact from AI computing infrastructure in Massachusetts. Recently filed with no further legislative action.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 185,
@@ -5704,7 +6389,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Establishes consumer protections for interactions with AI systems in Massachusetts, including disclosure and safety requirements. Recently filed with no advancement.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 186,
@@ -5721,7 +6408,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Creates accountability and responsibility framework for AI development and deployment in Massachusetts. Recently filed without subsequent committee referral.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 187,
@@ -5738,7 +6427,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Senate companion to H77, establishing AI responsibility requirements and accountability measures in Massachusetts. Recently filed in parallel track.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 188,
@@ -5755,7 +6446,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_healthcare",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Regulates use of AI and software tools in Massachusetts healthcare decision-making, requiring oversight and transparency. Recently filed with no committee action.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 189,
@@ -5772,7 +6465,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Protects Massachusetts consumers interacting with AI chatbots through disclosure and safety requirements. Recently filed without further progression.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 190,
@@ -5789,7 +6484,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Combines cybersecurity standards with AI regulation in Massachusetts to protect systems from misuse. Recently filed in early legislative stage.",
+      "introducer_party": "B"
     },
     {
       "bill_id": 191,
@@ -5806,7 +6503,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Mandates accountability and transparency in AI systems used in Massachusetts through disclosure and audit requirements. Recently filed without committee assignment.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 192,
@@ -5823,7 +6522,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Balances economic development incentives for emerging AI models with safety guardrails in Massachusetts. Recently filed with minimal progression.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 193,
@@ -5840,7 +6541,9 @@
       "change_hash": "",
       "search_query": "deepfake",
       "category": "deepfakes",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Requires disclosure when synthetic media (deepfakes) appears in political advertisements in Massachusetts. Recently filed without further action.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 194,
@@ -5857,7 +6560,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-12-31"
+      "session_end_date": "2026-12-31",
+      "ai_summary": "Establishes provenance and origin tracking requirements for AI systems in Massachusetts to ensure accountability. Recently filed with no committee referral.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5874,7 +6579,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Creates Illinois income tax credits for data centers located in opportunity zones or owned by minority and women-owned businesses to incentivize investment. Referred to committee with no current action.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5891,7 +6598,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Requires Virginia localities to review zoning ordinances and remove barriers to data center development for industrial uses. Stalled in Counties, Cities and Towns Committee as of 2/11/25.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5908,7 +6617,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Mandates all Illinois data centers report annual energy and water consumption starting January 2026 to track environmental impact. Referred to committee on 2/5/25 without further progression.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5925,7 +6636,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-04-02"
+      "session_end_date": "2026-04-02",
+      "ai_summary": "Extends Georgia's high-technology data center equipment tax exemption sunset date to continue tax incentives for data center expansion. Referred to House Ways and Means Committee.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 0,
@@ -5942,7 +6655,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-03-08"
+      "session_end_date": "2026-03-08",
+      "ai_summary": "Virginia SB960 directs the State Corporation Commission to investigate whether non-data center utility customers are subsidizing data center operations through their rates. Currently in committee review as of January 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5959,7 +6674,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California AB222 mandates that data centers incorporate load-management and demand response capabilities to reduce peak power consumption and grid strain. The bill was introduced and referred to committee in January 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5976,7 +6693,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-06-03"
+      "session_end_date": "2026-06-03",
+      "ai_summary": "Connecticut HB05076 establishes energy and water efficiency requirements specifically for artificial intelligence data centers to limit their environmental impact. The bill was referred to the Joint Committee on Energy and Technology in January 2025.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 0,
@@ -5993,7 +6712,9 @@
       "change_hash": "",
       "search_query": "data center legislation",
       "category": "data_centers",
-      "session_end_date": "2026-09-15"
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California SB58 proposes a sales and use tax exemption for certified data center facilities, reducing their tax burden. The bill was introduced and referred to committee in January 2025.",
+      "introducer_party": "R"
     },
     {
       "bill_id": 62,
@@ -6010,7 +6731,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_employment",
-      "session_end_date": "2026-05-31"
+      "session_end_date": "2026-05-31",
+      "ai_summary": "Illinois HB3773 amends the Human Rights Act to prohibit employers from using AI in hiring, promotion, or employment decisions in a way that discriminates based on protected characteristics. The law became effective January 1, 2026.",
+      "introducer_party": "D"
     },
     {
       "bill_id": 11,
@@ -6027,7 +6750,9 @@
       "change_hash": "",
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
-      "session_end_date": "2026-05-06"
+      "session_end_date": "2026-05-06",
+      "ai_summary": "Colorado SB24-205 establishes consumer protections against algorithmic discrimination by requiring AI systems to avoid unfair treatment based on protected characteristics. The law was signed by Governor Polis and is effective June 30, 2026 (after a delayed implementation).",
+      "introducer_party": "D"
     }
   ],
   "lastRefreshed": "2026-04-10T12:00:00.000Z",
