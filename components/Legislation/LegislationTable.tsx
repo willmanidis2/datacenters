@@ -1,6 +1,6 @@
 "use client";
 
-import { LegiScanBill, LegiScanBillStatus } from "@/lib/types";
+import { LegiScanBill, LegiScanBillStatus, AIBillCategory } from "@/lib/types";
 
 interface LegislationTableProps {
   bills: LegiScanBill[];
@@ -16,6 +16,19 @@ const STATUS_STYLES: Record<LegiScanBillStatus, { bg: string; text: string }> = 
   vetoed: { bg: "bg-orange-50", text: "text-orange-700" },
   failed: { bg: "bg-red-50", text: "text-red-700" },
   pending: { bg: "bg-slate-50", text: "text-slate-600" },
+};
+
+const CATEGORY_LABELS: Record<AIBillCategory, string> = {
+  data_centers: "Data Centers",
+  ai_regulation: "AI Regulation",
+  deepfakes: "Deepfakes",
+  ai_government: "Gov't AI",
+  ai_employment: "Employment",
+  ai_education: "Education",
+  ai_healthcare: "Healthcare",
+  ai_privacy: "Privacy",
+  ai_criminal_justice: "Criminal Justice",
+  ai_other: "Other",
 };
 
 export default function LegislationTable({
@@ -38,6 +51,9 @@ export default function LegislationTable({
               Title
             </th>
             <th className="text-center px-4 py-3 font-semibold text-slate-600">
+              Category
+            </th>
+            <th className="text-center px-4 py-3 font-semibold text-slate-600">
               Status
             </th>
             <th className="text-left px-4 py-3 font-semibold text-slate-600">
@@ -52,7 +68,7 @@ export default function LegislationTable({
           {bills.length === 0 ? (
             <tr>
               <td
-                colSpan={6}
+                colSpan={7}
                 className="px-4 py-8 text-center text-slate-400"
               >
                 No bills found matching your filters.
@@ -79,10 +95,37 @@ export default function LegislationTable({
                     {bill.state}
                   </td>
                   <td className="px-4 py-3 font-mono text-xs">
-                    {bill.bill_number}
+                    <span className="flex items-center gap-1.5">
+                      {bill.bill_number}
+                      {bill.introducer_party && bill.introducer_party !== "unknown" && (
+                        <span
+                          className={`inline-block w-4 h-4 rounded-full text-[10px] font-bold text-white flex items-center justify-center leading-none ${
+                            bill.introducer_party === "D"
+                              ? "bg-blue-500"
+                              : bill.introducer_party === "R"
+                              ? "bg-red-500"
+                              : "bg-gray-400"
+                          }`}
+                          title={`Introduced by ${bill.introducer_name || (bill.introducer_party === "D" ? "Democrat" : "Republican")}`}
+                        >
+                          {bill.introducer_party}
+                        </span>
+                      )}
+                    </span>
                   </td>
                   <td className="px-4 py-3 max-w-xs truncate">
                     {bill.title}
+                  </td>
+                  <td className="px-4 py-3 text-center">
+                    <span
+                      className={`inline-block px-2 py-0.5 rounded text-xs font-medium ${
+                        isSelected
+                          ? "bg-white/10 text-slate-300"
+                          : "bg-slate-50 text-slate-500 border border-slate-200"
+                      }`}
+                    >
+                      {CATEGORY_LABELS[bill.category] || bill.category}
+                    </span>
                   </td>
                   <td className="px-4 py-3 text-center">
                     <span

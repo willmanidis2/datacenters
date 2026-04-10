@@ -83,6 +83,18 @@ export type LegiScanBillStatus =
   | "failed"
   | "pending";
 
+export type AIBillCategory =
+  | "data_centers"
+  | "ai_regulation"
+  | "deepfakes"
+  | "ai_government"
+  | "ai_employment"
+  | "ai_education"
+  | "ai_healthcare"
+  | "ai_privacy"
+  | "ai_criminal_justice"
+  | "ai_other";
+
 export interface LegiScanBill {
   bill_id: number;
   bill_number: string;
@@ -97,6 +109,18 @@ export interface LegiScanBill {
   research_url: string;
   change_hash: string;
   search_query: string;
+  category: AIBillCategory;
+  // Enrichment fields (computed once per day during cache refresh)
+  ai_summary?: string;
+  introducer_party?: "D" | "R" | "I" | "unknown";
+  introducer_name?: string;
+  vote_counts?: {
+    yea: number;
+    nay: number;
+    absent: number;
+    total: number;
+  };
+  session_end_date?: string;
 }
 
 export interface LegiScanBillDetail {
@@ -109,10 +133,13 @@ export interface LegiScanBillDetail {
   status_date: string;
   sponsors: { name: string; party: string; role: string }[];
   history: { date: string; action: string; chamber: string }[];
+  votes: { date: string; chamber: string; yea: number; nay: number; absent: number; passed: boolean }[];
   subjects: string[];
   url: string;
   text_url: string;
+  bill_text?: string;
   state_link: string;
+  session_end_date?: string;
 }
 
 export interface LegislationCache {

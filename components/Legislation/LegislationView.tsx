@@ -18,6 +18,7 @@ export default function LegislationView({
   const [selectedBillId, setSelectedBillId] = useState<number | null>(null);
   const [stateFilter, setStateFilter] = useState("all");
   const [statusFilter, setStatusFilter] = useState("all");
+  const [categoryFilter, setCategoryFilter] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
 
   const uniqueStates = useMemo(
@@ -29,6 +30,7 @@ export default function LegislationView({
     return bills.filter((bill) => {
       if (stateFilter !== "all" && bill.state !== stateFilter) return false;
       if (statusFilter !== "all" && bill.status !== statusFilter) return false;
+      if (categoryFilter !== "all" && bill.category !== categoryFilter) return false;
       if (searchQuery) {
         const q = searchQuery.toLowerCase();
         return (
@@ -39,7 +41,7 @@ export default function LegislationView({
       }
       return true;
     });
-  }, [bills, stateFilter, statusFilter, searchQuery]);
+  }, [bills, stateFilter, statusFilter, categoryFilter, searchQuery]);
 
   return (
     <div>
@@ -47,15 +49,18 @@ export default function LegislationView({
         states={uniqueStates}
         selectedState={stateFilter}
         selectedStatus={statusFilter}
+        selectedCategory={categoryFilter}
         searchQuery={searchQuery}
         onStateChange={setStateFilter}
         onStatusChange={setStatusFilter}
+        onCategoryChange={setCategoryFilter}
         onSearchChange={setSearchQuery}
       />
 
       {selectedBillId && (
         <BillDetail
           billId={selectedBillId}
+          bill={bills.find((b) => b.bill_id === selectedBillId)}
           onClose={() => setSelectedBillId(null)}
         />
       )}

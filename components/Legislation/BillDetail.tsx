@@ -5,11 +5,17 @@ import { LegiScanBillDetail } from "@/lib/types";
 
 interface BillDetailProps {
   billId: number;
+  bill?: { ai_summary?: string; introducer_party?: string; introducer_name?: string; session_end_date?: string };
   onClose: () => void;
 }
 
-export default function BillDetail({ billId, onClose }: BillDetailProps) {
-  const [detail, setDetail] = useState<LegiScanBillDetail | null>(null);
+interface DetailWithEnrichment extends LegiScanBillDetail {
+  ai_summary?: string;
+  introducer_party?: string;
+}
+
+export default function BillDetail({ billId, bill, onClose }: BillDetailProps) {
+  const [detail, setDetail] = useState<DetailWithEnrichment | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(false);
 
@@ -59,6 +65,13 @@ export default function BillDetail({ billId, onClose }: BillDetailProps) {
     );
   }
 
+  // Use session_end_date from detail or from cached bill
+  const sessionEnd = detail.session_end_date || bill?.session_end_date;
+  const daysRemaining = sessionEnd ? getDaysRemaining(sessionEnd) : null;
+
+  // Use AI summary from detail (merged from cache in API) or from bill prop
+  const aiSummary = detail.ai_summary || bill?.ai_summary;
+
   return (
     <div className="bg-white border border-slate-200 rounded-2xl shadow-lg overflow-hidden mb-6">
       {/* Header */}
@@ -72,6 +85,21 @@ export default function BillDetail({ billId, onClose }: BillDetailProps) {
               <span className="inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold bg-blue-50 text-blue-700">
                 {detail.status}
               </span>
+              {daysRemaining !== null && (
+                <span
+                  className={`inline-block px-2.5 py-0.5 rounded-full text-xs font-semibold ${
+                    daysRemaining <= 30
+                      ? "bg-red-50 text-red-700"
+                      : daysRemaining <= 90
+                      ? "bg-amber-50 text-amber-700"
+                      : "bg-slate-50 text-slate-600"
+                  }`}
+                >
+                  {daysRemaining > 0
+                    ? `${daysRemaining} days left in session`
+                    : "Session ended"}
+                </span>
+              )}
             </div>
             <h3 className="text-base text-slate-700 mt-1">{detail.title}</h3>
           </div>
@@ -85,12 +113,36 @@ export default function BillDetail({ billId, onClose }: BillDetailProps) {
         </div>
       </div>
 
+      {/* AI Summary */}
+      {aiSummary && (
+        <div className="px-6 py-4 border-b border-slate-100 bg-blue-50/30">
+          <h4 className="text-xs font-semibold text-blue-600 mb-1.5 uppercase tracking-wider">
+            AI Summary
+          </h4>
+          <p className="text-sm text-slate-700 leading-relaxed">{aiSummary}</p>
+        </div>
+      )}
+
       {/* Description */}
-      {detail.description && (
+      {detail.description && !aiSummary && (
         <div className="px-6 py-4 border-b border-slate-100">
           <p className="text-sm text-slate-600 leading-relaxed">
             {detail.description}
           </p>
+        </div>
+      )}
+
+      {/* Vote Charts */}
+      {detail.votes && detail.votes.length > 0 && (
+        <div className="px-6 py-4 border-b border-slate-100">
+          <h4 className="text-sm font-semibold text-slate-700 mb-3">
+            Vote Results
+          </h4>
+          <div className="space-y-3">
+            {detail.votes.map((vote, i) => (
+              <VotePieChart key={i} vote={vote} />
+            ))}
+          </div>
         </div>
       )}
 
@@ -108,7 +160,17 @@ export default function BillDetail({ billId, onClose }: BillDetailProps) {
               >
                 {s.name}
                 {s.party && (
-                  <span className="text-slate-400">({s.party})</span>
+                  <span
+                    className={`inline-flex items-center justify-center w-4 h-4 rounded-full text-[10px] font-bold text-white ${
+                      s.party === "D"
+                        ? "bg-blue-500"
+                        : s.party === "R"
+                        ? "bg-red-500"
+                        : "bg-gray-400"
+                    }`}
+                  >
+                    {s.party.charAt(0)}
+                  </span>
                 )}
                 {s.role !== "Sponsor" && (
                   <span className="text-slate-400">&middot; {s.role}</span>
@@ -207,4 +269,113 @@ export default function BillDetail({ billId, onClose }: BillDetailProps) {
       </div>
     </div>
   );
+}
+
+function VotePieChart({
+  vote,
+}: {
+  vote: { date: string; chamber: string; yea: number; nay: number; absent: number; passed: boolean };
+}) {
+  const total = vote.yea + vote.nay + vote.absent;
+  if (total === 0) return null;
+
+  const yeaPct = (vote.yea / total) * 100;
+  const nayPct = (vote.nay / total) * 100;
+
+  // SVG donut chart
+  const radius = 28;
+  const circumference = 2 * Math.PI * radius;
+  const yeaArc = (vote.yea / total) * circumference;
+  const nayArc = (vote.nay / total) * circumference;
+  const absentArc = (vote.absent / total) * circumference;
+
+  return (
+    <div className="flex items-center gap-4">
+      <svg width="72" height="72" viewBox="0 0 72 72">
+        <circle
+          cx="36"
+          cy="36"
+          r={radius}
+          fill="none"
+          stroke="#e2e8f0"
+          strokeWidth="8"
+        />
+        {/* Yea (green) */}
+        <circle
+          cx="36"
+          cy="36"
+          r={radius}
+          fill="none"
+          stroke="#22c55e"
+          strokeWidth="8"
+          strokeDasharray={`${yeaArc} ${circumference - yeaArc}`}
+          strokeDashoffset={circumference * 0.25}
+          strokeLinecap="butt"
+        />
+        {/* Nay (red) */}
+        <circle
+          cx="36"
+          cy="36"
+          r={radius}
+          fill="none"
+          stroke="#ef4444"
+          strokeWidth="8"
+          strokeDasharray={`${nayArc} ${circumference - nayArc}`}
+          strokeDashoffset={circumference * 0.25 - yeaArc}
+          strokeLinecap="butt"
+        />
+        {/* Absent (gray) */}
+        {vote.absent > 0 && (
+          <circle
+            cx="36"
+            cy="36"
+            r={radius}
+            fill="none"
+            stroke="#cbd5e1"
+            strokeWidth="8"
+            strokeDasharray={`${absentArc} ${circumference - absentArc}`}
+            strokeDashoffset={circumference * 0.25 - yeaArc - nayArc}
+            strokeLinecap="butt"
+          />
+        )}
+      </svg>
+      <div className="text-xs">
+        <div className="font-semibold text-slate-700 mb-1">
+          {vote.chamber} &middot; {vote.date}
+          <span
+            className={`ml-2 px-1.5 py-0.5 rounded text-[10px] font-bold ${
+              vote.passed
+                ? "bg-green-50 text-green-700"
+                : "bg-red-50 text-red-700"
+            }`}
+          >
+            {vote.passed ? "PASSED" : "FAILED"}
+          </span>
+        </div>
+        <div className="flex items-center gap-3 text-slate-500">
+          <span className="flex items-center gap-1">
+            <span className="w-2 h-2 rounded-full bg-green-500 inline-block" />
+            Yea {vote.yea} ({yeaPct.toFixed(0)}%)
+          </span>
+          <span className="flex items-center gap-1">
+            <span className="w-2 h-2 rounded-full bg-red-500 inline-block" />
+            Nay {vote.nay} ({nayPct.toFixed(0)}%)
+          </span>
+          {vote.absent > 0 && (
+            <span className="flex items-center gap-1">
+              <span className="w-2 h-2 rounded-full bg-slate-300 inline-block" />
+              Absent {vote.absent}
+            </span>
+          )}
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function getDaysRemaining(endDate: string): number {
+  const end = new Date(endDate);
+  const now = new Date();
+  const diff = end.getTime() - now.getTime();
+  return Math.ceil(diff / (1000 * 60 * 60 * 24));
 }
