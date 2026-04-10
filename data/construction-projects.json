@@ -3,7 +3,9 @@
     {
       "name": "Anthropic-Amazon New Carlisle",
       "owner": "Amazon",
-      "users": ["Anthropic"],
+      "users": [
+        "Anthropic"
+      ],
       "powerMW": 1092,
       "capitalCostB": 34.86,
       "lat": 41.6939,
@@ -15,13 +17,30 @@
       "project": "Project Rainier",
       "h100Equivalents": 685914,
       "notes": "Part of the Anthropic-Amazon Project Rainier collaboration. Direct air cooling design.",
-      "sources": ["https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster"],
+      "sources": [
+        "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster"
+      ],
       "timelineEvents": [
-        { "date": "2024-02-09", "description": "Land clearing begins in the northern section" },
-        { "date": "2024-06-10", "description": "Land clearing begins in the southern section" },
-        { "date": "2024-12-28", "description": "Building 1 roof complete" },
-        { "date": "2025-05-28", "description": "Building 1 operational, Buildings 2-3 roof complete" },
-        { "date": "2025-11-28", "description": "Buildings 2-3 operational, Building 4 roof complete" }
+        {
+          "date": "2024-02-09",
+          "description": "Land clearing begins in the northern section"
+        },
+        {
+          "date": "2024-06-10",
+          "description": "Land clearing begins in the southern section"
+        },
+        {
+          "date": "2024-12-28",
+          "description": "Building 1 roof complete"
+        },
+        {
+          "date": "2025-05-28",
+          "description": "Building 1 operational, Buildings 2-3 roof complete"
+        },
+        {
+          "date": "2025-11-28",
+          "description": "Buildings 2-3 operational, Building 4 roof complete"
+        }
       ]
     },
     {
@@ -39,24 +58,46 @@
       "project": null,
       "h100Equivalents": 492168,
       "notes": "15-building campus with estimated total IT power over 650 MW. QTS owns enough adjacent land for 1GW+ by 2030.",
-      "sources": ["https://qtsdatacenters.com/data-centers/richmond-1/"],
+      "sources": [
+        "https://qtsdatacenters.com/data-centers/richmond-1/"
+      ],
       "timelineEvents": [
-        { "date": "2022-04-01", "description": "Land clearing begins at site 2" },
-        { "date": "2023-10-01", "description": "Building 1 retrofitted and likely operational" },
-        { "date": "2024-04-01", "description": "3 buildings operational, land cleared for site 3" },
-        { "date": "2024-09-01", "description": "4 buildings operational, site 3 construction begun" },
-        { "date": "2025-02-01", "description": "7 buildings operational across 3 sites" },
-        { "date": "2025-09-01", "description": "11 buildings operational" }
+        {
+          "date": "2022-04-01",
+          "description": "Land clearing begins at site 2"
+        },
+        {
+          "date": "2023-10-01",
+          "description": "Building 1 retrofitted and likely operational"
+        },
+        {
+          "date": "2024-04-01",
+          "description": "3 buildings operational, land cleared for site 3"
+        },
+        {
+          "date": "2024-09-01",
+          "description": "4 buildings operational, site 3 construction begun"
+        },
+        {
+          "date": "2025-02-01",
+          "description": "7 buildings operational across 3 sites"
+        },
+        {
+          "date": "2025-09-01",
+          "description": "11 buildings operational"
+        }
       ]
     },
     {
       "name": "OpenAI Stargate Abilene",
       "owner": "Oracle",
-      "users": ["OpenAI"],
+      "users": [
+        "OpenAI"
+      ],
       "powerMW": 590,
       "capitalCostB": 16.14,
-      "lat": 32.4100,
-      "lng": -99.7380,
+      "lat": 32.41,
+      "lng": -99.738,
       "state": "Texas",
       "stateId": "TX",
       "status": "active",
@@ -64,22 +105,39 @@
       "project": "Stargate",
       "h100Equivalents": 510359,
       "notes": "First of several Stargate sites. Expected to host OpenAI's largest compute cluster from second half of 2025 through 2026.",
-      "sources": ["https://openai.com/index/five-new-stargate-sites/"],
+      "sources": [
+        "https://openai.com/index/five-new-stargate-sites/"
+      ],
       "timelineEvents": [
-        { "date": "2024-05-31", "description": "Land clearing begins for Buildings 1-2" },
-        { "date": "2024-12-14", "description": "Building 1 roof complete" },
-        { "date": "2025-06-14", "description": "Building 1 operational, Building 2 roof complete" },
-        { "date": "2025-12-14", "description": "Building 2 operational, Buildings 3-4 roof complete" }
+        {
+          "date": "2024-05-31",
+          "description": "Land clearing begins for Buildings 1-2"
+        },
+        {
+          "date": "2024-12-14",
+          "description": "Building 1 roof complete"
+        },
+        {
+          "date": "2025-06-14",
+          "description": "Building 1 operational, Building 2 roof complete"
+        },
+        {
+          "date": "2025-12-14",
+          "description": "Building 2 operational, Buildings 3-4 roof complete"
+        }
       ]
     },
     {
       "name": "Microsoft Fairwater Wisconsin",
       "owner": "Microsoft",
-      "users": ["OpenAI", "Microsoft"],
+      "users": [
+        "OpenAI",
+        "Microsoft"
+      ],
       "powerMW": 555,
       "capitalCostB": 17.71,
-      "lat": 42.7261,
-      "lng": -87.8344,
+      "lat": 42.6749,
+      "lng": -87.8949,
       "state": "Wisconsin",
       "stateId": "WI",
       "status": "active",
@@ -87,18 +145,34 @@
       "project": "Microsoft AI WAN",
       "h100Equivalents": 558828,
       "notes": "Set to be Microsoft's most powerful data center. Two-story buildings with GPU racks networked vertically and horizontally.",
-      "sources": ["https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/"],
+      "sources": [
+        "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/"
+      ],
       "timelineEvents": [
-        { "date": "2023-07-14", "description": "Land clearing begins for Building 1" },
-        { "date": "2024-07-14", "description": "Building 1 roof complete" },
-        { "date": "2025-01-14", "description": "Building 1 operational" },
-        { "date": "2025-09-18", "description": "Microsoft announces as world's most powerful AI datacenter" }
+        {
+          "date": "2023-07-14",
+          "description": "Land clearing begins for Building 1"
+        },
+        {
+          "date": "2024-07-14",
+          "description": "Building 1 roof complete"
+        },
+        {
+          "date": "2025-01-14",
+          "description": "Building 1 operational"
+        },
+        {
+          "date": "2025-09-18",
+          "description": "Microsoft announces as world's most powerful AI datacenter"
+        }
       ]
     },
     {
       "name": "Meta Prometheus",
       "owner": "Meta",
-      "users": ["Meta"],
+      "users": [
+        "Meta"
+      ],
       "powerMW": 531,
       "capitalCostB": 15.64,
       "lat": 40.0829,
@@ -110,21 +184,34 @@
       "project": "Prometheus",
       "h100Equivalents": 493684,
       "notes": "Unusual ad hoc construction spanning full length of New Albany Business Park. Combination of weatherproof tents, colocation facilities and traditional buildings.",
-      "sources": ["https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/"],
+      "sources": [
+        "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/"
+      ],
       "timelineEvents": [
-        { "date": "2022-04-14", "description": "Land clearing begins for Building 4-5" },
-        { "date": "2024-10-01", "description": "5 buildings operational" },
-        { "date": "2025-04-01", "description": "7 buildings operational with new AI-optimized additions" }
+        {
+          "date": "2022-04-14",
+          "description": "Land clearing begins for Building 4-5"
+        },
+        {
+          "date": "2024-10-01",
+          "description": "5 buildings operational"
+        },
+        {
+          "date": "2025-04-01",
+          "description": "7 buildings operational with new AI-optimized additions"
+        }
       ]
     },
     {
       "name": "Microsoft Fairwater Atlanta",
       "owner": "Microsoft",
-      "users": ["OpenAI"],
+      "users": [
+        "OpenAI"
+      ],
       "powerMW": 433,
       "capitalCostB": 11.86,
-      "lat": 33.4490,
-      "lng": -84.4570,
+      "lat": 33.4453,
+      "lng": -84.5254,
       "state": "Georgia",
       "stateId": "GA",
       "status": "active",
@@ -132,21 +219,34 @@
       "project": "Microsoft AI WAN",
       "h100Equivalents": 374125,
       "notes": "QTS-built data center with Microsoft as tenant, possibly for OpenAI compute.",
-      "sources": ["https://www.bloomberg.com/news/features/2024-12-08/georgia-s-blackstone-backed-qts-data-center-hits-resistance-over-ai-power-needs"],
+      "sources": [
+        "https://www.bloomberg.com/news/features/2024-12-08/georgia-s-blackstone-backed-qts-data-center-hits-resistance-over-ai-power-needs"
+      ],
       "timelineEvents": [
-        { "date": "2023-04-09", "description": "Land clearing begins for southern part (Building 1-2)" },
-        { "date": "2024-07-01", "description": "Building 1 roof complete" },
-        { "date": "2025-01-01", "description": "Building 1 operational" }
+        {
+          "date": "2023-04-09",
+          "description": "Land clearing begins for southern part (Building 1-2)"
+        },
+        {
+          "date": "2024-07-01",
+          "description": "Building 1 roof complete"
+        },
+        {
+          "date": "2025-01-01",
+          "description": "Building 1 operational"
+        }
       ]
     },
     {
       "name": "xAI Colossus 1",
       "owner": "xAI",
-      "users": ["xAI"],
+      "users": [
+        "xAI"
+      ],
       "powerMW": 425,
       "capitalCostB": 11.43,
-      "lat": 35.0640,
-      "lng": -90.0381,
+      "lat": 35.0577,
+      "lng": -90.1534,
       "state": "Tennessee",
       "stateId": "TN",
       "status": "active",
@@ -154,18 +254,34 @@
       "project": null,
       "h100Equivalents": 275796,
       "notes": "Converted from a factory in 2024. Unusual mix of cooling and power infrastructure. Initially powered by portable gas turbines.",
-      "sources": ["https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d"],
+      "sources": [
+        "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d"
+      ],
       "timelineEvents": [
-        { "date": "2024-04-24", "description": "Construction starts, retrofitting former Electrolux building" },
-        { "date": "2024-08-11", "description": "First workload: 25k H100s online" },
-        { "date": "2024-09-02", "description": "100k H100s online" },
-        { "date": "2025-02-17", "description": "150k H100s and 50k H200s online" }
+        {
+          "date": "2024-04-24",
+          "description": "Construction starts, retrofitting former Electrolux building"
+        },
+        {
+          "date": "2024-08-11",
+          "description": "First workload: 25k H100s online"
+        },
+        {
+          "date": "2024-09-02",
+          "description": "100k H100s online"
+        },
+        {
+          "date": "2025-02-17",
+          "description": "150k H100s and 50k H200s online"
+        }
       ]
     },
     {
       "name": "Google New Albany",
       "owner": "Google Cloud",
-      "users": ["Google DeepMind"],
+      "users": [
+        "Google DeepMind"
+      ],
       "powerMW": 407,
       "capitalCostB": 13.01,
       "lat": 40.0813,
@@ -177,17 +293,30 @@
       "project": null,
       "h100Equivalents": 207175,
       "notes": "Located in New Albany Business Park alongside Meta Prometheus. Only includes buildings added or modified since 2024.",
-      "sources": ["https://sustainability.google/reports/google-2025-environmental-report/"],
+      "sources": [
+        "https://sustainability.google/reports/google-2025-environmental-report/"
+      ],
       "timelineEvents": [
-        { "date": "2024-04-20", "description": "Building 1 operational, Building 2 roof complete" },
-        { "date": "2024-10-20", "description": "Building 2 operational" },
-        { "date": "2025-07-01", "description": "Buildings 3-4 under construction" }
+        {
+          "date": "2024-04-20",
+          "description": "Building 1 operational, Building 2 roof complete"
+        },
+        {
+          "date": "2024-10-20",
+          "description": "Building 2 operational"
+        },
+        {
+          "date": "2025-07-01",
+          "description": "Buildings 3-4 under construction"
+        }
       ]
     },
     {
       "name": "Amazon Madison Mega Site",
       "owner": "Amazon",
-      "users": ["Anthropic"],
+      "users": [
+        "Anthropic"
+      ],
       "powerMW": 341,
       "capitalCostB": 10.89,
       "lat": 32.5994,
@@ -199,21 +328,34 @@
       "project": "Project Rainier",
       "h100Equivalents": 214348,
       "notes": "Direct air cooling design. Plausibly part of Anthropic-Amazon Project Rainier collaboration.",
-      "sources": ["https://www.nytimes.com/2025/06/24/technology/amazon-ai-data-centers.html"],
+      "sources": [
+        "https://www.nytimes.com/2025/06/24/technology/amazon-ai-data-centers.html"
+      ],
       "timelineEvents": [
-        { "date": "2023-10-02", "description": "Land clearing begins" },
-        { "date": "2024-10-02", "description": "Building 1 roof complete" },
-        { "date": "2025-04-02", "description": "Building 1 operational" }
+        {
+          "date": "2023-10-02",
+          "description": "Land clearing begins"
+        },
+        {
+          "date": "2024-10-02",
+          "description": "Building 1 roof complete"
+        },
+        {
+          "date": "2025-04-02",
+          "description": "Building 1 operational"
+        }
       ]
     },
     {
       "name": "xAI Colossus 2",
       "owner": "xAI",
-      "users": ["xAI"],
+      "users": [
+        "xAI"
+      ],
       "powerMW": 302,
-      "capitalCostB": 8.90,
-      "lat": 35.0470,
-      "lng": -90.0810,
+      "capitalCostB": 8.9,
+      "lat": 34.9997,
+      "lng": -90.043,
       "state": "Tennessee",
       "stateId": "TN",
       "status": "active",
@@ -221,18 +363,28 @@
       "project": null,
       "h100Equivalents": 280838,
       "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi.",
-      "sources": ["https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d"],
+      "sources": [
+        "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d"
+      ],
       "timelineEvents": [
-        { "date": "2025-01-01", "description": "Building conversion begins" },
-        { "date": "2025-06-01", "description": "Operational with initial GPU deployment" }
+        {
+          "date": "2025-01-01",
+          "description": "Building conversion begins"
+        },
+        {
+          "date": "2025-06-01",
+          "description": "Operational with initial GPU deployment"
+        }
       ]
     },
     {
       "name": "Microsoft Goodyear",
       "owner": "Microsoft",
-      "users": ["OpenAI"],
+      "users": [
+        "OpenAI"
+      ],
       "powerMW": 263,
-      "capitalCostB": 7.90,
+      "capitalCostB": 7.9,
       "lat": 33.4292,
       "lng": -112.3584,
       "state": "Arizona",
@@ -242,17 +394,30 @@
       "project": null,
       "h100Equivalents": 205145,
       "notes": "Spans six years of construction. Most compute from Building 3-4 with GB200 NVL72 servers.",
-      "sources": ["https://newsletter.semianalysis.com/p/microsofts-ai-strategy-deconstructed"],
+      "sources": [
+        "https://newsletter.semianalysis.com/p/microsofts-ai-strategy-deconstructed"
+      ],
       "timelineEvents": [
-        { "date": "2021-06-21", "description": "Land clearing begins for Building 1" },
-        { "date": "2023-04-24", "description": "Building 1 operational" },
-        { "date": "2024-11-01", "description": "Building 3 operational with GB200 NVL72 servers" }
+        {
+          "date": "2021-06-21",
+          "description": "Land clearing begins for Building 1"
+        },
+        {
+          "date": "2023-04-24",
+          "description": "Building 1 operational"
+        },
+        {
+          "date": "2024-11-01",
+          "description": "Building 3 operational with GB200 NVL72 servers"
+        }
       ]
     },
     {
       "name": "Meta Temple",
       "owner": "Meta",
-      "users": ["Meta"],
+      "users": [
+        "Meta"
+      ],
       "powerMW": 198,
       "capitalCostB": 5.83,
       "lat": 31.1171,
@@ -264,21 +429,34 @@
       "project": null,
       "h100Equivalents": 173248,
       "notes": "Traditional H-shaped building was demolished mid-construction in favor of Meta's new AI-optimized design.",
-      "sources": ["https://jedunn.com/projects/meta-temple-data-center/"],
+      "sources": [
+        "https://jedunn.com/projects/meta-temple-data-center/"
+      ],
       "timelineEvents": [
-        { "date": "2022-04-01", "description": "Land clearing begins" },
-        { "date": "2023-04-01", "description": "Traditional building demolished, AI-optimized redesign" },
-        { "date": "2025-06-01", "description": "Building 1-2 operational with new AI design" }
+        {
+          "date": "2022-04-01",
+          "description": "Land clearing begins"
+        },
+        {
+          "date": "2023-04-01",
+          "description": "Traditional building demolished, AI-optimized redesign"
+        },
+        {
+          "date": "2025-06-01",
+          "description": "Building 1-2 operational with new AI design"
+        }
       ]
     },
     {
       "name": "Google Council Bluffs (East)",
       "owner": "Google Cloud",
-      "users": ["Google DeepMind"],
+      "users": [
+        "Google DeepMind"
+      ],
       "powerMW": 190,
       "capitalCostB": 6.05,
-      "lat": 41.2089,
-      "lng": -95.8517,
+      "lat": 41.1674,
+      "lng": -95.7931,
       "state": "Iowa",
       "stateId": "IA",
       "status": "active",
@@ -288,18 +466,26 @@
       "notes": "Focus on buildings added to the east since 2024, likely to have most AI compute.",
       "sources": [],
       "timelineEvents": [
-        { "date": "2022-09-06", "description": "Land clearing begins for east buildings" },
-        { "date": "2024-12-01", "description": "Building 3 operational with AI-focused hardware" }
+        {
+          "date": "2022-09-06",
+          "description": "Land clearing begins for east buildings"
+        },
+        {
+          "date": "2024-12-01",
+          "description": "Building 3 operational with AI-focused hardware"
+        }
       ]
     },
     {
       "name": "Google Omaha",
       "owner": "Google Cloud",
-      "users": ["Google DeepMind"],
+      "users": [
+        "Google DeepMind"
+      ],
       "powerMW": 189,
       "capitalCostB": 6.05,
-      "lat": 41.1749,
-      "lng": -96.0628,
+      "lat": 41.3357,
+      "lng": -96.0885,
       "state": "Nebraska",
       "stateId": "NE",
       "status": "active",
@@ -307,21 +493,34 @@
       "project": null,
       "h100Equivalents": 65184,
       "notes": "Second Google site in Nebraska. Compute estimated from cooling tower satellite imagery.",
-      "sources": ["https://sustainability.google/reports/google-2025-environmental-report/"],
+      "sources": [
+        "https://sustainability.google/reports/google-2025-environmental-report/"
+      ],
       "timelineEvents": [
-        { "date": "2021-11-25", "description": "Land clearing begins" },
-        { "date": "2024-04-08", "description": "Building 1 operational" },
-        { "date": "2024-07-29", "description": "Building 2 cooling towers installed" }
+        {
+          "date": "2021-11-25",
+          "description": "Land clearing begins"
+        },
+        {
+          "date": "2024-04-08",
+          "description": "Building 1 operational"
+        },
+        {
+          "date": "2024-07-29",
+          "description": "Building 2 cooling towers installed"
+        }
       ]
     },
     {
       "name": "Google Cedar Rapids",
       "owner": "Google Cloud",
-      "users": ["Google DeepMind"],
+      "users": [
+        "Google DeepMind"
+      ],
       "powerMW": 105,
       "capitalCostB": 3.34,
-      "lat": 41.9330,
-      "lng": -91.6843,
+      "lat": 41.9219,
+      "lng": -91.7156,
       "state": "Iowa",
       "stateId": "IA",
       "status": "active",
@@ -331,18 +530,27 @@
       "notes": "Similar to earlier Google data centers. Uses more than twice as many cooling towers per building.",
       "sources": [],
       "timelineEvents": [
-        { "date": "2024-05-01", "description": "Land clearing begins" },
-        { "date": "2025-06-01", "description": "Building 1 under construction" }
+        {
+          "date": "2024-05-01",
+          "description": "Land clearing begins"
+        },
+        {
+          "date": "2025-06-01",
+          "description": "Building 1 under construction"
+        }
       ]
     },
     {
       "name": "Fluidstack Lake Mariner",
       "owner": "Fluidstack",
-      "users": ["Anthropic", "G42"],
+      "users": [
+        "Anthropic",
+        "G42"
+      ],
       "powerMW": 68,
       "capitalCostB": 2.22,
-      "lat": 43.3389,
-      "lng": -78.5456,
+      "lat": 43.3489,
+      "lng": -78.6029,
       "state": "New York",
       "stateId": "NY",
       "status": "active",
@@ -350,20 +558,30 @@
       "project": null,
       "h100Equivalents": 71753,
       "notes": "Built at former coal plant on Lake Ontario. Fluidstack deploying Google TPUs for Anthropic. Terawulf-owned campus.",
-      "sources": ["https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"],
+      "sources": [
+        "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+      ],
       "timelineEvents": [
-        { "date": "2025-01-01", "description": "Buildings 1-2 leased to Core42 (70 MW)" },
-        { "date": "2025-06-01", "description": "Buildings 3-5 leased to Fluidstack (440 MW planned)" }
+        {
+          "date": "2025-01-01",
+          "description": "Buildings 1-2 leased to Core42 (70 MW)"
+        },
+        {
+          "date": "2025-06-01",
+          "description": "Buildings 3-5 leased to Fluidstack (440 MW planned)"
+        }
       ]
     },
     {
       "name": "Google Pryor (North)",
       "owner": "Google Cloud",
-      "users": ["Google DeepMind"],
+      "users": [
+        "Google DeepMind"
+      ],
       "powerMW": 65,
       "capitalCostB": 2.07,
-      "lat": 36.3023,
-      "lng": -95.2919,
+      "lat": 36.24,
+      "lng": -95.333,
       "state": "Oklahoma",
       "stateId": "OK",
       "status": "active",
@@ -371,9 +589,14 @@
       "project": null,
       "h100Equivalents": 17938,
       "notes": "Dating back to 2007, serves Google Workspace and ML. Only tracking buildings completed since 2024.",
-      "sources": ["https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/"],
+      "sources": [
+        "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/"
+      ],
       "timelineEvents": [
-        { "date": "2024-07-19", "description": "Building 1 operational (post-2024 AI-focused)" }
+        {
+          "date": "2024-07-19",
+          "description": "Building 1 operational (post-2024 AI-focused)"
+        }
       ]
     },
     {
@@ -382,29 +605,37 @@
       "users": [],
       "powerMW": 44.8,
       "capitalCostB": 1.22,
-      "lat": 33.4292,
-      "lng": -112.3584,
-      "state": "Arizona",
-      "stateId": "AZ",
+      "lat": 29.4167,
+      "lng": -98.7886,
+      "state": "Texas",
+      "stateId": "TX",
       "status": "active",
-      "address": "Goodyear, AZ 85338",
+      "address": "14720 Omicron Dr, San Antonio, TX 78245",
       "project": null,
       "h100Equivalents": 38706,
       "notes": "Two buildings in San Antonio area. TX11 operational, TX12 under construction. TX13 planned.",
       "sources": [],
       "timelineEvents": [
-        { "date": "2023-12-15", "description": "Land clearing begins for Buildings 1-2" },
-        { "date": "2025-06-15", "description": "Building TX11 operational" }
+        {
+          "date": "2023-12-15",
+          "description": "Land clearing begins for Buildings 1-2"
+        },
+        {
+          "date": "2025-06-15",
+          "description": "Building TX11 operational"
+        }
       ]
     },
     {
       "name": "Meta Hyperion",
       "owner": "Meta",
-      "users": ["Meta"],
+      "users": [
+        "Meta"
+      ],
       "powerMW": 0,
       "capitalCostB": 0,
-      "lat": 32.3659,
-      "lng": -91.8274,
+      "lat": 32.4771,
+      "lng": -91.6323,
       "state": "Louisiana",
       "stateId": "LA",
       "status": "planned",
@@ -412,16 +643,20 @@
       "project": "Hyperion",
       "h100Equivalents": 0,
       "notes": "Enormous tract of land, 3x Central Park. Set to host Meta's next flagship AI cluster after Prometheus. 1.8 GW substation planned.",
-      "sources": ["https://datacenters.atmeta.com/richland-parish-data-center/"],
+      "sources": [
+        "https://datacenters.atmeta.com/richland-parish-data-center/"
+      ],
       "timelineEvents": []
     },
     {
       "name": "Goodnight (Crusoe/Google)",
       "owner": "Crusoe",
-      "users": ["Google"],
+      "users": [
+        "Google"
+      ],
       "powerMW": 0,
       "capitalCostB": 0,
-      "lat": 34.9400,
+      "lat": 34.94,
       "lng": -101.3256,
       "state": "Texas",
       "stateId": "TX",
@@ -430,17 +665,21 @@
       "project": null,
       "h100Equivalents": 0,
       "notes": "Major mid-flight design change from 7 X-shaped to 6 rectangular buildings. Located in the town of Claude, Texas.",
-      "sources": ["https://www.reuters.com/business/google-invest-40-billion-new-data-centers-texas-bloomberg-news-reports-2025-11-14/"],
+      "sources": [
+        "https://www.reuters.com/business/google-invest-40-billion-new-data-centers-texas-bloomberg-news-reports-2025-11-14/"
+      ],
       "timelineEvents": []
     },
     {
       "name": "Amazon Ridgeland",
       "owner": "Amazon",
-      "users": ["Anthropic"],
+      "users": [
+        "Anthropic"
+      ],
       "powerMW": 0,
       "capitalCostB": 0,
-      "lat": 32.4282,
-      "lng": -90.1325,
+      "lat": 32.3995,
+      "lng": -90.1205,
       "state": "Mississippi",
       "stateId": "MS",
       "status": "planned",
@@ -448,19 +687,26 @@
       "project": "Project Rainier",
       "h100Equivalents": 0,
       "notes": "Direct air cooling. Plausibly part of Anthropic-Amazon Project Rainier.",
-      "sources": ["https://www.nytimes.com/2025/06/24/technology/amazon-ai-data-centers.html"],
+      "sources": [
+        "https://www.nytimes.com/2025/06/24/technology/amazon-ai-data-centers.html"
+      ],
       "timelineEvents": [
-        { "date": "2024-02-24", "description": "Land clearing begins" }
+        {
+          "date": "2024-02-24",
+          "description": "Land clearing begins"
+        }
       ]
     },
     {
       "name": "Coreweave Helios",
       "owner": "Coreweave",
-      "users": ["Microsoft"],
+      "users": [
+        "Microsoft"
+      ],
       "powerMW": 0,
       "capitalCostB": 0,
-      "lat": 33.7490,
-      "lng": -100.4171,
+      "lat": 33.7806,
+      "lng": -100.8671,
       "state": "Texas",
       "stateId": "TX",
       "status": "planned",
@@ -468,7 +714,9 @@
       "project": null,
       "h100Equivalents": 0,
       "notes": "Retrofitted from former Galaxy crypto-mining facility. 800 MW approved, 2.7 GW under study.",
-      "sources": ["https://investor.galaxy.com/news/news-details/2025/Galaxy-Announces-Third-Quarter-2025-Financial-Results/default.aspx"],
+      "sources": [
+        "https://investor.galaxy.com/news/news-details/2025/Galaxy-Announces-Third-Quarter-2025-Financial-Results/default.aspx"
+      ],
       "timelineEvents": []
     },
     {
@@ -477,8 +725,8 @@
       "users": [],
       "powerMW": 0,
       "capitalCostB": 0,
-      "lat": 41.8889,
-      "lng": -91.6600,
+      "lat": 41.9056,
+      "lng": -91.7511,
       "state": "Iowa",
       "stateId": "IA",
       "status": "planned",
@@ -486,17 +734,21 @@
       "project": null,
       "h100Equivalents": 0,
       "notes": "Two phases expected late 2026 and late 2027. 616 MW load request identified.",
-      "sources": ["https://www.thegazette.com/business/fast-start-to-cedar-rapids-data-center-projects/"],
+      "sources": [
+        "https://www.thegazette.com/business/fast-start-to-cedar-rapids-data-center-projects/"
+      ],
       "timelineEvents": []
     },
     {
       "name": "OpenAI Stargate Shackelford",
       "owner": "Oracle",
-      "users": ["OpenAI"],
+      "users": [
+        "OpenAI"
+      ],
       "powerMW": 0,
       "capitalCostB": 0,
-      "lat": 32.4100,
-      "lng": -99.5800,
+      "lat": 32.41,
+      "lng": -99.58,
       "state": "Texas",
       "stateId": "TX",
       "status": "planned",
@@ -504,17 +756,22 @@
       "project": "Stargate",
       "h100Equivalents": 0,
       "notes": "Second US Stargate site, 20km from Abilene. Developed by Vantage (codename 'Frontier'). First building late 2026.",
-      "sources": ["https://openai.com/index/five-new-stargate-sites/", "https://vantage-dc.com/data-center-locations/north-america/shackelford-county-tx"],
+      "sources": [
+        "https://openai.com/index/five-new-stargate-sites/",
+        "https://vantage-dc.com/data-center-locations/north-america/shackelford-county-tx"
+      ],
       "timelineEvents": []
     },
     {
       "name": "Crusoe Abilene Expansion",
       "owner": "Microsoft",
-      "users": ["Microsoft"],
+      "users": [
+        "Microsoft"
+      ],
       "powerMW": 0,
       "capitalCostB": 0,
-      "lat": 32.4100,
-      "lng": -99.7580,
+      "lat": 32.41,
+      "lng": -99.758,
       "state": "Texas",
       "stateId": "TX",
       "status": "planned",
@@ -522,7 +779,9 @@
       "project": null,
       "h100Equivalents": 0,
       "notes": "Originally planned for OpenAI/Oracle Stargate expansion. Oracle and OpenAI pulled out; acquired by Microsoft.",
-      "sources": ["https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center"],
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center"
+      ],
       "timelineEvents": []
     }
   ],

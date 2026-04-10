@@ -3,6 +3,7 @@
 import { ConstructionProject, StateData } from "@/lib/types";
 import ProjectNews from "./ProjectNews";
 import OutrageScore from "./OutrageScore";
+import SatelliteView from "./SatelliteView";
 
 interface ProjectDetailProps {
   project: ConstructionProject;
@@ -138,6 +139,9 @@ export default function ProjectDetail({
           </div>
         </div>
       )}
+
+      {/* Satellite Imagery */}
+      <SatelliteView lat={project.lat} lng={project.lng} name={project.name} />
 
       {/* Local News */}
       <ProjectNews
