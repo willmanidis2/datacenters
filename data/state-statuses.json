@@ -761,16 +761,16 @@
       "name": "Maine",
       "slug": "maine",
       "status": "active_restrictions",
-      "summary": "Maine's LD 307 passed the House 82-62 on April 6 and the Senate 19-13 on April 7, 2026. It awaits final enactment votes in both chambers. If enacted, it would be the first statewide data center moratorium in the US, banning facilities over 20 MW until November 2027 and creating a Data Center Coordination Council.",
+      "summary": "Maine's LD 307 completed final legislative passage on April 14–15, 2026 (House 79-62, Senate 21-13) and now awaits Governor Janet Mills' signature. If signed, it would be the first statewide data center moratorium in the US, banning facilities over 20 MW until November 2027 and creating a Data Center Coordination Council. Governor Mills has expressed concerns about the lack of a carveout for a proposed Jay data center, and Franklin County officials are urging a veto.",
       "bills": [
         {
           "id": "LD 307",
           "title": "Act to Impose a Moratorium on Large-Scale Data Centers",
-          "status": "Passed both chambers — awaiting enactment vote",
+          "status": "Passed — Awaiting Governor's Signature",
           "url": "https://legislature.maine.gov/billtracker/#Item/132/LD/307"
         }
       ],
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "active_restrictions",
         "local_restrictions"
