@@ -55,13 +55,13 @@
       "fips": "04",
       "name": "Arizona",
       "slug": "arizona",
-      "status": "under_discussion",
-      "summary": "Arizona has introduced HB 2756 to prevent data center grid connection costs from being shifted to residential ratepayers. The state remains a major data center hub with active incentive programs.",
+      "status": "legislation_advancing",
+      "summary": "Arizona HB 2756 passed the House 38-19 (February 23) and cleared the Senate Natural Resources Committee 5-2 (March 17). It would require the Corporation Commission to adopt rules preventing data center grid costs from shifting to other ratepayers. Final Senate floor vote pending.",
       "bills": [
         {
           "id": "HB 2756",
           "title": "Data Center Cost-Shifting Protection Act",
-          "status": "In committee",
+          "status": "Passed House — Senate committee approved",
           "url": "https://www.azleg.gov/legtext/56leg/2R/bills/HB2756S.htm"
         }
       ],
@@ -85,9 +85,9 @@
           "url": "https://www.kjzz.org/fronteras-desk/2026-04-08/tucson-leaders-move-closer-to-approving-city-code-amendment-to-regulate-data-centers"
         }
       ],
-      "lastUpdated": "2026-04-10",
+      "lastUpdated": "2026-04-22",
       "tags": [
-        "under_discussion",
+        "legislation_advancing",
         "local_restrictions"
       ]
     },
@@ -426,13 +426,19 @@
       "name": "Illinois",
       "slug": "illinois",
       "status": "legislation_advancing",
-      "summary": "Illinois introduced HB 4172 proposing a statewide data center moratorium. The separate POWER Act would shift energy costs to data center companies, incentivize clean energy, and limit water use. HB 4172 has not passed its originating chamber.",
+      "summary": "HB 4172 (three-month moratorium) stalled in committee. Governor Pritzker separately announced a two-year administrative suspension of state data center tax incentives effective July 1, 2026. The POWER Act (HB 5513/SB 4016) — which would shift grid costs to data centers, incentivize clean energy, and limit water use — is advancing as the preferred alternative.",
       "bills": [
         {
           "id": "HB 4172",
           "title": "Data Center Moratorium Act",
-          "status": "In committee",
+          "status": "Stalled in committee",
           "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=4172&GAID=17&DocTypeID=HB&LegId=161234&SessionID=114"
+        },
+        {
+          "id": "HB 5513 / SB 4016",
+          "title": "POWER Act",
+          "status": "Advancing",
+          "url": "https://www.ilga.gov/legislation/BillStatus.asp?DocNum=5513&GAID=17&DocTypeID=HB&SessionID=114"
         }
       ],
       "localMoratoriums": [
@@ -464,7 +470,7 @@
           "url": "https://ipmnewsroom.org/champaign-county-takes-first-step-towards-a-one-year-data-center-moratorium/"
         }
       ],
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "legislation_advancing",
         "local_restrictions"
@@ -978,10 +984,19 @@
           "locality": "City of Detroit",
           "countyFips": "26163",
           "type": "moratorium",
+          "status": "active",
+          "date": "2026-04-16",
+          "description": "City Council voted 6-2 on April 16 to request the mayor's approval for a two-year data center moratorium. Originally proposed March 17.",
+          "url": "https://wdet.org/2026/04/16/the-metro-detroit-is-trying-to-write-the-rules-before-big-tech-moves-in/"
+        },
+        {
+          "locality": "Ypsilanti Township",
+          "countyFips": "26161",
+          "type": "moratorium",
           "status": "proposed",
-          "date": "2026-03-17",
-          "description": "2-year moratorium proposed.",
-          "url": "https://planetdetroit.org/2026/03/detroit-data-center-moratorium/"
+          "date": "2026-04-15",
+          "description": "Board of Trustees unanimously passed resolution on April 15 requesting a 12-month moratorium on water and sewer service to new data centers. YCUA (utilities authority) scheduled to vote April 22.",
+          "url": "https://www.easternecho.com/article/2026/04/new-ypsilanti-township-data-center-resolution-requests-moratorium-on-local-resources/"
         },
         {
           "locality": "City of Ypsilanti",
@@ -1182,7 +1197,7 @@
           "url": "https://www.uppermichiganssource.com/2026/04/07/delta-county-planning-commission-approves-data-center-moratorium-draft/"
         }
       ],
-      "lastUpdated": "2026-04-10",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -1409,10 +1424,23 @@
       "fips": "34",
       "name": "New Jersey",
       "slug": "new-jersey",
-      "status": "under_discussion",
-      "summary": "New Jersey is reviewing data center impacts on the electrical grid and water resources, with legislative hearings underway.",
-      "bills": [],
-      "lastUpdated": "2026-04-09",
+      "status": "legislation_advancing",
+      "summary": "New Jersey A796 passed the Assembly and advances to the Senate. It requires special utility tariffs for large data centers (100+ MW peak), mandates a 10-year cost commitment covering at least 85% of service costs, and requires financial security. Companion bill S3379 requires semi-annual water and energy consumption reporting. Pemberton Township became the first NJ municipality to ban data centers outright; Phillipsburg passed a final ban ordinance on April 14.",
+      "bills": [
+        {
+          "id": "A796",
+          "title": "Large Load Data Center Utility Tariff Act",
+          "status": "Passed Assembly — in Senate",
+          "url": "https://www.njleg.state.nj.us/Bills/2026/A1000/796_I1.HTM"
+        },
+        {
+          "id": "S3379",
+          "title": "Data Center Water and Energy Reporting Act",
+          "status": "In committee",
+          "url": "https://www.njleg.state.nj.us/Bills/2026/S3500/3379_I1.HTM"
+        }
+      ],
+      "lastUpdated": "2026-04-22",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -1440,9 +1468,9 @@
           "locality": "Phillipsburg",
           "countyFips": "34041",
           "type": "ban",
-          "status": "proposed",
-          "date": "2026-03-10",
-          "description": "Town Council voted unanimously to approve first reading of ordinance banning data centers in all zones. Land Use Board voted to support the ban.",
+          "status": "enacted",
+          "date": "2026-04-14",
+          "description": "Town Council officially adopted Ordinance 2026-08 banning data centers in all zoning districts. First reading passed unanimously March 10; final adoption April 14.",
           "url": "https://southjersey.media/williamstown-news/council-introduces-ordinance-banning-data-center-usage-from-redevelopment-plan/"
         }
       ]
@@ -1583,10 +1611,10 @@
           "locality": "Town of Apex",
           "countyFips": "37183",
           "type": "moratorium",
-          "status": "proposed",
-          "date": "2026-03-10",
-          "description": "Town Council voted unanimously to consider 1-year moratorium; public hearing April 14",
-          "url": "https://ncnewsline.com/2026/03/16/apex-weighs-pause-on-data-centers-as-resistance-spreads-across-nc/"
+          "status": "active",
+          "date": "2026-04-28",
+          "description": "Town Council voted unanimously for a one-year moratorium effective April 28, 2026 through April 2027. Public hearing held April 14.",
+          "url": "https://abc11.com/post/apex-nc-leaders-hold-public-hearing-proposed-data-center-moratorium/18885810/"
         },
         {
           "locality": "Swain County",
@@ -1594,20 +1622,29 @@
           "type": "moratorium",
           "status": "proposed",
           "date": "2026-03-31",
-          "description": "Public hearing held with ~140 attendees; vote expected April 21 for 12-month moratorium",
+          "description": "Public hearing held with ~140 attendees; vote scheduled April 21 for 12-month moratorium.",
           "url": "https://www.bpr.org/climate-environment/2026-04-01/swain-county-joins-the-list-of-wnc-communities-considering-a-temporary-ban-on-data-centers"
         },
         {
           "locality": "Rowan County",
           "countyFips": "37159",
           "type": "moratorium",
-          "status": "proposed",
-          "date": "2026-04-06",
-          "description": "Moratorium for up to 1 year introduced; public hearing set for April 20",
-          "url": "https://www.salisburypost.com/2026/04/04/preview-roco-commissioners-to-consider-data-center-moratorium-two-rezoning-requests/"
+          "status": "active",
+          "date": "2026-04-21",
+          "description": "Commission unanimously approved one-year moratorium on new data centers. Public hearing held April 20.",
+          "url": "https://www.wbtv.com/2026/04/21/rowan-county-commission-passes-data-center-moratorium/"
+        },
+        {
+          "locality": "Orange County",
+          "countyFips": "37135",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-04-01",
+          "description": "Board of Commissioners unanimously passed (6-0) a one-year moratorium on data center development.",
+          "url": "https://www.wral.com/news/local/orange-county-one-year-pause-building-new-data-centers-april-2026/"
         }
       ],
-      "lastUpdated": "2026-04-10",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -1670,9 +1707,16 @@
       "fips": "39",
       "name": "Ohio",
       "slug": "ohio",
-      "status": "under_discussion",
-      "summary": "Ohio legislators are reviewing the impact of large-scale data center development on the electrical grid and local communities. No state moratorium bill filed in 2026, but multiple local moratoriums are active.",
-      "bills": [],
+      "status": "legislation_advancing",
+      "summary": "Ohio legislators are reviewing data center energy and community impacts. In April 2026, the Ohio Ballot Board approved a statewide constitutional amendment initiative — the 'Prohibition of Construction of a Data Center' — allowing signature collection to begin. The initiative would ban data centers exceeding 25 MW. Multiple local moratoriums remain active across Columbus-area and northeast Ohio townships.",
+      "bills": [
+        {
+          "id": "Ballot Initiative",
+          "title": "Prohibition of Construction of a Data Center (constitutional amendment)",
+          "status": "Signature collection approved — April 2, 2026",
+          "url": "https://ohiocapitaljournal.com/2026/04/03/data-center-ban-on-the-ohio-ballot-petitioners-get-approval-to-start-gathering-signatures/"
+        }
+      ],
       "localMoratoriums": [
         {
           "locality": "Jerome Township",
@@ -1765,9 +1809,9 @@
           "url": "https://www.datacenterdynamics.com/en/news/data-center-project-in-lawrence-county-ohio-sparks-calls-for-moratorium-in-neighboring-city/"
         }
       ],
-      "lastUpdated": "2026-04-10",
+      "lastUpdated": "2026-04-22",
       "tags": [
-        "under_discussion",
+        "legislation_advancing",
         "local_restrictions"
       ]
     },
@@ -1786,7 +1830,7 @@
           "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1488&Session=2600"
         }
       ],
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -1809,6 +1853,15 @@
           "date": "2026-02-01",
           "description": "Google data center rezoning triggered recall effort against entire City Council and a lawsuit challenging the land deal. 1,600+ signatures gathered.",
           "url": "https://www.nbcnews.com/news/us-news/oklahoma-city-council-members-welcomed-google-data-center-now-face-rec-rcna264726"
+        },
+        {
+          "locality": "Oklahoma City",
+          "countyFips": "40109",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-04-21",
+          "description": "City leaders approved a data center moratorium lasting through end of 2026.",
+          "url": "https://www.kosu.org/politics/2026-04-21/oklahoma-city-leaders-approve-data-center-moratorium"
         }
       ]
     },
@@ -2112,12 +2165,25 @@
       "fips": "53",
       "name": "Washington",
       "slug": "washington",
-      "status": "no_action",
-      "summary": "Washington state is reviewing data center energy and water consumption, particularly in areas served by hydroelectric power in central Washington.",
-      "bills": [],
-      "lastUpdated": "2026-04-09",
+      "status": "legislation_advancing",
+      "summary": "Washington enacted SB 5982 requiring large data center customers to meet the same clean energy deadlines as utilities and directing the UTC to establish reporting requirements. HB 2515 — a broader data center regulation bill — passed the House 51-41 but died in the Senate after Microsoft and other tech companies opposed it.",
+      "bills": [
+        {
+          "id": "SB 5982",
+          "title": "Data Center Clean Energy and Reporting Act",
+          "status": "Enacted",
+          "url": "https://app.leg.wa.gov/billsummary?BillNumber=5982&Year=2026&Initiative=false"
+        },
+        {
+          "id": "HB 2515",
+          "title": "Comprehensive Data Center Regulation Act",
+          "status": "Failed — died in Senate",
+          "url": "https://app.leg.wa.gov/billsummary?BillNumber=2515&Year=2026&Initiative=false"
+        }
+      ],
+      "lastUpdated": "2026-04-22",
       "tags": [
-        "no_action"
+        "legislation_advancing"
       ]
     },
     {
