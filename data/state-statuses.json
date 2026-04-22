@@ -266,12 +266,12 @@
       "name": "Georgia",
       "slug": "georgia",
       "status": "active_restrictions",
-      "summary": "Georgia HB 1012 has been proposed at the state level. Multiple counties in central/west Georgia have enacted moratoriums including DeKalb, Pike, Lamar, Troup counties and the City of LaGrange. Atlanta requires special use permits within the Beltline radius.",
+      "summary": "All statewide data center bills (HB 1012 moratorium, SB 408 and SB 410 tax exemption repeal) failed when the 2026 legislative session ended. Multiple counties in central/west Georgia retain active moratoriums including DeKalb, Pike, Lamar, Troup counties and the City of LaGrange. Atlanta requires special use permits within the Beltline radius.",
       "bills": [
         {
           "id": "HB 1012",
           "title": "Data Center Moratorium Act",
-          "status": "Proposed",
+          "status": "Failed",
           "url": "https://www.legis.ga.gov/legislation/76849"
         }
       ],
@@ -476,13 +476,19 @@
       "name": "Indiana",
       "slug": "indiana",
       "status": "active_restrictions",
-      "summary": "Indiana introduced HB 1333 taking a revenue-sharing approach, requiring data centers to share 1% of sales tax exemption savings with local governments rather than imposing a moratorium.",
+      "summary": "Indiana HB 1333 passed the House 54-45 (February 2026) but stalled in the Senate Utilities Committee; the controversial 'permitted use' farmland provision was explicitly rejected. The core 1% revenue-sharing provision was folded into HB 1210, which was enacted into law.",
       "bills": [
         {
           "id": "HB 1333",
           "title": "Data Center Revenue Sharing Act",
-          "status": "In committee",
+          "status": "Failed — key provision enacted via HB 1210",
           "url": "https://iga.in.gov/legislative/2026/bills/house/1333"
+        },
+        {
+          "id": "HB 1210",
+          "title": "Data Center Local Revenue Sharing",
+          "status": "Enacted",
+          "url": "https://iga.in.gov/legislative/2026/bills/house/1210"
         }
       ],
       "localMoratoriums": [
@@ -810,17 +816,17 @@
       "fips": "24",
       "name": "Maryland",
       "slug": "maryland",
-      "status": "legislation_advancing",
-      "summary": "Maryland introduced HB 120, prohibiting new data center construction unless the General Assembly enacts legislation related to co-location with power generation (including natural gas, nuclear, or SMRs). Still in committee.",
+      "status": "under_discussion",
+      "summary": "Maryland HB 120 (data center construction moratorium unless co-located with generation) died in committee when the General Assembly adjourned in early April 2026. Active local restrictions remain in place across Baltimore County, Montgomery County, and Baltimore City (proposed).",
       "bills": [
         {
           "id": "HB 120",
           "title": "Data Center Construction and Power Co-Location Act",
-          "status": "In committee",
+          "status": "Failed — session ended",
           "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0120?ys=2026RS"
         }
       ],
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "legislation_advancing",
         "local_restrictions"
@@ -1837,16 +1843,22 @@
       "name": "Pennsylvania",
       "slug": "pennsylvania",
       "status": "legislation_advancing",
-      "summary": "Pennsylvania Sen. Katie Muth is planning a three-year moratorium on hyperscale data center development. Separate data center regulation bills have advanced in the PA House. During the pause, agencies would study environmental, energy, and community impacts.",
+      "summary": "Pennsylvania HB 2150 passed the House 133-68 on April 13, 2026 and is now in the Senate. It requires data centers to submit annual reports on energy and water consumption to the DEP, with penalties up to $10,000/day for non-compliance. A separate three-year hyperscale moratorium bill (Sen. Katie Muth) remains in introduction phase.",
       "bills": [
         {
+          "id": "HB 2150",
+          "title": "Data Center Environmental Reporting Act",
+          "status": "Passed House — in Senate",
+          "url": "https://www.palegis.us/legislation/bills/2025/hb2150"
+        },
+        {
           "id": "SB (pending)",
-          "title": "Hyperscale Data Center Moratorium (planned)",
+          "title": "Hyperscale Data Center Moratorium (planned, Sen. Muth)",
           "status": "Introduction phase",
           "url": "https://www.legis.state.pa.us/cfdocs/legis/home/member_information/senate_bio.cfm?id=1853"
         }
       ],
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-04-22",
       "tags": [
         "legislation_advancing"
       ],
