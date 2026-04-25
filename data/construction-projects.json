@@ -757,26 +757,32 @@
     },
     {
       "name": "OpenAI Stargate Shackelford",
-      "owner": "Oracle",
+      "owner": "Vantage",
       "users": [
         "OpenAI"
       ],
-      "powerMW": 0,
-      "capitalCostB": 0,
+      "powerMW": 1400,
+      "capitalCostB": 25,
       "lat": 32.5476,
       "lng": -99.5645,
       "state": "Texas",
       "stateId": "TX",
-      "status": "planned",
+      "status": "active",
       "address": "299 FM 604, Shackelford County, TX 79601",
       "project": "Stargate",
       "h100Equivalents": 0,
-      "notes": "Second US Stargate site, 20km from Abilene. Developed by Vantage (codename 'Frontier'). First building late 2026.",
+      "notes": "Second US Stargate site, 20km from Abilene. 1,200-acre campus with 10 planned buildings and 3.7M sq ft. Vantage broke ground in April 2026; first building expected H2 2026. $25B total investment, 5,000+ employees at full build-out.",
       "sources": [
         "https://openai.com/index/five-new-stargate-sites/",
-        "https://vantage-dc.com/data-center-locations/north-america/shackelford-county-tx"
+        "https://vantage-dc.com/data-center-locations/north-america/shackelford-county-tx",
+        "https://www.datacenterdynamics.com/en/news/vantage-breaks-ground-on-texas-gigawatt-data-center-campus-for-openai/"
       ],
-      "timelineEvents": []
+      "timelineEvents": [
+        {
+          "date": "2026-04-01",
+          "description": "Vantage breaks ground on 1,200-acre, 1.4 GW campus; first building on track for H2 2026"
+        }
+      ]
     },
     {
       "name": "Crusoe Abilene Expansion",
@@ -806,8 +812,63 @@
           "description": "Crusoe announces 900 MW AI factory campus in Abilene for Microsoft"
         }
       ]
+    },
+    {
+      "name": "Meta Tulsa",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 0,
+      "capitalCostB": 1.0,
+      "lat": 36.142,
+      "lng": -95.813,
+      "state": "Oklahoma",
+      "stateId": "OK",
+      "status": "active",
+      "address": "Fair Oaks Innovation Park, near E 11th St & Creek Turnpike, Tulsa, OK 74128",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "First Meta data center in Oklahoma (28th US, 32nd globally). 340-acre site at Fair Oaks Innovation Park, south/west of E 11th St and Creek Turnpike in east Tulsa. Expected completion 2028. ~1,000 peak construction jobs, 100 permanent jobs. Despite Tulsa's active moratorium, Meta was exempt as a pre-approved project.",
+      "sources": [
+        "https://about.fb.com/news/2026/04/breaking-ground-new-ai-optimized-data-center-tulsa-oklahoma/",
+        "https://krmg.com/2026/04/21/meta-to-build-1-billion-data-center-in-east-tulsa/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-04-21",
+          "description": "Groundbreaking ceremony; Meta breaks ground on $1B+ AI-optimized data center in Tulsa"
+        }
+      ]
+    },
+    {
+      "name": "Applied Digital Delta Forge 1",
+      "owner": "Applied Digital",
+      "users": [],
+      "powerMW": 430,
+      "capitalCostB": 0,
+      "lat": 31.384,
+      "lng": -92.468,
+      "state": "Louisiana",
+      "stateId": "LA",
+      "status": "active",
+      "address": "5746 Highway 121, Alexandria, LA",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "500+ acre AI Factory campus north of Alexandria, Louisiana. Two 150 MW buildings totaling 430 MW design capacity. $7.5B 15-year lease signed April 23, 2026 with unnamed US-based hyperscaler for 300 MW. First operations targeted mid-2027. 200+ jobs expected.",
+      "sources": [
+        "https://ir.applieddigital.com/news-events/press-releases/detail/149/applied-digital-announces-new-u-s-based-high",
+        "https://ir.applieddigital.com/news-events/press-releases/detail/144/applied-digital-breaks-ground-on-delta-forge-1-a-430-mw-ai",
+        "https://datacenterhawk.com/marketplace/providers/applied-digital/5746-highway-121/delta-forge-1"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-04-23",
+          "description": "$7.5B 15-year lease signed with US hyperscaler for 300 MW; campus under construction targeting mid-2027 operations"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-04-22",
+  "lastUpdated": "2026-04-25",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }

@@ -61,7 +61,7 @@
         {
           "id": "HB 2756",
           "title": "Data Center Cost-Shifting Protection Act",
-          "status": "Passed House — Senate committee approved",
+          "status": "Passed House \u2014 Senate committee approved",
           "url": "https://www.azleg.gov/legtext/56leg/2R/bills/HB2756S.htm"
         }
       ],
@@ -135,9 +135,9 @@
       "name": "Colorado",
       "slug": "colorado",
       "status": "under_discussion",
-      "summary": "No statewide moratorium, but Denver has proposed a yearlong moratorium citing drought. Larimer County has an active moratorium, Logan County enacted and lifted one after passing regulations, and Weld County adopted new zoning requirements.",
+      "summary": "No statewide moratorium, but Denver formally adopted a one-year moratorium on new data center construction effective May 21, 2026. Larimer County has an active moratorium, Logan County enacted and lifted one after passing regulations, and Weld County adopted new zoning requirements.",
       "bills": [],
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-04-25",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -147,9 +147,9 @@
           "locality": "Denver",
           "countyFips": "08031",
           "type": "moratorium",
-          "status": "proposed",
-          "date": "2026-03-31",
-          "description": "Proposed yearlong moratorium on new data center construction. Prompted by Stage 1 drought conditions and Denver Water's call for 20% water use reduction.",
+          "status": "enacted",
+          "date": "2026-05-21",
+          "description": "City Council adopted one-year moratorium on new data center construction, effective May 21, 2026. Exempts projects already permitted. Prompted by Stage 1 drought and Denver Water's call for 20% water reduction.",
           "url": "https://www.denvergazette.com/2026/03/31/denver-proposes-yearlong-moratorium-on-new-data-centers/"
         },
         {
@@ -426,7 +426,7 @@
       "name": "Illinois",
       "slug": "illinois",
       "status": "legislation_advancing",
-      "summary": "HB 4172 (three-month moratorium) stalled in committee. Governor Pritzker separately announced a two-year administrative suspension of state data center tax incentives effective July 1, 2026. The POWER Act (HB 5513/SB 4016) — which would shift grid costs to data centers, incentivize clean energy, and limit water use — is advancing as the preferred alternative.",
+      "summary": "HB 4172 (three-month moratorium) stalled in committee. Governor Pritzker separately announced a two-year administrative suspension of state data center tax incentives effective July 1, 2026. The POWER Act (HB 5513/SB 4016) \u2014 which would shift grid costs to data centers, incentivize clean energy, and limit water use \u2014 is advancing as the preferred alternative.",
       "bills": [
         {
           "id": "HB 4172",
@@ -465,12 +465,12 @@
           "countyFips": "17019",
           "type": "moratorium",
           "status": "active",
-          "date": "2026-02-19",
-          "description": "12-month moratorium on data centers with 10,000+ sq ft processing areas.",
-          "url": "https://ipmnewsroom.org/champaign-county-takes-first-step-towards-a-one-year-data-center-moratorium/"
+          "date": "2026-04-23",
+          "description": "County Board approved 12-month moratorium (April 23, 2026) on data centers with 10,000+ sq ft processing areas in unincorporated areas. Over 100 residents attended to support the measure. Initial 9-month proposal extended to 12 months after staff indicated insufficient capacity for shorter timeline. County data center task force created in February 2026 to develop permanent zoning standards.",
+          "url": "https://www.wcbu.org/state-news/2026-04-24/champaign-county-board-approves-1-year-data-center-moratorium"
         }
       ],
-      "lastUpdated": "2026-04-22",
+      "lastUpdated": "2026-04-25",
       "tags": [
         "legislation_advancing",
         "local_restrictions"
@@ -487,7 +487,7 @@
         {
           "id": "HB 1333",
           "title": "Data Center Revenue Sharing Act",
-          "status": "Failed — key provision enacted via HB 1210",
+          "status": "Failed \u2014 key provision enacted via HB 1210",
           "url": "https://iga.in.gov/legislative/2026/bills/house/1333"
         },
         {
@@ -772,19 +772,25 @@
       "fips": "23",
       "name": "Maine",
       "slug": "maine",
-      "status": "active_restrictions",
-      "summary": "Maine's LD 307 completed final legislative passage on April 14–15, 2026 (House 79-62, Senate 21-13) and now awaits Governor Janet Mills' signature. If signed, it would be the first statewide data center moratorium in the US, banning facilities over 20 MW until November 2027 and creating a Data Center Coordination Council. Governor Mills has expressed concerns about the lack of a carveout for a proposed Jay data center, and Franklin County officials are urging a veto.",
+      "status": "under_discussion",
+      "summary": "Governor Janet Mills vetoed LD 307 on April 24, 2026, blocking what would have been the first statewide data center moratorium in US history. Mills said she would have signed the bill if it included an exemption for a proposed Jay data center at the former Androscoggin Mill site. She also signed LD 713 (banning data centers from Maine's business development tax incentive programs) and announced plans to issue an executive order creating a council to study data center impacts. Local moratoria remain active in Bangor and other communities.",
       "bills": [
         {
           "id": "LD 307",
           "title": "Act to Impose a Moratorium on Large-Scale Data Centers",
-          "status": "Passed — Awaiting Governor's Signature",
+          "status": "Vetoed by Governor Mills \u2014 April 24, 2026",
           "url": "https://legislature.maine.gov/billtracker/#Item/132/LD/307"
+        },
+        {
+          "id": "LD 713",
+          "title": "Exclusion of Data Centers from Business Development Tax Incentives",
+          "status": "Signed by Governor Mills \u2014 April 24, 2026",
+          "url": "https://legislature.maine.gov/billtracker/#Item/132/LD/713"
         }
       ],
-      "lastUpdated": "2026-04-22",
+      "lastUpdated": "2026-04-25",
       "tags": [
-        "active_restrictions",
+        "under_discussion",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -828,7 +834,7 @@
         {
           "id": "HB 120",
           "title": "Data Center Construction and Power Co-Location Act",
-          "status": "Failed — session ended",
+          "status": "Failed \u2014 session ended",
           "url": "https://mgaleg.maryland.gov/mgawebsite/Legislation/Details/HB0120?ys=2026RS"
         }
       ],
@@ -934,7 +940,7 @@
       "name": "Michigan",
       "slug": "michigan",
       "status": "active_restrictions",
-      "summary": "Michigan introduced a House bill package proposing a one-year moratorium preventing EGLE and local governments from issuing data center permits until April 2027. Governor Whitmer has publicly opposed moratorium efforts, making passage unlikely.",
+      "summary": "Michigan introduced a bipartisan House bill package (HB 5594-5596) proposing a one-year moratorium preventing EGLE and local governments from issuing data center permits until April 2027. Governor Whitmer has explicitly stated she would veto any moratorium legislation, calling it 'an automatic non-starter.' At least 19 Michigan townships and cities have enacted local moratoria independently, the most of any state.",
       "bills": [
         {
           "id": "HB 4521",
@@ -1197,7 +1203,7 @@
           "url": "https://www.uppermichiganssource.com/2026/04/07/delta-county-planning-commission-approves-data-center-moratorium-draft/"
         }
       ],
-      "lastUpdated": "2026-04-22",
+      "lastUpdated": "2026-04-25",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -1404,7 +1410,7 @@
         {
           "id": "HB 1265",
           "title": "Data Center Construction Moratorium",
-          "status": "In committee — hearing held",
+          "status": "In committee \u2014 hearing held",
           "url": "https://gencourt.state.nh.us/bill_status/billinfo.aspx?id=2304"
         },
         {
@@ -1430,7 +1436,7 @@
         {
           "id": "A796",
           "title": "Large Load Data Center Utility Tariff Act",
-          "status": "Passed Assembly — in Senate",
+          "status": "Passed Assembly \u2014 in Senate",
           "url": "https://www.njleg.state.nj.us/Bills/2026/A1000/796_I1.HTM"
         },
         {
@@ -1708,12 +1714,12 @@
       "name": "Ohio",
       "slug": "ohio",
       "status": "legislation_advancing",
-      "summary": "Ohio legislators are reviewing data center energy and community impacts. In April 2026, the Ohio Ballot Board approved a statewide constitutional amendment initiative — the 'Prohibition of Construction of a Data Center' — allowing signature collection to begin. The initiative would ban data centers exceeding 25 MW. Multiple local moratoriums remain active across Columbus-area and northeast Ohio townships.",
+      "summary": "Ohio legislators are reviewing data center energy and community impacts. In April 2026, the Ohio Ballot Board approved a statewide constitutional amendment initiative \u2014 the 'Prohibition of Construction of a Data Center' \u2014 allowing signature collection to begin. The initiative would ban data centers exceeding 25 MW. Multiple local moratoriums remain active across Columbus-area and northeast Ohio townships.",
       "bills": [
         {
           "id": "Ballot Initiative",
           "title": "Prohibition of Construction of a Data Center (constitutional amendment)",
-          "status": "Signature collection approved — April 2, 2026",
+          "status": "Signature collection approved \u2014 April 2, 2026",
           "url": "https://ohiocapitaljournal.com/2026/04/03/data-center-ban-on-the-ohio-ballot-petitioners-get-approval-to-start-gathering-signatures/"
         }
       ],
@@ -1821,7 +1827,7 @@
       "name": "Oklahoma",
       "slug": "oklahoma",
       "status": "under_discussion",
-      "summary": "Oklahoma SB 1488 requiring community impact assessments stalled in committee. Tulsa enacted a nine-month moratorium on new data center construction through December 2026. Sand Springs faced recall efforts after rezoning for a Google data center.",
+      "summary": "Oklahoma SB 1488 requiring community impact assessments stalled in committee. Tulsa enacted a nine-month moratorium on new data center construction through December 2026, but Meta broke ground on a $1B+ AI-optimized data center at Fair Oaks Innovation Park in East Tulsa on April 21, 2026 \u2014 the company's first data center in Oklahoma \u2014 under an exemption for pre-approved existing projects. Oklahoma City also enacted a moratorium through end of 2026. Sand Springs faced recall efforts after rezoning for a Google data center.",
       "bills": [
         {
           "id": "SB 1488",
@@ -1830,7 +1836,7 @@
           "url": "http://www.oklegislature.gov/BillInfo.aspx?Bill=SB1488&Session=2600"
         }
       ],
-      "lastUpdated": "2026-04-22",
+      "lastUpdated": "2026-04-25",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -1901,7 +1907,7 @@
         {
           "id": "HB 2150",
           "title": "Data Center Environmental Reporting Act",
-          "status": "Passed House — in Senate",
+          "status": "Passed House \u2014 in Senate",
           "url": "https://www.palegis.us/legislation/bills/2025/hb2150"
         },
         {
@@ -2078,7 +2084,7 @@
       "name": "Vermont",
       "slug": "vermont",
       "status": "legislation_advancing",
-      "summary": "Vermont's S.205 proposes a moratorium on AI data centers requiring 100 MW+ until July 2030 — the longest proposed moratorium period nationally. Referred to Senate Finance and Natural Resources & Energy committees. Has not passed originating chamber.",
+      "summary": "Vermont's S.205 proposes a moratorium on AI data centers requiring 100 MW+ until July 2030 \u2014 the longest proposed moratorium period nationally. Referred to Senate Finance and Natural Resources & Energy committees. Has not passed originating chamber.",
       "bills": [
         {
           "id": "S.205",
@@ -2110,7 +2116,7 @@
       "name": "Virginia",
       "slug": "virginia",
       "status": "active_restrictions",
-      "summary": "Virginia's HB 1515 moratorium was carried over to the 2027 session (effectively dead for 2026). However, HB 2084 directing the SCC to review data center rate classifications was enacted and signed by the governor. Over 60 data center bills were considered in 2026. Virginia remains the world's largest data center market.",
+      "summary": "Virginia's HB 1515 moratorium was carried over to the 2027 session (effectively dead for 2026). HB 2084 directing the SCC to review data center rate classifications was enacted. The April 23 special session called to finalize the state budget recessed without a deal, as House and Senate Democrats remain deadlocked over the state's $1.6B data center sales tax exemption \u2014 the Senate proposes eliminating it starting Jan 1, 2027, while the House and Governor Spanberger favor keeping it with conditions. Virginia remains the world's largest data center market.",
       "bills": [
         {
           "id": "HB 1515",
@@ -2154,7 +2160,7 @@
           "url": "https://www.loudounnow.com/news/by-right-data-centers-eliminated-in-loudoun-existing-applications-grandfathered/article_130515be-0478-11f0-ab4f-7771b6b47f71.html"
         }
       ],
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-04-25",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -2166,7 +2172,7 @@
       "name": "Washington",
       "slug": "washington",
       "status": "legislation_advancing",
-      "summary": "Washington enacted SB 5982 requiring large data center customers to meet the same clean energy deadlines as utilities and directing the UTC to establish reporting requirements. HB 2515 — a broader data center regulation bill — passed the House 51-41 but died in the Senate after Microsoft and other tech companies opposed it.",
+      "summary": "Washington enacted SB 5982 requiring large data center customers to meet the same clean energy deadlines as utilities and directing the UTC to establish reporting requirements. HB 2515 \u2014 a broader data center regulation bill \u2014 passed the House 51-41 but died in the Senate after Microsoft and other tech companies opposed it.",
       "bills": [
         {
           "id": "SB 5982",
@@ -2177,7 +2183,7 @@
         {
           "id": "HB 2515",
           "title": "Comprehensive Data Center Regulation Act",
-          "status": "Failed — died in Senate",
+          "status": "Failed \u2014 died in Senate",
           "url": "https://app.leg.wa.gov/billsummary?BillNumber=2515&Year=2026&Initiative=false"
         }
       ],
