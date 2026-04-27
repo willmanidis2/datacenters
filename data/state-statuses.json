@@ -788,7 +788,7 @@
           "url": "https://legislature.maine.gov/billtracker/#Item/132/LD/713"
         }
       ],
-      "lastUpdated": "2026-04-25",
+      "lastUpdated": "2026-04-27",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -798,10 +798,10 @@
           "locality": "Bangor",
           "countyFips": "23019",
           "type": "moratorium",
-          "status": "proposed",
-          "date": "2026-04-06",
-          "description": "City councilors fast-tracking six-month moratorium ordinance banning data centers to give the city time to adjust its Land Development Code.",
-          "url": "https://www.bangordailynews.com/2026/04/06/bangor/bangor-government/bangor-data-center-moratorium/"
+          "status": "active",
+          "date": "2026-04-21",
+          "description": "City Council enacted a six-month moratorium banning data centers to give the city time to adjust its Land Development Code. Originally fast-tracked after sudden industry pressure; enacted approximately April 21, 2026.",
+          "url": "https://www.bangordailynews.com/2026/04/24/politics/janet-mills-vetoes-maine-data-center-ban/"
         },
         {
           "locality": "Lewiston",
@@ -990,19 +990,19 @@
           "locality": "City of Detroit",
           "countyFips": "26163",
           "type": "moratorium",
-          "status": "active",
+          "status": "proposed",
           "date": "2026-04-16",
-          "description": "City Council voted 6-2 on April 16 to request the mayor's approval for a two-year data center moratorium. Originally proposed March 17.",
-          "url": "https://wdet.org/2026/04/16/the-metro-detroit-is-trying-to-write-the-rules-before-big-tech-moves-in/"
+          "description": "City Council voted 6-2 on April 16 to request the mayor's approval for a two-year data center moratorium. Mayor Sheffield has not yet formally adopted the moratorium; instead, she convened a stakeholder working group (city departments, DTE Energy, unions, environmental advocates) with a December 31, 2026 deadline for policy recommendations.",
+          "url": "https://planetdetroit.org/2026/04/detroit-data-center-zoning/"
         },
         {
-          "locality": "Ypsilanti Township",
+          "locality": "Ypsilanti Township / YCUA",
           "countyFips": "26161",
           "type": "moratorium",
-          "status": "proposed",
-          "date": "2026-04-15",
-          "description": "Board of Trustees unanimously passed resolution on April 15 requesting a 12-month moratorium on water and sewer service to new data centers. YCUA (utilities authority) scheduled to vote April 22.",
-          "url": "https://www.easternecho.com/article/2026/04/new-ypsilanti-township-data-center-resolution-requests-moratorium-on-local-resources/"
+          "status": "active",
+          "date": "2026-04-22",
+          "description": "Ypsilanti Community Utilities Authority (YCUA) unanimously approved a 12-month moratorium on providing water and sewer services to new data centers on April 22/23, 2026. Township Board had passed a resolution April 15 requesting the move. Prompted by a proposed $1.2B University of Michigan data center and Thor Equities' $1B proposal (potentially 1M gallons/day water demand).",
+          "url": "https://planetdetroit.org/2026/04/data-center-water-moratorium-ypsilanti/"
         },
         {
           "locality": "City of Ypsilanti",
@@ -1203,7 +1203,7 @@
           "url": "https://www.uppermichiganssource.com/2026/04/07/delta-county-planning-commission-approves-data-center-moratorium-draft/"
         }
       ],
-      "lastUpdated": "2026-04-25",
+      "lastUpdated": "2026-04-27",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -1431,12 +1431,12 @@
       "name": "New Jersey",
       "slug": "new-jersey",
       "status": "legislation_advancing",
-      "summary": "New Jersey A796 passed the Assembly and advances to the Senate. It requires special utility tariffs for large data centers (100+ MW peak), mandates a 10-year cost commitment covering at least 85% of service costs, and requires financial security. Companion bill S3379 requires semi-annual water and energy consumption reporting. Pemberton Township became the first NJ municipality to ban data centers outright; Phillipsburg passed a final ban ordinance on April 14.",
+      "summary": "New Jersey A796/S731 passed both the Assembly (55-18) and Senate in March 2026 and awaits Governor Sherrill's signature. It requires special utility tariffs for large data centers (100+ MW peak), mandates a 10-year cost commitment covering at least 85% of service costs, and requires financial security. Companion bill S3379 requires semi-annual water and energy consumption reporting. Pemberton Township became the first NJ municipality to ban data centers outright; Phillipsburg passed a final ban ordinance on April 14.",
       "bills": [
         {
-          "id": "A796",
+          "id": "A796 / S731",
           "title": "Large Load Data Center Utility Tariff Act",
-          "status": "Passed Assembly \u2014 in Senate",
+          "status": "Passed Assembly and Senate \u2014 awaiting Governor\u2019s signature",
           "url": "https://www.njleg.state.nj.us/Bills/2026/A1000/796_I1.HTM"
         },
         {
@@ -1446,9 +1446,9 @@
           "url": "https://www.njleg.state.nj.us/Bills/2026/S3500/3379_I1.HTM"
         }
       ],
-      "lastUpdated": "2026-04-22",
+      "lastUpdated": "2026-04-27",
       "tags": [
-        "under_discussion",
+        "legislation_advancing",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -1626,10 +1626,10 @@
           "locality": "Swain County",
           "countyFips": "37173",
           "type": "moratorium",
-          "status": "proposed",
-          "date": "2026-03-31",
-          "description": "Public hearing held with ~140 attendees; vote scheduled April 21 for 12-month moratorium.",
-          "url": "https://www.bpr.org/climate-environment/2026-04-01/swain-county-joins-the-list-of-wnc-communities-considering-a-temporary-ban-on-data-centers"
+          "status": "active",
+          "date": "2026-04-21",
+          "description": "Commissioners unanimously passed 12-month moratorium on April 21, 2026. Public hearing on March 31 drew ~140 attendees. County will form ad hoc committees and begin rulemaking during the moratorium period.",
+          "url": "https://www.bpr.org/climate-environment/2026-04-22/swain-county-unanimously-passes-data-center-moratorium"
         },
         {
           "locality": "Rowan County",
@@ -1650,7 +1650,7 @@
           "url": "https://www.wral.com/news/local/orange-county-one-year-pause-building-new-data-centers-april-2026/"
         }
       ],
-      "lastUpdated": "2026-04-22",
+      "lastUpdated": "2026-04-27",
       "tags": [
         "under_discussion",
         "local_restrictions"
