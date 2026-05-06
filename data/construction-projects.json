@@ -104,10 +104,11 @@
       "address": "5502 Spinks Rd, Abilene, TX 79601",
       "project": "Stargate",
       "h100Equivalents": 510359,
-      "notes": "First of several Stargate sites. First two buildings operational since September 2025. Crusoe topped out final building; full campus expected mid-2026. Next-generation Nvidia Vera Rubin chips deploying in 2026.",
+      "notes": "First of several Stargate sites and the most complete to date. Four of eight buildings operational running Nvidia Blackwell. Per Epoch AI tracking, ~0.6 GW IT capacity is expected by late May 2026 with the full ~1.2 GW IT (590 MW listed here is OpenAI-allocated) reached in Q4 2026. OpenAI dropped a planned 2.1 GW expansion on this site — Crusoe is instead building two adjacent AI-factory buildings for Microsoft.",
       "sources": [
         "https://openai.com/index/five-new-stargate-sites/",
-        "https://www.datacenterdynamics.com/en/news/crusoe-tops-out-final-building-at-openai-stargate-data-center-campus-in-abilene-texas/"
+        "https://www.datacenterdynamics.com/en/news/crusoe-tops-out-final-building-at-openai-stargate-data-center-campus-in-abilene-texas/",
+        "https://epoch.ai/blog/openai-stargate-where-the-us-sites-stand"
       ],
       "timelineEvents": [
         {
@@ -129,6 +130,10 @@
         {
           "date": "2026-04-01",
           "description": "Crusoe tops out final building; full campus on track for mid-2026 completion"
+        },
+        {
+          "date": "2026-05-01",
+          "description": "Epoch AI tracks ~0.6 GW IT capacity expected late May 2026; full 1.2 GW IT in Q4 2026"
         }
       ]
     },
@@ -188,9 +193,10 @@
       "address": "1 Community Cir, New Albany, OH 43054",
       "project": "Prometheus",
       "h100Equivalents": 493684,
-      "notes": "Unusual ad hoc construction spanning full length of New Albany Business Park. Combination of weatherproof tents, colocation facilities and traditional buildings.",
+      "notes": "Unusual ad hoc construction spanning full length of New Albany Business Park. Combination of weatherproof tents, colocation facilities and traditional buildings. Per independent analysis, Prometheus is one of five US AI sites projected to cross 1 GW capacity in 2026, with the milestone tracked to May 2026.",
       "sources": [
-        "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/"
+        "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
+        "https://www.cbs42.com/business/press-releases/ein-presswire/864214321/five-ai-data-centers-will-hit-1-gw-in-2026-independent-analysis-shows/"
       ],
       "timelineEvents": [
         {
@@ -204,6 +210,10 @@
         {
           "date": "2025-04-01",
           "description": "7 buildings operational with new AI-optimized additions"
+        },
+        {
+          "date": "2026-05-01",
+          "description": "Independent analysis projects Prometheus crosses 1 GW capacity in May 2026"
         }
       ]
     },
@@ -367,9 +377,11 @@
       "address": "5420 Tulane Rd, Memphis, TN 38109",
       "project": null,
       "h100Equivalents": 280838,
-      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi.",
+      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi. xAI now claims ~2 GW total Colossus capacity across both sites; Tesla Megapacks delivered to Memphis provide battery backup. Q1 2026 $659M building permit filed for a new 312,000 sq ft facility at 5414 Tulane Road.",
       "sources": [
-        "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d"
+        "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d",
+        "https://introl.com/blog/xai-colossus-2-gigawatt-expansion-555k-gpus-january-2026",
+        "https://www.teslarati.com/xai-tesla-megapack-colossus-2/"
       ],
       "timelineEvents": [
         {
@@ -379,6 +391,14 @@
         {
           "date": "2025-06-01",
           "description": "Operational with initial GPU deployment"
+        },
+        {
+          "date": "2026-01-15",
+          "description": "Combined Colossus 1+2 capacity reaches 2 GW per xAI; ~555k GPUs deployed"
+        },
+        {
+          "date": "2026-04-22",
+          "description": "NAACP/Earthjustice/SELC file Clean Air Act complaint over unpermitted methane turbines"
         }
       ]
     },
