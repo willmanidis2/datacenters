@@ -443,8 +443,8 @@
       "state": "OK",
       "title": "Data Center Customer Protection Act of 2026",
       "status": "engrossed",
-      "last_action_date": "2026-03-24",
-      "last_action": "Engrossed - passed House",
+      "last_action_date": "2026-04-28",
+      "last_action": "Senate passed amended version (with transparency requirements); returned to House for concurrence",
       "relevance": 100,
       "url": "https://legiscan.com/OK/bill/HB2992/2026",
       "text_url": "",
@@ -3366,8 +3366,8 @@
       "state": "NJ",
       "title": "Requires electric public utilities to develop and submit tariff for data centers with monthly demand of at least 100 MW",
       "status": "introduced",
-      "last_action_date": "2026-01-14",
-      "last_action": "Introduced and referred to committee",
+      "last_action_date": "2026-04-27",
+      "last_action": "Received in Senate without reference for second reading; companion A796 already passed Assembly 55-18",
       "relevance": 100,
       "url": "https://legiscan.com/NJ/bill/S731/2026",
       "text_url": "https://legiscan.com/NJ/text/S731/id/3312992",
@@ -4587,7 +4587,7 @@
       "session_end_date": "2026-09-15",
       "ai_summary": "Proposes California requirements for information security and deployment standards for high-risk AI systems. Currently in committee as of June 1, 2025, with no enacted effect.",
       "introducer_party": "D",
-      "introducer_name": "Monique Lim\u00f3n"
+      "introducer_name": "Monique Limón"
     },
     {
       "bill_id": 44,
@@ -5564,7 +5564,7 @@
       "search_query": "algorithmic",
       "category": "ai_regulation",
       "session_end_date": "2026-09-15",
-      "ai_summary": "Would make algorithmic collusion\u2014where AI systems coordinate pricing or behavior illegally\u2014subject to antitrust enforcement in California. Currently stalled in committee as of June 2025.",
+      "ai_summary": "Would make algorithmic collusion—where AI systems coordinate pricing or behavior illegally—subject to antitrust enforcement in California. Currently stalled in committee as of June 2025.",
       "introducer_party": "D"
     },
     {
@@ -6755,7 +6755,7 @@
       "introducer_party": "D"
     }
   ],
-  "lastRefreshed": "2026-04-10T12:00:00.000Z",
+  "lastRefreshed": "2026-05-06T12:00:00.000Z",
   "queryTerms": [
     "\"data center\" AND (moratorium OR ban OR zoning OR legislation OR permit)",
     "\"artificial intelligence\" AND (data center OR computing OR infrastructure)"
