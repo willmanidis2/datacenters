@@ -233,9 +233,10 @@
       "address": "1435 Hwy 54 W, Fayetteville, GA 30214",
       "project": "Microsoft AI WAN",
       "h100Equivalents": 374125,
-      "notes": "QTS-built data center with Microsoft as tenant, possibly for OpenAI compute.",
+      "notes": "QTS-built data center with Microsoft as tenant, possibly for OpenAI compute. Now launched and networked with Microsoft's Fairwater Wisconsin site into what Microsoft calls an 'AI superfactory'; the two-story design omits UPS and on-site generators.",
       "sources": [
-        "https://www.bloomberg.com/news/features/2024-12-08/georgia-s-blackstone-backed-qts-data-center-hits-resistance-over-ai-power-needs"
+        "https://www.bloomberg.com/news/features/2024-12-08/georgia-s-blackstone-backed-qts-data-center-hits-resistance-over-ai-power-needs",
+        "https://www.datacenterdynamics.com/en/news/microsoft-launches-atlanta-fairwater-data-center-two-stories-no-ups-or-gen-sets/"
       ],
       "timelineEvents": [
         {
@@ -268,9 +269,11 @@
       "address": "3231 Riverport Rd, Memphis, TN 38109",
       "project": null,
       "h100Equivalents": 275796,
-      "notes": "Converted from a factory in 2024. Unusual mix of cooling and power infrastructure. Initially powered by portable gas turbines.",
+      "notes": "Converted from a factory in 2024. Unusual mix of cooling and power infrastructure. Initially powered by portable gas turbines. On May 6, 2026 Anthropic struck a deal to use the full compute of xAI's Colossus 1 (~220,000+ Nvidia GPUs, roughly 300 MW), reported amid Elon Musk's litigation against OpenAI.",
       "sources": [
-        "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d"
+        "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d",
+        "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
+        "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/"
       ],
       "timelineEvents": [
         {
@@ -288,6 +291,10 @@
         {
           "date": "2025-02-17",
           "description": "150k H100s and 50k H200s online"
+        },
+        {
+          "date": "2026-05-06",
+          "description": "Anthropic agrees to use the full compute of Colossus 1 (~220k+ GPUs, ~300 MW)"
         }
       ]
     },
@@ -377,11 +384,12 @@
       "address": "5420 Tulane Rd, Memphis, TN 38109",
       "project": null,
       "h100Equivalents": 280838,
-      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi. xAI now claims ~2 GW total Colossus capacity across both sites; Tesla Megapacks delivered to Memphis provide battery backup. Q1 2026 $659M building permit filed for a new 312,000 sq ft facility at 5414 Tulane Road.",
+      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi. xAI now claims ~2 GW total Colossus capacity across both sites; Tesla Megapacks delivered to Memphis provide battery backup. Q1 2026 $659M building permit filed for a new 312,000 sq ft facility at 5414 Tulane Road. In May 2026 the NAACP sought an emergency injunction over the Southaven, MS gas-turbine plant powering Colossus 2, alleging up to 46 portable turbines were operating though Mississippi DEQ had permitted only 27.",
       "sources": [
         "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d",
         "https://introl.com/blog/xai-colossus-2-gigawatt-expansion-555k-gpus-january-2026",
-        "https://www.teslarati.com/xai-tesla-megapack-colossus-2/"
+        "https://www.teslarati.com/xai-tesla-megapack-colossus-2/",
+        "https://earthjustice.org/press/2026/naacp-asks-court-for-emergency-action-to-stop-illegal-air-pollution-from-xais-data-center-power-plant"
       ],
       "timelineEvents": [
         {
@@ -399,6 +407,10 @@
         {
           "date": "2026-04-22",
           "description": "NAACP/Earthjustice/SELC file Clean Air Act complaint over unpermitted methane turbines"
+        },
+        {
+          "date": "2026-05-01",
+          "description": "NAACP seeks emergency injunction; ~46 portable turbines alleged vs 27 permitted by MS DEQ"
         }
       ]
     },
@@ -667,11 +679,13 @@
       "address": "Holly Ridge, LA 71269",
       "project": "Hyperion",
       "h100Equivalents": 0,
-      "notes": "Enormous tract of land (2,250+ acres, 3x Central Park). Under active construction with ~3,700 workers as of April 2026. $27B joint venture with Blue Owl Capital formed October 2025. 10 gas-fired power plants totaling 7.5 GW planned via Entergy. Set to host Meta's next flagship AI cluster after Prometheus.",
+      "notes": "Enormous tract of land (2,250+ acres, 3x Central Park). Under intensive vertical construction with roughly 4,000 workers as of May 2026 (structural steel and utilities). $27B joint venture with Blue Owl Capital formed October 2025; Louisiana approved about $3.3B in tax breaks in May 2026. 10 gas-fired power plants totaling 7.5 GW planned via Entergy. Operational target around 2030. Set to host Meta's next flagship AI cluster after Prometheus.",
       "sources": [
         "https://datacenters.atmeta.com/richland-parish-data-center/",
         "https://fortune.com/2026/03/26/meta-ai-data-center-hyperion-louisiana/",
-        "https://fortune.com/2026/03/27/meta-hyperion-10-gas-power-plants-louisiana-entergy/"
+        "https://fortune.com/2026/03/27/meta-hyperion-10-gas-power-plants-louisiana-entergy/",
+        "https://www.fox8live.com/2026/05/12/metas-27-billion-ai-data-center-is-transforming-rural-louisiana/",
+        "https://fortune.com/2026/05/14/meta-data-center-tax-break-hyperion-louisiana/"
       ],
       "timelineEvents": [
         {
@@ -681,6 +695,14 @@
         {
           "date": "2026-03-26",
           "description": "Active construction confirmed with ~3,700 workers; 10 gas-fired power plants (7.5 GW total) announced"
+        },
+        {
+          "date": "2026-05-12",
+          "description": "Intensive vertical construction with ~4,000 workers on structural steel and utilities"
+        },
+        {
+          "date": "2026-05-14",
+          "description": "Louisiana approves ~$3.3B in tax breaks for the project"
         }
       ]
     },
@@ -875,20 +897,108 @@
       "address": "5746 Highway 121, Alexandria, LA",
       "project": null,
       "h100Equivalents": 0,
-      "notes": "500+ acre AI Factory campus north of Alexandria, Louisiana. Two 150 MW buildings totaling 430 MW design capacity. $7.5B 15-year lease signed April 23, 2026 with unnamed US-based hyperscaler for 300 MW. First operations targeted mid-2027. 200+ jobs expected.",
+      "notes": "500+ acre AI Factory campus in Rapides Parish, north of Alexandria, Louisiana. Two 150 MW buildings totaling 430 MW design capacity. $7.5B 15-year lease signed April 23, 2026 with an unnamed US-based hyperscaler for 300 MW. The same tenant signed a second 300 MW, $7.5B/15-year lease on May 20, 2026 for Applied Digital's Polaris Forge 3 campus in North Dakota, pushing the company past 1 GW of contracted capacity. First Delta Forge operations targeted mid-2027. 200+ jobs expected.",
       "sources": [
         "https://ir.applieddigital.com/news-events/press-releases/detail/149/applied-digital-announces-new-u-s-based-high",
         "https://ir.applieddigital.com/news-events/press-releases/detail/144/applied-digital-breaks-ground-on-delta-forge-1-a-430-mw-ai",
-        "https://datacenterhawk.com/marketplace/providers/applied-digital/5746-highway-121/delta-forge-1"
+        "https://datacenterhawk.com/marketplace/providers/applied-digital/5746-highway-121/delta-forge-1",
+        "https://ir.applieddigital.com/news-events/press-releases/detail/152/applied-digital-reaches-significant-milestone-surpassing-1"
       ],
       "timelineEvents": [
         {
           "date": "2026-04-23",
           "description": "$7.5B 15-year lease signed with US hyperscaler for 300 MW; campus under construction targeting mid-2027 operations"
+        },
+        {
+          "date": "2026-05-20",
+          "description": "Same hyperscaler signs second 300 MW lease (Polaris Forge 3, ND); Applied Digital surpasses 1 GW contracted"
+        }
+      ]
+    },
+    {
+      "name": "OpenAI Stargate Milam County",
+      "owner": "SB Energy",
+      "users": [
+        "OpenAI"
+      ],
+      "powerMW": 1200,
+      "capitalCostB": 0,
+      "lat": 30.5646,
+      "lng": -97.0728,
+      "state": "Texas",
+      "stateId": "TX",
+      "status": "active",
+      "address": "Sandow Lakes Ranch, near Rockdale, Milam County, TX 76567",
+      "project": "Stargate",
+      "h100Equivalents": 0,
+      "notes": "One of the five new Stargate sites announced in 2025. On May 9, 2026 SoftBank's SB Energy was named to build and operate this 1.2 GW campus; OpenAI and SoftBank each invested $500M in SB Energy. Sited on the former Alcoa Sandow / Sandow Lakes Ranch land near Rockdale, with on-site generation planned to limit grid and ratepayer impact. Initial facilities expected to enter service starting 2026.",
+      "sources": [
+        "https://openai.com/index/stargate-sb-energy-partnership/",
+        "https://www.datacenterdynamics.com/en/news/softbanks-sb-energy-to-build-and-operate-openais-12gw-stargate-data-center-in-milam-county-texas/",
+        "https://baxtel.com/data-center/openai-stargate-milam-county-tx"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-05-09",
+          "description": "SB Energy named to build and operate the 1.2 GW Stargate campus; OpenAI + SoftBank invest $500M each"
+        }
+      ]
+    },
+    {
+      "name": "Aligned Project Caprock",
+      "owner": "Aligned Data Centers",
+      "users": [],
+      "powerMW": 540,
+      "capitalCostB": 5,
+      "lat": 33.8619,
+      "lng": -101.7551,
+      "state": "Texas",
+      "stateId": "TX",
+      "status": "active",
+      "address": "1498 County Road 315, Abernathy, TX 79311",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "540 MW campus on 313 acres in Hale County just north of Abernathy, comprising about 1.65M sq ft across six facilities and projected to add ~$5B to the regional economy. Closed-loop cooling. Groundbreaking April 9, 2026; first building (LBB-01) targeted for Q1 2027.",
+      "sources": [
+        "https://aligneddc.com/abernathy-tx-data-center/",
+        "https://www.datacenterdynamics.com/en/news/aligned-breaks-ground-on-540mw-data-center-campus-in-texas/",
+        "https://www.globenewswire.com/news-release/2026/04/09/3271435/0/en/Aligned-Data-Centers-Breaks-Ground-on-Project-Caprock-a-Sustainable-540-MW-Next-Generation-Data-Center-Campus-in-Northwest-Texas.html"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-04-09",
+          "description": "Aligned breaks ground on the 540 MW, six-building Project Caprock campus"
+        }
+      ]
+    },
+    {
+      "name": "Joliet Technology Center",
+      "owner": "Hillwood / PowerHouse Data Centers",
+      "users": [],
+      "powerMW": 1800,
+      "capitalCostB": 20,
+      "lat": 41.4596,
+      "lng": -88.044,
+      "state": "Illinois",
+      "stateId": "IL",
+      "status": "planned",
+      "address": "Bernhard Rd & S Rowell Rd, Jackson Township, Joliet, IL 60442",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "Largest US data center by approved capacity — up to 1.8 GW and roughly $20B at full buildout. 795-acre site near Chicagoland Speedway with 24 two-story, 144,500 sq ft buildings. Developed by Hillwood (Ross Perot Jr.) with PowerHouse Data Centers; no anchor tenant named. Joliet City Council approved 8-1 on March 20, 2026; construction expected to start in early 2027 and continue through 2032.",
+      "sources": [
+        "https://www.shawlocal.com/the-herald-news/2026/03/20/joliet-oks-controversial-795-acre-data-center/",
+        "https://www.datacenterdynamics.com/en/news/approval-given-to-20bn-data-center-near-chicago-illinois/",
+        "https://www.datacenterfrontier.com/site-selection/article/55367747/hillwood-powerhouse-advance-20b-joliet-data-campus-as-midwest-ai-buildout-accelerates"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-03-20",
+          "description": "Joliet City Council approves the 795-acre, up-to-1.8 GW campus 8-1"
         }
       ]
     }
   ],
-  "lastUpdated": "2026-04-25",
+  "lastUpdated": "2026-05-29",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
