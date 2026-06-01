@@ -104,7 +104,7 @@
       "address": "5502 Spinks Rd, Abilene, TX 79601",
       "project": "Stargate",
       "h100Equivalents": 510359,
-      "notes": "First of several Stargate sites and the most complete to date. Four of eight buildings operational running Nvidia Blackwell. Per Epoch AI tracking, ~0.6 GW IT capacity is expected by late May 2026 with the full ~1.2 GW IT (590 MW listed here is OpenAI-allocated) reached in Q4 2026. OpenAI dropped a planned 2.1 GW expansion on this site — Crusoe is instead building two adjacent AI-factory buildings for Microsoft.",
+      "notes": "First of several Stargate sites and the most complete to date. Four of eight buildings operational running Nvidia Blackwell at ~0.3 GW; remaining six buildings expected to complete by mid-2026 for a full 1.2 GW campus (Oracle 15-year lease to deploy 450,000+ GB200 GPUs). Power is a mix of on-site natural gas plus grid (including local wind). OpenAI dropped a planned 2.1 GW expansion on this site — Crusoe is instead building two adjacent AI-factory buildings for Microsoft.",
       "sources": [
         "https://openai.com/index/five-new-stargate-sites/",
         "https://www.datacenterdynamics.com/en/news/crusoe-tops-out-final-building-at-openai-stargate-data-center-campus-in-abilene-texas/",
@@ -679,7 +679,7 @@
       "address": "Holly Ridge, LA 71269",
       "project": "Hyperion",
       "h100Equivalents": 0,
-      "notes": "Enormous tract of land (2,250+ acres, 3x Central Park). Under intensive vertical construction with roughly 4,000 workers as of May 2026 (structural steel and utilities). $27B joint venture with Blue Owl Capital formed October 2025; Louisiana approved about $3.3B in tax breaks in May 2026. 10 gas-fired power plants totaling 7.5 GW planned via Entergy. Operational target around 2030. Set to host Meta's next flagship AI cluster after Prometheus.",
+      "notes": "Enormous tract of land (2,250+ acres, 3x Central Park). Under intensive vertical construction with roughly 4,000 workers as of mid-May 2026, headed toward a peak workforce of 5,000 by June 2026 (structural steel and utilities). $27B joint venture with Blue Owl Capital formed October 2025; Louisiana approved about $3.3B in tax breaks in May 2026. 10 gas-fired power plants totaling 7.5 GW planned via Entergy. Phase 1 targets 1.5 GW capacity by late 2027; full 5 GW phased through 2030. Set to host Meta's next flagship AI cluster after Prometheus.",
       "sources": [
         "https://datacenters.atmeta.com/richland-parish-data-center/",
         "https://fortune.com/2026/03/26/meta-ai-data-center-hyperion-louisiana/",
@@ -999,6 +999,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-05-29",
+  "lastUpdated": "2026-06-01",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
