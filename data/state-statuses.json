@@ -264,12 +264,19 @@
       "fips": "12",
       "name": "Florida",
       "slug": "florida",
-      "status": "no_action",
-      "summary": "No statewide data center moratorium legislation. Florida continues to attract data center investment, particularly in the Miami and Jacksonville markets.",
-      "bills": [],
-      "lastUpdated": "2026-04-09",
+      "status": "active_restrictions",
+      "summary": "Governor Ron DeSantis signed SB 484 — the Florida Hyperscale Data Center Act — into law on May 7, 2026 (effective July 1). The law classifies data centers consuming 50+ MW at peak demand as 'large-scale,' bars utilities from passing data center costs onto residential and small-business ratepayers, requires data centers to pay their full cost of service, creates a permitting framework to protect aquifers and local water (mandating reclaimed water where feasible), and preserves local government authority to deny or impose stricter standards on data center projects. Florida continues to attract data center investment, particularly in the Miami and Jacksonville markets.",
+      "bills": [
+        {
+          "id": "SB 484",
+          "title": "Florida Hyperscale Data Center Act — ratepayer protection, water/aquifer permitting, local zoning authority",
+          "status": "Signed into law by Gov. DeSantis — May 7, 2026 (effective July 1, 2026)",
+          "url": "https://www.flsenate.gov/Session/Bill/2026/484/ByCategory"
+        }
+      ],
+      "lastUpdated": "2026-06-01",
       "tags": [
-        "no_action"
+        "active_restrictions"
       ]
     },
     {
@@ -530,7 +537,7 @@
       "name": "Indiana",
       "slug": "indiana",
       "status": "active_restrictions",
-      "summary": "Indiana HB 1333 passed the House 54-45 (February 2026) but stalled in the Senate Utilities Committee; the controversial 'permitted use' farmland provision was explicitly rejected. The core 1% revenue-sharing provision was folded into HB 1210, which was enacted into law.",
+      "summary": "Indiana HB 1333 passed the House 54-45 (February 2026) but stalled in the Senate Utilities Committee; the controversial 'permitted use' farmland provision was explicitly rejected. The core 1% revenue-sharing provision was folded into HB 1210, which was enacted into law. On May 4-14, 2026 the Indianapolis City-County Council unanimously passed a non-binding resolution (Proposal 158) urging the Metropolitan Development Commission to pause data center approvals until May 7, 2027 or until tighter rules are adopted; the MDC is expected to discuss draft special development standards at its June 3, 2026 meeting.",
       "bills": [
         {
           "id": "HB 1333",
@@ -608,9 +615,18 @@
           "date": "2026-02-02",
           "description": "12-month moratorium, unanimous vote. APC recommended 5-0",
           "url": "https://pulaskijournal.com/news/12-month-data-center-moratorium-passes-unanimously"
+        },
+        {
+          "locality": "Indianapolis (City-County)",
+          "countyFips": "18097",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-05-14",
+          "description": "City-County Council unanimously passed Proposal 158, a non-binding resolution urging the Metropolitan Development Commission to pause approvals of high-impact data centers until May 7, 2027 or until tighter standards are adopted. The MDC, which holds binding zoning authority, is expected to discuss draft special development standards at its June 3, 2026 meeting.",
+          "url": "https://www.axios.com/local/indianapolis/2026/05/15/the-city-county-council-passed-a-data-center-moratorium-heres-whats-next"
         }
       ],
-      "lastUpdated": "2026-04-10",
+      "lastUpdated": "2026-06-01",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -1539,8 +1555,14 @@
       "name": "New Jersey",
       "slug": "new-jersey",
       "status": "legislation_advancing",
-      "summary": "New Jersey A796 passed the Assembly 55-18 in March 2026; the Senate companion S731 advanced to the Senate floor and received a floor amendment on May 28, 2026, though a final Senate passage vote had not been confirmed as of late May. The bill would require special utility tariffs for large data centers (100+ MW peak), mandate a 10-year cost commitment covering at least 85% of service costs, and require financial security. Companion bill S3379 requires semi-annual water and energy consumption reporting. Pemberton Township became the first NJ municipality to ban data centers outright; Phillipsburg passed a final ban ordinance on April 14.",
+      "summary": "On May 27, 2026 Governor Mikie Sherrill unveiled the state's first comprehensive data center plan: requiring data centers to pay for their own electricity, report power and water consumption, support community benefit agreements (recreational facilities, AI school resources), and address noise and pollution. Sherrill cited PJM Interconnection's finding that data centers drove ~70% of projected demand growth last year; about 60 organizations are pushing for a stronger three-year moratorium on facilities over 20 MW. Legislatively, New Jersey A796 passed the Assembly 55-18 in March 2026; the Senate companion S731 advanced to the Senate floor and received a floor amendment on May 28, 2026, though a final Senate passage vote had not been confirmed as of late May. The bill would require special utility tariffs for large data centers (100+ MW peak), mandate a 10-year cost commitment covering at least 85% of service costs, and require financial security. Companion bill S3379 requires semi-annual water and energy consumption reporting. Pemberton Township became the first NJ municipality to ban data centers outright; Phillipsburg passed a final ban ordinance on April 14.",
       "bills": [
+        {
+          "id": "Sherrill Plan (Executive)",
+          "title": "Comprehensive Data Center Plan \u2014 ratepayer protection, reporting, community benefit framework",
+          "status": "Announced by Gov. Sherrill \u2014 May 27, 2026",
+          "url": "https://www.nj.gov/governor/news/2026/approved/20260527a.shtml"
+        },
         {
           "id": "A796 / S731",
           "title": "Large Load Data Center Utility Tariff Act",
@@ -1554,7 +1576,7 @@
           "url": "https://www.njleg.state.nj.us/Bills/2026/S3500/3379_I1.HTM"
         }
       ],
-      "lastUpdated": "2026-05-29",
+      "lastUpdated": "2026-06-01",
       "tags": [
         "legislation_advancing",
         "local_restrictions"
@@ -2224,9 +2246,15 @@
       "fips": "50",
       "name": "Vermont",
       "slug": "vermont",
-      "status": "legislation_advancing",
-      "summary": "Vermont's S.205 proposes a moratorium on AI data centers requiring 100 MW+ until July 2030 \u2014 the longest proposed moratorium period nationally. Referred to Senate Finance and Natural Resources & Energy committees. Has not passed originating chamber.",
+      "status": "under_discussion",
+      "summary": "Governor Phil Scott vetoed H.727, the Sustainable Data Center Deployment Act, on May 28, 2026, citing existing Act 250, Public Utility Commission, and municipal zoning authority. The bill had passed with tripartisan support (Senate 26-3, near-unanimous House voice vote) and would have required utility contracts insulating other ratepayers from large-data-center costs, additional site analysis, and climate-fund payments. Lawmakers voted 83-52 to override on May 28 \u2014 six votes short of the 90 needed. Vermont's S.205 (100 MW+ AI data center moratorium through July 2030) remained in committee.",
       "bills": [
+        {
+          "id": "H.727",
+          "title": "Sustainable Data Center Deployment Act \u2014 utility contracts, site analysis, climate-fund payments",
+          "status": "Vetoed by Gov. Scott May 28, 2026; override failed 83-52 (90 required)",
+          "url": "https://legislature.vermont.gov/bill/status/2026/H.727"
+        },
         {
           "id": "S.205",
           "title": "AI Data Center Moratorium Act",
@@ -2234,9 +2262,9 @@
           "url": "https://legislature.vermont.gov/bill/status/2026/S.205"
         }
       ],
-      "lastUpdated": "2026-04-09",
+      "lastUpdated": "2026-06-01",
       "tags": [
-        "legislation_advancing",
+        "under_discussion",
         "local_restrictions"
       ],
       "localMoratoriums": [
