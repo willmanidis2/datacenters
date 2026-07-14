@@ -16,7 +16,7 @@
       "address": "55001 Larrison Blvd, New Carlisle, IN 46552",
       "project": "Project Rainier",
       "h100Equivalents": 685914,
-      "notes": "Part of the Anthropic-Amazon Project Rainier collaboration. Direct air cooling design.",
+      "notes": "Part of the Anthropic-Amazon Project Rainier collaboration. Direct air cooling design. Broader campus reporting indicates roughly 18 buildings operating and 14 under construction (32 planned; ~6.5M sq ft, ~2.25 GW at full build), with Anthropic reserving up to 5 GW across Rainier; the tracked buildings above are the initial Trainium2 cluster. In June 2026, satellite imagery showed construction beginning on the adjacent Phase II (SBN210) site.",
       "sources": [
         "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster"
       ],
@@ -40,6 +40,10 @@
         {
           "date": "2025-11-28",
           "description": "Buildings 2-3 operational, Building 4 roof complete"
+        },
+        {
+          "date": "2026-06-01",
+          "description": "Satellite imagery shows Phase II (SBN210) construction underway; broader campus reported at ~18 buildings operating, ~14 under construction"
         }
       ]
     },
@@ -104,7 +108,7 @@
       "address": "5502 Spinks Rd, Abilene, TX 79601",
       "project": "Stargate",
       "h100Equivalents": 510359,
-      "notes": "First of several Stargate sites and the most complete to date. Four of eight buildings operational running Nvidia Blackwell at ~0.3 GW; remaining six buildings expected to complete by mid-2026 for a full 1.2 GW campus (Oracle 15-year lease to deploy 450,000+ GB200 GPUs). Power is a mix of on-site natural gas plus grid (including local wind). OpenAI dropped a planned 2.1 GW expansion on this site — Crusoe is instead building two adjacent AI-factory buildings for Microsoft.",
+      "notes": "First of several Stargate sites and the most complete to date. Four of eight buildings operational running Nvidia Blackwell at ~0.4 GW (Epoch AI tracked ~421 MW IT as of late May 2026); the remaining four buildings are now projected to complete around Q4 2026 for a full 1.2 GW campus — a slip from the earlier mid-2026 target (Oracle 15-year lease to deploy 450,000+ GB200 GPUs). Power is a mix of on-site natural gas plus grid (including local wind). OpenAI dropped a planned 2.1 GW expansion on this site — Crusoe is instead building two adjacent AI-factory buildings for Microsoft.",
       "sources": [
         "https://openai.com/index/five-new-stargate-sites/",
         "https://www.datacenterdynamics.com/en/news/crusoe-tops-out-final-building-at-openai-stargate-data-center-campus-in-abilene-texas/",
@@ -134,6 +138,10 @@
         {
           "date": "2026-05-01",
           "description": "Epoch AI tracks ~0.6 GW IT capacity expected late May 2026; full 1.2 GW IT in Q4 2026"
+        },
+        {
+          "date": "2026-05-23",
+          "description": "Epoch AI: Buildings 3-4 estimated operational — 4 of 8 buildings live (~421 MW IT); Buildings 5-8 now projected operational ~November 2026"
         }
       ]
     },
@@ -154,9 +162,10 @@
       "address": "4800 90th St, Mount Pleasant, WI 53403",
       "project": "Microsoft AI WAN",
       "h100Equivalents": 558828,
-      "notes": "Set to be Microsoft's most powerful data center. Two-story buildings with GPU racks networked vertically and horizontally.",
+      "notes": "Set to be Microsoft's most powerful data center. Two-story buildings with GPU racks networked vertically and horizontally. On June 23, 2026 Microsoft announced it had completed construction of the first Mount Pleasant (Fairwater) datacenter ahead of schedule, with equipment brought online starting April 2026; a second adjacent datacenter is under construction, targeted for 2028.",
       "sources": [
-        "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/"
+        "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/",
+        "https://news.microsoft.com/source/2026/06/23/"
       ],
       "timelineEvents": [
         {
@@ -174,6 +183,10 @@
         {
           "date": "2025-09-18",
           "description": "Microsoft announces as world's most powerful AI datacenter"
+        },
+        {
+          "date": "2026-06-23",
+          "description": "Microsoft announces completion of the first Mount Pleasant Fairwater datacenter, ahead of schedule"
         }
       ]
     },
@@ -214,6 +227,10 @@
         {
           "date": "2026-05-01",
           "description": "Independent analysis projects Prometheus crosses 1 GW capacity in May 2026"
+        },
+        {
+          "date": "2026-06-28",
+          "description": "WARN notice takes effect: contractor Milestone Technologies exits (105 employees) as its on-site contract ends — a vendor change, not a confirmed construction delay"
         }
       ]
     },
@@ -233,7 +250,7 @@
       "address": "1435 Hwy 54 W, Fayetteville, GA 30214",
       "project": "Microsoft AI WAN",
       "h100Equivalents": 374125,
-      "notes": "QTS-built data center with Microsoft as tenant, possibly for OpenAI compute. Now launched and networked with Microsoft's Fairwater Wisconsin site into what Microsoft calls an 'AI superfactory'; the two-story design omits UPS and on-site generators.",
+      "notes": "QTS-built data center with Microsoft as tenant, possibly for OpenAI compute. Now launched and networked with Microsoft's Fairwater Wisconsin site into what Microsoft calls an 'AI superfactory'; the two-story design omits UPS and on-site generators. As of May 2026, four buildings are operational with five more under construction (DC-3 through DC-7); QTS has begun master sitework on an adjacent East Campus of four planned two-story buildings (~2.0M sq ft), for ~13 buildings / 6.18M sq ft across both campuses.",
       "sources": [
         "https://www.bloomberg.com/news/features/2024-12-08/georgia-s-blackstone-backed-qts-data-center-hits-resistance-over-ai-power-needs",
         "https://www.datacenterdynamics.com/en/news/microsoft-launches-atlanta-fairwater-data-center-two-stories-no-ups-or-gen-sets/"
@@ -384,12 +401,13 @@
       "address": "5420 Tulane Rd, Memphis, TN 38109",
       "project": null,
       "h100Equivalents": 280838,
-      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi. xAI now claims ~2 GW total Colossus capacity across both sites; Tesla Megapacks delivered to Memphis provide battery backup. Q1 2026 $659M building permit filed for a new 312,000 sq ft facility at 5414 Tulane Road. In May 2026 the NAACP sought an emergency injunction over the Southaven, MS gas-turbine plant powering Colossus 2, alleging up to 46 portable turbines were operating though Mississippi DEQ had permitted only 27.",
+      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi. xAI now claims ~2 GW total Colossus capacity across both sites; Tesla Megapacks delivered to Memphis provide battery backup. Q1 2026 $659M building permit filed for a new 312,000 sq ft facility at 5414 Tulane Road. In May 2026 the NAACP sought an emergency injunction over the Southaven, MS gas-turbine plant powering Colossus 2, alleging up to 46 portable turbines were operating though Mississippi DEQ had permitted only 27. On June 15, 2026 the U.S. Department of Justice moved to intervene and dismiss the NAACP's Clean Air Act suit on national-security grounds (citing a DoD declaration describing Grok as a frontier AI model); xAI and Mississippi joined, and as of July 10, 2026 the judge had not ruled. Later filings put the turbine count at 57-59. In late June 2026 xAI filed roughly $300M in new construction permits across Colossus 1 and 2, including a ~$250M Colossus 2 Phase III expansion.",
       "sources": [
         "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d",
         "https://introl.com/blog/xai-colossus-2-gigawatt-expansion-555k-gpus-january-2026",
         "https://www.teslarati.com/xai-tesla-megapack-colossus-2/",
-        "https://earthjustice.org/press/2026/naacp-asks-court-for-emergency-action-to-stop-illegal-air-pollution-from-xais-data-center-power-plant"
+        "https://earthjustice.org/press/2026/naacp-asks-court-for-emergency-action-to-stop-illegal-air-pollution-from-xais-data-center-power-plant",
+        "https://www.utilitydive.com/news/doj-intervenes-xai-data-center-gas-turbine-lawsuit/823267/"
       ],
       "timelineEvents": [
         {
@@ -411,6 +429,14 @@
         {
           "date": "2026-05-01",
           "description": "NAACP seeks emergency injunction; ~46 portable turbines alleged vs 27 permitted by MS DEQ"
+        },
+        {
+          "date": "2026-06-15",
+          "description": "DOJ moves to intervene and dismiss the NAACP Clean Air Act suit on national-security grounds; xAI and Mississippi join. Later filings allege 57-59 turbines"
+        },
+        {
+          "date": "2026-06-24",
+          "description": "xAI files ~$300M in new construction permits across Colossus 1 & 2, including a ~$250M Colossus 2 Phase III expansion"
         }
       ]
     },
@@ -685,7 +711,8 @@
         "https://fortune.com/2026/03/26/meta-ai-data-center-hyperion-louisiana/",
         "https://fortune.com/2026/03/27/meta-hyperion-10-gas-power-plants-louisiana-entergy/",
         "https://www.fox8live.com/2026/05/12/metas-27-billion-ai-data-center-is-transforming-rural-louisiana/",
-        "https://fortune.com/2026/05/14/meta-data-center-tax-break-hyperion-louisiana/"
+        "https://fortune.com/2026/05/14/meta-data-center-tax-break-hyperion-louisiana/",
+        "https://www.kplctv.com/2026/06/26/landry-signs-order-protect-utility-customers-he-promotes-more-data-center-development/"
       ],
       "timelineEvents": [
         {
@@ -703,6 +730,14 @@
         {
           "date": "2026-05-14",
           "description": "Louisiana approves ~$3.3B in tax breaks for the project"
+        },
+        {
+          "date": "2026-06-23",
+          "description": "Reports that Entergy Louisiana seeks to buy a Newton County, TX gas plant for ~$1.8B (increase largely attributable to Hyperion); an LPSC consultant warns of ratepayer bill increases"
+        },
+        {
+          "date": "2026-06-25",
+          "description": "Gov. Landry signs an executive order to protect Louisiana utility customers from data-center-driven cost increases while still promoting data center development"
         }
       ]
     },
@@ -897,7 +932,7 @@
       "address": "5746 Highway 121, Alexandria, LA",
       "project": null,
       "h100Equivalents": 0,
-      "notes": "500+ acre AI Factory campus in Rapides Parish, north of Alexandria, Louisiana. Two 150 MW buildings totaling 430 MW design capacity. $7.5B 15-year lease signed April 23, 2026 with an unnamed US-based hyperscaler for 300 MW. The same tenant signed a second 300 MW, $7.5B/15-year lease on May 20, 2026 for Applied Digital's Polaris Forge 3 campus in North Dakota, pushing the company past 1 GW of contracted capacity. First Delta Forge operations targeted mid-2027. 200+ jobs expected.",
+      "notes": "500+ acre AI Factory campus in Rapides Parish, north of Alexandria, Louisiana. Two 150 MW buildings totaling 430 MW design capacity. $7.5B 15-year lease signed April 23, 2026 with an unnamed US-based hyperscaler for 300 MW. The same tenant signed a second 300 MW, $7.5B/15-year lease on May 20, 2026 for Applied Digital's Polaris Forge 3 campus in North Dakota, pushing the company past 1 GW of contracted capacity. First Delta Forge operations targeted mid-2027. 200+ jobs expected. On June 8, 2026 Applied Digital announced a separate 210 MW, 15-year lease at a Delta Forge 2 campus (~$5.2B deal value).",
       "sources": [
         "https://ir.applieddigital.com/news-events/press-releases/detail/149/applied-digital-announces-new-u-s-based-high",
         "https://ir.applieddigital.com/news-events/press-releases/detail/144/applied-digital-breaks-ground-on-delta-forge-1-a-430-mw-ai",
@@ -912,6 +947,14 @@
         {
           "date": "2026-05-20",
           "description": "Same hyperscaler signs second 300 MW lease (Polaris Forge 3, ND); Applied Digital surpasses 1 GW contracted"
+        },
+        {
+          "date": "2026-05-26",
+          "description": "Gov. Landry formally announces the Delta Forge project at England Airpark, Alexandria"
+        },
+        {
+          "date": "2026-06-08",
+          "description": "Applied Digital announces a new 210 MW, 15-year lease at Delta Forge 2 (~$5.2B deal value)"
         }
       ]
     },
@@ -997,8 +1040,174 @@
           "description": "Joliet City Council approves the 795-acre, up-to-1.8 GW campus 8-1"
         }
       ]
+    },
+    {
+      "name": "Microsoft Kilby (Pecos)",
+      "owner": "Microsoft",
+      "users": [
+        "Microsoft"
+      ],
+      "powerMW": 2000,
+      "capitalCostB": 0,
+      "lat": 31.1343,
+      "lng": -103.4383,
+      "state": "Texas",
+      "stateId": "TX",
+      "status": "planned",
+      "address": "near Verhalen, SE of Pecos, Reeves County, TX",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "~2 GW AI data center announced June 22, 2026, co-located with a ~2.67 GW natural-gas plant (GE Vernova + Solar Turbines) on a 2,000+ acre Reeves County site. Developed with a Chevron subsidiary via the 'Energy Forge One LLC' JV under a ~$9B, 20-year power-and-compute agreement; brackish-groundwater cooled. First power expected around 2028. Coordinates from Global Energy Monitor's Kilby power plant record (co-located plant/campus anchor).",
+      "sources": [
+        "https://blogs.microsoft.com/blog/2026/06/22/powering-the-next-wave-of-ai-expanding-capacity-with-our-new-datacenter-in-pecos/",
+        "https://www.chevron.com/newsroom/2026/q2/chevron-signs-20-year-power-agreement-with-microsoft-for-west-texas-data-center",
+        "https://www.gem.wiki/Kilby_power_plant"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-06-22",
+          "description": "Microsoft and Chevron announce the ~2 GW Kilby AI campus with co-located ~2.67 GW gas plant near Pecos"
+        }
+      ]
+    },
+    {
+      "name": "Google New Florence",
+      "owner": "Google Cloud",
+      "users": [
+        "Google DeepMind"
+      ],
+      "powerMW": 0,
+      "capitalCostB": 15,
+      "lat": 38.8902,
+      "lng": -91.4243,
+      "state": "Missouri",
+      "stateId": "MO",
+      "status": "planned",
+      "address": "former Hoette Farms, SE of I-70/MO-19, New Florence, Montgomery County, MO 63363",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "$15B data center campus on ~910 acres (former Hoette Farm and Nursery) southeast of the I-70/MO-19 interchange near New Florence — the largest single private investment in Missouri history. Announced May 2026. Coordinates anchor on the named parcel; the campus centroid is within ~1 mile. Distinct from Amazon's separate Montgomery County site.",
+      "sources": [
+        "https://www.stlpr.org/government-politics-issues/2026-05-21/missouri-governor-google-announce-15-billion-data-center-montgomery-county",
+        "https://governor.mo.gov/press-releases/archive/missouri-secures-15-billion-investment-google-montgomery-county"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-05-20",
+          "description": "Google and Missouri announce a $15B data center campus in Montgomery County"
+        }
+      ]
+    },
+    {
+      "name": "Amazon Montgomery County",
+      "owner": "Amazon",
+      "users": [],
+      "powerMW": 0,
+      "capitalCostB": 10,
+      "lat": 38.898,
+      "lng": -91.415,
+      "state": "Missouri",
+      "stateId": "MO",
+      "status": "planned",
+      "address": "NE quadrant of I-70/MO-19 interchange, east of New Florence, Montgomery County, MO",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "$10B AWS data center campus (~1,000 acres) north of I-70 and east of New Florence, announced June 2026; 400+ jobs. Separate from Google's nearby $15B New Florence site. Coordinates are a quadrant-level estimate (NE quadrant of the I-70/MO-19 interchange) — the site was undeveloped farmland with no public parcel address at announcement, so the true building centroid may shift within ~1 mile once construction begins.",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/amazon-selects-missouri-for-10-billion-data-center-campus-302800859.html",
+        "https://governor.mo.gov/press-releases/archive/amazon-investing-10-billion-montgomery-county"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-06-15",
+          "description": "Amazon announces a $10B data center campus in Montgomery County, Missouri"
+        }
+      ]
+    },
+    {
+      "name": "Prometheus Hyperscale WY-1",
+      "owner": "Prometheus Hyperscale",
+      "users": [],
+      "powerMW": 1250,
+      "capitalCostB": 0,
+      "lat": 41.2749,
+      "lng": -110.7878,
+      "state": "Wyoming",
+      "stateId": "WY",
+      "status": "planned",
+      "address": "8936 County Road 180, ~10 mi east of Evanston, Uinta County, WY 82930",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "506-acre site ~10 miles east of Evanston, south of I-80 near the Utah line. 1.25 GW initial capacity (islanded gas microgrid), expandable to 5 GW; privately funded (Morgan Stanley bond, no state subsidies). Uinta County approved the rezone June 16 and a conditional-use permit June 18, 2026; construction expected within ~6 months. Coordinates from datacentermap.com and the county CUP legal description (Section 13, T15N, R119W).",
+      "sources": [
+        "https://www.prnewswire.com/news-releases/prometheus-hyperscale-secures-unanimous-conditional-use-permit-approval-from-uinta-county-commissioners-302803665.html",
+        "https://www.datacentermap.com/usa/wyoming/evanston/wy-1/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-06-18",
+          "description": "Uinta County commissioners unanimously approve the conditional-use permit for the 1.25 GW WY-1 campus"
+        }
+      ]
+    },
+    {
+      "name": "Microsoft La Porte",
+      "owner": "Microsoft",
+      "users": [
+        "Microsoft"
+      ],
+      "powerMW": 0,
+      "capitalCostB": 1,
+      "lat": 41.5751,
+      "lng": -86.6767,
+      "state": "Indiana",
+      "stateId": "IN",
+      "status": "active",
+      "address": "300 E Boyd Blvd (Radius Industrial Park), La Porte, IN 46350",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "489-acre campus in the Radius Industrial Park bounded by Boyd Boulevard and East 250 South, plus ~1,300 adjacent acres reserved for expansion. Microsoft broke ground June 17, 2026 on a $1B+ initial build; six buildings planned initially (11 more later), with the first three targeted operational by 2029. Coordinates from datacentermap.com (campus interior).",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/microsoft-breaks-ground-on-data-center-campus-in-la-porte-indiana/",
+        "https://www.datacentermap.com/usa/indiana/la-porte/microsoft-la-porte/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-06-17",
+          "description": "Microsoft breaks ground on the 489-acre La Porte data center campus"
+        }
+      ]
+    },
+    {
+      "name": "xAI Macrohard (Southaven)",
+      "owner": "xAI",
+      "users": [
+        "xAI"
+      ],
+      "powerMW": 0,
+      "capitalCostB": 0,
+      "lat": 34.9934,
+      "lng": -90.0341,
+      "state": "Mississippi",
+      "stateId": "MS",
+      "status": "planned",
+      "address": "2400 Stateline Rd W, Southaven, MS 38671",
+      "project": null,
+      "h100Equivalents": 0,
+      "notes": "State-confirmed June 2026 (initial Musk announcement January 2026): an ~810,000 sq ft former-GXO warehouse retrofit on Stateline Road in Southaven, distinct from xAI's nearby Colossus 2 turbine plant. Part of a pledged $20B+ xAI investment across Mississippi (the state's largest economic-development project), pushing the regional footprint toward ~2 GW. Coordinates from datacentermap.com, corroborated by OSM geocoding of the street address.",
+      "sources": [
+        "https://governorreeves.ms.gov/tech-leader-xai-investing-more-than-20-billion-in-southaven/",
+        "https://www.datacenterdynamics.com/en/news/xai-confirms-new-data-center-in-mississippi-elon-musk-pledges-20bn-investment-in-state/",
+        "https://www.datacentermap.com/usa/mississippi/southaven/xai-macrohardrr/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-06-01",
+          "description": "Mississippi confirms xAI's Southaven warehouse-retrofit data center as part of a $20B+ statewide investment"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-06-01",
+  "lastUpdated": "2026-07-10",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
