@@ -1968,7 +1968,7 @@
       ],
       "lastUpdated": "2026-08-24",
       "tags": [
-        "legislation_advancing",
+        "active_restrictions",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -2682,7 +2682,7 @@
           "locality": "Oliver County",
           "countyFips": "38065",
           "type": "moratorium",
-          "status": "repealed",
+          "status": "expired",
           "date": "2026-05-01",
           "description": "Commission repealed its 180-day moratorium on data centers at a special meeting on May 1, 2026, after originally enacting it on March 10, 2026.",
           "url": "https://www.kfyrtv.com/2026/05/01/oliver-county-commissioners-repeal-moratorium-data-centers/"
@@ -3739,7 +3739,7 @@
       ],
       "lastUpdated": "2026-08-24",
       "tags": [
-        "no_action",
+        "under_discussion",
         "local_restrictions"
       ]
     }
