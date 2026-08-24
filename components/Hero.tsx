@@ -1,5 +1,5 @@
 import { StateData } from "@/lib/types";
-import { formatDistanceToNow } from "date-fns";
+import { format, parseISO } from "date-fns";
 
 interface HeroProps {
   states: StateData[];
@@ -10,8 +10,10 @@ export default function Hero({ states }: HeroProps) {
     return state.lastUpdated > latest ? state.lastUpdated : latest;
   }, "");
 
-  const relativeTime = lastUpdated
-    ? formatDistanceToNow(new Date(lastUpdated), { addSuffix: true })
+  // lastUpdated is date-only ("2026-08-24"); parseISO keeps it in local time
+  // so the displayed calendar date never shifts across timezones.
+  const lastUpdatedDate = lastUpdated
+    ? format(parseISO(lastUpdated), "MMMM d, yyyy")
     : "";
 
   return (
@@ -22,9 +24,9 @@ export default function Hero({ states }: HeroProps) {
       <p className="mt-3 text-lg text-slate-600 max-w-2xl mx-auto">
         Tracking state-level data center legislation across the United States
       </p>
-      {relativeTime && (
+      {lastUpdatedDate && (
         <p className="mt-2 text-sm text-slate-400">
-          Last updated {relativeTime}
+          Last updated {lastUpdatedDate}
         </p>
       )}
     </section>
