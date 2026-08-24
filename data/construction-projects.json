@@ -7,7 +7,7 @@
         "Anthropic"
       ],
       "powerMW": 1092,
-      "capitalCostB": 34.86,
+      "capitalCostB": 34.47,
       "lat": 41.6939,
       "lng": -86.4953,
       "state": "Indiana",
@@ -15,10 +15,11 @@
       "status": "active",
       "address": "55001 Larrison Blvd, New Carlisle, IN 46552",
       "project": "Project Rainier",
-      "h100Equivalents": 685914,
+      "h100Equivalents": 685912,
       "notes": "Part of the Anthropic-Amazon Project Rainier collaboration. Direct air cooling design. Broader campus reporting indicates roughly 18 buildings operating and 14 under construction (32 planned; ~6.5M sq ft, ~2.25 GW at full build), with Anthropic reserving up to 5 GW across Rainier; the tracked buildings above are the initial Trainium2 cluster. In June 2026, satellite imagery showed construction beginning on the adjacent Phase II (SBN210) site.",
       "sources": [
-        "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster"
+        "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -44,6 +45,10 @@
         {
           "date": "2026-06-01",
           "description": "Satellite imagery shows Phase II (SBN210) construction underway; broader campus reported at ~18 buildings operating, ~14 under construction"
+        },
+        {
+          "date": "2026-06-03",
+          "description": "Buildings 17-18 fully roofed but still having surrounding generators/cooling under construction. Cleared land for buildings 19-32 is still bare, with no building foundations visible yet. Based on satellite imagery."
         }
       ]
     },
@@ -51,8 +56,8 @@
       "name": "QTS Richmond",
       "owner": "QTS",
       "users": [],
-      "powerMW": 854,
-      "capitalCostB": 32.72,
+      "powerMW": 787,
+      "capitalCostB": 21.29,
       "lat": 37.4881,
       "lng": -77.2442,
       "state": "Virginia",
@@ -60,10 +65,11 @@
       "status": "active",
       "address": "6000 Technology Blvd, Sandston, VA 23150",
       "project": null,
-      "h100Equivalents": 492168,
-      "notes": "15-building campus with estimated total IT power over 650 MW. QTS owns enough adjacent land for 1GW+ by 2030.",
+      "h100Equivalents": 600303,
+      "notes": "15-building campus with estimated total IT power over 650 MW. QTS owns enough adjacent land for 1GW+ by 2030. Figures are the sum of Epoch AI's separately tracked QTS Richmond 1, 2 and 3 campuses in Sandston, Virginia (~787 MW total power, ~600,000 H100-equivalents combined as of May 2026); capital cost was revised down substantially from earlier estimates.",
       "sources": [
-        "https://qtsdatacenters.com/data-centers/richmond-1/"
+        "https://qtsdatacenters.com/data-centers/richmond-1/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -89,6 +95,50 @@
         {
           "date": "2025-09-01",
           "description": "11 buildings operational"
+        },
+        {
+          "date": "2025-11-19",
+          "description": "[QTS Richmond 1] Building 5 is operational, based on a complete building and full carpark in a Google Earth image. Construction equipment around Building 1 and 2 has cleared up again."
+        },
+        {
+          "date": "2025-11-19",
+          "description": "[QTS Richmond 2] The west substation looks complete, based on a Google Earth image. This image also shows one corner of Building 5 that still has construction work, so it's probably not operational."
+        },
+        {
+          "date": "2025-11-19",
+          "description": "[QTS Richmond 3] The substation is still under construction, based on a Google Earth image, so we don't think any buildings are operational yet."
+        },
+        {
+          "date": "2025-12-31",
+          "description": "[QTS Richmond 1] No changes to the site since November 2025."
+        },
+        {
+          "date": "2025-12-31",
+          "description": "[QTS Richmond 2] Building 3 and 4 are operational, based on the substation being completed earlier, the buildings looking complete, and carparks being moderately full. Building 5 still has construction work."
+        },
+        {
+          "date": "2025-12-31",
+          "description": "[QTS Richmond 3] The substation looks complete, but we expect Building 1 still needs commissioning before it is fully operational."
+        },
+        {
+          "date": "2026-02-13",
+          "description": "[QTS Richmond 1] No changes to the site since December 2025."
+        },
+        {
+          "date": "2026-02-13",
+          "description": "[QTS Richmond 2] Building 5 still has construction work at the perimeter, but given how close it looks to completion, we estimate it's only about 3 months away from operational."
+        },
+        {
+          "date": "2026-02-13",
+          "description": "[QTS Richmond 3] Building 1 is operational, based on the substation being completed earlier and cars in the carpark. Building 2 and 3 are not operational, based on minor construction work at the perimeter and no cars in the carpark, but we expect they will be operational within 3 months. Building 4 has complete chillers and backup generators, while..."
+        },
+        {
+          "date": "2026-05-14",
+          "description": "[QTS Richmond 2] Building 5 is estimated to be operational, based on the previous entry."
+        },
+        {
+          "date": "2026-05-14",
+          "description": "[QTS Richmond 3] Building 2 and 3 are operational, based on the previous entry."
         }
       ]
     },
@@ -99,7 +149,7 @@
         "OpenAI"
       ],
       "powerMW": 590,
-      "capitalCostB": 16.14,
+      "capitalCostB": 15.95,
       "lat": 32.5022,
       "lng": -99.7887,
       "state": "Texas",
@@ -107,12 +157,13 @@
       "status": "active",
       "address": "5502 Spinks Rd, Abilene, TX 79601",
       "project": "Stargate",
-      "h100Equivalents": 510359,
-      "notes": "First of several Stargate sites and the most complete to date. Four of eight buildings operational running Nvidia Blackwell at ~0.4 GW (Epoch AI tracked ~421 MW IT as of late May 2026); the remaining four buildings are now projected to complete around Q4 2026 for a full 1.2 GW campus — a slip from the earlier mid-2026 target (Oracle 15-year lease to deploy 450,000+ GB200 GPUs). Power is a mix of on-site natural gas plus grid (including local wind). OpenAI dropped a planned 2.1 GW expansion on this site — Crusoe is instead building two adjacent AI-factory buildings for Microsoft.",
+      "h100Equivalents": 509348,
+      "notes": "First of several Stargate sites and the most complete to date. Four of eight buildings operational running Nvidia Blackwell at ~0.4 GW (Epoch AI tracked ~421 MW IT as of late May 2026); the remaining four buildings are now projected to complete around Q4 2026 for a full 1.2 GW campus — a slip from the earlier mid-2026 target (Oracle 15-year lease to deploy 450,000+ GB200 GPUs). Power is a mix of on-site natural gas plus grid (including local wind). OpenAI dropped a planned 2.1 GW expansion on this site — Crusoe is instead building two adjacent AI-factory buildings for Microsoft. Epoch estimates Buildings 3 and 4 became operational on May 23, 2026 (four buildings, ~590 MW). Buildings 5-8 are projected operational around November 1, 2026, which would take the site to ~1,180 MW.",
       "sources": [
         "https://openai.com/index/five-new-stargate-sites/",
         "https://www.datacenterdynamics.com/en/news/crusoe-tops-out-final-building-at-openai-stargate-data-center-campus-in-abilene-texas/",
-        "https://epoch.ai/blog/openai-stargate-where-the-us-sites-stand"
+        "https://epoch.ai/blog/openai-stargate-where-the-us-sites-stand",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -152,8 +203,8 @@
         "OpenAI",
         "Microsoft"
       ],
-      "powerMW": 555,
-      "capitalCostB": 17.71,
+      "powerMW": 442,
+      "capitalCostB": 13.98,
       "lat": 42.6749,
       "lng": -87.8949,
       "state": "Wisconsin",
@@ -161,11 +212,12 @@
       "status": "active",
       "address": "4800 90th St, Mount Pleasant, WI 53403",
       "project": "Microsoft AI WAN",
-      "h100Equivalents": 558828,
-      "notes": "Set to be Microsoft's most powerful data center. Two-story buildings with GPU racks networked vertically and horizontally. On June 23, 2026 Microsoft announced it had completed construction of the first Mount Pleasant (Fairwater) datacenter ahead of schedule, with equipment brought online starting April 2026; a second adjacent datacenter is under construction, targeted for 2028.",
+      "h100Equivalents": 445680,
+      "notes": "Set to be Microsoft's most powerful data center. Two-story buildings with GPU racks networked vertically and horizontally. On June 23, 2026 Microsoft announced it had completed construction of the first Mount Pleasant (Fairwater) datacenter ahead of schedule, with equipment brought online starting April 2026; a second adjacent datacenter is under construction, targeted for 2028. Epoch revised the operational figure down to ~442 MW for Building 1 alone; Building 2 is now estimated operational in February 2027, and the northwest area has been regraded for a revised 9-building design (Buildings 3-11) projected for 2028.",
       "sources": [
         "https://blogs.microsoft.com/blog/2025/09/18/inside-the-worlds-most-powerful-ai-datacenter/",
-        "https://news.microsoft.com/source/2026/06/23/"
+        "https://news.microsoft.com/source/2026/06/23/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -196,8 +248,8 @@
       "users": [
         "Meta"
       ],
-      "powerMW": 531,
-      "capitalCostB": 15.64,
+      "powerMW": 731,
+      "capitalCostB": 21.29,
       "lat": 40.0829,
       "lng": -82.7856,
       "state": "Ohio",
@@ -205,11 +257,12 @@
       "status": "active",
       "address": "1 Community Cir, New Albany, OH 43054",
       "project": "Prometheus",
-      "h100Equivalents": 493684,
-      "notes": "Unusual ad hoc construction spanning full length of New Albany Business Park. Combination of weatherproof tents, colocation facilities and traditional buildings. Per independent analysis, Prometheus is one of five US AI sites projected to cross 1 GW capacity in 2026, with the milestone tracked to May 2026.",
+      "h100Equivalents": 677110,
+      "notes": "Unusual ad hoc construction spanning full length of New Albany Business Park. Combination of weatherproof tents, colocation facilities and traditional buildings. Per independent analysis, Prometheus is one of five US AI sites projected to cross 1 GW capacity in 2026, with the milestone tracked to May 2026. Building 12 became operational on August 1, 2026 (~731 MW total power). Epoch projects the Socrates North and Socrates South gas plants online around October 2026 alongside Buildings 15-19, and Buildings 13-14 operational by late 2026 / January 2027.",
       "sources": [
         "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
-        "https://www.cbs42.com/business/press-releases/ein-presswire/864214321/five-ai-data-centers-will-hit-1-gw-in-2026-independent-analysis-shows/"
+        "https://www.cbs42.com/business/press-releases/ein-presswire/864214321/five-ai-data-centers-will-hit-1-gw-in-2026-independent-analysis-shows/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -231,6 +284,10 @@
         {
           "date": "2026-06-28",
           "description": "WARN notice takes effect: contractor Milestone Technologies exits (105 employees) as its on-site contract ends — a vendor change, not a confirmed construction delay"
+        },
+        {
+          "date": "2026-08-01",
+          "description": "Building 12 is operational, based on similar building completion timeframes by Vantage."
         }
       ]
     },
@@ -240,8 +297,8 @@
       "users": [
         "OpenAI"
       ],
-      "powerMW": 433,
-      "capitalCostB": 11.86,
+      "powerMW": 859,
+      "capitalCostB": 24.09,
       "lat": 33.4453,
       "lng": -84.5254,
       "state": "Georgia",
@@ -249,11 +306,12 @@
       "status": "active",
       "address": "1435 Hwy 54 W, Fayetteville, GA 30214",
       "project": "Microsoft AI WAN",
-      "h100Equivalents": 374125,
-      "notes": "QTS-built data center with Microsoft as tenant, possibly for OpenAI compute. Now launched and networked with Microsoft's Fairwater Wisconsin site into what Microsoft calls an 'AI superfactory'; the two-story design omits UPS and on-site generators. As of May 2026, four buildings are operational with five more under construction (DC-3 through DC-7); QTS has begun master sitework on an adjacent East Campus of four planned two-story buildings (~2.0M sq ft), for ~13 buildings / 6.18M sq ft across both campuses.",
+      "h100Equivalents": 768769,
+      "notes": "QTS-built data center with Microsoft as tenant, possibly for OpenAI compute. Now launched and networked with Microsoft's Fairwater Wisconsin site into what Microsoft calls an 'AI superfactory'; the two-story design omits UPS and on-site generators. As of May 2026, four buildings are operational with five more under construction (DC-3 through DC-7); QTS has begun master sitework on an adjacent East Campus of four planned two-story buildings (~2.0M sq ft), for ~13 buildings / 6.18M sq ft across both campuses. Buildings 3 and 4 became operational on June 14, 2026, roughly doubling the site to ~859 MW total power and ~769,000 H100-equivalents. Two additional building shells are underway on the campus, though the tenant is unconfirmed.",
       "sources": [
         "https://www.bloomberg.com/news/features/2024-12-08/georgia-s-blackstone-backed-qts-data-center-hits-resistance-over-ai-power-needs",
-        "https://www.datacenterdynamics.com/en/news/microsoft-launches-atlanta-fairwater-data-center-two-stories-no-ups-or-gen-sets/"
+        "https://www.datacenterdynamics.com/en/news/microsoft-launches-atlanta-fairwater-data-center-two-stories-no-ups-or-gen-sets/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -267,6 +325,22 @@
         {
           "date": "2025-01-01",
           "description": "Building 1 operational"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Building 1 and 2 are operational. Building 1 looked operational sooner, but the buildings are paired in the Fairwater design. The roof of Building 4 is almost complete, while mechanical equipment is still being installed."
+        },
+        {
+          "date": "2026-02-13",
+          "description": "Building 4 roof is complete and all mechanical equipment appears to be installed. However, there is still a lot of construction activity around the building."
+        },
+        {
+          "date": "2026-05-15",
+          "description": "Building 4 still has some equipment strewn around the perimeter, so we think it is still going through commissioning. Two new buildings at the campus have shells underway, but we don't know if Microsoft is the tenant for those."
+        },
+        {
+          "date": "2026-06-14",
+          "description": "Building 3 and 4 are operational."
         }
       ]
     },
@@ -277,7 +351,7 @@
         "xAI"
       ],
       "powerMW": 425,
-      "capitalCostB": 11.43,
+      "capitalCostB": 12.88,
       "lat": 35.0577,
       "lng": -90.1534,
       "state": "Tennessee",
@@ -286,11 +360,12 @@
       "address": "3231 Riverport Rd, Memphis, TN 38109",
       "project": null,
       "h100Equivalents": 275796,
-      "notes": "Converted from a factory in 2024. Unusual mix of cooling and power infrastructure. Initially powered by portable gas turbines. On May 6, 2026 Anthropic struck a deal to use the full compute of xAI's Colossus 1 (~220,000+ Nvidia GPUs, roughly 300 MW), reported amid Elon Musk's litigation against OpenAI.",
+      "notes": "Converted from a factory in 2024. Unusual mix of cooling and power infrastructure. Initially powered by portable gas turbines. On May 6, 2026 Anthropic struck a deal to use the full compute of xAI's Colossus 1 (~220,000+ Nvidia GPUs, roughly 300 MW), reported amid Elon Musk's litigation against OpenAI. Anthropic announced on May 6, 2026 an agreement with SpaceX to use all of Colossus 1's compute capacity — more than 300 MW of IT power and over 220,000 GPUs. Epoch reported no major site changes since February 2026.",
       "sources": [
         "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d",
         "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
-        "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/"
+        "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -312,6 +387,10 @@
         {
           "date": "2026-05-06",
           "description": "Anthropic agrees to use the full compute of Colossus 1 (~220k+ GPUs, ~300 MW)"
+        },
+        {
+          "date": "2026-06-15",
+          "description": "No major changes to the data center since February. Solar panels have been placed next to the facility."
         }
       ]
     },
@@ -321,8 +400,8 @@
       "users": [
         "Google DeepMind"
       ],
-      "powerMW": 407,
-      "capitalCostB": 13.01,
+      "powerMW": 543,
+      "capitalCostB": 17.16,
       "lat": 40.0813,
       "lng": -82.7883,
       "state": "Ohio",
@@ -330,10 +409,11 @@
       "status": "active",
       "address": "1101 Beech Rd SW, New Albany, OH 43054",
       "project": null,
-      "h100Equivalents": 207175,
-      "notes": "Located in New Albany Business Park alongside Meta Prometheus. Only includes buildings added or modified since 2024.",
+      "h100Equivalents": 616473,
+      "notes": "Located in New Albany Business Park alongside Meta Prometheus. Only includes buildings added or modified since 2024. Building 5 became operational on August 16, 2026, taking the site to five buildings and ~543 MW total power.",
       "sources": [
-        "https://sustainability.google/reports/google-2025-environmental-report/"
+        "https://sustainability.google/reports/google-2025-environmental-report/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -347,6 +427,26 @@
         {
           "date": "2025-07-01",
           "description": "Buildings 3-4 under construction"
+        },
+        {
+          "date": "2025-10-14",
+          "description": "Building 4 is operational, based on all cooling units and tanks installed, minimal construction work around the building. Building 5 roof is half complete. About half of the backup generators are in place. One cooling tower is partly built."
+        },
+        {
+          "date": "2026-01-18",
+          "description": "Water vapor from cooling towers is present across Building 1-4, confirming their operation. Building 5 roof is still incomplete, but most backup generators and 5 cooling towers have been installed."
+        },
+        {
+          "date": "2026-03-12",
+          "description": "Building 5 has more cooling towers installed but not complete, and the roof is almost complete."
+        },
+        {
+          "date": "2026-05-18",
+          "description": "Building 5 has all cooling towers installed, and all other components look complete, but there is still light work around the building. Based on that, we estimate 3 more months until operational."
+        },
+        {
+          "date": "2026-08-16",
+          "description": "Building 5 is operational. Estimated from the high-res image from May."
         }
       ]
     },
@@ -357,7 +457,7 @@
         "Anthropic"
       ],
       "powerMW": 341,
-      "capitalCostB": 10.89,
+      "capitalCostB": 10.76,
       "lat": 32.5994,
       "lng": -90.1154,
       "state": "Mississippi",
@@ -368,7 +468,8 @@
       "h100Equivalents": 214348,
       "notes": "Direct air cooling design. Plausibly part of Anthropic-Amazon Project Rainier collaboration.",
       "sources": [
-        "https://www.nytimes.com/2025/06/24/technology/amazon-ai-data-centers.html"
+        "https://www.nytimes.com/2025/06/24/technology/amazon-ai-data-centers.html",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -382,6 +483,18 @@
         {
           "date": "2025-04-02",
           "description": "Building 1 operational"
+        },
+        {
+          "date": "2025-06-23",
+          "description": "Buildings 1-5 are operational, based on roofs being completed 5 months ago and generators being installed by 2025-04-10."
+        },
+        {
+          "date": "2025-10-04",
+          "description": "Confirmation that five buildings are fully equipped with cooling and backup generators."
+        },
+        {
+          "date": "2026-06-04",
+          "description": "Buildings 6 and 7 roof completed. Building 8 roof nearly completed. Building 9 roof half way up. No new operational buildings."
         }
       ]
     },
@@ -391,8 +504,8 @@
       "users": [
         "xAI"
       ],
-      "powerMW": 302,
-      "capitalCostB": 8.9,
+      "powerMW": 1276,
+      "capitalCostB": 35.84,
       "lat": 34.9997,
       "lng": -90.043,
       "state": "Tennessee",
@@ -400,14 +513,15 @@
       "status": "active",
       "address": "5420 Tulane Rd, Memphis, TN 38109",
       "project": null,
-      "h100Equivalents": 280838,
-      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi. xAI now claims ~2 GW total Colossus capacity across both sites; Tesla Megapacks delivered to Memphis provide battery backup. Q1 2026 $659M building permit filed for a new 312,000 sq ft facility at 5414 Tulane Road. In May 2026 the NAACP sought an emergency injunction over the Southaven, MS gas-turbine plant powering Colossus 2, alleging up to 46 portable turbines were operating though Mississippi DEQ had permitted only 27. On June 15, 2026 the U.S. Department of Justice moved to intervene and dismiss the NAACP's Clean Air Act suit on national-security grounds (citing a DoD declaration describing Grok as a frontier AI model); xAI and Mississippi joined, and as of July 10, 2026 the judge had not ruled. Later filings put the turbine count at 57-59. In late June 2026 xAI filed roughly $300M in new construction permits across Colossus 1 and 2, including a ~$250M Colossus 2 Phase III expansion.",
+      "h100Equivalents": 1111673,
+      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi. xAI now claims ~2 GW total Colossus capacity across both sites; Tesla Megapacks delivered to Memphis provide battery backup. Q1 2026 $659M building permit filed for a new 312,000 sq ft facility at 5414 Tulane Road. In May 2026 the NAACP sought an emergency injunction over the Southaven, MS gas-turbine plant powering Colossus 2, alleging up to 46 portable turbines were operating though Mississippi DEQ had permitted only 27. On June 15, 2026 the U.S. Department of Justice moved to intervene and dismiss the NAACP's Clean Air Act suit on national-security grounds (citing a DoD declaration describing Grok as a frontier AI model); xAI and Mississippi joined, and as of July 10, 2026 the judge had not ruled. Later filings put the turbine count at 57-59. In late June 2026 xAI filed roughly $300M in new construction permits across Colossus 1 and 2, including a ~$250M Colossus 2 Phase III expansion. Epoch AI's August 2026 assessment raises Colossus 2 sharply: ~1,276 MW total power (946 MW IT) and ~1.11M H100-equivalents as of June 15, 2026, making it the most powerful AI data center tracked. SpaceX S-1 filings describe a second cluster of 110,000 GB300 processors plus a further 220,000 GB300s and 400+ MW of compute power. Building 3 is projected to complete around February 2027, taking the site toward ~1.5 GW of IT power. Epoch now lists the owner as SpaceXAI following the SpaceX-xAI combination.",
       "sources": [
         "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d",
         "https://introl.com/blog/xai-colossus-2-gigawatt-expansion-555k-gpus-january-2026",
         "https://www.teslarati.com/xai-tesla-megapack-colossus-2/",
         "https://earthjustice.org/press/2026/naacp-asks-court-for-emergency-action-to-stop-illegal-air-pollution-from-xais-data-center-power-plant",
-        "https://www.utilitydive.com/news/doj-intervenes-xai-data-center-gas-turbine-lawsuit/823267/"
+        "https://www.utilitydive.com/news/doj-intervenes-xai-data-center-gas-turbine-lawsuit/823267/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -447,7 +561,7 @@
         "OpenAI"
       ],
       "powerMW": 263,
-      "capitalCostB": 7.9,
+      "capitalCostB": 7.65,
       "lat": 33.4079,
       "lng": -112.3649,
       "state": "Arizona",
@@ -455,10 +569,11 @@
       "status": "active",
       "address": "14250 W Broadway Rd, Goodyear, AZ 85338",
       "project": null,
-      "h100Equivalents": 205145,
+      "h100Equivalents": 205154,
       "notes": "Spans six years of construction. Most compute from Building 3-4 with GB200 NVL72 servers.",
       "sources": [
-        "https://newsletter.semianalysis.com/p/microsofts-ai-strategy-deconstructed"
+        "https://newsletter.semianalysis.com/p/microsofts-ai-strategy-deconstructed",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -472,6 +587,22 @@
         {
           "date": "2024-11-01",
           "description": "Building 3 operational with GB200 NVL72 servers"
+        },
+        {
+          "date": "2025-01-16",
+          "description": "Building 2 operational. Based on interpolating satellite images from Sentinel-2 and Google Earth."
+        },
+        {
+          "date": "2025-09-01",
+          "description": "Building 3 and 4 operational. Based on interpolating satellite images from Sentinel-2 and Google Earth."
+        },
+        {
+          "date": "2025-11-12",
+          "description": "Confirmation that Building 3 and 4 look complete."
+        },
+        {
+          "date": "2026-04-27",
+          "description": "Foundations appear to be underway for Building 5 and 6, just north of Building 4."
         }
       ]
     },
@@ -482,7 +613,7 @@
         "Meta"
       ],
       "powerMW": 198,
-      "capitalCostB": 5.83,
+      "capitalCostB": 5.76,
       "lat": 31.1171,
       "lng": -97.3428,
       "state": "Texas",
@@ -493,7 +624,8 @@
       "h100Equivalents": 173248,
       "notes": "Traditional H-shaped building was demolished mid-construction in favor of Meta's new AI-optimized design.",
       "sources": [
-        "https://jedunn.com/projects/meta-temple-data-center/"
+        "https://jedunn.com/projects/meta-temple-data-center/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -507,6 +639,14 @@
         {
           "date": "2025-06-01",
           "description": "Building 1-2 operational with new AI design"
+        },
+        {
+          "date": "2025-11-15",
+          "description": "Building 1 and 2 look complete from outside, with all electrical and cooling equipment installed. Space is cleared for Building 3."
+        },
+        {
+          "date": "2025-12-09",
+          "description": "Building 1 and 2 are operational. Activity related to the air quality permit (namely, emergency diesel generators) was reported to have started as of 2025-12-09. This is our best estimate, but note that the planned completion date in this regulatory filing is 2026-03-01."
         }
       ]
     },
@@ -516,8 +656,8 @@
       "users": [
         "Google DeepMind"
       ],
-      "powerMW": 190,
-      "capitalCostB": 6.05,
+      "powerMW": 284,
+      "capitalCostB": 8.98,
       "lat": 41.1674,
       "lng": -95.7931,
       "state": "Iowa",
@@ -525,9 +665,11 @@
       "status": "active",
       "address": "10410 Bunge Ave, Council Bluffs, IA 51503",
       "project": null,
-      "h100Equivalents": 92471,
+      "h100Equivalents": 289035,
       "notes": "Focus on buildings added to the east since 2024, likely to have most AI compute.",
-      "sources": [],
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
       "timelineEvents": [
         {
           "date": "2022-09-06",
@@ -536,6 +678,22 @@
         {
           "date": "2024-12-01",
           "description": "Building 3 operational with AI-focused hardware"
+        },
+        {
+          "date": "2025-06-15",
+          "description": "Building 2 is operational. Assuming it takes 3 months after generators and cooling towers are finished, similar to Building 1."
+        },
+        {
+          "date": "2025-07-19",
+          "description": "Land clearing begins in the southwest, suggesting more buildings are planned."
+        },
+        {
+          "date": "2026-01-11",
+          "description": "Building 3 has all 34 backup generators installed and 4 cooling towers installed, with 3 more cooling towers under construction. There are gaps between cooling towers suggesting that more could be added. Buildings 1 and 2 are running close to full capacity, given that water vapor is coming out of 5 of 7 cooling towers for each..."
+        },
+        {
+          "date": "2026-07-07",
+          "description": "Building 3 is operational. 7 cooling towers were finally installed despite being more spread out compared to the first two buildings. Cooling towers models vary slightly between buildings. Ground clearing to the southwest seems to be setting up for two more buildings."
         }
       ]
     },
@@ -545,8 +703,8 @@
       "users": [
         "Google DeepMind"
       ],
-      "powerMW": 189,
-      "capitalCostB": 6.05,
+      "powerMW": 284,
+      "capitalCostB": 8.98,
       "lat": 41.3357,
       "lng": -96.0885,
       "state": "Nebraska",
@@ -554,10 +712,11 @@
       "status": "active",
       "address": "11110 State St, Omaha, NE 68142",
       "project": null,
-      "h100Equivalents": 65184,
+      "h100Equivalents": 267812,
       "notes": "Second Google site in Nebraska. Compute estimated from cooling tower satellite imagery.",
       "sources": [
-        "https://sustainability.google/reports/google-2025-environmental-report/"
+        "https://sustainability.google/reports/google-2025-environmental-report/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -571,6 +730,30 @@
         {
           "date": "2024-07-29",
           "description": "Building 2 cooling towers installed"
+        },
+        {
+          "date": "2024-11-19",
+          "description": "Building 2 is operational, based on it being 8 months since the roof was complete, and surrounding infrastructure looks just completed (finishing the cooling towers)."
+        },
+        {
+          "date": "2025-03-16",
+          "description": "Confirmation that there's no obvious construction happening for Building 2. Building 3 roof started."
+        },
+        {
+          "date": "2025-04-21",
+          "description": "Confident that Building 2 is operational"
+        },
+        {
+          "date": "2025-10-21",
+          "description": "Building 3 has all backup generators in place but they are still being installed. Two cooling towers have fans on them, with more underway. To the south of Building 3, more land has been cleared and there's a new carpark. This suggests another building will soon start construction."
+        },
+        {
+          "date": "2026-05-15",
+          "description": "Building 3 appears almost complete, with only minimal construction work and equipment remaining. The cooling towers are spaced apart in an unusual way, but there's no obvious sign that more will be installed before operation. Buildings 4 and 5 haven't started construction yet, the cleared land is still empty."
+        },
+        {
+          "date": "2026-06-30",
+          "description": "Building 3 is operational (estimate). Based on there being minimal construction work as of May 15."
         }
       ]
     },
@@ -591,7 +774,9 @@
       "project": null,
       "h100Equivalents": 71248,
       "notes": "Similar to earlier Google data centers. Uses more than twice as many cooling towers per building.",
-      "sources": [],
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
       "timelineEvents": [
         {
           "date": "2024-05-01",
@@ -600,18 +785,30 @@
         {
           "date": "2025-06-01",
           "description": "Building 1 under construction"
+        },
+        {
+          "date": "2025-10-27",
+          "description": "Building 1 cooling towers and generators starting to be put in place. There's a foundation for Building 2 and 3."
+        },
+        {
+          "date": "2025-12-29",
+          "description": "About half of Building 1 generators are in place. Building 2 roofing has started - about where Google Omaha Building 3 was on 2025-03-16."
+        },
+        {
+          "date": "2026-04-16",
+          "description": "Building 1's generators are still only about halfway in place, and ~1/2 the cooling towers are still under construction. Building 2 roofing has been completed, and visible foundations have been built for cooling towers and generators."
         }
       ]
     },
     {
       "name": "Fluidstack Lake Mariner",
-      "owner": "Fluidstack",
+      "owner": "TeraWulf",
       "users": [
         "Anthropic",
-        "G42"
+        "Fluidstack"
       ],
-      "powerMW": 68,
-      "capitalCostB": 2.22,
+      "powerMW": 49,
+      "capitalCostB": 1.59,
       "lat": 43.3489,
       "lng": -78.6029,
       "state": "New York",
@@ -619,10 +816,11 @@
       "status": "active",
       "address": "7725 Lake Rd, Barker, NY 14012",
       "project": null,
-      "h100Equivalents": 71753,
-      "notes": "Built at former coal plant on Lake Ontario. Fluidstack deploying Google TPUs for Anthropic. Terawulf-owned campus.",
+      "h100Equivalents": 58565,
+      "notes": "Built at former coal plant on Lake Ontario. Fluidstack deploying Google TPUs for Anthropic. Terawulf-owned campus. Epoch AI now tracks this site as 'Anthropic Lake Mariner' under the AI XPV Platform joint venture, with Anthropic as the likely user. Building 1 was assessed operational in May 2026 (TeraWulf's CB3); as of July 23, 2026 Building 2 was mostly complete. Epoch's current estimate is ~49 MW total power and ~58,600 H100-equivalents — a downward revision from earlier figures.",
       "sources": [
-        "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure"
+        "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -632,6 +830,22 @@
         {
           "date": "2025-06-01",
           "description": "Buildings 3-5 leased to Fluidstack (440 MW planned)"
+        },
+        {
+          "date": "2025-06-11",
+          "description": "Land clearing begins for Building 1 (AKA CB3)."
+        },
+        {
+          "date": "2026-03-02",
+          "description": "Building 1 appears to have a complete shell and cooling equipment. Building 2 shell is still under construction, but 17 cooling units are already loaded on the roof. The outline of Building 3 is visible at the foundation."
+        },
+        {
+          "date": "2026-05-31",
+          "description": "Building 1 is operational. On February 26, Terawulf stated that CB3 was expected to be energized by mid-May 2026. A drone video commissioned from RAAD shows several cooling units operating on May 8. It's therefore likely that the building was fully operational around this date."
+        },
+        {
+          "date": "2026-07-23",
+          "description": "Building 1 looks complete, consistent with it going operational back in May. Building 2 is mostly complete, with the row of backup generators on the east side of the building still being installed. Building 3 shell is complete, with rooftop coolers midway through installation, and no neighboring generators installed/visible yet."
         }
       ]
     },
@@ -641,8 +855,8 @@
       "users": [
         "Google DeepMind"
       ],
-      "powerMW": 65,
-      "capitalCostB": 2.07,
+      "powerMW": 442,
+      "capitalCostB": 13.94,
       "lat": 36.24,
       "lng": -95.333,
       "state": "Oklahoma",
@@ -650,15 +864,32 @@
       "status": "active",
       "address": "4581 Webb St, Pryor, OK 74361",
       "project": null,
-      "h100Equivalents": 17938,
-      "notes": "Dating back to 2007, serves Google Workspace and ML. Only tracking buildings completed since 2024.",
+      "h100Equivalents": 763012,
+      "notes": "Dating back to 2007, serves Google Workspace and ML. Only tracking buildings completed since 2024. Epoch estimates Building 2 became operational on August 24, 2026 after a long retrofit, taking the site from ~63 MW to ~442 MW total power and ~763,000 H100-equivalents.",
       "sources": [
-        "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/"
+        "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
           "date": "2024-07-19",
           "description": "Building 1 operational (post-2024 AI-focused)"
+        },
+        {
+          "date": "2025-01-28",
+          "description": "Building 2 is being retrofitted from a warehouse. The roof is being painted white, and cooling towers and a new substation are being built just south of the building (based on later imagery)."
+        },
+        {
+          "date": "2025-10-19",
+          "description": "The new substation for Building 2 looks mostly complete, half of the cooling towers are installed. The black patch in the top left of the building suggests that the new roof is not quite complete."
+        },
+        {
+          "date": "2026-05-26",
+          "description": "Building 2 looks almost complete, but still appears to have three cooling towers missing. We therefore expect another 3 months until full operation."
+        },
+        {
+          "date": "2026-08-24",
+          "description": "Building 2 is operational (estimate)."
         }
       ]
     },
@@ -666,8 +897,8 @@
       "name": "Vantage TX1",
       "owner": "Vantage",
       "users": [],
-      "powerMW": 44.8,
-      "capitalCostB": 1.22,
+      "powerMW": 45,
+      "capitalCostB": 1.21,
       "lat": 29.4167,
       "lng": -98.7886,
       "state": "Texas",
@@ -677,7 +908,9 @@
       "project": null,
       "h100Equivalents": 38706,
       "notes": "Two buildings in San Antonio area. TX11 operational, TX12 under construction. TX13 planned.",
-      "sources": [],
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
       "timelineEvents": [
         {
           "date": "2023-12-15",
@@ -686,6 +919,10 @@
         {
           "date": "2025-06-15",
           "description": "Building TX11 operational"
+        },
+        {
+          "date": "2026-02-15",
+          "description": "Building 1 operational; Roads around Building 1 complete, all cooling and side generator equipment construction has since finished as well. Although this is still earlier than the completion date reported on TDLR, based on the appearance, we believe it is operational. Reported IT power of 32 MW. Source"
         }
       ]
     },
@@ -712,7 +949,8 @@
         "https://fortune.com/2026/03/27/meta-hyperion-10-gas-power-plants-louisiana-entergy/",
         "https://www.fox8live.com/2026/05/12/metas-27-billion-ai-data-center-is-transforming-rural-louisiana/",
         "https://fortune.com/2026/05/14/meta-data-center-tax-break-hyperion-louisiana/",
-        "https://www.kplctv.com/2026/06/26/landry-signs-order-protect-utility-customers-he-promotes-more-data-center-development/"
+        "https://www.kplctv.com/2026/06/26/landry-signs-order-protect-utility-customers-he-promotes-more-data-center-development/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -753,15 +991,33 @@
       "lng": -101.3019,
       "state": "Texas",
       "stateId": "TX",
-      "status": "planned",
+      "status": "active",
       "address": "10001 Lima Rd, Claude, TX 79019",
       "project": null,
       "h100Equivalents": 0,
-      "notes": "Major mid-flight design change from 7 X-shaped to 6 rectangular buildings. Located in the town of Claude, Texas.",
+      "notes": "Major mid-flight design change from 7 X-shaped to 6 rectangular buildings. Located in the town of Claude, Texas. Satellite imagery through April 2026 shows Buildings 1-2 progressing with cooling structures being installed; construction is underway although no capacity is yet operational.",
       "sources": [
-        "https://www.reuters.com/business/google-invest-40-billion-new-data-centers-texas-bloomberg-news-reports-2025-11-14/"
+        "https://www.reuters.com/business/google-invest-40-billion-new-data-centers-texas-bloomberg-news-reports-2025-11-14/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
-      "timelineEvents": []
+      "timelineEvents": [
+        {
+          "date": "2025-05-19",
+          "description": "Land clearing begins"
+        },
+        {
+          "date": "2025-10-16",
+          "description": "Building 1 and 2 under construction."
+        },
+        {
+          "date": "2025-12-23",
+          "description": "Construction on Building 1 and 2 looks about halfway to completion. Foundations and utility trenches are visible for Building 3-4. Building 5-6 have an outline. The substation appears to be expanding."
+        },
+        {
+          "date": "2026-04-16",
+          "description": "Progress is made on all buildings, Building 1 and 2 specically have begun to install cooling structures. The substation expansion seems to be nearing completion."
+        }
+      ]
     },
     {
       "name": "Amazon Ridgeland",
@@ -769,24 +1025,33 @@
       "users": [
         "Anthropic"
       ],
-      "powerMW": 0,
-      "capitalCostB": 0,
-      "lat": 32.3995,
-      "lng": -90.1205,
+      "powerMW": 273,
+      "capitalCostB": 8.64,
+      "lat": 32.40754,
+      "lng": -90.18825,
       "state": "Mississippi",
       "stateId": "MS",
-      "status": "planned",
-      "address": "1626 County Line Road, Ridgeland, MS",
+      "status": "active",
+      "address": "AWS Ridgeland Data Center, Ridgeland, MS 39157",
       "project": "Project Rainier",
-      "h100Equivalents": 0,
-      "notes": "Direct air cooling. Plausibly part of Anthropic-Amazon Project Rainier.",
+      "h100Equivalents": 171299,
+      "notes": "Direct air cooling. Plausibly part of Anthropic-Amazon Project Rainier. Epoch AI now assesses Buildings 1-4 as operational (May 2026), at roughly 273 MW total power / 228 MW IT power and ~171,000 H100-equivalents — the project has moved from planned to active. Coordinates corrected on 2026-08-24 to the verified AWS Ridgeland campus location (previously ~6 km southeast, on County Line Road).",
       "sources": [
-        "https://www.nytimes.com/2025/06/24/technology/amazon-ai-data-centers.html"
+        "https://www.nytimes.com/2025/06/24/technology/amazon-ai-data-centers.html",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
           "date": "2024-02-24",
           "description": "Land clearing begins"
+        },
+        {
+          "date": "2025-10-04",
+          "description": "Roof complete on Buildings 3"
+        },
+        {
+          "date": "2026-05-15",
+          "description": "Buildings 1-4 are operational, based on the buildings shells and backup generators and most of the landscaping looking complete. Building 5 roof is complete but still lacks cooling equipment."
         }
       ]
     },
@@ -796,21 +1061,39 @@
       "users": [
         "Microsoft"
       ],
-      "powerMW": 0,
-      "capitalCostB": 0,
+      "powerMW": 200,
+      "capitalCostB": 5.0,
       "lat": 33.7806,
       "lng": -100.8671,
       "state": "Texas",
       "stateId": "TX",
-      "status": "planned",
+      "status": "active",
       "address": "984 County Road 112, Afton, TX 79920",
       "project": null,
-      "h100Equivalents": 0,
-      "notes": "Retrofitted from former Galaxy crypto-mining facility. 800 MW approved, 2.7 GW under study.",
+      "h100Equivalents": 159552,
+      "notes": "Retrofitted from former Galaxy crypto-mining facility. 800 MW approved, 2.7 GW under study. Building 1 reached full capacity on June 30, 2026 (Phase I), moving the project from planned to active at roughly 200 MW total power and ~160,000 H100-equivalents.",
       "sources": [
-        "https://investor.galaxy.com/news/news-details/2025/Galaxy-Announces-Third-Quarter-2025-Financial-Results/default.aspx"
+        "https://investor.galaxy.com/news/news-details/2025/Galaxy-Announces-Third-Quarter-2025-Financial-Results/default.aspx",
+        "https://epoch.ai/data/ai-data-centers"
       ],
-      "timelineEvents": []
+      "timelineEvents": [
+        {
+          "date": "2025-05-31",
+          "description": "The former crypto mining Helios site begins expanding, with land cleared for additional buildings."
+        },
+        {
+          "date": "2025-08-27",
+          "description": "Backup generator pads and steel framing for chillers are visible, similar to the 3D renderings."
+        },
+        {
+          "date": "2026-04-04",
+          "description": "Building 1 appears substantially complete. The main white-roofed data hall is visible with exterior mechanical/electrical equipment rows installed on both sides, and adjacent generator/equipment pads plus laydown yards are active. A large graded pad north of Building 1 suggests preparation for the next phase/building. No clear..."
+        },
+        {
+          "date": "2026-06-30",
+          "description": "Building 1 operational at full capacity. This corresponds to \"Phase I\", which is expected to be operational by the end of the first half of 2026."
+        }
+      ]
     },
     {
       "name": "QTS Cedar Rapids",
@@ -822,15 +1105,33 @@
       "lng": -91.7511,
       "state": "Iowa",
       "stateId": "IA",
-      "status": "planned",
+      "status": "active",
       "address": "6200 76th Ave SW, Fairfax, IA 52228",
       "project": null,
       "h100Equivalents": 0,
-      "notes": "Two phases expected late 2026 and late 2027. 616 MW load request identified.",
+      "notes": "Two phases expected late 2026 and late 2027. 616 MW load request identified. Satellite imagery through May 2026 shows Buildings 1-3 shells complete and Buildings 4-6 far along; construction is underway although no capacity is yet operational.",
       "sources": [
-        "https://www.thegazette.com/business/fast-start-to-cedar-rapids-data-center-projects/"
+        "https://www.thegazette.com/business/fast-start-to-cedar-rapids-data-center-projects/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
-      "timelineEvents": []
+      "timelineEvents": [
+        {
+          "date": "2025-01-17",
+          "description": "Land clearing begins for Building 1-3."
+        },
+        {
+          "date": "2025-10-27",
+          "description": "Building 1 roof complete, with air-cooled chillers in place. Building 2 and 3 roofs are partly completed. Building 4 and 5 have a foundation."
+        },
+        {
+          "date": "2026-04-16",
+          "description": "Based on satellite imagery, the Buildings 1-3 shells look complete. Buildings 4-6 are far along, with roofs largely in place, while the eastern Building 7 foundation is well underway. No buildings operational yet."
+        },
+        {
+          "date": "2026-05-07",
+          "description": "Similar to April, Buildings 1-3 shells look complete. Buildings 4-6 are still far along, and the eastern Building 7 foundation is still underway."
+        }
+      ]
     },
     {
       "name": "OpenAI Stargate Shackelford",
@@ -848,16 +1149,22 @@
       "address": "299 FM 604, Shackelford County, TX 79601",
       "project": "Stargate",
       "h100Equivalents": 0,
-      "notes": "Second US Stargate site, 20km from Abilene. 1,200-acre campus with 10 planned buildings and 3.7M sq ft. Vantage broke ground in April 2026; first building expected H2 2026. $25B total investment, 5,000+ employees at full build-out.",
+      "notes": "Second US Stargate site, 20km from Abilene. 1,200-acre campus with 10 planned buildings and 3.7M sq ft. Vantage broke ground in April 2026; first building expected H2 2026. $25B total investment, 5,000+ employees at full build-out. Vantage broke ground on the 1.4 GW Frontier campus — 10 single-story buildings totaling ~3.7 million sq ft on roughly 700-1,200 acres — with first building delivery targeted for late 2026 and full campus completion expected in 2028. Power comes from an on-site, behind-the-meter gas microgrid using Jenbacher reciprocating engines. Epoch recorded steel framing for Buildings 1-3 and roofing on Building 1 as of April 14, 2026; no capacity is operational yet.",
       "sources": [
         "https://openai.com/index/five-new-stargate-sites/",
         "https://vantage-dc.com/data-center-locations/north-america/shackelford-county-tx",
-        "https://www.datacenterdynamics.com/en/news/vantage-breaks-ground-on-texas-gigawatt-data-center-campus-for-openai/"
+        "https://www.datacenterdynamics.com/en/news/vantage-breaks-ground-on-texas-gigawatt-data-center-campus-for-openai/",
+        "https://epoch.ai/data/ai-data-centers",
+        "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand"
       ],
       "timelineEvents": [
         {
           "date": "2026-04-01",
           "description": "Vantage breaks ground on 1,200-acre, 1.4 GW campus; first building on track for H2 2026"
+        },
+        {
+          "date": "2026-04-14",
+          "description": "Steel framing is underway for Buildings 1-3, and roofing is underway for Building 1."
         }
       ]
     },
@@ -881,7 +1188,8 @@
       "sources": [
         "https://www.bloomberg.com/news/articles/2026-03-06/oracle-and-openai-end-plans-to-expand-flagship-data-center",
         "https://www.crusoe.ai/resources/newsroom/crusoe-announces-new-900-mw-ai-factory-campus-in-abilene-texas-to-support-microsoft-ai-infrastructure",
-        "https://www.datacenterdynamics.com/en/news/crusoe-confirms-microsoft-as-customer-at-campus-in-abilene-texas/"
+        "https://www.datacenterdynamics.com/en/news/crusoe-confirms-microsoft-as-customer-at-campus-in-abilene-texas/",
+        "https://epoch.ai/data/ai-data-centers"
       ],
       "timelineEvents": [
         {
@@ -974,11 +1282,13 @@
       "address": "Sandow Lakes Ranch, near Rockdale, Milam County, TX 76567",
       "project": "Stargate",
       "h100Equivalents": 0,
-      "notes": "One of the five new Stargate sites announced in 2025. On May 9, 2026 SoftBank's SB Energy was named to build and operate this 1.2 GW campus; OpenAI and SoftBank each invested $500M in SB Energy. Sited on the former Alcoa Sandow / Sandow Lakes Ranch land near Rockdale, with on-site generation planned to limit grid and ratepayer impact. Initial facilities expected to enter service starting 2026.",
+      "notes": "One of the five new Stargate sites announced in 2025. On May 9, 2026 SoftBank's SB Energy was named to build and operate this 1.2 GW campus; OpenAI and SoftBank each invested $500M in SB Energy. Sited on the former Alcoa Sandow / Sandow Lakes Ranch land near Rockdale, with on-site generation planned to limit grid and ratepayer impact. Initial facilities expected to enter service starting 2026. Epoch AI tracks this SB Energy site (~70 miles northeast of Austin) as OpenAI Stargate Milam. Regulatory filings indicate the first building — 548,950 sq ft in phase one — is due for delivery around October 2026; no capacity is operational yet.",
       "sources": [
         "https://openai.com/index/stargate-sb-energy-partnership/",
         "https://www.datacenterdynamics.com/en/news/softbanks-sb-energy-to-build-and-operate-openais-12gw-stargate-data-center-in-milam-county-texas/",
-        "https://baxtel.com/data-center/openai-stargate-milam-county-tx"
+        "https://baxtel.com/data-center/openai-stargate-milam-county-tx",
+        "https://epoch.ai/data/ai-data-centers",
+        "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand"
       ],
       "timelineEvents": [
         {
@@ -1206,8 +1516,982 @@
           "description": "Mississippi confirms xAI's Southaven warehouse-retrofit data center as part of a $20B+ statewide investment"
         }
       ]
+    },
+    {
+      "name": "Google Columbus",
+      "owner": "Google",
+      "users": [
+        "Google DeepMind"
+      ],
+      "powerMW": 364,
+      "capitalCostB": 11.48,
+      "lat": 39.86145,
+      "lng": -83.004,
+      "state": "Ohio",
+      "stateId": "OH",
+      "status": "active",
+      "address": "5076 S High St, Columbus, OH 43207",
+      "project": "",
+      "h100Equivalents": 408792,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 4 building(s) operational as of the latest satellite assessment. Epoch projects 5.0 building(s) and 464.0 MW by 2027-07-01.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2021-10-01",
+          "description": "Land clearing begins on the eastern half of the site, for Buildings 1-2"
+        },
+        {
+          "date": "2023-07-01",
+          "description": "Building 2 foundation work begins. Building 1 generators seem complete, cooling towers still under construction."
+        },
+        {
+          "date": "2024-04-01",
+          "description": "Building 1 operational. No visible construction and roads/parking complete around the building. Building 2 chillers are beginning construction. Foundation work begins for Building 3."
+        },
+        {
+          "date": "2025-03-01",
+          "description": "Building 2 operational. Parking complete, no more visible construction."
+        },
+        {
+          "date": "2025-10-01",
+          "description": "Building 3 operational. Surrounding roads finished, no more visible construction."
+        },
+        {
+          "date": "2026-02-21",
+          "description": "Buildings 1-3 are visibly operational, with steam coming out of the cooling towers. Meanwhile Building 4 is extremely close to completion, with all backup generators complete with only 3 cooling towers missing their fans. ~1/2 the generators are installed for Building 5, and the roof is mostly complete (starting to install the final..."
+        },
+        {
+          "date": "2026-05-01",
+          "description": "Building 4 operational. No more visible construction, and since only 3 fans needed to be installed since Feburary, operational date was likely soon after. Building 5 roof almost complete."
+        }
+      ]
+    },
+    {
+      "name": "Google Bristow",
+      "owner": "Google",
+      "users": [
+        "Google DeepMind"
+      ],
+      "powerMW": 335,
+      "capitalCostB": 10.57,
+      "lat": 38.77614,
+      "lng": -77.58251,
+      "state": "Virginia",
+      "stateId": "VA",
+      "status": "active",
+      "address": "13001 Rollins Ford Rd, Bristow, VA 20136",
+      "project": "",
+      "h100Equivalents": 283675,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 3 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2021-07-01",
+          "description": "Land clearing begins."
+        },
+        {
+          "date": "2024-04-29",
+          "description": "Building 1 is operational, based off of colored motion artifacts from cooling towers. Building 2 is undergoing construction."
+        },
+        {
+          "date": "2025-04-29",
+          "description": "Building 2 is operational, based off it being at least 12 months since the roof was complete. Building 3 is finishing construction of cooling towers."
+        },
+        {
+          "date": "2026-05-20",
+          "description": "Building 3 is operational, based off of colored motion artifacts from cooling towers."
+        }
+      ]
+    },
+    {
+      "name": "Google Papillion",
+      "owner": "Google",
+      "users": [
+        "Google DeepMind"
+      ],
+      "powerMW": 284,
+      "capitalCostB": 8.98,
+      "lat": 41.13994,
+      "lng": -96.14374,
+      "state": "Nebraska",
+      "stateId": "NE",
+      "status": "active",
+      "address": "14651 Gold Coast Rd, Papillion, NE 68138",
+      "project": "",
+      "h100Equivalents": 80344,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 3 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2020-03-04",
+          "description": "Land clearing begins for Building 1 of expansion."
+        },
+        {
+          "date": "2022-10-16",
+          "description": "Building 2 under construction. Building 3 begins construction."
+        },
+        {
+          "date": "2023-01-23",
+          "description": "Building 1 assumed operational due to vapor from cooling towers. Building 2 4/7 cooling towers installed. Building 3 roof complete coverage but unfinished."
+        },
+        {
+          "date": "2024-02-15",
+          "description": "Building 2 assumed operational due to vapor from cooling towers. Building 3 5/7 cooling towers installed."
+        },
+        {
+          "date": "2024-08-03",
+          "description": "Building 3 look operational."
+        },
+        {
+          "date": "2025-11-03",
+          "description": "Land cleared for Building 4 and 5."
+        },
+        {
+          "date": "2026-05-04",
+          "description": "Building 4 shell mostly complete, Building 5 steel framing is underway."
+        }
+      ]
+    },
+    {
+      "name": "Meta-QTS Hillsboro 2",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 243,
+      "capitalCostB": 6.82,
+      "lat": 45.55888,
+      "lng": -122.92961,
+      "state": "Oregon",
+      "stateId": "OR",
+      "status": "active",
+      "address": "4755 NE Huffman St, Hillsboro, OR 97124",
+      "project": "",
+      "h100Equivalents": 123839,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 4 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2021-04-01",
+          "description": "First signs of site land clearing appear on satellite imagery."
+        },
+        {
+          "date": "2023-04-29",
+          "description": "Satellite imagery shows Building 3 and 4 cooling start to go on."
+        },
+        {
+          "date": "2023-08-02",
+          "description": "Satellite imagery shows Building 2 and 3 cooling nearing completion and Building 4 cooling install continues. We believe Building 1 is operational now due to the lack of construction equipment on or immediately around the building."
+        },
+        {
+          "date": "2024-11-08",
+          "description": "We believe Buildings 2, 3, and 4 are operational due to the absence of construction vehicles and completed parking lots/concrete around the facilities. There is also a vehicle presence in the parking lot similar to the level seen during normal operation at other data center campuses. Finally, it is more than 12 months after cooling..."
+        },
+        {
+          "date": "2025-04-14",
+          "description": "All four buildings are operational"
+        },
+        {
+          "date": "2026-04-17",
+          "description": "All four buildings are operational."
+        }
+      ]
+    },
+    {
+      "name": "Meta Rosemount",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 241,
+      "capitalCostB": 6.74,
+      "lat": 44.73879,
+      "lng": -93.05707,
+      "state": "Minnesota",
+      "stateId": "MN",
+      "status": "active",
+      "address": "2396 145th St E, Rosemount, MN 55068",
+      "project": "",
+      "h100Equivalents": 215766,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-05-30",
+          "description": "Land is cleared."
+        },
+        {
+          "date": "2026-03-21",
+          "description": "Both buildings and their cooling infrastructure look complete, but the site probably isn't commissioned (tested) yet, and few cars are parked to the right of Building 1. We give another 3 months before it's operational."
+        },
+        {
+          "date": "2026-06-19",
+          "description": "Building 1 and 2 are operational."
+        }
+      ]
+    },
+    {
+      "name": "Google Mesa",
+      "owner": "Google",
+      "users": [],
+      "powerMW": 237,
+      "capitalCostB": 6.93,
+      "lat": 33.35414,
+      "lng": -111.67643,
+      "state": "Arizona",
+      "stateId": "AZ",
+      "status": "active",
+      "address": "Elliot Rd Technology Corridor, Mesa, AZ",
+      "project": "",
+      "h100Equivalents": 343103,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-07-01",
+          "description": "Land clearing begins for the entire site."
+        },
+        {
+          "date": "2025-07-01",
+          "description": "Building 1 is operational. This is based on the state of construction on 2025-03-02 as seen on Google Earth, where building shell and external components seems to have been completed, but there is still a lot of construction equipment present. That equipment appears to have been cleared up by this date, 4 months later, with the..."
+        },
+        {
+          "date": "2025-09-07",
+          "description": "Building 2 roof is mostly completed. Building 2's backup generators are almost complete, and cooling is a little more than halfway complete. The Building 2 substation is also under construction."
+        },
+        {
+          "date": "2026-05-15",
+          "description": "Building 2 is close to being operational. There is only construction left on the backup generators, which are almost complete. Some equipment is also strewn around the building, especially near the air-cooled chillers. Preparation seems to have begun for Building 3 at the site."
+        },
+        {
+          "date": "2026-08-15",
+          "description": "Building 2 is operational. This is estimated based on the close-to-complete construction status from May 2026."
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Project Osmium",
+      "owner": "Microsoft",
+      "users": [
+        "OpenAI"
+      ],
+      "powerMW": 228,
+      "capitalCostB": 7.2,
+      "lat": 41.49919,
+      "lng": -93.79291,
+      "state": "Iowa",
+      "stateId": "IA",
+      "status": "active",
+      "address": "5855 SW Kerry St, Cumming, IA 50061",
+      "project": "",
+      "h100Equivalents": 155634,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 4 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2018-12-18",
+          "description": "Land clearing begins on the north part of the site"
+        },
+        {
+          "date": "2021-01-01",
+          "description": "Building 1 and 1st building on the site are operational. Foundation work begins on Building 2"
+        },
+        {
+          "date": "2023-06-30",
+          "description": "Building 2 is operational. Estimated based on Microsoft H100 count 2023"
+        },
+        {
+          "date": "2025-03-01",
+          "description": "Building 3-4 operational, no visible construction."
+        },
+        {
+          "date": "2025-10-08",
+          "description": "Site already complete."
+        },
+        {
+          "date": "2026-06-16",
+          "description": "No notable changes since October."
+        }
+      ]
+    },
+    {
+      "name": "Google Storey County",
+      "owner": "Google",
+      "users": [
+        "Google DeepMind"
+      ],
+      "powerMW": 214,
+      "capitalCostB": 6.1,
+      "lat": 39.4963,
+      "lng": -119.4337,
+      "state": "Nevada",
+      "stateId": "NV",
+      "status": "active",
+      "address": "Tahoe Reno Industrial Center, Storey County, NV",
+      "project": "",
+      "h100Equivalents": 153613,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment. Epoch projects 3.0 building(s) and 389.0 MW by 2027-06-30.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-08-30",
+          "description": "Building 1, which was first operational in 2021, has increased power capacity by about 75%. This is based on the expansion of the dry cooling array from 4 to 7 columns (seen on Google Earth). Its backup generators also grew from 18 to 33, an 83% increase. Around this time (2023 Q3) the quarterly PUE of the campus is 1.24, down from..."
+        },
+        {
+          "date": "2025-03-11",
+          "description": "Building 2 now has generators in place, but there is still a crane and construction work present."
+        },
+        {
+          "date": "2025-06-30",
+          "description": "Building 2 is operational. Based on a Google Earth image showing complete building shell, mechanical equipment and generators, plus cars parked at the front."
+        },
+        {
+          "date": "2025-09-28",
+          "description": "Building 3 foundation is underway. Building 2 exterior looks totally clean/landscaped."
+        },
+        {
+          "date": "2026-04-13",
+          "description": "Building 3 has a partially complete shell, electrical and mechanical equipment. Building 4 foundation is underway."
+        }
+      ]
+    },
+    {
+      "name": "Meta Montgomery",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 199,
+      "capitalCostB": 5.8,
+      "lat": 32.27006,
+      "lng": -86.32875,
+      "state": "Alabama",
+      "stateId": "AL",
+      "status": "active",
+      "address": "Co Rd 42, Montgomery, AL 36105",
+      "project": "",
+      "h100Equivalents": 174517,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment. Epoch projects 4.0 building(s) and 266.0 MW by 2027-01-02.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2025-03-01",
+          "description": "Land clearing begins."
+        },
+        {
+          "date": "2025-07-04",
+          "description": "Building 1 and 2 under construction, with all chillers visible."
+        },
+        {
+          "date": "2026-03-20",
+          "description": "Buildings 1 and 2 are nearly complete, but there's still some equipment strewn around the site and few cars in the front carpark, so we expect 3 more months needed for commissioning and server installation. Building 3 has a half-finished roof and Building 4 shell is beginning construction."
+        },
+        {
+          "date": "2026-06-18",
+          "description": "Building 1 and 2 are operational (estimate)."
+        }
+      ]
+    },
+    {
+      "name": "Meta Kuna",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 198,
+      "capitalCostB": 5.76,
+      "lat": 43.45921,
+      "lng": -116.42111,
+      "state": "Idaho",
+      "stateId": "ID",
+      "status": "active",
+      "address": "601 W Kuna Mora Rd, Kuna, ID 83634",
+      "project": "",
+      "h100Equivalents": 173320,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2022-10-03",
+          "description": "Land clearing begins."
+        },
+        {
+          "date": "2026-03-15",
+          "description": "Building 1 and 2 look complete from outside, with all electrical and cooling equipment installed. Construction has started on 2 smaller buldings to the north. Meta announced the arrival of the first server rack the following week."
+        },
+        {
+          "date": "2026-06-01",
+          "description": "Building 1 and 2 are operational. The 2nd phase of an offsetting solar array goes online on May 31, 2026. Idaho Public Utilities Comission's approval for this start date notes that \"[Meta]’s load is expected to increase so much that it will suffer a capacity deficit in June 2026 if served only by Pleasant Valley Solar 1.1,” A redacted..."
+        }
+      ]
+    },
+    {
+      "name": "Meta Huntsville",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 198,
+      "capitalCostB": 5.53,
+      "lat": 34.84782,
+      "lng": -86.6268,
+      "state": "Alabama",
+      "stateId": "AL",
+      "status": "active",
+      "address": "5400 Prosperity Dr NW, Toney, AL 35773",
+      "project": "",
+      "h100Equivalents": 166761,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2021-04-01",
+          "description": "Building 1 land clearing begins."
+        },
+        {
+          "date": "2025-03-03",
+          "description": "Building 2 roof starts to go on and its cooling installation is in progress."
+        },
+        {
+          "date": "2025-11-04",
+          "description": "We believe Building 1 and 2 are still being finished due to continued construction vehicles and unfinished land around the data center sites."
+        },
+        {
+          "date": "2026-02-02",
+          "description": "Color artifacts appear on small number of Building 1 fans. Continued presence of construction equipment and unfinished land around Building 2 suggests the final phase of construction."
+        },
+        {
+          "date": "2026-03-04",
+          "description": "We estimate that Building 1 is operational 30 days after the appearance of color artifacts on the fans."
+        },
+        {
+          "date": "2026-06-02",
+          "description": "We estimate Building 2 becomes operational due to being 120 days after final phases of construction, 9 months since roof and cooling were done, and similar Meta data centers construction timelines."
+        }
+      ]
+    },
+    {
+      "name": "Meta Aiken",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 185,
+      "capitalCostB": 5.38,
+      "lat": 33.64224,
+      "lng": -81.84396,
+      "state": "South Carolina",
+      "stateId": "SC",
+      "status": "active",
+      "address": "7601 State Hwy 105, Trenton, SC 29847",
+      "project": "",
+      "h100Equivalents": 161698,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-05-30",
+          "description": "Land clearing begins"
+        },
+        {
+          "date": "2026-04-08",
+          "description": "Buildings 1 and 2 are nearly complete, but there's still some equipment strewn around the site. We expect 3 more months needed for commissioning and server installation."
+        },
+        {
+          "date": "2026-07-15",
+          "description": "Building 1 and 2 are operational (estimate)."
+        }
+      ]
+    },
+    {
+      "name": "Google The Dalles",
+      "owner": "Google",
+      "users": [],
+      "powerMW": 185,
+      "capitalCostB": 5.83,
+      "lat": 45.62539,
+      "lng": -121.20239,
+      "state": "Oregon",
+      "stateId": "OR",
+      "status": "active",
+      "address": "3500 River Rd, The Dalles, OR 97058",
+      "project": "",
+      "h100Equivalents": 201617,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-05-21",
+          "description": "First signs of construction."
+        },
+        {
+          "date": "2025-03-07",
+          "description": "Building 1 is estimated to be operational, based on all external equipment being installed."
+        },
+        {
+          "date": "2026-04-29",
+          "description": "Building 2 is estimated to be operational, based on all external equipment being installed, and ordinary cars parked by the building."
+        }
+      ]
+    },
+    {
+      "name": "Meta Cheyenne",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 182,
+      "capitalCostB": 5.76,
+      "lat": 41.14357,
+      "lng": -104.71293,
+      "state": "Wyoming",
+      "stateId": "WY",
+      "status": "active",
+      "address": "Christensen Rd, Cheyenne, WY 82007",
+      "project": "",
+      "h100Equivalents": 172815,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment. Epoch projects 4.0 building(s) and 264.0 MW by 2027-02-15.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-05-15",
+          "description": "Ground is being cleared."
+        },
+        {
+          "date": "2025-01-30",
+          "description": "Structure for Building 1 and 2 under construction."
+        },
+        {
+          "date": "2026-03-22",
+          "description": "Building 1 shell and cooling looks complete, Building 2 roof almost complete."
+        },
+        {
+          "date": "2026-07-25",
+          "description": "Both buildings estimated to be operational."
+        }
+      ]
+    },
+    {
+      "name": "Meta Eagle Mountain",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 179,
+      "capitalCostB": 5.04,
+      "lat": 40.26883,
+      "lng": -112.01758,
+      "state": "Utah",
+      "stateId": "UT",
+      "status": "active",
+      "address": "1275 N Community Cir, Eagle Mountain, UT 84005",
+      "project": "",
+      "h100Equivalents": 151354,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-10-01",
+          "description": "Land clearing begins."
+        },
+        {
+          "date": "2025-09-08",
+          "description": "We believe Buildings 1 and 2 are still undergoing testing due to construction equipment and unfinished land surrounding the data center sites, as well as color motion artifacts on a small number of the cooling fans."
+        },
+        {
+          "date": "2025-12-07",
+          "description": "Buildings 1 and 2 both estimated to be operational 90 days after testing was underway in September."
+        },
+        {
+          "date": "2026-05-02",
+          "description": "Satellite image shows strong evidence that Buildings 1 and 2 are operational: colored motion artifacts on many cooling fans, plus cars parked at the building entrances."
+        }
+      ]
+    },
+    {
+      "name": "Google Lincoln",
+      "owner": "Google",
+      "users": [],
+      "powerMW": 170,
+      "capitalCostB": 5.34,
+      "lat": 40.90747,
+      "lng": -96.64578,
+      "state": "Nebraska",
+      "stateId": "NE",
+      "status": "active",
+      "address": "5475 Cloud Ct, Lincoln, NE 68514",
+      "project": "",
+      "h100Equivalents": 287519,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment. Epoch projects 2.0 building(s) and 339.0 MW by 2027-10-01.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-07-01",
+          "description": "Land clearing begins for the site"
+        },
+        {
+          "date": "2025-10-23",
+          "description": "Building 1 looks mostly complete: the large items like generators and substation are done. It is just missing 2 more cooling towers (4 fans). They just seem to be paving and setting up the secondary equipment so it is probably a few months away from operation. Building 2 foundation has been laid."
+        },
+        {
+          "date": "2026-05-12",
+          "description": "Building 1 operational. This is based on the fact that is no more visible equipment or construction around the building, and based on previous imagery and when construction started on the last pieces of equipment (fans). Building 2's roof is complete, with generator construction more than halfway complete and cooling construction..."
+        }
+      ]
+    },
+    {
+      "name": "Google Lancaster",
+      "owner": "Google",
+      "users": [],
+      "powerMW": 164,
+      "capitalCostB": 5.19,
+      "lat": 39.72704,
+      "lng": -82.68314,
+      "state": "Ohio",
+      "stateId": "OH",
+      "status": "active",
+      "address": "105 Whiley Rd SW, Lancaster, OH 43130",
+      "project": "",
+      "h100Equivalents": 130369,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2021-10-01",
+          "description": "Land clearing in progress for the site"
+        },
+        {
+          "date": "2024-01-01",
+          "description": "Building 1 operational. This is estimated based on construction progress in October 2023. This also corresponds to a 2023 article where a Google spokesperson says that the \"the Lancaster data center will open later this year\"."
+        },
+        {
+          "date": "2025-09-11",
+          "description": "Building 2 is close to completion. Structurally it is already complete, but there is still some equipment strewn around the building that suggests commissioning is ongoing."
+        },
+        {
+          "date": "2025-10-31",
+          "description": "Building 2 operational. This is supported by the state of Building 2 a month prior, which is entirely complete outside of some equipment that was removed later on."
+        },
+        {
+          "date": "2026-03-12",
+          "description": "At this point, Building 1 and 2 have since already been operational. Additionally, there is visible steam showing clear evidence of operational for both before this date."
+        }
+      ]
+    },
+    {
+      "name": "AWS Berwick",
+      "owner": "Amazon",
+      "users": [
+        "Anthropic"
+      ],
+      "powerMW": 139,
+      "capitalCostB": 4.09,
+      "lat": 41.08385,
+      "lng": -76.14353,
+      "state": "Pennsylvania",
+      "stateId": "PA",
+      "status": "active",
+      "address": "1125 Electron Ave, Berwick, PA 18603",
+      "project": "Project Rainier",
+      "h100Equivalents": 81354,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 3 building(s) operational as of the latest satellite assessment. Epoch projects 4.0 building(s) and 212.0 MW by 2027-08-01.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2021-07-01",
+          "description": "Land clearing begins. Talen Energy reported on July 12, 2021 that site-preparation permits had already been obtained and site work was underway, while permits for construction of the first building were still being pursued. We model land clearing as starting from the beginning of the month."
+        },
+        {
+          "date": "2023-01-17",
+          "description": "Cumulus completes a 48 MW, 300,000 sq ft powered shell for the first data center at the Susquehanna campus. The shell is available for lease, with the campus still awaiting its first tenant and commercial operations."
+        },
+        {
+          "date": "2024-03-04",
+          "description": "AWS acquires the Cumulus/Talen building campus for $650M."
+        },
+        {
+          "date": "2024-06-01",
+          "description": "Building 1 fit out and related construction begins under Amazon, based on the Susquehanna River Basin Commission (SRBC) schedule."
+        },
+        {
+          "date": "2025-09-09",
+          "description": "Building 1 operational estimate. According to Google Earth Satellite Imagery from this date, Building 1 appears structurally complete and likely operational, while Building 2 is still missing two generators."
+        },
+        {
+          "date": "2026-01-07",
+          "description": "Building 2 operational estimate. This is based on the progress visible in the September 2025 image. The DEP also issues an air plan approval to add 48 more emergency generators on this date."
+        },
+        {
+          "date": "2026-03-12",
+          "description": "The SRBC increases approved water use from 0.060 MGD to 0.129 MGD. This supports that some expansion is happening, but does not explicitly prove a third operational building."
+        },
+        {
+          "date": "2026-05-05",
+          "description": "Buildings 1 and 2 visibly complete and operational. Building 3 appears complete and may be commissioning, but it's likely not operational yet given the immediate surrounding construction work. Several additional building shells and pads are still in construction, but none are assumed operational due to all the construction work..."
+        },
+        {
+          "date": "2026-08-01",
+          "description": "Building 3 expected to come online sometime around August 2026, since in the May satellite image it appeared structurally complete with minimal construction surrounding it. Basing MW estimate using Building 2 as a reference."
+        }
+      ]
+    },
+    {
+      "name": "Google Kansas City East",
+      "owner": "Google",
+      "users": [],
+      "powerMW": 126,
+      "capitalCostB": 3.98,
+      "lat": 39.31912,
+      "lng": -94.57615,
+      "state": "Missouri",
+      "stateId": "MO",
+      "status": "active",
+      "address": "Kansas City, Clay County, MO",
+      "project": "",
+      "h100Equivalents": 244568,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-01-01",
+          "description": "Land clearing has begun for the site"
+        },
+        {
+          "date": "2024-03-01",
+          "description": "Foundation work begins on Building 1"
+        },
+        {
+          "date": "2024-10-01",
+          "description": "Foundation work begins on Building 2. Building 1 roof is fully black."
+        },
+        {
+          "date": "2025-07-01",
+          "description": "Foundation work begins for Building 3. Building 1 generators seem complete."
+        },
+        {
+          "date": "2025-11-01",
+          "description": "Foundation work begins for Building 4. Building 2 roof is almost complete, and construction appears to have started on cooling. Building 1 cooling construction continues, and the substation right next to it seems finished as well."
+        },
+        {
+          "date": "2026-04-16",
+          "description": "Building 1 is almost complete, with only cooling needing 4 more fans. Building 2 backup generator construction has begun, and cooling tower installation is about halfway complete. Building 3's roof is almost complete, and construction has started on generators and cooling. A clear foundation has been cleared for Building 4, though no..."
+        },
+        {
+          "date": "2026-08-01",
+          "description": "Building 1 operational. Estimated based on present construction progress and typical timelines."
+        }
+      ]
+    },
+    {
+      "name": "Google Midlothian",
+      "owner": "Google",
+      "users": [],
+      "powerMW": 123,
+      "capitalCostB": 3.9,
+      "lat": 32.43893,
+      "lng": -97.0508,
+      "state": "Texas",
+      "stateId": "TX",
+      "status": "active",
+      "address": "3250 Railport Pkwy, Midlothian, TX 76065",
+      "project": "",
+      "h100Equivalents": 191006,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-11-28",
+          "description": "Visible land clearing around the area for Building 1"
+        },
+        {
+          "date": "2024-10-01",
+          "description": "Building 1 roof is complete."
+        },
+        {
+          "date": "2026-04-19",
+          "description": "Building 1 is probably mostly operational despite some cooling towers yet to be installed. In the original building permit Google only expected to build 6 new cooling towers, but they've extended the row further. This might be to support new chips with denser power configurations. Across the road, you can see the beginnings of land..."
+        },
+        {
+          "date": "2026-07-01",
+          "description": "Estimated full completion of the expanded row of cooling towers and backup generators."
+        }
+      ]
+    },
+    {
+      "name": "STACK Infrastructure NVA02",
+      "owner": "Unknown",
+      "users": [],
+      "powerMW": 118,
+      "capitalCostB": 3.22,
+      "lat": 38.74581,
+      "lng": -77.53772,
+      "state": "Virginia",
+      "stateId": "VA",
+      "status": "active",
+      "address": "9590 Hornbaker Rd, Manassas, VA 20109",
+      "project": "",
+      "h100Equivalents": 61142,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment. Epoch projects 6.0 building(s) and 487.0 MW by 2028-01-01.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2019-10-19",
+          "description": "Land clearing begins by Peterson Companies for Stack Infrastructure, which is noted in the news and visible on satellite imagery."
+        },
+        {
+          "date": "2024-10-01",
+          "description": "Building 1 is operational, which is assumed to be three months after the last backup diesel generators are finished. The generators were first seen to be finished July 1 from satellite imagery (a clear image of this can be seen on July 29 via Google Earth)."
+        },
+        {
+          "date": "2026-02-14",
+          "description": "All buildings have begun construction (with groundwork starting for AI building 6), as depicted by satellite imagery."
+        }
+      ]
+    },
+    {
+      "name": "Meta Gallatin",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 114,
+      "capitalCostB": 3.3,
+      "lat": 36.41176,
+      "lng": -86.36968,
+      "state": "Tennessee",
+      "stateId": "TN",
+      "status": "active",
+      "address": "1 Meta Lp, Gallatin, TN 37066",
+      "project": "",
+      "h100Equivalents": 99545,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-09-11",
+          "description": "Land clearing starts for Building 1."
+        },
+        {
+          "date": "2026-02-09",
+          "description": "Building 1 shell and cooling looks complete, but construction equipment still seen around cooling and building. We estimate another 4 months to operational."
+        },
+        {
+          "date": "2026-06-15",
+          "description": "Building 1 is operational (estimate)."
+        }
+      ]
+    },
+    {
+      "name": "Meta Sarpy",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 105,
+      "capitalCostB": 3.03,
+      "lat": 41.10369,
+      "lng": -96.13924,
+      "state": "Nebraska",
+      "stateId": "NE",
+      "status": "active",
+      "address": "14436 Fairview Rd, Springfield, NE 68059",
+      "project": "",
+      "h100Equivalents": 91966,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-08-01",
+          "description": "Building 1 grading underway."
+        },
+        {
+          "date": "2026-05-04",
+          "description": "Building 1 shell, electrical and cooling equipment looks complete, with minimal construction work, so we expect it to be operational within 3 months."
+        },
+        {
+          "date": "2026-08-02",
+          "description": "Building 1 is operational (estimate)."
+        }
+      ]
+    },
+    {
+      "name": "Meta Los Lunas",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 105,
+      "capitalCostB": 3.3,
+      "lat": 34.83034,
+      "lng": -106.78013,
+      "state": "New Mexico",
+      "stateId": "NM",
+      "status": "active",
+      "address": "4250 Messenger Lp NW, Los Lunas, NM 87031",
+      "project": "",
+      "h100Equivalents": 99545,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-07-24",
+          "description": "Land clearing starts for new building."
+        },
+        {
+          "date": "2026-03-01",
+          "description": "Building 1 looks operational."
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-07-10",
+  "lastUpdated": "2026-08-24",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
