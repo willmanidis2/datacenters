@@ -647,6 +647,10 @@
         {
           "date": "2025-12-09",
           "description": "Building 1 and 2 are operational. Activity related to the air quality permit (namely, emergency diesel generators) was reported to have started as of 2025-12-09. This is our best estimate, but note that the planned completion date in this regulatory filing is 2026-03-01."
+        },
+        {
+          "date": "2026-02-24",
+          "description": "Building 3 is under construction. An outline is visible for the building which has similar dimensions to those deployed at the Meta Prometheus site."
         }
       ]
     },
@@ -763,8 +767,8 @@
       "users": [
         "Google DeepMind"
       ],
-      "powerMW": 105,
-      "capitalCostB": 3.34,
+      "powerMW": 0,
+      "capitalCostB": 0,
       "lat": 41.9779,
       "lng": -91.6656,
       "state": "Iowa",
@@ -772,8 +776,8 @@
       "status": "active",
       "address": "5800 Edgewood Rd SW, Cedar Rapids, IA 52404",
       "project": null,
-      "h100Equivalents": 71248,
-      "notes": "Similar to earlier Google data centers. Uses more than twice as many cooling towers per building.",
+      "h100Equivalents": 0,
+      "notes": "Similar to earlier Google data centers. Uses more than twice as many cooling towers per building. No buildings operational as of Epoch's April 2026 assessment (Building 1 generators and cooling towers still being installed); Epoch projects Building 1 operational in Q4 2026 at ~105 MW, with Buildings 2-3 following in 2027.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
       ],
@@ -1565,6 +1569,10 @@
         {
           "date": "2026-05-01",
           "description": "Building 4 operational. No more visible construction, and since only 3 fans needed to be installed since Feburary, operational date was likely soon after. Building 5 roof almost complete."
+        },
+        {
+          "date": "2026-08-05",
+          "description": "Confirmation that Building 4 is complete. Building 5 has progressed since February, with a complete roof, all backup generators in place, and five cooling towers in place."
         }
       ]
     },
@@ -2490,8 +2498,170 @@
           "description": "Building 1 looks operational."
         }
       ]
+    },
+    {
+      "name": "CoreWeave Denton",
+      "owner": "CoreWeave",
+      "users": [
+        "OpenAI"
+      ],
+      "powerMW": 367,
+      "capitalCostB": 9.93,
+      "lat": 33.2149,
+      "lng": -97.2098,
+      "state": "Texas",
+      "stateId": "TX",
+      "status": "active",
+      "address": "8171 Jim Christal Rd, Denton, TX 76207",
+      "project": null,
+      "h100Equivalents": 252653,
+      "notes": "Former Core Scientific bitcoin mining campus adjacent to the Denton Energy Center, being converted to AI/HPC infrastructure in a roughly $6.1 billion buildout (Denton North and Denton South). CoreWeave acquired Core Scientific in 2025; Epoch AI assesses Buildings 1-7 operational at ~367 MW total power as of July 2026, with Building 8 fit-out scheduled to begin September 2026. Epoch lists OpenAI as the likely user.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers",
+        "https://www.datacentermap.com/usa/texas/dallas/core-scientific-denton/",
+        "https://investors.corescientific.com/news-events/press-releases/detail/110/core-scientific-and-coreweave-announce-1-2-billion-expansion-at-denton-tx-site"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-11-01",
+          "description": "Construction start - The Texas Department of Licensing and Regulation reports Core Scientific is converting existing Bitcoin mining buildings into AI data centers, planning to build AROUND the existing Denton Energy Center."
+        },
+        {
+          "date": "2025-05-31",
+          "description": "First 8 MW billable tranche dedicated to AI starts running at the site, with another 40 scheduled by the end of the quarter."
+        },
+        {
+          "date": "2025-12-31",
+          "description": "Half the campus energized. 67 billable MW are now dedicated to CoreWeave's GPUs across three buildings."
+        },
+        {
+          "date": "2026-02-23",
+          "description": "Buildings 1-3 (Denton North) are largely built out/operational, and Denton South has its first data hall plus support equipment substantially installed. Remaining Denton South buildings (4-7) still under construction. This is according to satellite imagery."
+        },
+        {
+          "date": "2026-03-02",
+          "description": "Buildings 1-3 (Denton North) are fully operational running AI (Denton North at 90 MW, Denton South partially running at 41). This is according to an earnings call from this date."
+        },
+        {
+          "date": "2026-07-03",
+          "description": "Buildings 1-7 are operational and running, with no construction work visible. This is based on both satellite imagery, and the Q2 2026 Earnings call stating the campus was operational by midyear 2026."
+        }
+      ]
+    },
+    {
+      "name": "CoreWeave Chester",
+      "owner": "CoreWeave",
+      "users": [
+        "OpenAI"
+      ],
+      "powerMW": 114,
+      "capitalCostB": 3.11,
+      "lat": 37.3599,
+      "lng": -77.327,
+      "state": "Virginia",
+      "stateId": "VA",
+      "status": "active",
+      "address": "1401 Meadowville Technology Parkway, Chester, VA",
+      "project": null,
+      "h100Equivalents": 88428,
+      "notes": "Former Capital One data center in the Meadowville Technology Park (Chesterfield County), leased to CoreWeave and converted starting September 2023. Epoch AI assesses Buildings 1-2 operational at ~114 MW as of May 2026, with Building 3 under construction and estimated complete in 2027. Epoch lists OpenAI as a speculative user.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-09-18",
+          "description": "Conversion starts at CTP-01 (Building 1). The data center was formerly owned by Capital One, now leased to CoreWeave. Source: https://www.datacenterdynamics.com/en/news/chirisa-secures-200-million-loan-to-fit-out-virginia-data-center-for-coreweave/"
+        },
+        {
+          "date": "2024-01-31",
+          "description": "Building 1's second data hall scheduled to come online this month."
+        },
+        {
+          "date": "2024-04-30",
+          "description": "Building 1 is scheduled to be fully online by this point, so we count the full 27 MW as operational here."
+        },
+        {
+          "date": "2025-01-22",
+          "description": "Satellite imagery shows Building 1 complete, with Building 2's yard work and early construction visible. Building 3 hasn't started yet, since the old building is still there."
+        },
+        {
+          "date": "2026-05-20",
+          "description": "Based on satellite imagery, Building 3 has cleared its land and is beginning construction. Building 2 is operational judging from the colored motion artifacts on the cooling tower fans."
+        }
+      ]
+    },
+    {
+      "name": "Microsoft SAT40",
+      "owner": "Microsoft",
+      "users": [],
+      "powerMW": 106,
+      "capitalCostB": 2.84,
+      "lat": 29.416,
+      "lng": -98.8044,
+      "state": "Texas",
+      "stateId": "TX",
+      "status": "active",
+      "address": "15000 Lambda Drive, San Antonio, TX 78245",
+      "project": null,
+      "h100Equivalents": 64679,
+      "notes": "Two-building Azure data center on Microsoft's Texas Research Park campus in far-west Bexar County, part of a roughly $1 billion, ~1M sq ft campus plan. Building 1 operational since May 2024 and Building 2 since December 2025; Epoch AI assesses the site as complete at ~106 MW with no further construction visible.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers",
+        "https://www.datacenterdynamics.com/en/news/microsoft-files-for-another-data-center-in-san-antonio-texas/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2018-12-28",
+          "description": "Land clearing begins for the site, specifically digging up a parking lot and making outlines for the buildings. Evident on Google Earth."
+        },
+        {
+          "date": "2024-05-24",
+          "description": "Building 1 operational. Estimated 3 months out from February, when there was still construction equipment."
+        },
+        {
+          "date": "2025-12-01",
+          "description": "Building 2 operational. No more construction on building, and surrounding roads are also complete."
+        },
+        {
+          "date": "2026-02-04",
+          "description": "Site has already been completed, with no more visible construction on any building."
+        }
+      ]
+    },
+    {
+      "name": "PORTS Technology Campus (Piketon)",
+      "owner": "SB Energy / DOE public-private partnership",
+      "users": [
+        "OpenAI"
+      ],
+      "powerMW": 0,
+      "capitalCostB": 0,
+      "lat": 39.0184,
+      "lng": -82.9985,
+      "state": "Ohio",
+      "stateId": "OH",
+      "status": "planned",
+      "address": "Portsmouth Gaseous Diffusion Plant site, Piketon, OH (Pike County)",
+      "project": "PORTS Technology Campus",
+      "h100Equivalents": 0,
+      "notes": "DOE public-private partnership announced March 20, 2026 to redevelop the decommissioned Portsmouth Gaseous Diffusion Plant into a campus targeting a 10 GW data center with up to 10 GW of new on-site generation (9.2 GW natural gas). SoftBank's SB Energy is partnering with AEP Ohio on generation and transmission, including $4.2 billion in grid upgrades, with $33.3 billion in Japanese funding tied to the gas generation. On August 18, 2026 OpenAI announced plans to lease much of the campus. No construction assessed yet; targets are developer/DOE projections.",
+      "sources": [
+        "https://www.cbsnews.com/pittsburgh/news/data-center-gas-plants-ohio/",
+        "https://woub.org/2026/08/18/openai-announces-plans-to-lease-much-of-a-proposed-data-center-campus-in-pike-county/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-03-20",
+          "description": "DOE, SoftBank/SB Energy and AEP Ohio announce the PORTS Technology Campus public-private partnership targeting a 10 GW data center and up to 10 GW of new generation at the former uranium enrichment site."
+        },
+        {
+          "date": "2026-08-18",
+          "description": "OpenAI announces plans to lease much of the proposed data center campus in Pike County."
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-28",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
