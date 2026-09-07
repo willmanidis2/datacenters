@@ -193,6 +193,10 @@
         {
           "date": "2026-05-23",
           "description": "Epoch AI: Buildings 3-4 estimated operational — 4 of 8 buildings live (~421 MW IT); Buildings 5-8 now projected operational ~November 2026"
+        },
+        {
+          "date": "2026-07-28",
+          "description": "Buildings 5-8 structurally complete and roofed but not yet confirmed operational (fit-out ongoing); substation looks complete. Buildings 1-4 operational at ~590 MW total."
         }
       ]
     },
@@ -257,7 +261,7 @@
       "status": "active",
       "address": "1 Community Cir, New Albany, OH 43054",
       "project": "Prometheus",
-      "h100Equivalents": 677110,
+      "h100Equivalents": 679568,
       "notes": "Unusual ad hoc construction spanning full length of New Albany Business Park. Combination of weatherproof tents, colocation facilities and traditional buildings. Per independent analysis, Prometheus is one of five US AI sites projected to cross 1 GW capacity in 2026, with the milestone tracked to May 2026. Building 12 became operational on August 1, 2026 (~731 MW total power). Epoch projects the Socrates North and Socrates South gas plants online around October 2026 alongside Buildings 15-19, and Buildings 13-14 operational by late 2026 / January 2027.",
       "sources": [
         "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
@@ -409,7 +413,7 @@
       "status": "active",
       "address": "1101 Beech Rd SW, New Albany, OH 43054",
       "project": null,
-      "h100Equivalents": 616473,
+      "h100Equivalents": 550783,
       "notes": "Located in New Albany Business Park alongside Meta Prometheus. Only includes buildings added or modified since 2024. Building 5 became operational on August 16, 2026, taking the site to five buildings and ~543 MW total power.",
       "sources": [
         "https://sustainability.google/reports/google-2025-environmental-report/",
@@ -669,7 +673,7 @@
       "status": "active",
       "address": "10410 Bunge Ave, Council Bluffs, IA 51503",
       "project": null,
-      "h100Equivalents": 289035,
+      "h100Equivalents": 255685,
       "notes": "Focus on buildings added to the east since 2024, likely to have most AI compute.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -716,7 +720,7 @@
       "status": "active",
       "address": "11110 State St, Omaha, NE 68142",
       "project": null,
-      "h100Equivalents": 267812,
+      "h100Equivalents": 198585,
       "notes": "Second Google site in Nebraska. Compute estimated from cooling tower satellite imagery.",
       "sources": [
         "https://sustainability.google/reports/google-2025-environmental-report/",
@@ -868,7 +872,7 @@
       "status": "active",
       "address": "4581 Webb St, Pryor, OK 74361",
       "project": null,
-      "h100Equivalents": 763012,
+      "h100Equivalents": 636685,
       "notes": "Dating back to 2007, serves Google Workspace and ML. Only tracking buildings completed since 2024. Epoch estimates Building 2 became operational on August 24, 2026 after a long retrofit, taking the site from ~63 MW to ~442 MW total power and ~763,000 H100-equivalents.",
       "sources": [
         "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/",
@@ -1536,7 +1540,7 @@
       "status": "active",
       "address": "5076 S High St, Columbus, OH 43207",
       "project": "",
-      "h100Equivalents": 408792,
+      "h100Equivalents": 331986,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 4 building(s) operational as of the latest satellite assessment. Epoch projects 5.0 building(s) and 464.0 MW by 2027-07-01.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -1582,8 +1586,8 @@
       "users": [
         "Google DeepMind"
       ],
-      "powerMW": 335,
-      "capitalCostB": 10.57,
+      "powerMW": 286,
+      "capitalCostB": 9.02,
       "lat": 38.77614,
       "lng": -77.58251,
       "state": "Virginia",
@@ -1591,7 +1595,7 @@
       "status": "active",
       "address": "13001 Rollins Ford Rd, Bristow, VA 20136",
       "project": "",
-      "h100Equivalents": 283675,
+      "h100Equivalents": 209861,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 3 building(s) operational as of the latest satellite assessment.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -1630,7 +1634,7 @@
       "status": "active",
       "address": "14651 Gold Coast Rd, Papillion, NE 68138",
       "project": "",
-      "h100Equivalents": 80344,
+      "h100Equivalents": 100556,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 3 building(s) operational as of the latest satellite assessment.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -1761,7 +1765,7 @@
       "status": "active",
       "address": "Elliot Rd Technology Corridor, Mesa, AZ",
       "project": "",
-      "h100Equivalents": 343103,
+      "h100Equivalents": 289540,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -1851,7 +1855,7 @@
       "status": "active",
       "address": "Tahoe Reno Industrial Center, Storey County, NV",
       "project": "",
-      "h100Equivalents": 153613,
+      "h100Equivalents": 133906,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment. Epoch projects 3.0 building(s) and 389.0 MW by 2027-06-30.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -2048,7 +2052,7 @@
       "status": "active",
       "address": "3500 River Rd, The Dalles, OR 97058",
       "project": "",
-      "h100Equivalents": 201617,
+      "h100Equivalents": 175341,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -2159,7 +2163,7 @@
       "status": "active",
       "address": "5475 Cloud Ct, Lincoln, NE 68514",
       "project": "",
-      "h100Equivalents": 287519,
+      "h100Equivalents": 197575,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment. Epoch projects 2.0 building(s) and 339.0 MW by 2027-10-01.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -2292,7 +2296,7 @@
       "status": "active",
       "address": "Kansas City, Clay County, MO",
       "project": "",
-      "h100Equivalents": 244568,
+      "h100Equivalents": 202628,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -2341,7 +2345,7 @@
       "status": "active",
       "address": "3250 Railport Pkwy, Midlothian, TX 76065",
       "project": "",
-      "h100Equivalents": 191006,
+      "h100Equivalents": 143507,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -2545,6 +2549,10 @@
         {
           "date": "2026-07-03",
           "description": "Buildings 1-7 are operational and running, with no construction work visible. This is based on both satellite imagery, and the Q2 2026 Earnings call stating the campus was operational by midyear 2026."
+        },
+        {
+          "date": "2026-09-01",
+          "description": "Building 8 interior fit-out begins — a $110M conversion of the existing 27,678 sq ft Building A into a data hall per Texas TDLR project records; 7 buildings operational at ~367 MW."
         }
       ]
     },
@@ -2660,8 +2668,78 @@
           "description": "OpenAI announces plans to lease much of the proposed data center campus in Pike County."
         }
       ]
+    },
+    {
+      "name": "AWS New Albany",
+      "owner": "Amazon",
+      "users": [],
+      "powerMW": 255,
+      "capitalCostB": 8.07,
+      "lat": 40.0938,
+      "lng": -82.7315,
+      "state": "Ohio",
+      "stateId": "OH",
+      "status": "active",
+      "address": "13360 Miller Rd NW, New Albany, OH 43054",
+      "project": null,
+      "h100Equivalents": 201112,
+      "notes": "Multi-campus AWS site along Beech and Miller roads in the New Albany area east of Columbus, part of Amazon's $7.8 billion central Ohio expansion. Epoch AI tracks 9 buildings operational (eastern campus Buildings 5-9 since December 2024; middle campus Buildings 10 and 12-14 complete by March 2026), with the remaining tracked buildings expected in 2027. Coordinates are the centroid of the AWS building cluster mapped in OpenStreetMap.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers",
+        "https://baxtel.com/data-center/amazon-miller-rd-campus"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2022-07-01",
+          "description": "Land clearing begins for Buildings 5-9 (eastern campus)"
+        },
+        {
+          "date": "2024-12-01",
+          "description": "Buildings 5-9 (eastern campus) operational (~136 MW)"
+        },
+        {
+          "date": "2026-03-12",
+          "description": "Middle campus Buildings 10, 12, 13 and 14 complete/likely operational (~255 MW, 9 buildings); Building 11 still installing backup generators"
+        }
+      ]
+    },
+    {
+      "name": "OpenAI Stargate Lordstown",
+      "owner": "SoftBank",
+      "users": [
+        "OpenAI"
+      ],
+      "powerMW": 0,
+      "capitalCostB": 0,
+      "lat": 41.1488,
+      "lng": -80.8764,
+      "state": "Ohio",
+      "stateId": "OH",
+      "status": "planned",
+      "address": "2300 Hallock Young Rd, Lordstown (Warren), OH 44481",
+      "project": "Stargate",
+      "h100Equivalents": 0,
+      "notes": "One of the five new Stargate sites announced in September 2025, on the SoftBank-owned former GM/Foxconn Lordstown plant site. Land clearing began October 2025; by late July 2026 satellite imagery showed active construction with roofing mostly in place, though no buildings were operational. OpenAI has said Lordstown and Milam County together could scale to 1.5 GW. Notably sited in a village that enacted its own data center moratorium in early 2026.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers",
+        "https://openai.com/index/five-new-stargate-sites/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2025-10-12",
+          "description": "Land clearing begins at the front of the site facing the Ohio Turnpike, removing a parking lot and solar array"
+        },
+        {
+          "date": "2026-02-27",
+          "description": "No visible new construction from satellite; work continuing within preexisting facilities"
+        },
+        {
+          "date": "2026-07-30",
+          "description": "Active construction visible on and around the data center with roofing mostly in place; no buildings operational"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-09-07",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
