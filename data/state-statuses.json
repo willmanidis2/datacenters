@@ -6,9 +6,9 @@
       "name": "Alabama",
       "slug": "alabama",
       "status": "favorable",
-      "summary": "Alabama offers tax incentives for data center development, but local pushback spread rapidly in mid-2026. Birmingham enacted a 6-month moratorium on large data centers (>20 MW) in March 2026, and in June 2026 Leeds, Homewood, Cullman, and Fort Payne each adopted their own data center moratoriums while reviewing zoning rules. The wave reached east-central Alabama in August 2026: Anniston adopted Resolution 26-R-97 on August 18 imposing a 12-month moratorium on data center permitting, development and licensing within its regulatory jurisdiction (with a Planning Commission study due in six months), and Westover's council unanimously passed a six-month moratorium the same night after residents opposed a proposed 437-acre project near Cheshire Drive.",
+      "summary": "Alabama offers tax incentives for data center development, but local pushback spread rapidly in mid-2026. Birmingham enacted a 6-month moratorium on large data centers (>20 MW) in March 2026, and in June 2026 Leeds, Homewood, Cullman, and Fort Payne each adopted their own data center moratoriums while reviewing zoning rules. The wave reached east-central Alabama in August 2026: Anniston adopted Resolution 26-R-97 on August 18 imposing a 12-month moratorium on data center permitting, development and licensing within its regulatory jurisdiction (with a Planning Commission study due in six months), and Westover's council unanimously passed a six-month moratorium the same night after residents opposed a proposed 437-acre project near Cheshire Drive. In early September 2026 Harpersville adopted a proactive six-month moratorium, and Fort Payne unanimously enacted an ordinance making data centers and battery storage conditional uses requiring zoning board review and public hearings while its moratorium runs through December 15.",
       "bills": [],
-      "lastUpdated": "2026-08-28",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "favorable",
         "local_restrictions"
@@ -76,6 +76,24 @@
           "date": "2026-08-18",
           "description": "City Council unanimously approved a six-month moratorium on data centers on August 18, 2026, after residents voiced concerns over a proposed 437-acre data center project near Cheshire Drive. Officials will review zoning and community impact conditions during the pause.",
           "url": "https://www.wbrc.com/2026/08/19/westover-approves-6-month-moratorium-data-centers/"
+        },
+        {
+          "locality": "Town of Harpersville",
+          "countyFips": "01117",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-09-01",
+          "description": "The town adopted a six-month data center moratorium in early September 2026 as a proactive measure despite no developer interest, with monthly informational sessions planned on energy, water and environmental concerns.",
+          "url": "https://writing.strisker.com/data-centers-daily-notes-september-01-2026/"
+        },
+        {
+          "locality": "City of Fort Payne",
+          "countyFips": "01049",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-09-02",
+          "description": "City Council unanimously approved an ordinance classifying data centers and battery storage as conditional uses in manufacturing and warehouse zones, requiring Board of Zoning Adjustment review and public hearings; the city's six-month moratorium remains in effect through December 15, 2026.",
+          "url": "https://writing.strisker.com/data-centers-daily-notes-september-02-2026/"
         }
       ]
     },
@@ -259,12 +277,31 @@
       "fips": "06",
       "name": "California",
       "slug": "california",
-      "status": "under_discussion",
-      "summary": "No statewide moratorium legislation; several bills (AB 2469, AB 2383, AB 1577, SB 1168, SB 887) are in committee, with the Legislature in summer recess until August 3, 2026. Local action is accelerating: Imperial County extended its data center pause to a full year on July 14, 2026, and Monterey Park's moratorium runs through January 2027. Indio's council unanimously extended its own moratorium on July 15, 2026. Some jurisdictions have also imposed water-use restrictions affecting proposed sites. Community pressure is also killing projects outright: developer Eight Form withdrew its El Segundo data center application on July 9, 2026 at the close of a three-hour Planning Commission hearing focused on electricity demand. August brought California's first county-level pause of the wave: Tulare County's Board of Supervisors approved a 45-day moratorium on August 19, 2026 covering unincorporated areas while it evaluates public health and infrastructure impacts, with activists immediately pressing for a permanent ban. Coachella's City Council took up an ordinance banning data centers citywide on August 13, which would make it the third Riverside County city to do so after Perris and Desert Hot Springs. Hanford issued a policy statement on August 15 opposing data centers absent meaningful local review, noting its zoning already prohibits them. In Gilroy, Amazon began building on 56 acres of farmland under a 45-year-old zoning rule, with residents saying they were unaware until construction started because the comment period closed in 2024. The Coachella Valley hardened further in late August: Coachella's council passed its permanent citywide ban on August 25, and Palm Springs approved a 45-day moratorium on large-scale data centers on August 26 to study water, energy and infrastructure impacts before adopting permanent rules.",
-      "bills": [],
-      "lastUpdated": "2026-08-28",
+      "status": "legislation_advancing",
+      "summary": "No statewide moratorium legislation; several bills (AB 2469, AB 2383, AB 1577, SB 1168, SB 887) are in committee, with the Legislature in summer recess until August 3, 2026. Local action is accelerating: Imperial County extended its data center pause to a full year on July 14, 2026, and Monterey Park's moratorium runs through January 2027. Indio's council unanimously extended its own moratorium on July 15, 2026. Some jurisdictions have also imposed water-use restrictions affecting proposed sites. Community pressure is also killing projects outright: developer Eight Form withdrew its El Segundo data center application on July 9, 2026 at the close of a three-hour Planning Commission hearing focused on electricity demand. August brought California's first county-level pause of the wave: Tulare County's Board of Supervisors approved a 45-day moratorium on August 19, 2026 covering unincorporated areas while it evaluates public health and infrastructure impacts, with activists immediately pressing for a permanent ban. Coachella's City Council took up an ordinance banning data centers citywide on August 13, which would make it the third Riverside County city to do so after Perris and Desert Hot Springs. Hanford issued a policy statement on August 15 opposing data centers absent meaningful local review, noting its zoning already prohibits them. In Gilroy, Amazon began building on 56 acres of farmland under a 45-year-old zoning rule, with residents saying they were unaware until construction started because the comment period closed in 2024. The Coachella Valley hardened further in late August: Coachella's council passed its permanent citywide ban on August 25, and Palm Springs approved a 45-day moratorium on large-scale data centers on August 26 to study water, energy and infrastructure impacts before adopting permanent rules. The Legislature closed its 2026 session in early September by passing a slate of data center bills now on the Governor's desk: SB 1168 (McNerney), approved 38-0 in the Senate after a unanimous Assembly vote, directs the CPUC to ensure data centers pay their fair share of transmission and distribution costs; SB 886 (Padilla) requires a separate electricity rate class for data centers; and SB 887 requires environmental impact review. Local action continued: Mendocino County adopted a 45-day urgency ban on September 1, Escondido passed a 45-day AI data center moratorium in late August, and Fresno's council voted 7-0 on September 3 to begin drafting a 10-year citywide ban backed by Mayor Jerry Dyer. In Imperial County, a tentative court ruling sided with the City of Imperial's challenge to a data center approval, citing substantial evidence of adverse energy, water, air quality, noise and traffic impacts.",
+      "bills": [
+        {
+          "id": "SB 1168",
+          "title": "Data centers: rate structures (Sen. Jerry McNerney)",
+          "status": "Passed Legislature — Senate 38-0 after unanimous Assembly approval; to the Governor (early September 2026)",
+          "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202520260SB1168"
+        },
+        {
+          "id": "SB 886",
+          "title": "Data center electricity rates (Sen. Steve Padilla) — separate CPUC rate class for data centers",
+          "status": "Passed Legislature — to the Governor (early September 2026)",
+          "url": "https://www.ktvu.com/news/california-lawmakers-pass-slew-data-center-bills-final-night-session"
+        },
+        {
+          "id": "SB 887",
+          "title": "Data center environmental impact review requirement",
+          "status": "Passed Legislature — to the Governor (early September 2026)",
+          "url": "https://www.ktvu.com/news/california-lawmakers-pass-slew-data-center-bills-final-night-session"
+        }
+      ],
+      "lastUpdated": "2026-09-07",
       "tags": [
-        "under_discussion",
+        "legislation_advancing",
         "local_restrictions"
       ],
       "localMoratoriums": [
@@ -330,6 +367,33 @@
           "date": "2026-08-26",
           "description": "City Council approved a 45-day moratorium on large-scale data center projects (initially expiring October 10, 2026, extendable) to study water, energy and infrastructure impacts before writing permanent zoning rules, joining other Coachella Valley cities.",
           "url": "https://kesq.com/news/2026/08/26/palm-springs-city-council-approves-temporary-data-center-moratorium/"
+        },
+        {
+          "locality": "Mendocino County",
+          "countyFips": "06045",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-09-01",
+          "description": "Board of Supervisors voted 5-0 to adopt an urgency ordinance barring any new data center in the unincorporated county, effective immediately for 45 days (through October 16, 2026) unless extended.",
+          "url": "https://mendovoice.com/2026/09/mendocino-county-supes-ban-data-centers-for-the-moment-at-least/"
+        },
+        {
+          "locality": "City of Escondido",
+          "countyFips": "06073",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-08-26",
+          "description": "City Council unanimously approved a 45-day urgency moratorium on AI data centers and expansions in late August 2026, framed as a public health and safety measure; staff findings are due October 10, with extensions of up to a year possible. No applications are currently pending.",
+          "url": "https://ncpipeline.substack.com/p/escondido-data-center-moratorium"
+        },
+        {
+          "locality": "City of Fresno",
+          "countyFips": "06019",
+          "type": "ban",
+          "status": "proposed",
+          "date": "2026-09-03",
+          "description": "City Council voted 7-0 on September 3, 2026 to direct staff to draft a Development Code text amendment banning data centers citywide for 10 years, applying to current and future city land; Mayor Jerry Dyer co-sponsored the measure. Staff estimate the amendment could take several months to a year to return for adoption.",
+          "url": "https://sjvsun.com/uncategorized/fresno-takes-steps-to-ban-data-centers-for-10-years/"
         }
       ]
     },
@@ -339,9 +403,9 @@
       "name": "Colorado",
       "slug": "colorado",
       "status": "under_discussion",
-      "summary": "No statewide moratorium. Denver City Council voted unanimously on May 18, 2026 to enact a one-year moratorium on new data center zoning permits and site development plans, prompted by Stage 1 drought conditions and Denver Water's call for a 20% reduction; already-permitted work is exempt (CoreSite's DE3 is grandfathered while two additional planned buildings are halted), and the city is forming a task force. Larimer County has an active moratorium, Logan County enacted and lifted one after passing regulations, and Weld County adopted new zoning requirements. On July 7, 2026 the City and County of Broomfield unanimously approved an 18-month moratorium (through December 2027) on data centers using 10 MW or more. Colorado Springs' Planning Commission approved Project Taurus 6-2 on August 3, 2026 with conditions including a 50 MW cap and a requirement that utility data be published; an appeal was filed and the City Council is expected to decide in September.",
+      "summary": "No statewide moratorium. Denver City Council voted unanimously on May 18, 2026 to enact a one-year moratorium on new data center zoning permits and site development plans, prompted by Stage 1 drought conditions and Denver Water's call for a 20% reduction; already-permitted work is exempt (CoreSite's DE3 is grandfathered while two additional planned buildings are halted), and the city is forming a task force. Larimer County has an active moratorium, Logan County enacted and lifted one after passing regulations, and Weld County adopted new zoning requirements. On July 7, 2026 the City and County of Broomfield unanimously approved an 18-month moratorium (through December 2027) on data centers using 10 MW or more. Colorado Springs' Planning Commission approved Project Taurus 6-2 on August 3, 2026 with conditions including a 50 MW cap and a requirement that utility data be published; an appeal was filed and the City Council is expected to decide in September. Mead's trustees added a 12-month moratorium on a 4-2 vote on August 31, 2026, to study infrastructure, water use and setbacks before accepting applications.",
       "bills": [],
-      "lastUpdated": "2026-08-24",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -400,6 +464,15 @@
           "date": "2026-08-03",
           "description": "Planning Commission approved the Project Taurus data center 6-2 with restrictions including a 50 MW limit and utility data publication requirements. An appeal was filed; City Council decision expected in September 2026.",
           "url": "https://writing.strisker.com/data-centers-daily-notes-august-4-2026/"
+        },
+        {
+          "locality": "Town of Mead",
+          "countyFips": "08123",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-08-31",
+          "description": "Trustees voted 4-2 on August 31, 2026 to impose a 12-month moratorium on data center applications while staff study infrastructure demands, water use and setbacks; it can end early if regulations are completed sooner.",
+          "url": "https://berthoudsurveyor.com/mead-approves-12-month-data-center-moratorium/"
         }
       ]
     },
@@ -493,7 +566,7 @@
       "name": "Florida",
       "slug": "florida",
       "status": "active_restrictions",
-      "summary": "Governor Ron DeSantis signed SB 484 — the Florida Hyperscale Data Center Act — into law on May 7, 2026 (effective July 1). The law classifies data centers consuming 50+ MW at peak demand as 'large-scale,' bars utilities from passing data center costs onto residential and small-business ratepayers, requires data centers to pay their full cost of service, creates a permitting framework to protect aquifers and local water (mandating reclaimed water where feasible), and preserves local government authority to deny or impose stricter standards on data center projects. Florida continues to attract data center investment, particularly in the Miami and Jacksonville markets, but local pushback emerged in mid-2026: Sarasota County adopted a one-year hyperscale moratorium in July, DeSoto County moved toward one, and Lakeland approved a one-year moratorium on first reading July 21, 2026 (final reading August 3). Governor DeSantis was one of only three governors — along with New Hampshire's Ayotte and Vermont's Scott — who declined to sign the White House Ratepayer Protection Pledge expanded on July 23, 2026. Local restriction widened in August 2026. Washington County's commissioners unanimously approved a one-year moratorium on August 20 halting acceptance, processing, review and approval of data center applications in unincorporated areas, exempting only facilities where computer equipment occupies no more than 5% of gross floor area with demand under 250 kW. In Palm Beach County, commissioners voted 5-1 in July to reject Project Tango — a $2 billion AI campus — without prejudice after water-demand estimates diverged sharply between the developer's 5,000-gallon daily figure and county staff's 100,000-gallon projection, and approved a temporary halt on large-scale applications that went to a public hearing on August 27. Late August brought the first regulatory test of SB 484: the Public Service Commission is reviewing Duke Energy's first large-load proposal under the law, weighing whether it adequately shields ratepayers from data center costs, with a written order expected after post-hearing briefs. Martin County commissioners voted 4-1 on August 27 to put a moratorium discussion on their next agenda, while Tallahassee commissioners rejected a proposed AI data center ban 3-2 the same day, noting existing zoning already excludes such facilities.",
+      "summary": "Governor Ron DeSantis signed SB 484 — the Florida Hyperscale Data Center Act — into law on May 7, 2026 (effective July 1). The law classifies data centers consuming 50+ MW at peak demand as 'large-scale,' bars utilities from passing data center costs onto residential and small-business ratepayers, requires data centers to pay their full cost of service, creates a permitting framework to protect aquifers and local water (mandating reclaimed water where feasible), and preserves local government authority to deny or impose stricter standards on data center projects. Florida continues to attract data center investment, particularly in the Miami and Jacksonville markets, but local pushback emerged in mid-2026: Sarasota County adopted a one-year hyperscale moratorium in July, DeSoto County moved toward one, and Lakeland approved a one-year moratorium on first reading July 21, 2026 (final reading August 3). Governor DeSantis was one of only three governors — along with New Hampshire's Ayotte and Vermont's Scott — who declined to sign the White House Ratepayer Protection Pledge expanded on July 23, 2026. Local restriction widened in August 2026. Washington County's commissioners unanimously approved a one-year moratorium on August 20 halting acceptance, processing, review and approval of data center applications in unincorporated areas, exempting only facilities where computer equipment occupies no more than 5% of gross floor area with demand under 250 kW. In Palm Beach County, commissioners voted 5-1 in July to reject Project Tango — a $2 billion AI campus — without prejudice after water-demand estimates diverged sharply between the developer's 5,000-gallon daily figure and county staff's 100,000-gallon projection, and approved a temporary halt on large-scale applications that went to a public hearing on August 27. Late August brought the first regulatory test of SB 484: the Public Service Commission is reviewing Duke Energy's first large-load proposal under the law, weighing whether it adequately shields ratepayers from data center costs, with a written order expected after post-hearing briefs. Martin County commissioners voted 4-1 on August 27 to put a moratorium discussion on their next agenda, while Tallahassee commissioners rejected a proposed AI data center ban 3-2 the same day, noting existing zoning already excludes such facilities. In early September 2026 Indiantown's Village Council rejected a proposed hyperscale application pause 4-1 — firing the village manager and removing the village attorney the same night — while North Port scheduled a moratorium vote for September 8.",
       "bills": [
         {
           "id": "SB 484",
@@ -574,9 +647,18 @@
           "date": "2026-08-27",
           "description": "Commissioners voted 4-1 to add a data center moratorium discussion to their next agenda, to study environmental and infrastructure impacts.",
           "url": "https://writing.strisker.com/data-centers-daily-notes-august-27-2026/"
+        },
+        {
+          "locality": "Village of Indiantown",
+          "countyFips": "12085",
+          "type": "moratorium",
+          "status": "rejected",
+          "date": "2026-09-01",
+          "description": "Village Council voted 4-1 in early September 2026 against a proposed pause on hyperscale data center applications sought by residents concerned about the 'Project Growler' and 'Project Beskar' proposals; the same night the council fired the village manager and removed the village attorney, citing the need for stronger regulatory language.",
+          "url": "https://writing.strisker.com/data-centers-weekly-briefing-august-31-september-3-2026/"
         }
       ],
-      "lastUpdated": "2026-08-28",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -588,7 +670,7 @@
       "name": "Georgia",
       "slug": "georgia",
       "status": "active_restrictions",
-      "summary": "All statewide data center bills (HB 1012 moratorium, SB 408 and SB 410 tax exemption repeal) failed when the 2026 legislative session ended. Local momentum continues: Camden County's Board of Commissioners voted on May 5, 2026 to adopt a six-month moratorium (the first on Georgia's coast) amid a contested industrial-park rezoning push, and Lee County commissioners weighed extending their existing moratorium in late May. Local action continued through July 2026: Walker County adopted a 30-day application moratorium on July 10 with a 180-day extension pending an August 6 hearing, Marietta adopted a temporary moratorium through December 31, and DeKalb County extended its pause into early 2027. Multiple counties in central/west Georgia retain active moratoriums including DeKalb, Pike, Lamar, Troup counties and the City of LaGrange. Atlanta requires special use permits within the Beltline radius. Cherokee County joined on July 22, 2026 with a 30-day moratorium that commissioners plan to extend into early 2027, and residents in Dalton — which third-party data shows has the highest documented data center count in its region — are organizing for a pause over the county administrator's objection. Governor Brian Kemp was among the 23 Republican governors who signed the White House Ratepayer Protection Pledge on July 23, 2026. Albany adopted a 12-month moratorium in early August 2026. On August 13 the Marietta City Council voted 5-2 to approve an 11-acre data center despite the city's own six-month moratorium, because developer Prime Group Holdings' application predated the pause; dozens of residents protested. Montgomery County gave first reading to a strict ordinance requiring a 1,500-foot buffer, a three-mile separation from water bodies and farmland, and a no-tax-abatement pledge. Development also continues at scale: on August 3 Effingham County approved OpenAI's Project Camellia, a $20 billion, 1,440-acre campus with a 50% property tax abatement for 15 years and $32 million for local schools. A Maysville City Council meeting was adjourned after 14 minutes on August 3 when an update on the Northern Data/Rumble project drew shouting from the audience.",
+      "summary": "All statewide data center bills (HB 1012 moratorium, SB 408 and SB 410 tax exemption repeal) failed when the 2026 legislative session ended. Local momentum continues: Camden County's Board of Commissioners voted on May 5, 2026 to adopt a six-month moratorium (the first on Georgia's coast) amid a contested industrial-park rezoning push, and Lee County commissioners weighed extending their existing moratorium in late May. Local action continued through July 2026: Walker County adopted a 30-day application moratorium on July 10 with a 180-day extension pending an August 6 hearing, Marietta adopted a temporary moratorium through December 31, and DeKalb County extended its pause into early 2027. Multiple counties in central/west Georgia retain active moratoriums including DeKalb, Pike, Lamar, Troup counties and the City of LaGrange. Atlanta requires special use permits within the Beltline radius. Cherokee County joined on July 22, 2026 with a 30-day moratorium that commissioners plan to extend into early 2027, and residents in Dalton — which third-party data shows has the highest documented data center count in its region — are organizing for a pause over the county administrator's objection. Governor Brian Kemp was among the 23 Republican governors who signed the White House Ratepayer Protection Pledge on July 23, 2026. Albany adopted a 12-month moratorium in early August 2026. On August 13 the Marietta City Council voted 5-2 to approve an 11-acre data center despite the city's own six-month moratorium, because developer Prime Group Holdings' application predated the pause; dozens of residents protested. Montgomery County gave first reading to a strict ordinance requiring a 1,500-foot buffer, a three-mile separation from water bodies and farmland, and a no-tax-abatement pledge. Development also continues at scale: on August 3 Effingham County approved OpenAI's Project Camellia, a $20 billion, 1,440-acre campus with a 50% property tax abatement for 15 years and $32 million for local schools. A Maysville City Council meeting was adjourned after 14 minutes on August 3 when an update on the Northern Data/Rumble project drew shouting from the audience. Early September 2026 brought further local action: Forest Park approved a 90-day moratorium to draft zoning rules, Dougherty County unanimously extended its moratorium another 180 days on August 31, and Bulloch County commissioners rejected a permanent ban 4-3 while keeping their existing moratorium through the end of 2026.",
       "bills": [
         {
           "id": "HB 1012",
@@ -768,9 +850,36 @@
           "date": "2026-08-11",
           "description": "First reading of a strict data center ordinance requiring a 1,500-foot buffer, three-mile separation from water bodies and farmland, and a pledge of no tax abatement.",
           "url": "https://writing.strisker.com/data-centers-weekly-briefing-august-10-13-2026/"
+        },
+        {
+          "locality": "City of Forest Park",
+          "countyFips": "13063",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-09-01",
+          "description": "City Council approved a 90-day moratorium in early September 2026 to draft zoning changes defining data center uses, establish residential buffers and create a community advisory committee; the city previously allowed data centers by right and Digital Realty has already built a facility there.",
+          "url": "https://writing.strisker.com/data-centers-weekly-briefing-august-31-september-3-2026/"
+        },
+        {
+          "locality": "Dougherty County",
+          "countyFips": "13095",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-08-31",
+          "description": "Commissioners voted unanimously on August 31, 2026 to extend the county data center moratorium another 180 days, with no cap on renewals, while ordinances addressing noise, setbacks and water use are drafted.",
+          "url": "https://writing.strisker.com/data-centers-daily-notes-september-01-2026/"
+        },
+        {
+          "locality": "Bulloch County",
+          "countyFips": "13031",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-09-02",
+          "description": "Commissioners voted 4-3 to reject a proposed text amendment that would have permanently banned data centers, but kept the county's existing moratorium in place through December 31, 2026 for continued study.",
+          "url": "https://writing.strisker.com/data-centers-daily-notes-september-02-2026/"
         }
       ],
-      "lastUpdated": "2026-08-24",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -1252,9 +1361,9 @@
       "name": "Kentucky",
       "slug": "kentucky",
       "status": "active_restrictions",
-      "summary": "Kentucky has no statewide data center moratorium and continues to court large projects, but its largest city has now paused new development. Louisville Metro Council voted 24-1 on August 13, 2026 to adopt a six-month moratorium blocking planners from approving new data center proposals until the council adopts comprehensive zoning rules, after the Planning and Zoning Committee advanced it 7-1 on August 4. Protesters at the vote pressed for a full year. The pause is meant to give the council time to study energy and water demand, infrastructure needs, tax implications and neighborhood noise; on August 20 the Louisville Planning Commission moved to strengthen the underlying restrictions. Nicholasville passed its own six-month moratorium on August 11, with residents citing electric bills, property taxes and water. Local restriction now spans a dozen Kentucky jurisdictions. Separately, a planned Paducah campus has been caught up in a proposed federal ban on AI data centers on certain federal land.",
+      "summary": "Kentucky has no statewide data center moratorium and continues to court large projects, but its largest city has now paused new development. Louisville Metro Council voted 24-1 on August 13, 2026 to adopt a six-month moratorium blocking planners from approving new data center proposals until the council adopts comprehensive zoning rules, after the Planning and Zoning Committee advanced it 7-1 on August 4. Protesters at the vote pressed for a full year. The pause is meant to give the council time to study energy and water demand, infrastructure needs, tax implications and neighborhood noise; on August 20 the Louisville Planning Commission moved to strengthen the underlying restrictions. Nicholasville passed its own six-month moratorium on August 11, with residents citing electric bills, property taxes and water. Local restriction now spans a dozen Kentucky jurisdictions. Separately, a planned Paducah campus has been caught up in a proposed federal ban on AI data centers on certain federal land. The wave continued into September 2026: Rowan County's Fiscal Court approved a two-year moratorium on large-scale data centers (the county lacks zoning and will study a conditional-use process), and Winchester's commissioners unanimously passed a one-year moratorium within city limits.",
       "bills": [],
-      "lastUpdated": "2026-08-24",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -1358,6 +1467,24 @@
           "date": "2026-08-11",
           "description": "City passed a six-month moratorium on data centers as residents sought time to understand impacts on electric bills, property taxes and water.",
           "url": "https://writing.strisker.com/data-centers-weekly-briefing-august-10-13-2026/"
+        },
+        {
+          "locality": "Rowan County",
+          "countyFips": "21205",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-09-02",
+          "description": "Fiscal Court approved a two-year moratorium on large-scale data centers in early September 2026; the county has no zoning regulations and plans to consider a conditional-use review process during the pause. No projects have been proposed.",
+          "url": "https://www.lex18.com/news/covering-kentucky/rowan-county-approves-two-year-data-center-moratorium-ahead-of-potential-projects"
+        },
+        {
+          "locality": "City of Winchester",
+          "countyFips": "21049",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-09-01",
+          "description": "The Board of Commissioners unanimously approved a one-year moratorium on data center development within city limits in early September 2026, citing a lack of specific zoning rules and unresolved questions about utilities, rates and the environment; the rest of Clark County is not covered.",
+          "url": "https://winchestersun.com/2026/09/02/winchester-enacts-one-year-data-center-moratorium-amid-regional-wave-ofrestrictions/"
         }
       ]
     },
@@ -1667,7 +1794,7 @@
       "name": "Michigan",
       "slug": "michigan",
       "status": "active_restrictions",
-      "summary": "Michigan introduced a bipartisan House bill package (HB 5594-5596) proposing a one-year moratorium preventing EGLE and local governments from issuing data center permits until April 2027. Governor Whitmer has explicitly stated she would veto any moratorium legislation, calling it 'an automatic non-starter.' More than 20 Michigan townships and cities have enacted local moratoria independently — the most of any state — with Meridian Township, Macomb County's Washington Township, and the City of Flint (a one-year pause on June 8, 2026) among the most recent. In June 2026 legislators renewed the statewide push: HB 5594-5596 (House) and companion SB 1018-1020 (Senate) were introduced to halt data center development until April 1, 2027, and Senate Democrats unveiled a separate eight-bill regulatory package — though none has been enacted. On July 15, 2026 Governor Whitmer unveiled the Michigan Affordable and Responsible Growth Action Plan, pairing a call for lawmakers to codify consumer and energy-cost guardrails in statute with a voluntary industry pledge — residents never pay for data center energy demand, companies build or buy additional energy resources, grid reliability and freshwater protection commitments, and jobs and community benefits. Google and Oracle announced support the same day. Whitmer continues to oppose a statewide moratorium. Kalamazoo's City Commission approved a resolution on August 18, 2026 enacting a one-year data center moratorium, with the community divided over whether the temporary pause should become a permanent ban. Bay City's planning commission formed a subcommittee on August 20 to study a draft ordinance addressing facility size, power demand, water use, noise and decommissioning, with a revisit scheduled for October. Garfield Charter Township (Grand Traverse County) unanimously adopted a one-year moratorium on data centers and crypto mining on August 25, 2026, extendable to 18 months, to study water and power impacts.",
+      "summary": "Michigan introduced a bipartisan House bill package (HB 5594-5596) proposing a one-year moratorium preventing EGLE and local governments from issuing data center permits until April 2027. Governor Whitmer has explicitly stated she would veto any moratorium legislation, calling it 'an automatic non-starter.' More than 20 Michigan townships and cities have enacted local moratoria independently — the most of any state — with Meridian Township, Macomb County's Washington Township, and the City of Flint (a one-year pause on June 8, 2026) among the most recent. In June 2026 legislators renewed the statewide push: HB 5594-5596 (House) and companion SB 1018-1020 (Senate) were introduced to halt data center development until April 1, 2027, and Senate Democrats unveiled a separate eight-bill regulatory package — though none has been enacted. On July 15, 2026 Governor Whitmer unveiled the Michigan Affordable and Responsible Growth Action Plan, pairing a call for lawmakers to codify consumer and energy-cost guardrails in statute with a voluntary industry pledge — residents never pay for data center energy demand, companies build or buy additional energy resources, grid reliability and freshwater protection commitments, and jobs and community benefits. Google and Oracle announced support the same day. Whitmer continues to oppose a statewide moratorium. Kalamazoo's City Commission approved a resolution on August 18, 2026 enacting a one-year data center moratorium, with the community divided over whether the temporary pause should become a permanent ban. Bay City's planning commission formed a subcommittee on August 20 to study a draft ordinance addressing facility size, power demand, water use, noise and decommissioning, with a revisit scheduled for October. Garfield Charter Township (Grand Traverse County) unanimously adopted a one-year moratorium on data centers and crypto mining on August 25, 2026, extendable to 18 months, to study water and power impacts. Wixom ended its six-month moratorium early in September 2026 and replaced it with stricter zoning — a 1,500-foot setback from homes, schools and parks, a well-water ban and mandatory sound studies — as developer Wixom Industrial One LLC pressed a federal lawsuit over the pause.",
       "bills": [
         {
           "id": "HB 5594-5596",
@@ -2018,9 +2145,18 @@
           "date": "2026-08-25",
           "description": "Township board unanimously approved a one-year moratorium on data centers and cryptocurrency mining facilities on August 25, 2026, extendable by six months (18 months maximum), to study impacts on water and power resources and siting.",
           "url": "https://writing.strisker.com/data-centers-daily-notes-august-26-2026/"
+        },
+        {
+          "locality": "City of Wixom",
+          "countyFips": "26125",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-09-01",
+          "description": "The city ended its six-month data center moratorium early and adopted stricter zoning in early September 2026: a 1,500-foot setback from homes, schools and parks, a ban on well-water use, and mandatory sound studies. Developer Wixom Industrial One LLC has filed a federal lawsuit claiming the moratorium illegally targeted its 519,400 sq ft Midwinds Park project.",
+          "url": "https://writing.strisker.com/data-centers-weekly-briefing-august-31-september-3-2026/"
         }
       ],
-      "lastUpdated": "2026-08-28",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -2280,9 +2416,9 @@
       "name": "Nebraska",
       "slug": "nebraska",
       "status": "under_discussion",
-      "summary": "Nebraska has significant data center activity with Google facilities in Papillion, Omaha, and Lincoln, plus new mega-proposals. Gage County's Planning & Zoning Commission unanimously recommended an 18-month moratorium on June 16, 2026, now awaiting a Board of Supervisors vote; several other Nebraska counties already have moratoriums. Broken Bow adopted a six-month moratorium on July 15, 2026, extendable by up to 12 more months. Governor Jim Pillen joined President Trump at the July 23, 2026 White House roundtable expanding the Ratepayer Protection Pledge. County-level rulemaking advanced in August 2026. Lincoln County set a timeline for finalizing data center regulations, holding a public hearing August 11 in North Platte and targeting August 31 for a final hearing on a zoning ordinance requiring closed-loop cooling, proof that infrastructure costs will not shift to ratepayers, and residential screening. Broken Bow gave first reading to an ordinance requiring noise studies, decommissioning bonds at 150% of costs, and foreign ownership disclosure.",
+      "summary": "Nebraska has significant data center activity with Google facilities in Papillion, Omaha, and Lincoln, plus new mega-proposals. Gage County's Planning & Zoning Commission unanimously recommended an 18-month moratorium on June 16, 2026, now awaiting a Board of Supervisors vote; several other Nebraska counties already have moratoriums. Broken Bow adopted a six-month moratorium on July 15, 2026, extendable by up to 12 more months. Governor Jim Pillen joined President Trump at the July 23, 2026 White House roundtable expanding the Ratepayer Protection Pledge. County-level rulemaking advanced in August 2026. Lincoln County set a timeline for finalizing data center regulations, holding a public hearing August 11 in North Platte and targeting August 31 for a final hearing on a zoning ordinance requiring closed-loop cooling, proof that infrastructure costs will not shift to ratepayers, and residential screening. Broken Bow gave first reading to an ordinance requiring noise studies, decommissioning bonds at 150% of costs, and foreign ownership disclosure. Gage County commissioners held a public hearing in early September 2026 — drawing about 30 speakers citing water, land use and property-value concerns — on extending the county's data center pause from 8 to 18 months, with a decision expected within two weeks.",
       "bills": [],
-      "lastUpdated": "2026-08-24",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -2294,7 +2430,7 @@
           "type": "moratorium",
           "status": "proposed",
           "date": "2026-06-16",
-          "description": "County Planning & Zoning Commission unanimously recommended an 18-month moratorium on data centers on June 16, 2026; awaiting a Board of Supervisors final vote.",
+          "description": "County Planning & Zoning Commission unanimously recommended an 18-month moratorium on data centers on June 16, 2026; awaiting a Board of Supervisors final vote. In early September 2026 commissioners held a public hearing, drawing roughly 30 speakers, on a request to extend the county pause from 8 to 18 months, with a decision expected within two weeks.",
           "url": "https://nebraskapublicmedia.org/en/news/news-articles/gage-county-planning-and-zoning-commission-approves-18-month-moratorium-on-data-centers/"
         },
         {
@@ -2375,7 +2511,7 @@
       "name": "New Hampshire",
       "slug": "new-hampshire",
       "status": "legislation_advancing",
-      "summary": "New Hampshire's HB 1265 proposes a one-year moratorium on data center construction (public hearing held February 11, 2026), and SB 439 on municipal data center zoning authority was enacted. Separately, Governor Kelly Ayotte signed HB 672 creating a category of 'off-grid electricity providers' — a pro-development law that lets data centers install their own (potentially non-grid) power without lengthy permitting; critics warn it could accelerate data center and crypto expansion. Governor Ayotte was one of only three governors — with Florida's DeSantis and Vermont's Scott — who declined to sign the White House Ratepayer Protection Pledge when it was expanded on July 23, 2026.",
+      "summary": "New Hampshire's HB 1265 proposes a one-year moratorium on data center construction (public hearing held February 11, 2026), and SB 439 on municipal data center zoning authority was enacted. Separately, Governor Kelly Ayotte signed HB 672 creating a category of 'off-grid electricity providers' — a pro-development law that lets data centers install their own (potentially non-grid) power without lengthy permitting; critics warn it could accelerate data center and crypto expansion. Governor Ayotte was one of only three governors — with Florida's DeSantis and Vermont's Scott — who declined to sign the White House Ratepayer Protection Pledge when it was expanded on July 23, 2026. In a sharp shift, Governor Ayotte said on September 2, 2026 that she opposes a potential data center in Bow and 'putting any data center in the state of New Hampshire,' and announced plans to propose a statewide moratorium — likely multi-year — in her upcoming budget.",
       "bills": [
         {
           "id": "HB 1265",
@@ -2394,9 +2530,15 @@
           "title": "Off-Grid Electricity Providers — allows data centers to self-supply power outside standard permitting",
           "status": "Signed by Gov. Ayotte (pro-development)",
           "url": "https://indepthnh.org/2026/07/02/op-ed-gov-ayotte-is-betting-on-data-centers-granite-staters-will-pay-the-price/"
+        },
+        {
+          "id": "Governor's moratorium (announced)",
+          "title": "Statewide data center moratorium — announced by Gov. Kelly Ayotte",
+          "status": "Announced September 2, 2026 — Ayotte said she opposes 'putting any data center in the state of New Hampshire' and plans to propose a likely multi-year statewide moratorium in her upcoming budget",
+          "url": "https://www.nhpr.org/nh-news/2026-09-02/ayotte-opposes-potential-bow-data-center-plans-to-propose-moratorium-on-data-centers-in-state"
         }
       ],
-      "lastUpdated": "2026-07-27",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "legislation_advancing"
       ]
@@ -2407,7 +2549,7 @@
       "name": "New Jersey",
       "slug": "new-jersey",
       "status": "active_restrictions",
-      "summary": "New Jersey enacted its first data center ratepayer-protection law: A796/S731 (the 'Data Center Fair Share'/large-load tariff act) passed both chambers on June 30, 2026 and Governor Mikie Sherrill signed it into law on July 7, 2026 as part of a package of energy-affordability bills projected to save ratepayers over $1 billion per year. It directs the Board of Public Utilities to create a dedicated rate class and tariff for large data centers (50+ MW), requiring them to commit to paying at least 85% of projected power costs for 10 years and to post financial security so costs are not shifted to other ratepayers; the BPU has 12 months to set standards. The law follows Sherrill's May 27, 2026 comprehensive data center plan (ratepayer protection, power/water reporting, community benefit agreements). Companion bill S3379 (semi-annual water and energy reporting) remains in committee, and about 60 organizations continue to push for a stronger three-year moratorium on facilities over 20 MW. Pemberton Township became the first NJ municipality to ban data centers outright; Phillipsburg passed a final ban ordinance on April 14. On August 13, 2026 the Bayonne City Council unanimously prohibited data centers citywide and Mayor Sharon Ashe-Nadrowski signed the ordinance, making Bayonne the third New Jersey municipality with an outright ban after Pemberton Township and Phillipsburg. Municipal bans accelerated sharply in late August 2026: Stafford Township (Ordinance 2026-22) became Ocean County's first outright ban, Jackson Township followed with a 4-1 vote on August 25 (Ordinance 2026-25) citing grid, water and Pinelands concerns, and North Brunswick and East Brunswick in Middlesex County enacted bans the same week. Advocacy groups now count roughly 38 New Jersey municipalities that have blocked data centers by local ordinance — the most of any state.",
+      "summary": "New Jersey enacted its first data center ratepayer-protection law: A796/S731 (the 'Data Center Fair Share'/large-load tariff act) passed both chambers on June 30, 2026 and Governor Mikie Sherrill signed it into law on July 7, 2026 as part of a package of energy-affordability bills projected to save ratepayers over $1 billion per year. It directs the Board of Public Utilities to create a dedicated rate class and tariff for large data centers (50+ MW), requiring them to commit to paying at least 85% of projected power costs for 10 years and to post financial security so costs are not shifted to other ratepayers; the BPU has 12 months to set standards. The law follows Sherrill's May 27, 2026 comprehensive data center plan (ratepayer protection, power/water reporting, community benefit agreements). Companion bill S3379 (semi-annual water and energy reporting) remains in committee, and about 60 organizations continue to push for a stronger three-year moratorium on facilities over 20 MW. Pemberton Township became the first NJ municipality to ban data centers outright; Phillipsburg passed a final ban ordinance on April 14. On August 13, 2026 the Bayonne City Council unanimously prohibited data centers citywide and Mayor Sharon Ashe-Nadrowski signed the ordinance, making Bayonne the third New Jersey municipality with an outright ban after Pemberton Township and Phillipsburg. Municipal bans accelerated sharply in late August 2026: Stafford Township (Ordinance 2026-22) became Ocean County's first outright ban, Jackson Township followed with a 4-1 vote on August 25 (Ordinance 2026-25) citing grid, water and Pinelands concerns, and North Brunswick and East Brunswick in Middlesex County enacted bans the same week. Advocacy groups now count roughly 38 New Jersey municipalities that have blocked data centers by local ordinance — the most of any state. On August 27, 2026 Governor Sherrill signed S3379/A4096, requiring data center owners and operators to file semi-annual water and energy usage reports with the BPU for at least three years (extendable), covering total and cooling/IT energy consumption, peak daily water use, water sources and backup power — completing the second element of her four-part data center plan; the administration simultaneously issued new data center guidance for municipalities.",
       "bills": [
         {
           "id": "A796 / S731",
@@ -2424,11 +2566,11 @@
         {
           "id": "S3379",
           "title": "Data Center Water and Energy Reporting Act",
-          "status": "In committee",
-          "url": "https://www.njleg.state.nj.us/Bills/2026/S3500/3379_I1.HTM"
+          "status": "Signed into law by Gov. Sherrill — August 27, 2026",
+          "url": "https://newjerseymonitor.com/2026/08/27/data-centers-water-energy-use-law/"
         }
       ],
-      "lastUpdated": "2026-08-28",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "active_restrictions",
         "local_restrictions"
@@ -2814,9 +2956,16 @@
       "name": "North Dakota",
       "slug": "north-dakota",
       "status": "under_discussion",
-      "summary": "No statewide moratorium. Morton, Mercer, and Dunn counties retain active moratoriums on data center construction; Oliver County repealed its moratorium on May 1, 2026. A state Data Center Model Ordinance Working Group completed a model ordinance in January 2026.",
-      "bills": [],
-      "lastUpdated": "2026-05-06",
+      "summary": "No statewide moratorium. Morton, Mercer, and Dunn counties retain active moratoriums on data center construction; Oliver County repealed its moratorium on May 1, 2026. A state Data Center Model Ordinance Working Group completed a model ordinance in January 2026. In early September 2026 an interim legislative committee recommended against SB 2406, a draft bill penalizing developers who enter nondisclosure agreements with public agencies, while a separate committee continues studying data center and AI policy for possible 2027 legislation.",
+      "bills": [
+        {
+          "id": "SB 2406",
+          "title": "Data center nondisclosure agreement penalties",
+          "status": "Interim legislative committee recommended do-not-pass — early September 2026; the draft, which would have penalized developers entering NDAs with public agencies, was amended to preserve state confidentiality protections. A separate interim committee is studying data center and AI policy for the 2027 session.",
+          "url": "https://writing.strisker.com/data-centers-daily-notes-september-03-2026/"
+        }
+      ],
+      "lastUpdated": "2026-09-07",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -2866,7 +3015,7 @@
       "name": "Ohio",
       "slug": "ohio",
       "status": "under_discussion",
-      "summary": "Ohio legislators are reviewing data center energy and community impacts. In April 2026, the Ohio Ballot Board approved a statewide constitutional amendment initiative — the 'Prohibition of Construction of a Data Center' — allowing signature collection to begin. The initiative would ban data centers exceeding 25 MW; as of mid-June 2026 organizers had gathered only roughly 70,000 signatures — far short of the 413,488 valid signatures required by the July 1, 2026 deadline, so the initiative failed to qualify for the 2026 ballot; backers said they plan to resume the effort in 2027. Multiple local moratoriums remain active across Columbus-area and northeast Ohio townships. The fight has shifted to municipal ballots: on July 15, 2026 Sunbury City Council unanimously certified a citizen-initiated charter amendment to the November 3, 2026 ballot that would cap data center peak load at 25 MW — effectively blocking a planned $2 billion Amazon campus — and Pataskala residents are pursuing a similar fall vote. Columbus is drafting regulations requiring water conservation plans and developer-funded sewer upgrades. On July 24, 2026 Governor Mike DeWine signed on to the White House Ratepayer Protection Pledge, committing to keep data center utility and infrastructure costs off consumers. On August 4, 2026 Rep. Jennifer Gross introduced House Bill 983, the Data Center Accountability and Citizen Protection Act, which would require a local citizen vote before any new data center is built, set environmental standards, regulate cooling water use, and require facilities to supply their own electricity — applying retroactively to more than 150 existing Ohio data centers. In late August 2026 Pataskala's City Council unanimously rejected Aligned Data Centers' 200 MW site plan over unresolved power supply questions; a November ballot measure will ask voters whether large data centers should be permitted in the city.",
+      "summary": "Ohio legislators are reviewing data center energy and community impacts. In April 2026, the Ohio Ballot Board approved a statewide constitutional amendment initiative — the 'Prohibition of Construction of a Data Center' — allowing signature collection to begin. The initiative would ban data centers exceeding 25 MW; as of mid-June 2026 organizers had gathered only roughly 70,000 signatures — far short of the 413,488 valid signatures required by the July 1, 2026 deadline, so the initiative failed to qualify for the 2026 ballot; backers said they plan to resume the effort in 2027. Multiple local moratoriums remain active across Columbus-area and northeast Ohio townships. The fight has shifted to municipal ballots: on July 15, 2026 Sunbury City Council unanimously certified a citizen-initiated charter amendment to the November 3, 2026 ballot that would cap data center peak load at 25 MW — effectively blocking a planned $2 billion Amazon campus — and Pataskala residents are pursuing a similar fall vote. Columbus is drafting regulations requiring water conservation plans and developer-funded sewer upgrades. On July 24, 2026 Governor Mike DeWine signed on to the White House Ratepayer Protection Pledge, committing to keep data center utility and infrastructure costs off consumers. On August 4, 2026 Rep. Jennifer Gross introduced House Bill 983, the Data Center Accountability and Citizen Protection Act, which would require a local citizen vote before any new data center is built, set environmental standards, regulate cooling water use, and require facilities to supply their own electricity — applying retroactively to more than 150 existing Ohio data centers. In late August 2026 Pataskala's City Council unanimously rejected Aligned Data Centers' 200 MW site plan over unresolved power supply questions; a November ballot measure will ask voters whether large data centers should be permitted in the city. In early September 2026 Miamisburg's council voted 6-0 for a nine-month moratorium and Newton Falls enacted a 12-month moratorium 4-0.",
       "bills": [
         {
           "id": "Ballot Initiative",
@@ -2998,9 +3147,27 @@
           "date": "2026-07-27",
           "description": "City Council unanimously approved a zoning change defining data centers in city code for the first time and requiring them to obtain a conditional use permit, with public hearings before both the Planning Commission and City Council. Developers must disclose expected electricity demand, water use, wastewater discharge and noise levels. Data centers were previously permitted by right in industrial areas with no additional review.",
           "url": "https://www.ideastream.org/government-politics/2026-07-27/akron-approves-new-process-for-data-centers-with-requirements-tied-to-utility-demand"
+        },
+        {
+          "locality": "City of Miamisburg",
+          "countyFips": "39113",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-09-01",
+          "description": "City Council voted 6-0 on September 1, 2026 to impose a nine-month moratorium on data center development in the city.",
+          "url": "https://cityofmiamisburg.com/city-council-approves-nine-month-moratorium-on-data-centers/"
+        },
+        {
+          "locality": "Village of Newton Falls",
+          "countyFips": "39155",
+          "type": "moratorium",
+          "status": "active",
+          "date": "2026-09-02",
+          "description": "Village Council voted 4-0 on September 2, 2026 to enact a 12-month moratorium on data center permits so the zoning department and city manager can study zoning code, infrastructure and utility requirements; one councilman pushed unsuccessfully for an outright ban.",
+          "url": "https://www.tribtoday.com/news/local-news/2026/09/newton-falls-enacts-1-year-moratorium-on-data-centers/"
         }
       ],
-      "lastUpdated": "2026-08-28",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "under_discussion",
         "local_restrictions"
@@ -3139,7 +3306,7 @@
       "name": "Pennsylvania",
       "slug": "pennsylvania",
       "status": "active_restrictions",
-      "summary": "Pennsylvania moved from disclosure requirements to gatekeeping in August 2026. On August 18, 2026 Governor Josh Shapiro signed Executive Order 2026-05, directing the Department of Environmental Protection to review a data center permit application only if the developer has made a legally binding commitment to the Governor's Responsible Infrastructure Development (GRID) Requirements and has already obtained local government approval. The order also removes AI data center proposals from the state's Fast Track permitting program and prohibits the use of nondisclosure agreements on data center projects. The GRID Requirements cover energy affordability, environmental protection, workforce and economic development, transparency, and community engagement; projects that accept them get expedited review, while non-compliant projects face prolonged permitting. The state has roughly 100 pending proposals and has issued only about five permits. Critics on both sides said the order falls short — of a moratorium on one side, and of predictability for developers on the other. The order builds on the first statutory regulation, enacted July 12, 2026 when Shapiro signed the $50.8B FY2026-27 budget with the substance of SB 146 and HB 1924 folded in: data centers with peak demand of 10 MW or more must file annual electricity and water reports with fines up to $10,000 per day, and the PUC gained authority to review and validate the load forecasts utilities submit to PJM. The stand-alone bills — HB 2150 (passed the House 133-68 in April), HB 2151, HB 1834, HB 2496, HB 1667 and the GRID Standards bill HB 2650 — remain stalled in the Republican-led Senate, and Sen. Katie Muth's three-year hyperscale moratorium bill is still in introduction phase. Locally, Bedford Township adopted a 20-page ordinance in early August covering setbacks, lighting, noise limits, environmental impacts and electricity use, and Pocono Township eliminated its data center overlay district in July. Locally, Doylestown Township unanimously advanced a draft ordinance in late August limiting data centers to conditional uses in light-industrial districts (adoption possible in October), and Salem Township scheduled an August 28 vote on expanding a data center overlay zone for Glenbrook Group's proposed 39-building, $1.4 billion campus.",
+      "summary": "Pennsylvania moved from disclosure requirements to gatekeeping in August 2026. On August 18, 2026 Governor Josh Shapiro signed Executive Order 2026-05, directing the Department of Environmental Protection to review a data center permit application only if the developer has made a legally binding commitment to the Governor's Responsible Infrastructure Development (GRID) Requirements and has already obtained local government approval. The order also removes AI data center proposals from the state's Fast Track permitting program and prohibits the use of nondisclosure agreements on data center projects. The GRID Requirements cover energy affordability, environmental protection, workforce and economic development, transparency, and community engagement; projects that accept them get expedited review, while non-compliant projects face prolonged permitting. The state has roughly 100 pending proposals and has issued only about five permits. Critics on both sides said the order falls short — of a moratorium on one side, and of predictability for developers on the other. The order builds on the first statutory regulation, enacted July 12, 2026 when Shapiro signed the $50.8B FY2026-27 budget with the substance of SB 146 and HB 1924 folded in: data centers with peak demand of 10 MW or more must file annual electricity and water reports with fines up to $10,000 per day, and the PUC gained authority to review and validate the load forecasts utilities submit to PJM. The stand-alone bills — HB 2150 (passed the House 133-68 in April), HB 2151, HB 1834, HB 2496, HB 1667 and the GRID Standards bill HB 2650 — remain stalled in the Republican-led Senate, and Sen. Katie Muth's three-year hyperscale moratorium bill is still in introduction phase. Locally, Bedford Township adopted a 20-page ordinance in early August covering setbacks, lighting, noise limits, environmental impacts and electricity use, and Pocono Township eliminated its data center overlay district in July. Locally, Doylestown Township unanimously advanced a draft ordinance in late August limiting data centers to conditional uses in light-industrial districts (adoption possible in October), and Salem Township scheduled an August 28 vote on expanding a data center overlay zone for Glenbrook Group's proposed 39-building, $1.4 billion campus. West Hempfield Township (Lancaster County) approved Ordinance 6-26 in early September 2026, limiting data center size and proximity to residential and agricultural areas.",
       "bills": [
         {
           "id": "HB 2150",
@@ -3172,7 +3339,7 @@
           "url": "https://www.pa.gov/governor/newsroom/2026-press-releases/governor-shapiro-signs-executive-order-on-data-center-developmen"
         }
       ],
-      "lastUpdated": "2026-08-28",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "active_restrictions",
         "local_restrictions",
@@ -3205,6 +3372,15 @@
           "date": "2026-08-24",
           "description": "Township supervisors unanimously advanced a draft zoning ordinance that would allow data centers only as conditional uses in light-industrial districts, with adoption possible in October 2026.",
           "url": "https://writing.strisker.com/data-centers-daily-notes-august-24-2026/"
+        },
+        {
+          "locality": "West Hempfield Township",
+          "countyFips": "42071",
+          "type": "zoning_restriction",
+          "status": "enacted",
+          "date": "2026-09-01",
+          "description": "Supervisors approved Ordinance 6-26 regulating data centers, limiting facility size and proximity to residential and agricultural areas; the planning commission is reviewing further amendments on noise and water-use standards.",
+          "url": "https://writing.strisker.com/data-centers-daily-notes-september-02-2026/"
         }
       ]
     },
@@ -3686,7 +3862,7 @@
       "name": "Washington",
       "slug": "washington",
       "status": "legislation_advancing",
-      "summary": "Washington enacted SB 5982 requiring large data center customers to meet the same clean energy deadlines as utilities and directing the UTC to establish reporting requirements. HB 2515 — a broader data center regulation bill — passed the House 51-41 but died in the Senate after Microsoft and other tech companies opposed it. Local activity has accelerated dramatically: Seattle Councilmembers Juarez, Lin, and Council President Hollingsworth introduced a 365-day emergency moratorium on new large (10 MW+) data centers; the Council passed the emergency ~1-year moratorium 9-0 on June 9, 2026, and Spokane followed with its own one-year citywide moratorium (6-1) on June 23. Two developers had withdrawn Seattle expansion plans amid the backlash, and Mayor Wilson announced parallel administrative steps on May 1. In late July 2026 Spokane County proposed extending the pause to unincorporated areas with a nine-month building permit moratorium expiring after the 2027 legislative session. Spokane County commissioners unanimously approved a four-month moratorium on new data center permits on August 19, 2026 — trimmed from an earlier nine-month proposal — to let staff draft zoning regulations, with the option to extend depending on the outcome of commission elections. Yakima County commissioners unanimously directed staff on August 4 to draft a six-month moratorium after residents raised water scarcity concerns, despite no applications pending.",
+      "summary": "Washington enacted SB 5982 requiring large data center customers to meet the same clean energy deadlines as utilities and directing the UTC to establish reporting requirements. HB 2515 — a broader data center regulation bill — passed the House 51-41 but died in the Senate after Microsoft and other tech companies opposed it. Local activity has accelerated dramatically: Seattle Councilmembers Juarez, Lin, and Council President Hollingsworth introduced a 365-day emergency moratorium on new large (10 MW+) data centers; the Council passed the emergency ~1-year moratorium 9-0 on June 9, 2026, and Spokane followed with its own one-year citywide moratorium (6-1) on June 23. Two developers had withdrawn Seattle expansion plans amid the backlash, and Mayor Wilson announced parallel administrative steps on May 1. In late July 2026 Spokane County proposed extending the pause to unincorporated areas with a nine-month building permit moratorium expiring after the 2027 legislative session. Spokane County commissioners unanimously approved a four-month moratorium on new data center permits on August 19, 2026 — trimmed from an earlier nine-month proposal — to let staff draft zoning regulations, with the option to extend depending on the outcome of commission elections. Yakima County commissioners unanimously directed staff on August 4 to draft a six-month moratorium after residents raised water scarcity concerns, despite no applications pending. Port Angeles' council voted 5-1 in early September 2026 to direct staff to draft a six-month moratorium on new data center applications.",
       "bills": [
         {
           "id": "SB 5982",
@@ -3755,9 +3931,18 @@
           "date": "2026-08-04",
           "description": "Commissioners unanimously directed staff to draft a six-month data center moratorium following resident concerns about water scarcity, despite no existing applications.",
           "url": "https://writing.strisker.com/data-centers-daily-notes-august-4-2026/"
+        },
+        {
+          "locality": "City of Port Angeles",
+          "countyFips": "53009",
+          "type": "moratorium",
+          "status": "proposed",
+          "date": "2026-09-02",
+          "description": "City Council voted 5-1 in early September 2026 to direct staff to draft a six-month moratorium on new data center applications while examining impacts on electric rates, water use, industrial land, noise and the environment, with input from the Planning Commission and Utility Advisory Committee.",
+          "url": "https://writing.strisker.com/data-centers-daily-notes-september-03-2026/"
         }
       ],
-      "lastUpdated": "2026-08-24",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "legislation_advancing",
         "local_restrictions"
@@ -3901,7 +4086,7 @@
       "name": "Wyoming",
       "slug": "wyoming",
       "status": "under_discussion",
-      "summary": "Wyoming has taken no statewide legislative action to restrict data centers and remains generally favorable to large-load development, but local governments have begun to engage. Cheyenne rejected a proposed moratorium in May 2026. In late July 2026, Park County commissioners proposed requiring special-use permits for data centers and other heavy electrical-load users as part of the county's first land-use overhaul in more than a decade, despite no project having been proposed there. The state also hosts the planned 1,250 MW Prometheus Hyperscale campus. Cheyenne's City Council annexed and zoned a 34.46-acre parcel on August 10, 2026 as a staging area for North Range Business Park data center construction, over resident objections about aquifers, noise and incremental annexation; a citizen petition drive on data center limits neared its signature threshold in early August.",
+      "summary": "Wyoming has taken no statewide legislative action to restrict data centers and remains generally favorable to large-load development, but local governments have begun to engage. Cheyenne rejected a proposed moratorium in May 2026. In late July 2026, Park County commissioners proposed requiring special-use permits for data centers and other heavy electrical-load users as part of the county's first land-use overhaul in more than a decade, despite no project having been proposed there. The state also hosts the planned 1,250 MW Prometheus Hyperscale campus. Cheyenne's City Council annexed and zoned a 34.46-acre parcel on August 10, 2026 as a staging area for North Range Business Park data center construction, over resident objections about aquifers, noise and incremental annexation; a citizen petition drive on data center limits neared its signature threshold in early August. On September 1, 2026 Laramie County commissioners approved a Planned Unit Development zone change for Vantage Data Centers' 'Project Latigo,' a $20 billion, 1,835-acre campus south of Cheyenne with on-site natural gas generation and closed-loop cooling, projected to create up to 2,000 jobs.",
       "bills": [],
       "localMoratoriums": [
         {
@@ -3932,7 +4117,7 @@
           "url": "https://writing.strisker.com/data-centers-weekly-briefing-august-10-13-2026/"
         }
       ],
-      "lastUpdated": "2026-08-24",
+      "lastUpdated": "2026-09-07",
       "tags": [
         "under_discussion",
         "local_restrictions"
