@@ -873,7 +873,7 @@
       "address": "4581 Webb St, Pryor, OK 74361",
       "project": null,
       "h100Equivalents": 636685,
-      "notes": "Dating back to 2007, serves Google Workspace and ML. Only tracking buildings completed since 2024. Epoch estimates Building 2 became operational on August 24, 2026 after a long retrofit, taking the site from ~63 MW to ~442 MW total power and ~763,000 H100-equivalents.",
+      "notes": "Dating back to 2007, serves Google Workspace and ML. Only tracking buildings completed since 2024. Epoch estimates Building 2 became operational on August 24, 2026 after a long retrofit, taking the site from ~63 MW to ~442 MW total power and ~763,000 H100-equivalents. Building 2 operation confirmed via drone imagery in September 2026.",
       "sources": [
         "https://blog.google/inside-google/company-announcements/google-american-innovation-oklahoma/",
         "https://epoch.ai/data/ai-data-centers"
@@ -898,6 +898,10 @@
         {
           "date": "2026-08-24",
           "description": "Building 2 is operational (estimate)."
+        },
+        {
+          "date": "2026-09-08",
+          "description": "Building 2 operational, confirmed via RAAD drone imagery of spinning cooling tower fans (Epoch AI assessment)."
         }
       ]
     },
@@ -1173,6 +1177,10 @@
         {
           "date": "2026-04-14",
           "description": "Steel framing is underway for Buildings 1-3, and roofing is underway for Building 1."
+        },
+        {
+          "date": "2026-09-04",
+          "description": "Buildings 1-5 shells complete and fully roofed; Buildings 1-3 actively installing cooling and backup generators. Pads for Buildings 6-10 cleared, with foundations for Buildings 6-7 underway (Epoch AI satellite assessment)."
         }
       ]
     },
@@ -2738,8 +2746,45 @@
           "description": "Active construction visible on and around the data center with roofing mostly in place; no buildings operational"
         }
       ]
+    },
+    {
+      "name": "Anthropic Barber Lake",
+      "owner": "Cipher Mining",
+      "users": [
+        "Anthropic"
+      ],
+      "powerMW": 300,
+      "capitalCostB": 1.7,
+      "lat": 32.395,
+      "lng": -100.869,
+      "state": "Texas",
+      "stateId": "TX",
+      "status": "planned",
+      "address": "951 County Road 204, Colorado City, TX 79512",
+      "project": "Barber Lake Campus",
+      "h100Equivalents": 0,
+      "notes": "Cipher Mining's 587-acre Barber Lake campus in Mitchell County, TX, leased to Fluidstack with Anthropic as end user. Building 1 shell complete as of July 2026 with rooftop units and most air-cooled chillers and ~120 backup diesel generators in place; not yet energized. Planned ~300 MW gross (Phase I 244 MW gross / 168 MW critical IT, Phase II adding ~39 MW critical IT per Cipher's November 2025 announcement); ~$1.7B announced site investment. Cipher has also acquired 337 adjacent acres for a potential additional 500 MW expansion.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers",
+        "https://www.datacenterdynamics.com/en/news/cipher-mining-acquires-more-than-500-acres-across-two-sites-in-texas-for-crypto-and-hpc-use/",
+        "https://www.compute-atlas.com/facilities/cipher-barber-lake-colorado-city-tx"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2025-09-18",
+          "description": "Site grading and civil works begin."
+        },
+        {
+          "date": "2025-11-29",
+          "description": "Foundations of Building 1 visible in satellite imagery."
+        },
+        {
+          "date": "2026-07-30",
+          "description": "Building 1 shell complete; rooftop units installed, most air-cooled chillers in place in ground yard, most of the 120 backup diesel generators installed. Under construction, not yet energized (Epoch AI satellite assessment)."
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-09-07",
+  "lastUpdated": "2026-09-14",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
