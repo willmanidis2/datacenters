@@ -404,8 +404,8 @@
       "users": [
         "Google DeepMind"
       ],
-      "powerMW": 543,
-      "capitalCostB": 17.16,
+      "powerMW": 400,
+      "capitalCostB": 12.61,
       "lat": 40.0813,
       "lng": -82.7883,
       "state": "Ohio",
@@ -413,8 +413,8 @@
       "status": "active",
       "address": "1101 Beech Rd SW, New Albany, OH 43054",
       "project": null,
-      "h100Equivalents": 550783,
-      "notes": "Located in New Albany Business Park alongside Meta Prometheus. Only includes buildings added or modified since 2024. Building 5 became operational on August 16, 2026, taking the site to five buildings and ~543 MW total power.",
+      "h100Equivalents": 323901,
+      "notes": "Located in New Albany Business Park alongside Meta Prometheus. Only includes buildings added or modified since 2024. Epoch AI retracted its earlier estimate that Building 5 became operational in August 2026; as of the latest assessment (May 18, 2026) four buildings are operational (~400 MW total power) with Building 5 complete externally but not yet confirmed operational.",
       "sources": [
         "https://sustainability.google/reports/google-2025-environmental-report/",
         "https://epoch.ai/data/ai-data-centers"
@@ -447,10 +447,6 @@
         {
           "date": "2026-05-18",
           "description": "Building 5 has all cooling towers installed, and all other components look complete, but there is still light work around the building. Based on that, we estimate 3 more months until operational."
-        },
-        {
-          "date": "2026-08-16",
-          "description": "Building 5 is operational. Estimated from the high-res image from May."
         }
       ]
     },
@@ -1740,7 +1736,7 @@
       "status": "active",
       "address": "2396 145th St E, Rosemount, MN 55068",
       "project": "",
-      "h100Equivalents": 215766,
+      "h100Equivalents": 215675,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -1945,7 +1941,7 @@
       "status": "active",
       "address": "601 W Kuna Mora Rd, Kuna, ID 83634",
       "project": "",
-      "h100Equivalents": 173320,
+      "h100Equivalents": 173248,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -2018,8 +2014,8 @@
       "users": [
         "Meta"
       ],
-      "powerMW": 185,
-      "capitalCostB": 5.38,
+      "powerMW": 90,
+      "capitalCostB": 2.61,
       "lat": 33.64224,
       "lng": -81.84396,
       "state": "South Carolina",
@@ -2027,8 +2023,8 @@
       "status": "active",
       "address": "7601 State Hwy 105, Trenton, SC 29847",
       "project": "",
-      "h100Equivalents": 161698,
-      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "h100Equivalents": 78322,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-09-21). Epoch revised its earlier estimate that both buildings were operational: drone imagery from August 7, 2026 confirms Building 1 operational (~90 MW total power), with Building 2 infrastructure complete but not yet operational.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
       ],
@@ -2042,8 +2038,8 @@
           "description": "Buildings 1 and 2 are nearly complete, but there's still some equipment strewn around the site. We expect 3 more months needed for commissioning and server installation."
         },
         {
-          "date": "2026-07-15",
-          "description": "Building 1 and 2 are operational (estimate)."
+          "date": "2026-08-07",
+          "description": "Building 1 confirmed operational via drone imagery (8 of 9 cooler groups with spinning fans); all cooling and power infrastructure in place for Building 2 but it is not yet operational (Epoch AI assessment)."
         }
       ]
     },
@@ -2135,9 +2131,10 @@
       "address": "1275 N Community Cir, Eagle Mountain, UT 84005",
       "project": "",
       "h100Equivalents": 151354,
-      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment.",
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 2 building(s) operational as of the latest satellite assessment. On September 14, 2026 Meta announced a three-building expansion of the Eagle Mountain campus (plus admin building, warehouse and a 150 MW battery storage facility), bringing its total Utah investment to more than $3 billion.",
       "sources": [
-        "https://epoch.ai/data/ai-data-centers"
+        "https://epoch.ai/data/ai-data-centers",
+        "https://datacenters.atmeta.com/2026/09/deepening-our-investment-in-eagle-mountain-utah/"
       ],
       "timelineEvents": [
         {
@@ -2155,6 +2152,10 @@
         {
           "date": "2026-05-02",
           "description": "Satellite image shows strong evidence that Buildings 1 and 2 are operational: colored motion artifacts on many cooling fans, plus cars parked at the building entrances."
+        },
+        {
+          "date": "2026-09-14",
+          "description": "Meta announces a major expansion: three new data center buildings plus an administration building and warehouse, lifting total Utah investment past $3 billion. The expansion includes a 150 MW battery storage facility and closed-loop liquid cooling with dry cooling."
         }
       ]
     },
@@ -2353,7 +2354,7 @@
       "status": "active",
       "address": "3250 Railport Pkwy, Midlothian, TX 76065",
       "project": "",
-      "h100Equivalents": 143507,
+      "h100Equivalents": 143581,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -2783,8 +2784,93 @@
           "description": "Building 1 shell complete; rooftop units installed, most air-cooled chillers in place in ground yard, most of the 120 backup diesel generators installed. Under construction, not yet energized (Epoch AI satellite assessment)."
         }
       ]
+    },
+    {
+      "name": "Meta Jeffersonville",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 241,
+      "capitalCostB": 6.74,
+      "lat": 38.33,
+      "lng": -85.715,
+      "state": "Indiana",
+      "stateId": "IN",
+      "status": "active",
+      "address": "River Ridge Commerce Center, Jeffersonville, IN 47130",
+      "project": "",
+      "h100Equivalents": 203133,
+      "notes": "Meta's Jeffersonville campus in the River Ridge Commerce Center (announced January 2024 at $800M, ~700,000 sq ft on a 619-acre site), across the Ohio River from Louisville. Epoch AI assesses Buildings 1 and 2 operational as of June 2026, at ~241 MW total power. Datacentermap lists the campus at 407 MW at full build-out.",
+      "sources": [
+        "https://datacenters.atmeta.com/2024/01/hello-jeffersonville/",
+        "https://epoch.ai/data/ai-data-centers",
+        "https://www.datacentermap.com/usa/indiana/jeffersonville/meta-jeffersonville-data-center/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-01-25",
+          "description": "Meta announces $800M Jeffersonville data center in the River Ridge Commerce Center."
+        },
+        {
+          "date": "2024-02-01",
+          "description": "Land clearing begins."
+        },
+        {
+          "date": "2026-03-06",
+          "description": "Building 1 and 2 shells and cooling look complete, with construction activity still visible (Epoch AI assessment)."
+        },
+        {
+          "date": "2026-06-04",
+          "description": "Buildings 1 and 2 are operational (Epoch AI assessment)."
+        }
+      ]
+    },
+    {
+      "name": "Google Fort Wayne",
+      "owner": "Google",
+      "users": [
+        "Google DeepMind"
+      ],
+      "powerMW": 0,
+      "capitalCostB": 0,
+      "lat": 41.0309,
+      "lng": -85.0536,
+      "state": "Indiana",
+      "stateId": "IN",
+      "status": "planned",
+      "address": "6015 Adams Center Road, Fort Wayne, IN 46806",
+      "project": "",
+      "h100Equivalents": 0,
+      "notes": "Google's $2B data center campus on the southeast side of Fort Wayne, announced in April 2024. No AI-compute buildings are confirmed operational yet: Epoch AI assesses Building 2 as fully fitted with cooling towers and likely in fit-out/commissioning as of August 2026, and estimates it becomes operational around December 2026 (~207 MW at that point), with further buildings following through 2028.",
+      "sources": [
+        "https://epoch.ai/data/ai-data-centers",
+        "https://www.thelocalfw.com/what-to-know-about-googles-plans-for-wetlands-in-fort-wayne/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-04-01",
+          "description": "First signs of development and land clearing."
+        },
+        {
+          "date": "2025-06-10",
+          "description": "Foundations laid for Building 2 and the substation after a long quiet period (Epoch AI assessment)."
+        },
+        {
+          "date": "2025-10-01",
+          "description": "Building 2 looks externally complete (Epoch AI assessment)."
+        },
+        {
+          "date": "2026-03-01",
+          "description": "Cooling towers for Buildings 2 and 3 both a little less than half done; buildings still active construction sites (Epoch AI assessment)."
+        },
+        {
+          "date": "2026-08-19",
+          "description": "Building 2 has all cooling towers installed and is likely undergoing fit-out and commissioning (Epoch AI assessment)."
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-09-21",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
