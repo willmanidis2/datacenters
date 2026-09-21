@@ -81,9 +81,9 @@
       "bill_number": "SB1050",
       "state": "CA",
       "title": "Advertisement AI Disclosure requirements",
-      "status": "engrossed",
-      "last_action_date": "2026-08-13",
-      "last_action": "Assembly Appropriations: Do Pass as amended",
+      "status": "passed",
+      "last_action_date": "2026-09-16",
+      "last_action": "Signed by Governor Newsom on September 16, 2026 (signed at SAG-AFTRA headquarters)",
       "relevance": 100,
       "url": "https://legiscan.com/CA/bill/SB1050/2025",
       "text_url": "",
@@ -92,7 +92,7 @@
       "search_query": "artificial intelligence",
       "category": "ai_regulation",
       "session_end_date": "2026-09-15",
-      "ai_summary": "California SB1050 would require AI-generated advertisements to include clear disclosures notifying consumers that the ad was created using artificial intelligence. The bill is currently in Privacy Committee hearing as of April 6, 2026.",
+      "ai_summary": "California SB1050 makes it unlawful to create and publish a video or audio advertisement that prominently features an AI-generated 'synthetic performer' without a clear and conspicuous disclosure, and prohibits continued use of violating ads. Backed by SAG-AFTRA and framed as a protection for creative workers, it was signed by Governor Newsom on September 16, 2026.",
       "introducer_party": "D"
     },
     {
@@ -8374,9 +8374,9 @@
       "bill_number": "AB 1792",
       "state": "CA",
       "title": "School health instruction on AI deepfakes and digital violence",
-      "status": "enrolled",
-      "last_action_date": "2026-08-31",
-      "last_action": "Passed Legislature before the August 31 adjournment — to Gov. Newsom (decision deadline September 30)",
+      "status": "passed",
+      "last_action_date": "2026-09-18",
+      "last_action": "Signed by Governor Newsom on September 18, 2026",
       "relevance": 70,
       "url": "https://www.transparencycoalition.ai/news/ai-legislative-update-september4-2026",
       "text_url": "",
@@ -8558,12 +8558,31 @@
       "session_end_date": "2026-08-31",
       "ai_summary": "California SB 1128 requires school districts to adopt policies governing student device use and screen time, part of the broader September 2026 child online safety package addressing addictive and AI-curated technology in schools. Signed into law by Governor Newsom on September 10, 2026.",
       "introducer_party": "D"
+    },
+    {
+      "bill_id": 900096,
+      "bill_number": "AB2504",
+      "state": "CA",
+      "title": "Community colleges: artificial intelligence pilot program",
+      "status": "passed",
+      "last_action_date": "2026-09-18",
+      "last_action": "Signed by Governor Newsom on September 18, 2026",
+      "relevance": 70,
+      "url": "https://www.gov.ca.gov/2026/09/18/governor-newsom-issues-legislative-update-9-18-26/",
+      "text_url": "",
+      "research_url": "",
+      "change_hash": "",
+      "search_query": "AI bill signed September 2026",
+      "category": "ai_education",
+      "session_end_date": "2026-09-15",
+      "ai_summary": "California AB2504 (Asm. Rebecca Bauer-Kahan) establishes an artificial intelligence pilot program within the California Community Colleges system. It was signed by Governor Newsom on September 18, 2026 as part of a 75-bill signing batch.",
+      "introducer_party": "D"
     }
   ],
-  "lastRefreshed": "2026-09-14T08:50:00.000Z",
+  "lastRefreshed": "2026-09-21T08:31:03.000Z",
   "queryTerms": [
     "\"data center\" AND (moratorium OR ban OR zoning OR legislation OR permit)",
     "\"artificial intelligence\" AND (data center OR computing OR infrastructure)"
   ],
-  "totalResults": 451
+  "totalResults": 452
 }
