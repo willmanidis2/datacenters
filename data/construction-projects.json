@@ -252,8 +252,8 @@
       "users": [
         "Meta"
       ],
-      "powerMW": 731,
-      "capitalCostB": 21.29,
+      "powerMW": 645,
+      "capitalCostB": 18.79,
       "lat": 40.0829,
       "lng": -82.7856,
       "state": "Ohio",
@@ -261,8 +261,8 @@
       "status": "active",
       "address": "1 Community Cir, New Albany, OH 43054",
       "project": "Prometheus",
-      "h100Equivalents": 679568,
-      "notes": "Unusual ad hoc construction spanning full length of New Albany Business Park. Combination of weatherproof tents, colocation facilities and traditional buildings. Per independent analysis, Prometheus is one of five US AI sites projected to cross 1 GW capacity in 2026, with the milestone tracked to May 2026. Building 12 became operational on August 1, 2026 (~731 MW total power). Epoch projects the Socrates North and Socrates South gas plants online around October 2026 alongside Buildings 15-19, and Buildings 13-14 operational by late 2026 / January 2027.",
+      "h100Equivalents": 599845,
+      "notes": "Unusual ad hoc construction spanning full length of New Albany Business Park. Combination of weatherproof tents, colocation facilities and traditional buildings. Per independent analysis, Prometheus is one of five US AI sites projected to cross 1 GW capacity in 2026, with the milestone tracked to May 2026. Building 12 became operational on August 1, 2026 (~731 MW total power). Epoch projects the Socrates North and Socrates South gas plants online around October 2026 alongside Buildings 15-19, and Buildings 13-14 operational by late 2026 / January 2027. Epoch AI's August 31, 2026 assessment revised current figures to ~645 MW total power / ~600k H100-equivalents (11 buildings operational), with the next two sets of tent buildings awaiting connection to the Socrates gas power plants.",
       "sources": [
         "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
         "https://www.cbs42.com/business/press-releases/ein-presswire/864214321/five-ai-data-centers-will-hit-1-gw-in-2026-independent-analysis-shows/",
@@ -292,6 +292,10 @@
         {
           "date": "2026-08-01",
           "description": "Building 12 is operational, based on similar building completion timeframes by Vantage."
+        },
+        {
+          "date": "2026-08-31",
+          "description": "Tent buildings 16-27 complete but awaiting connection to their corresponding gas power plants; Building 13 (Vantage) still under construction (Epoch AI satellite assessment)."
         }
       ]
     },
@@ -1100,6 +1104,10 @@
         {
           "date": "2026-06-30",
           "description": "Building 1 operational at full capacity. This corresponds to \"Phase I\", which is expected to be operational by the end of the first half of 2026."
+        },
+        {
+          "date": "2026-08-30",
+          "description": "Building 1 operational at full capacity, completing Phase I (per Galaxy investor guidance with schedule overhead applied; Epoch AI assessment)."
         }
       ]
     },
@@ -2709,6 +2717,10 @@
         {
           "date": "2026-03-12",
           "description": "Middle campus Buildings 10, 12, 13 and 14 complete/likely operational (~255 MW, 9 buildings); Building 11 still installing backup generators"
+        },
+        {
+          "date": "2026-05-18",
+          "description": "Building 1 in the northern campus structurally finished but not yet counted operational due to visible perimeter construction; Buildings 2-3 still have generator/cooling equipment being installed (Epoch AI satellite assessment)."
         }
       ]
     },
@@ -2869,8 +2881,127 @@
           "description": "Building 2 has all cooling towers installed and is likely undergoing fit-out and commissioning (Epoch AI assessment)."
         }
       ]
+    },
+    {
+      "name": "OpenAI Stargate New Mexico (Project Jupiter)",
+      "owner": "Oracle / STACK Infrastructure (Blue Owl)",
+      "users": [
+        "OpenAI"
+      ],
+      "powerMW": 2200,
+      "capitalCostB": 50,
+      "lat": 31.8183,
+      "lng": -106.6653,
+      "state": "New Mexico",
+      "stateId": "NM",
+      "status": "planned",
+      "address": "NM-136 (Pete V. Domenici Hwy) near the Santa Teresa Port of Entry, Santa Teresa, Doña Ana County, NM 88008",
+      "project": "Stargate",
+      "h100Equivalents": 0,
+      "notes": "2.2 GW planned campus (Epoch AI; press reports cite up to 2.45 GW) on ~1,400 acres, developed by STACK Infrastructure (Blue Owl) with BorderPlex Digital Assets and leased to Oracle for 18 years for OpenAI's Stargate program. Reported investment of ~$50B over the first five years and up to $165B over 30 years; ~$18B in construction debt raised. Powered by on-site natural gas microgrids using Bloom Energy fuel cells with closed-loop cooling. On September 24, 2026 Oracle sent a force majeure notice to Blue Owl seeking the right to defer payments if the campus misses its 2028 opening, after New Mexico's State Land Office twice denied the Energy Transfer gas pipeline easement, pushing the pipeline in-service date to February 2027. Oracle called the notice precautionary and says the project remains on schedule. Coordinates from the OSM-mapped Project Jupiter construction site.",
+      "sources": [
+        "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+        "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand",
+        "https://baxtel.com/data-center/openai-stargate-project-jupiter",
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2025-10-01",
+          "description": "Construction and land clearing begins"
+        },
+        {
+          "date": "2026-02-06",
+          "description": "Foundation construction begins on two of the main buildings (B and D); construction beginning on modular chiller plants"
+        },
+        {
+          "date": "2026-06-22",
+          "description": "Extensive earthworks and multiple graded building pads across the campus, structural work underway on main buildings; large solar array and water storage visible (Epoch AI satellite assessment)"
+        },
+        {
+          "date": "2026-09-24",
+          "description": "Oracle sends force majeure notice to Blue Owl Capital over gas pipeline easement denials and power delays, seeking payment deferral rights if the campus misses its 2028 opening"
+        }
+      ]
+    },
+    {
+      "name": "OpenAI Stargate Michigan (The Barn)",
+      "owner": "Related Digital",
+      "users": [
+        "OpenAI",
+        "Oracle"
+      ],
+      "powerMW": 1400,
+      "capitalCostB": 0,
+      "lat": 42.135,
+      "lng": -83.8616,
+      "state": "Michigan",
+      "stateId": "MI",
+      "status": "planned",
+      "address": "North of US-12 (W Michigan Ave) at Braun Rd, Saline Township, Washtenaw County, MI 48176",
+      "project": "Stargate",
+      "h100Equivalents": 0,
+      "notes": "1.4 GW planned campus (Epoch AI: ~2.9M H100-equivalents at full build) developed by Related Digital for Oracle/OpenAI's Stargate program, dubbed 'The Barn'. Three 550,000 sq ft single-story buildings planned on 250 developed acres of a 575-acre former agricultural site purchased in part from Feldkamp Siblings LLC. DTE Energy to provide 100% of power, augmented by project-financed battery storage. Projected completion Q4 2028. Coordinates from the OSM-mapped construction area off Feldkamp Rd, north of US-12.",
+      "sources": [
+        "https://www.related-digital.com/news/openai-oracle-and-related-digital-announce-stargate-data-center-site-in-michigan",
+        "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand",
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2025-12-04",
+          "description": "Land clearing begins for the entire site"
+        },
+        {
+          "date": "2026-01-20",
+          "description": "Land clearing continues for all buildings (1-3)"
+        },
+        {
+          "date": "2026-03-12",
+          "description": "Groundwork visible for Building 1 (Epoch AI satellite assessment)"
+        }
+      ]
+    },
+    {
+      "name": "OpenAI Stargate Wisconsin (Lighthouse)",
+      "owner": "Vantage Data Centers",
+      "users": [
+        "OpenAI",
+        "Oracle"
+      ],
+      "powerMW": 1300,
+      "capitalCostB": 15,
+      "lat": 43.447,
+      "lng": -87.885,
+      "state": "Wisconsin",
+      "stateId": "WI",
+      "status": "planned",
+      "address": "Between I-43, Dixie Rd and the Ozaukee Interurban Trail, Town of Port Washington, Ozaukee County, WI 53074",
+      "project": "Stargate",
+      "h100Equivalents": 0,
+      "notes": "Vantage's $15B 'Lighthouse' campus for Oracle/OpenAI's Stargate program: four single-story data centers totaling 902 MW of IT capacity across 2.5M sq ft on 672 acres of former agricultural land about a mile inland from Lake Michigan (Epoch AI estimates ~1.3 GW total power / ~2.6M H100-equivalents at full build). 70% of power from solar, wind and battery storage; closed-loop liquid cooling. Phase 1 (~$8B) targeted for 2028. Coordinates are the centroid of the triangular site bounded by Dixie Rd (N), I-43 (SE) and the Ozaukee Interurban Trail (W).",
+      "sources": [
+        "https://vantage-dc.com/data-center-locations/north-america/port-washington-wisconsin",
+        "https://dnr.wisconsin.gov/topic/EIA/Portwashington.html",
+        "https://epoch.ai/publications/openai-stargate-where-the-us-sites-stand",
+        "https://epoch.ai/data/ai-data-centers"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-01-02",
+          "description": "Ground broken; land clearing begins for all buildings"
+        },
+        {
+          "date": "2026-02-14",
+          "description": "Foundation construction begins for eastern and northern buildings (Buildings 1-2)"
+        },
+        {
+          "date": "2026-07-24",
+          "description": "Buildings 1 and 2 roughly halfway roofed; Building 3 foundation halfway done (Epoch AI satellite assessment)"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-09-21",
+  "lastUpdated": "2026-09-28",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
