@@ -252,8 +252,8 @@
       "users": [
         "Meta"
       ],
-      "powerMW": 645,
-      "capitalCostB": 18.79,
+      "powerMW": 612,
+      "capitalCostB": 17.84,
       "lat": 40.0829,
       "lng": -82.7856,
       "state": "Ohio",
@@ -261,7 +261,7 @@
       "status": "active",
       "address": "1 Community Cir, New Albany, OH 43054",
       "project": "Prometheus",
-      "h100Equivalents": 599845,
+      "h100Equivalents": 536343,
       "notes": "Unusual ad hoc construction spanning full length of New Albany Business Park. Combination of weatherproof tents, colocation facilities and traditional buildings. Per independent analysis, Prometheus is one of five US AI sites projected to cross 1 GW capacity in 2026, with the milestone tracked to May 2026. Building 12 became operational on August 1, 2026 (~731 MW total power). Epoch projects the Socrates North and Socrates South gas plants online around October 2026 alongside Buildings 15-19, and Buildings 13-14 operational by late 2026 / January 2027. Epoch AI's August 31, 2026 assessment revised current figures to ~645 MW total power / ~600k H100-equivalents (11 buildings operational), with the next two sets of tent buildings awaiting connection to the Socrates gas power plants.",
       "sources": [
         "https://engineering.fb.com/2025/09/29/data-infrastructure/metas-infrastructure-evolution-and-the-advent-of-ai/",
@@ -616,8 +616,8 @@
       "users": [
         "Meta"
       ],
-      "powerMW": 198,
-      "capitalCostB": 5.76,
+      "powerMW": 231,
+      "capitalCostB": 6.74,
       "lat": 31.1171,
       "lng": -97.3428,
       "state": "Texas",
@@ -625,7 +625,7 @@
       "status": "active",
       "address": "2310 Eberhardt Rd, Temple, TX 76504",
       "project": null,
-      "h100Equivalents": 173248,
+      "h100Equivalents": 202473,
       "notes": "Traditional H-shaped building was demolished mid-construction in favor of Meta's new AI-optimized design.",
       "sources": [
         "https://jedunn.com/projects/meta-temple-data-center/",
@@ -655,6 +655,10 @@
         {
           "date": "2026-02-24",
           "description": "Building 3 is under construction. An outline is visible for the building which has similar dimensions to those deployed at the Meta Prometheus site."
+        },
+        {
+          "date": "2026-09-30",
+          "description": "Building 3 is operational. Based on the stated completion date in this [regulatory filing](https://www.tdlr.texas.gov/TABS/Search/Project/TABS2026008019)"
         }
       ]
     },
@@ -2495,7 +2499,7 @@
       "users": [
         "Meta"
       ],
-      "powerMW": 105,
+      "powerMW": 114,
       "capitalCostB": 3.3,
       "lat": 34.83034,
       "lng": -106.78013,
@@ -3000,8 +3004,211 @@
           "description": "Buildings 1 and 2 roughly halfway roofed; Building 3 foundation halfway done (Epoch AI satellite assessment)"
         }
       ]
+    },
+    {
+      "name": "Meta Bowling Green",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 0,
+      "capitalCostB": 0,
+      "lat": 41.432,
+      "lng": -83.701,
+      "state": "Ohio",
+      "stateId": "OH",
+      "status": "planned",
+      "address": "12356 Middleton Pike, Bowling Green, OH 43402",
+      "project": "Project Accordion",
+      "h100Equivalents": 0,
+      "notes": "AI-optimized campus in Middleton Township, Wood County (280-acre site, ~715,000 sq ft announced at ~$800M; Meta's second Ohio data center). As of September 2026, Epoch satellite assessment shows Buildings 1-2 roofs more than halfway complete with all chillers visible, Buildings 3-4 outlines laid, and the behind-the-meter Apollo Power Generation Project under construction east of the campus. Expected fully operational in 2027.",
+      "sources": [
+        "https://epoch.ai/data/data_centers/data_centers.csv",
+        "https://www.datacenterdynamics.com/en/news/meta-to-develop-data-center-campus-outside-toledo-ohio/",
+        "https://www.datacentermap.com/usa/ohio/toledo/meta-bowling-green-campus/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-11-01",
+          "description": "Land clearing begins."
+        },
+        {
+          "date": "2026-02-14",
+          "description": "Buildings 1 and 2 under construction. Building 1's chillers are almost all in place, while only half of Building 2's are. Optimus substation, which is the substation on site, and the expansion of Dowling Substation, an existing substation to the northeast of the data center, appear complete."
+        },
+        {
+          "date": "2026-07-30",
+          "description": "Roofs of Buildings 1 and 2 are more than halfway complete. All chillers for both buildings are visible. Construction on Buildings 3 and 4 has begun, with outlines laid. Construction on the [Apollo Power Generation Project](https://archive.ph/lqgZw) (a BTM power plant built just to the east of the data center) is in progress, with foundations poured and generation equipment being set in place."
+        }
+      ]
+    },
+    {
+      "name": "CoreWeave Ellendale (Polaris Forge 1)",
+      "owner": "CoreWeave",
+      "users": [
+        "OpenAI"
+      ],
+      "powerMW": 88,
+      "capitalCostB": 2.58,
+      "lat": 46.0214,
+      "lng": -98.5685,
+      "state": "North Dakota",
+      "stateId": "ND",
+      "status": "active",
+      "address": "9685 87th Ave SE, Ellendale, ND 58436",
+      "project": "Polaris Forge 1",
+      "h100Equivalents": 93482,
+      "notes": "Applied Digital's Polaris Forge 1 campus in Ellendale, leased to CoreWeave with OpenAI as end user. Building 1 operational; per Epoch's September 2026 assessment Building 2 is shell-complete with rooftop chillers mostly installed and Building 3 is under construction. Campus designed for roughly 400 MW at full build.",
+      "sources": [
+        "https://epoch.ai/data/data_centers/data_centers.csv"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-10-31",
+          "description": "Start of construction for the first building, according to [Applied Digital](https://ir.applieddigital.com/news-events/press-releases/detail/75/applied-digital-announces-groundbreaking-of). CoreWeave was not leased yet at this site, but this is the construction start date we're using for relevance."
+        },
+        {
+          "date": "2025-05-28",
+          "description": "CoreWeave signed the first lease package for 250 MW. No buildings online yet. This is according to an [SEC 8-k filing](https://www.sec.gov/Archives/edgar/data/1144879/000164117225013199/form8-k.htm) from this date."
+        },
+        {
+          "date": "2025-08-29",
+          "description": "[A new 150 MW lease](https://ir.applieddigital.com/news-events/press-releases/detail/128/applied-digital-finalizes-additional-150mw-lease-with) brings CoreWeave to 400 MW total contracted. The project is now clearly scheduled to be a three-building CoreWeave campus."
+        },
+        {
+          "date": "2025-10-27",
+          "description": "The first 50 MW slice of Building 1 has reached Ready for Service status according to [this report](https://ir.applieddigital.com/news-events/press-releases/detail/133/applied-digital-achieves-ready-for-service-for-phase-1-at). This is the first point where we would count any CoreWeave capacity as operational."
+        },
+        {
+          "date": "2025-11-24",
+          "description": "[This Applied Digital report](https://ir.applieddigital.com/news-events/press-releases/detail/137/applied-digital-completes-phase-ii-ready-for-service-at) says the rest of Building 1 has reached Ready for Service, bringing the first building to its expected 100 MW. We can treat this as the first completed data center building."
+        },
+        {
+          "date": "2026-03-27",
+          "description": "According to satellite imagery, Building 1 looks complete and in service, with the surrounding power/cooling equipment also operational. (Note: this image doesn't provide a view of buildings 2 or 3, though it's very safe to assume they're under construction at this stage, considering they're still under construction in the satellite image 3 months from now.)"
+        },
+        {
+          "date": "2026-06-30",
+          "description": "According to satellite imagery, Building 2 is fully roofed and shell complete, with rooftop chillers mostly installed. Building 3 construction is well underway, with about 1/4 of the roofing done and the foundation laid out."
+        }
+      ]
+    },
+    {
+      "name": "Google Arcola",
+      "owner": "Google",
+      "users": [
+        "Google Cloud"
+      ],
+      "powerMW": 93,
+      "capitalCostB": 2.92,
+      "lat": 38.9511,
+      "lng": -77.5232,
+      "state": "Virginia",
+      "stateId": "VA",
+      "status": "active",
+      "address": "42575 Arcola Blvd, Sterling, VA 20166",
+      "project": "",
+      "h100Equivalents": 108135,
+      "notes": "Google's Arcola campus in Loudoun County's Data Center Alley (parcel purchased 2017; 250+ acres of development potential). Building 1 operational per Epoch's assessment, verified via cooling-tower motion artifacts in satellite imagery; phased data hall and power expansions underway.",
+      "sources": [
+        "https://epoch.ai/data/data_centers/data_centers.csv",
+        "https://baxtel.com/data-center/google-dulles-arcola-center"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-10-01",
+          "description": "Building 1 foundation started"
+        },
+        {
+          "date": "2025-09-08",
+          "description": "Building 1 roof complete, cooling towers in progress."
+        },
+        {
+          "date": "2026-04-09",
+          "description": "Building 1 appears almost complete, with minimal construction activity."
+        },
+        {
+          "date": "2026-06-16",
+          "description": "Building 1 is operational, based off of colored motion artifacts from cooling towers and direct visual verification."
+        }
+      ]
+    },
+    {
+      "name": "Google Red Oak",
+      "owner": "Google",
+      "users": [
+        "Google Cloud"
+      ],
+      "powerMW": 93,
+      "capitalCostB": 2.92,
+      "lat": 32.5299,
+      "lng": -96.7998,
+      "state": "Texas",
+      "stateId": "TX",
+      "status": "active",
+      "address": "330 Austin Blvd, Red Oak, TX 75154",
+      "project": "",
+      "h100Equivalents": 108135,
+      "notes": "Google campus in Red Oak, Ellis County, south of Dallas — announced in 2023 as part of a $600M+ investment, first phase ~285,000 sq ft. Building 1 active per Epoch's assessment; Building 2 dry coolers nearly complete with the building still a construction zone and its substation complete.",
+      "sources": [
+        "https://epoch.ai/data/data_centers/data_centers.csv",
+        "https://www.datacenterdynamics.com/en/news/google-announces-plans-for-red-oak-data-center-campus-in-texas/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2023-04-30",
+          "description": "First signs of development/land clearing"
+        },
+        {
+          "date": "2025-08-25",
+          "description": "Building 1 is operational, based on a Google Earth [image](https://earth.google.com/web/@32.53855187,-96.7936939,182.71625265a,4648.56607908d,30.00094375y,3.66969189h,0t,0r/) showing a completed building shell and equipment, and the large construction car park being emptied. Building 2 shell looks mostly completed."
+        },
+        {
+          "date": "2026-02-06",
+          "description": "Building 1 appears active - the surrounding land is finished including the site entrance and the parking lot. The dry coolers for Building 2 are nearly complete although the building is still clearly a construction zone. The Building 2 substation also appears complete."
+        }
+      ]
+    },
+    {
+      "name": "Nebius-Microsoft Vineland",
+      "owner": "Nebius",
+      "users": [
+        "Microsoft"
+      ],
+      "powerMW": 70,
+      "capitalCostB": 1.89,
+      "lat": 39.4282,
+      "lng": -75.0184,
+      "state": "New Jersey",
+      "stateId": "NJ",
+      "status": "active",
+      "address": "3963 S Lincoln Ave, Vineland, NJ 08361",
+      "project": "",
+      "h100Equivalents": 56847,
+      "notes": "Nebius data center in Vineland, New Jersey serving Microsoft under the multi-year GPU capacity deal announced in September 2025. Per Epoch's mid-2026 assessment the building shell is near completion with additional air-cooled chillers staged but not yet connected; IT capacity held at ~50 MW.",
+      "sources": [
+        "https://epoch.ai/data/data_centers/data_centers.csv"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2024-05-31",
+          "description": "Land clearing begins for northern two buildings (Building 1-2)."
+        },
+        {
+          "date": "2025-12-15",
+          "description": "By mid-December 2025 the building was still not complete. A satellite analysis by SemiAnalysis found that the air-cooled chillers serving the second half of the first 50 MW phase were not yet installed, so the phase was not yet operational. SemiAnalysis estimated the full 50 MW would be reached around January to February 2026."
+        },
+        {
+          "date": "2026-04-15",
+          "description": "High-resolution satellite imagery shows the air-cooled chiller array has grown to roughly 30 units, enough to support the first phase. We estimate Building 1 became operational around early 2026 with about 50 MW of IT capacity (70 MW total facility power at a 1.4 PUE), based on DataOne's disclosure of a first 50 MW phase. SemiAnalysis estimated the full 50 MW was reached around January to February 2026 ([SemiAnalysis](https://newsletter.semianalysis.com/p/stop-saying-half-of-2026-us-datacenter)); this April image is our first high-resolution confirmation that the cooling is in place."
+        },
+        {
+          "date": "2026-07-12",
+          "description": "Compared with the April 2026 image, the building shell is closer to completion, and several additional air-cooled chillers have appeared on the ground, though they do not yet appear to be connected or operating. We therefore keep IT capacity at 50 MW."
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-09-28",
+  "lastUpdated": "2026-10-05",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
