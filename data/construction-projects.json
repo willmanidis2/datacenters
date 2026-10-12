@@ -303,7 +303,8 @@
       "name": "Microsoft Fairwater Atlanta",
       "owner": "Microsoft",
       "users": [
-        "OpenAI"
+        "OpenAI",
+        "Microsoft"
       ],
       "powerMW": 859,
       "capitalCostB": 24.09,
@@ -356,7 +357,7 @@
       "name": "xAI Colossus 1",
       "owner": "xAI",
       "users": [
-        "xAI"
+        "Anthropic"
       ],
       "powerMW": 425,
       "capitalCostB": 12.88,
@@ -368,12 +369,13 @@
       "address": "3231 Riverport Rd, Memphis, TN 38109",
       "project": null,
       "h100Equivalents": 275796,
-      "notes": "Converted from a factory in 2024. Unusual mix of cooling and power infrastructure. Initially powered by portable gas turbines. On May 6, 2026 Anthropic struck a deal to use the full compute of xAI's Colossus 1 (~220,000+ Nvidia GPUs, roughly 300 MW), reported amid Elon Musk's litigation against OpenAI. Anthropic announced on May 6, 2026 an agreement with SpaceX to use all of Colossus 1's compute capacity — more than 300 MW of IT power and over 220,000 GPUs. Epoch reported no major site changes since February 2026.",
+      "notes": "Converted from a factory in 2024. Unusual mix of cooling and power infrastructure. Initially powered by portable gas turbines. On May 6, 2026 Anthropic struck a deal to use the full compute of xAI's Colossus 1 (~220,000+ Nvidia GPUs, roughly 300 MW), reported amid Elon Musk's litigation against OpenAI. Anthropic announced on May 6, 2026 an agreement with SpaceX to use all of Colossus 1's compute capacity — more than 300 MW of IT power and over 220,000 GPUs. Epoch reported no major site changes since February 2026. In May 2026, Anthropic agreed to rent all of Colossus 1's compute capacity (220,000+ GPUs, 300+ MW) from xAI/SpaceX — a SpaceX S-1 filing disclosed Anthropic committed to pay $1.25B per month through May 2029 — while xAI shifted its own training workloads to Colossus 2.",
       "sources": [
         "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d",
         "https://www.cnbc.com/2026/05/06/anthropic-spacex-data-center-capacity.html",
         "https://www.datacenterdynamics.com/en/news/anthropic-to-use-all-of-spacex-xais-colossus-1-data-center-compute/",
-        "https://epoch.ai/data/ai-data-centers"
+        "https://epoch.ai/data/ai-data-centers",
+        "https://www.fox13memphis.com/news/xai-announces-agreement-with-anthropic-parent-company-for-claude-to-use-data-center-in-memphis/article_ca4f81ce-d4ac-4548-b247-ac9d02674294.html"
       ],
       "timelineEvents": [
         {
@@ -506,7 +508,9 @@
       "name": "xAI Colossus 2",
       "owner": "xAI",
       "users": [
-        "xAI"
+        "xAI",
+        "Anthropic",
+        "Cursor"
       ],
       "powerMW": 1276,
       "capitalCostB": 35.84,
@@ -518,7 +522,7 @@
       "address": "5420 Tulane Rd, Memphis, TN 38109",
       "project": null,
       "h100Equivalents": 1111673,
-      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi. xAI now claims ~2 GW total Colossus capacity across both sites; Tesla Megapacks delivered to Memphis provide battery backup. Q1 2026 $659M building permit filed for a new 312,000 sq ft facility at 5414 Tulane Road. In May 2026 the NAACP sought an emergency injunction over the Southaven, MS gas-turbine plant powering Colossus 2, alleging up to 46 portable turbines were operating though Mississippi DEQ had permitted only 27. On June 15, 2026 the U.S. Department of Justice moved to intervene and dismiss the NAACP's Clean Air Act suit on national-security grounds (citing a DoD declaration describing Grok as a frontier AI model); xAI and Mississippi joined, and as of July 10, 2026 the judge had not ruled. Later filings put the turbine count at 57-59. In late June 2026 xAI filed roughly $300M in new construction permits across Colossus 1 and 2, including a ~$250M Colossus 2 Phase III expansion. Epoch AI's August 2026 assessment raises Colossus 2 sharply: ~1,276 MW total power (946 MW IT) and ~1.11M H100-equivalents as of June 15, 2026, making it the most powerful AI data center tracked. SpaceX S-1 filings describe a second cluster of 110,000 GB300 processors plus a further 220,000 GB300s and 400+ MW of compute power. Building 3 is projected to complete around February 2027, taking the site toward ~1.5 GW of IT power. Epoch now lists the owner as SpaceXAI following the SpaceX-xAI combination.",
+      "notes": "Follow-up to Colossus 1. Converted from an existing building. Natural gas turbines installed across the border in Mississippi. xAI now claims ~2 GW total Colossus capacity across both sites; Tesla Megapacks delivered to Memphis provide battery backup. Q1 2026 $659M building permit filed for a new 312,000 sq ft facility at 5414 Tulane Road. In May 2026 the NAACP sought an emergency injunction over the Southaven, MS gas-turbine plant powering Colossus 2, alleging up to 46 portable turbines were operating though Mississippi DEQ had permitted only 27. On June 15, 2026 the U.S. Department of Justice moved to intervene and dismiss the NAACP's Clean Air Act suit on national-security grounds (citing a DoD declaration describing Grok as a frontier AI model); xAI and Mississippi joined, and as of July 10, 2026 the judge had not ruled. Later filings put the turbine count at 57-59. In late June 2026 xAI filed roughly $300M in new construction permits across Colossus 1 and 2, including a ~$250M Colossus 2 Phase III expansion. Epoch AI's August 2026 assessment raises Colossus 2 sharply: ~1,276 MW total power (946 MW IT) and ~1.11M H100-equivalents as of June 15, 2026, making it the most powerful AI data center tracked. SpaceX S-1 filings describe a second cluster of 110,000 GB300 processors plus a further 220,000 GB300s and 400+ MW of compute power. Building 3 is projected to complete around February 2027, taking the site toward ~1.5 GW of IT power. Epoch now lists the owner as SpaceXAI following the SpaceX-xAI combination. As of October 2026, Epoch lists Anthropic and Cursor alongside xAI as users of the facility.",
       "sources": [
         "https://www.wsj.com/tech/elon-musk-xai-memphis-tennessee-power-dec4c70d",
         "https://introl.com/blog/xai-colossus-2-gigawatt-expansion-555k-gpus-january-2026",
@@ -562,7 +566,8 @@
       "name": "Microsoft Goodyear",
       "owner": "Microsoft",
       "users": [
-        "OpenAI"
+        "OpenAI",
+        "Microsoft"
       ],
       "powerMW": 263,
       "capitalCostB": 7.65,
@@ -2453,8 +2458,8 @@
           "description": "Building 1 shell and cooling looks complete, but construction equipment still seen around cooling and building. We estimate another 4 months to operational."
         },
         {
-          "date": "2026-06-15",
-          "description": "Building 1 is operational (estimate)."
+          "date": "2026-08-24",
+          "description": "Building 1 is operational, based on a lack of construction activity around the shell and cooling equipment, and about 6 months passing after structural completion."
         }
       ]
     },
@@ -3209,6 +3214,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-12",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
