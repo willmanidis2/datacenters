@@ -6,8 +6,8 @@
       "users": [
         "Anthropic"
       ],
-      "powerMW": 1092,
-      "capitalCostB": 34.47,
+      "powerMW": 1244,
+      "capitalCostB": 39.28,
       "lat": 41.6939,
       "lng": -86.4953,
       "state": "Indiana",
@@ -15,7 +15,7 @@
       "status": "active",
       "address": "55001 Larrison Blvd, New Carlisle, IN 46552",
       "project": "Project Rainier",
-      "h100Equivalents": 685912,
+      "h100Equivalents": 818428,
       "notes": "Part of the Anthropic-Amazon Project Rainier collaboration. Direct air cooling design. Broader campus reporting indicates roughly 18 buildings operating and 14 under construction (32 planned; ~6.5M sq ft, ~2.25 GW at full build), with Anthropic reserving up to 5 GW across Rainier; the tracked buildings above are the initial Trainium2 cluster. In June 2026, satellite imagery showed construction beginning on the adjacent Phase II (SBN210) site.",
       "sources": [
         "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
@@ -49,6 +49,10 @@
         {
           "date": "2026-06-03",
           "description": "Buildings 17-18 fully roofed but still having surrounding generators/cooling under construction. Cleared land for buildings 19-32 is still bare, with no building foundations visible yet. Based on satellite imagery."
+        },
+        {
+          "date": "2026-10-19",
+          "description": "Epoch AI assesses Buildings 17-18 as operational (18 buildings total, ~1,244 MW total power, ~1,037 MW IT power), an estimate based on roof-completion timing plus commissioning lag; adjacent cooling units not yet complete."
         }
       ]
     },
@@ -3212,8 +3216,79 @@
           "description": "Compared with the April 2026 image, the building shell is closer to completion, and several additional air-cooled chillers have appeared on the ground, though they do not yet appear to be connected or operating. We therefore keep IT capacity at 50 MW."
         }
       ]
+    },
+    {
+      "name": "Google Van Buren Township (Project Cannoli)",
+      "owner": "Google",
+      "users": [
+        "Google"
+      ],
+      "powerMW": 1000,
+      "capitalCostB": 0,
+      "lat": 42.217,
+      "lng": -83.43,
+      "state": "Michigan",
+      "stateId": "MI",
+      "status": "planned",
+      "address": "282-acre site bounded by Haggerty Rd (W), I-94 (S), Hannan Rd (E) and I-275 (N), Van Buren Charter Township (Belleville), MI 48111",
+      "project": "Project Cannoli",
+      "h100Equivalents": 0,
+      "notes": "1 GW Google campus about 4 miles west of Detroit Metropolitan Airport, developed by Panattoni; Google will own and operate. Final site plan (~1.5M sq ft: three data center buildings plus networking and office buildings on ~130-150 of 282 acres) approved 5-1 by the township Planning Commission on October 14, 2026. Michigan regulators approved a 20-year DTE Energy power contract October 1, 2026; wetland permits approved in August. Up to 3.6 million gallons/day of water from the Great Lakes Water Authority. Local deal: ~$125M in tax abatement over 12 years in exchange for $15.4M in infrastructure and at least 51 full-time jobs. Groundbreaking planned before end of 2026; first power draw expected late 2027. Coordinates are the centroid of the road-bounded parcel.",
+      "sources": [
+        "https://www.datacenterdynamics.com/en/news/google-confirms-1gw-data-center-campus-near-detroit-michigan-partners-with-dte-energy-on-27gw-power-generation/",
+        "https://baxtel.com/data-center/google-project-cannoli",
+        "https://writing.strisker.com/data-centers-weekly-briefing-october-12-october-15-2026/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-10-01",
+          "description": "Michigan Public Service Commission approves 20-year DTE Energy power contract for the campus"
+        },
+        {
+          "date": "2026-10-14",
+          "description": "Van Buren Township Planning Commission approves the final site plan 5-1 (six-building campus plan reported; ~1.5M sq ft initial phase), allowing developer Panattoni to begin utility installation and site improvements"
+        }
+      ]
+    },
+    {
+      "name": "Meta Mason County (Maysville)",
+      "owner": "Meta",
+      "users": [
+        "Meta"
+      ],
+      "powerMW": 2200,
+      "capitalCostB": 15,
+      "lat": 38.6856,
+      "lng": -83.8517,
+      "state": "Kentucky",
+      "stateId": "KY",
+      "status": "planned",
+      "address": "~2,080-acre site north of Germantown Road (around Big Pond Pike), Maysville, Mason County, KY 41056",
+      "project": "Mason County Campus",
+      "h100Equivalents": 0,
+      "notes": "Hyperscale campus on a ~2,080-acre parcel (28 properties) rezoned rural-industrial May 22, 2026; development documents describe six 718,740 sq ft data center buildings and three substations with roughly 2.2 GW of capacity, built in five phases. Mason County Fiscal Court unanimously approved the development contract October 13, 2026, and Meta was publicly identified as the company October 14. Initial investment reported at ~$15B (one outlet says $10B first phase); county officials estimate potential capital investment of $800B over the 40-year agreement. ~2,000 construction and ~400 permanent jobs; $115M+ in community benefits, largely water infrastructure. Work must begin within three years. Residents have filed suit and local opposition is significant; the Meadowland Village trailer park is within the site. Coordinates are approximate (parcel centroid near Big Pond Pike, north of Germantown Road).",
+      "sources": [
+        "https://www.wcpo.com/news/northern-kentucky/meta-announced-as-partner-in-2-000-acre-controversial-maysville-data-center",
+        "https://www.datacenterdynamics.com/en/news/2000-acre-land-parcel-rezoned-for-data-center-use-in-mason-county-kentucky/",
+        "https://www.datacentermap.com/usa/kentucky/maysville/mason-county-campus/",
+        "https://writing.strisker.com/data-centers-weekly-briefing-october-12-october-15-2026/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-05-22",
+          "description": "Mason County Fiscal Court rezones the ~2,080-acre parcel north of Germantown Road to rural industrial use"
+        },
+        {
+          "date": "2026-10-13",
+          "description": "Fiscal Court votes unanimously to approve the development contract (five phases; work must begin within three years)"
+        },
+        {
+          "date": "2026-10-14",
+          "description": "Meta publicly identified as the company behind the project"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-19",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
