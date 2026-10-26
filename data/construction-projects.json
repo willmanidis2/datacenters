@@ -2508,8 +2508,8 @@
       "users": [
         "Meta"
       ],
-      "powerMW": 114,
-      "capitalCostB": 3.3,
+      "powerMW": 147,
+      "capitalCostB": 4.47,
       "lat": 34.83034,
       "lng": -106.78013,
       "state": "New Mexico",
@@ -2517,8 +2517,8 @@
       "status": "active",
       "address": "4250 Messenger Lp NW, Los Lunas, NM 87031",
       "project": "",
-      "h100Equivalents": 99545,
-      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-08-24). 1 building(s) operational as of the latest satellite assessment.",
+      "h100Equivalents": 133906,
+      "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-10-26). 2 buildings operational as of the latest assessment (~147 MW total power, ~104 MW IT power).",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
       ],
@@ -2530,6 +2530,10 @@
         {
           "date": "2026-03-01",
           "description": "Building 1 looks operational."
+        },
+        {
+          "date": "2026-10-26",
+          "description": "Epoch AI assesses Building 2 (a tent-like structure) as operational, based on a default estimate of ~3 months for fit-out after structural completion in July 2026; campus now ~147 MW total power, ~133,900 H100 equivalents."
         }
       ]
     },
@@ -3289,6 +3293,6 @@
       ]
     }
   ],
-  "lastUpdated": "2026-10-19",
+  "lastUpdated": "2026-10-26",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
