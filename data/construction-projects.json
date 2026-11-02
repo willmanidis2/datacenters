@@ -152,8 +152,8 @@
       "users": [
         "OpenAI"
       ],
-      "powerMW": 590,
-      "capitalCostB": 15.95,
+      "powerMW": 1154,
+      "capitalCostB": 31.21,
       "lat": 32.5022,
       "lng": -99.7887,
       "state": "Texas",
@@ -161,7 +161,7 @@
       "status": "active",
       "address": "5502 Spinks Rd, Abilene, TX 79601",
       "project": "Stargate",
-      "h100Equivalents": 509348,
+      "h100Equivalents": 1018696,
       "notes": "First of several Stargate sites and the most complete to date. Four of eight buildings operational running Nvidia Blackwell at ~0.4 GW (Epoch AI tracked ~421 MW IT as of late May 2026); the remaining four buildings are now projected to complete around Q4 2026 for a full 1.2 GW campus — a slip from the earlier mid-2026 target (Oracle 15-year lease to deploy 450,000+ GB200 GPUs). Power is a mix of on-site natural gas plus grid (including local wind). OpenAI dropped a planned 2.1 GW expansion on this site — Crusoe is instead building two adjacent AI-factory buildings for Microsoft. Epoch estimates Buildings 3 and 4 became operational on May 23, 2026 (four buildings, ~590 MW). Buildings 5-8 are projected operational around November 1, 2026, which would take the site to ~1,180 MW.",
       "sources": [
         "https://openai.com/index/five-new-stargate-sites/",
@@ -201,6 +201,10 @@
         {
           "date": "2026-07-28",
           "description": "Buildings 5-8 structurally complete and roofed but not yet confirmed operational (fit-out ongoing); substation looks complete. Buildings 1-4 operational at ~590 MW total."
+        },
+        {
+          "date": "2026-11-01",
+          "description": "Epoch AI assesses Buildings 7-8 as operational (8 buildings total, ~1,154 MW total power, ~1.02M H100 equivalents, ~$31.2B total capital cost), an estimate based on Building 8 tracking roughly 7 months behind Building 3's construction-to-operational timeline."
         }
       ]
     },
@@ -828,8 +832,8 @@
         "Anthropic",
         "Fluidstack"
       ],
-      "powerMW": 49,
-      "capitalCostB": 1.59,
+      "powerMW": 245,
+      "capitalCostB": 7.96,
       "lat": 43.3489,
       "lng": -78.6029,
       "state": "New York",
@@ -837,8 +841,8 @@
       "status": "active",
       "address": "7725 Lake Rd, Barker, NY 14012",
       "project": null,
-      "h100Equivalents": 58565,
-      "notes": "Built at former coal plant on Lake Ontario. Fluidstack deploying Google TPUs for Anthropic. Terawulf-owned campus. Epoch AI now tracks this site as 'Anthropic Lake Mariner' under the AI XPV Platform joint venture, with Anthropic as the likely user. Building 1 was assessed operational in May 2026 (TeraWulf's CB3); as of July 23, 2026 Building 2 was mostly complete. Epoch's current estimate is ~49 MW total power and ~58,600 H100-equivalents — a downward revision from earlier figures.",
+      "h100Equivalents": 292829,
+      "notes": "Built at former coal plant on Lake Ontario. Fluidstack deploying Google TPUs for Anthropic. Terawulf-owned campus. Epoch AI now tracks this site as 'Anthropic Lake Mariner' under the AI XPV Platform joint venture, with Anthropic as the likely user. Building 1 was assessed operational in May 2026 (TeraWulf's CB3); as of July 23, 2026 Building 2 was mostly complete. Epoch's current estimate is ~49 MW total power and ~58,600 H100-equivalents — a downward revision from earlier figures. Building 2 (CB4) assessed operational as of October 31, 2026, bringing the campus to ~245 MW total power.",
       "sources": [
         "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
         "https://epoch.ai/data/ai-data-centers"
@@ -867,6 +871,10 @@
         {
           "date": "2026-07-23",
           "description": "Building 1 looks complete, consistent with it going operational back in May. Building 2 is mostly complete, with the row of backup generators on the east side of the building still being installed. Building 3 shell is complete, with rooftop coolers midway through installation, and no neighboring generators installed/visible yet."
+        },
+        {
+          "date": "2026-10-31",
+          "description": "Epoch AI assesses Building 2 (CB4) as operational (2 buildings, ~245 MW total power, ~293K H100 equivalents); TeraWulf had stated in February that CB4 was expected to be energized by Q3 2026."
         }
       ]
     },
@@ -1159,6 +1167,10 @@
         {
           "date": "2026-05-07",
           "description": "Similar to April, Buildings 1-3 shells look complete. Buildings 4-6 are still far along, and the eastern Building 7 foundation is still underway."
+        },
+        {
+          "date": "2026-10-23",
+          "description": "Buildings 1-3 look externally complete with air-cooled chillers fully installed and yard work cleared; heavy vehicle presence suggests commissioning still underway, so Epoch AI does not yet count any buildings as operational."
         }
       ]
     },
@@ -3291,8 +3303,35 @@
           "description": "Meta publicly identified as the company behind the project"
         }
       ]
+    },
+    {
+      "name": "Takanock Glendale (Project Eagle)",
+      "owner": "Takanock",
+      "users": [],
+      "powerMW": 700,
+      "capitalCostB": 10.3,
+      "lat": 33.5675,
+      "lng": -112.358,
+      "state": "Arizona",
+      "stateId": "AZ",
+      "status": "planned",
+      "address": "Litchfield Road & Olive Avenue, Glendale, AZ 85309",
+      "project": "Project Eagle (Project Baccara)",
+      "h100Equivalents": 0,
+      "notes": "Glendale City Council approved annexation and rezoning of the 160-acre site 6-1 on October 27, 2026. Zoning documents identify three data center buildings totaling ~1.1M sq ft, powered by ~700 MW of on-site natural gas generation (18 turbines), about 2 miles from Luke Air Force Base. Developers: Takanock and Montera Infrastructure. Media widely reported a $36 billion project; Glendale's economic-impact materials put private investment at ~$10.27 billion. Construction expected to begin December 2026, with the first building targeted for 2028. Before work begins the developer must fund a traffic signal and a hazardous-materials/fire-services agreement. Residents raised water, noise, air-quality and safety concerns, and Arizona's Attorney General has called for a statewide pause on new data centers.",
+      "sources": [
+        "https://www.kjzz.org/business/2026-10-28/glendale-approves-project-eagle-data-center-development",
+        "https://www.azfamily.com/2026/10/29/glendale-approves-major-step-start-construction-data-center/",
+        "https://writing.strisker.com/data-centers-weekly-briefing-october-26-october-29-2026/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-10-27",
+          "description": "Glendale City Council approves annexation and rezoning for the 160-acre Project Eagle campus on a 6-1 vote"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-11-02",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
