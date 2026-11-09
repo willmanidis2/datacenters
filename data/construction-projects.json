@@ -841,7 +841,7 @@
       "status": "active",
       "address": "7725 Lake Rd, Barker, NY 14012",
       "project": null,
-      "h100Equivalents": 292829,
+      "h100Equivalents": 292830,
       "notes": "Built at former coal plant on Lake Ontario. Fluidstack deploying Google TPUs for Anthropic. Terawulf-owned campus. Epoch AI now tracks this site as 'Anthropic Lake Mariner' under the AI XPV Platform joint venture, with Anthropic as the likely user. Building 1 was assessed operational in May 2026 (TeraWulf's CB3); as of July 23, 2026 Building 2 was mostly complete. Epoch's current estimate is ~49 MW total power and ~58,600 H100-equivalents — a downward revision from earlier figures. Building 2 (CB4) assessed operational as of October 31, 2026, bringing the campus to ~245 MW total power.",
       "sources": [
         "https://www.anthropic.com/news/anthropic-invests-50-billion-in-american-ai-infrastructure",
@@ -1095,7 +1095,7 @@
         "Microsoft"
       ],
       "powerMW": 200,
-      "capitalCostB": 5.0,
+      "capitalCostB": 5,
       "lat": 33.7806,
       "lng": -100.8671,
       "state": "Texas",
@@ -1250,7 +1250,7 @@
         "Meta"
       ],
       "powerMW": 0,
-      "capitalCostB": 1.0,
+      "capitalCostB": 1,
       "lat": 36.142,
       "lng": -95.813,
       "state": "Oklahoma",
@@ -1493,15 +1493,20 @@
       "address": "8936 County Road 180, ~10 mi east of Evanston, Uinta County, WY 82930",
       "project": null,
       "h100Equivalents": 0,
-      "notes": "506-acre site ~10 miles east of Evanston, south of I-80 near the Utah line. 1.25 GW initial capacity (islanded gas microgrid), expandable to 5 GW; privately funded (Morgan Stanley bond, no state subsidies). Uinta County approved the rezone June 16 and a conditional-use permit June 18, 2026; construction expected within ~6 months. Coordinates from datacentermap.com and the county CUP legal description (Section 13, T15N, R119W).",
+      "notes": "506-acre site ~10 miles east of Evanston, south of I-80 near the Utah line. 1.25 GW initial capacity (islanded gas microgrid), expandable to 5 GW; privately funded (Morgan Stanley bond, no state subsidies). Uinta County approved the rezone June 16 and a conditional-use permit June 18, 2026; construction expected within ~6 months. Coordinates from datacentermap.com and the county CUP legal description (Section 13, T15N, R119W). In late October 2026 Prometheus exited its separate Casper-area (Natrona/Converse County) 1,250 MW proposal — landowner Falls Ranch says that project will continue under a new developer — while Prometheus president Trevor Neilson said the company is 'thrilled' with progress on the Evanston WY-1 flagship, which it is keeping.",
       "sources": [
         "https://www.prnewswire.com/news-releases/prometheus-hyperscale-secures-unanimous-conditional-use-permit-approval-from-uinta-county-commissioners-302803665.html",
-        "https://www.datacentermap.com/usa/wyoming/evanston/wy-1/"
+        "https://www.datacentermap.com/usa/wyoming/evanston/wy-1/",
+        "https://oilcity.news/business-feature-2/2026/10/28/prometheus-hyperscale-drops-plans-for-500m-data-center-campus-in-natrona-county/"
       ],
       "timelineEvents": [
         {
           "date": "2026-06-18",
           "description": "Uinta County commissioners unanimously approve the conditional-use permit for the 1.25 GW WY-1 campus"
+        },
+        {
+          "date": "2026-10-28",
+          "description": "Prometheus drops its separate Casper-area (Natrona/Converse County) campus proposal; Falls Ranch says that project continues under a new developer, and Prometheus affirms Evanston WY-1 remains on track"
         }
       ]
     },
@@ -2047,8 +2052,8 @@
       "users": [
         "Meta"
       ],
-      "powerMW": 90,
-      "capitalCostB": 2.61,
+      "powerMW": 168,
+      "capitalCostB": 4.89,
       "lat": 33.64224,
       "lng": -81.84396,
       "state": "South Carolina",
@@ -2056,7 +2061,7 @@
       "status": "active",
       "address": "7601 State Hwy 105, Trenton, SC 29847",
       "project": "",
-      "h100Equivalents": 78322,
+      "h100Equivalents": 147044,
       "notes": "Tracked by Epoch AI's Frontier Data Centers database (updated 2026-09-21). Epoch revised its earlier estimate that both buildings were operational: drone imagery from August 7, 2026 confirms Building 1 operational (~90 MW total power), with Building 2 infrastructure complete but not yet operational.",
       "sources": [
         "https://epoch.ai/data/ai-data-centers"
@@ -2073,6 +2078,10 @@
         {
           "date": "2026-08-07",
           "description": "Building 1 confirmed operational via drone imagery (8 of 9 cooler groups with spinning fans); all cooling and power infrastructure in place for Building 2 but it is not yet operational (Epoch AI assessment)."
+        },
+        {
+          "date": "2026-11-05",
+          "description": "Building 2 is operational assuming a 3 month lag compared to Building 1."
         }
       ]
     },
@@ -3330,8 +3339,95 @@
           "description": "Glendale City Council approves annexation and rezoning for the 160-acre Project Eagle campus on a 6-1 vote"
         }
       ]
+    },
+    {
+      "name": "SpaceX Cochise County (Apache Station)",
+      "owner": "SpaceX",
+      "users": [],
+      "powerMW": 6000,
+      "capitalCostB": 0,
+      "lat": 32.0603,
+      "lng": -109.8966,
+      "state": "Arizona",
+      "stateId": "AZ",
+      "status": "planned",
+      "address": "~747 acres adjacent to Apache Generating Station along US-191, unincorporated Cochise County, AZ 85625",
+      "project": "Apache Station Data Center (Tombstone Resources LLC)",
+      "h100Equivalents": 0,
+      "notes": "Special use application filed November 2, 2026 by Tombstone Resources LLC; SpaceX representatives confirmed the company is behind the project at a November 4 community meeting, saying the application was filed under another name to avoid outside attention. Up to nine data center buildings totaling ~6,000 MW at full build-out (phase one ~1,500 MW, applicant figures, not independently verified) — the largest data center proposal in Arizona. Dry (air) cooling, large battery energy storage system, ~$3.6 billion planned power infrastructure spend; land purchased from Arizona Electric Power Cooperative (AEPCO), which would also supply power from the adjacent Apache Generating Station. Application claims ~1,000 permanent jobs. Cochise County Planning and Zoning Commission public hearing set for December 9, 2026 in Bisbee (decision final unless appealed to the Board of Supervisors); over 1,000 residents have signed an opposing petition. Coordinates anchored on the adjacent Apache Generating Station (OSM); exact parcel boundary not yet published.",
+      "sources": [
+        "https://www.kjzz.org/business/2026-11-03/largest-data-center-proposal-in-arizona-heads-to-cochise-county-1st-community-meeting-scheduled",
+        "https://www.azfamily.com/2026/11/05/spacex-behind-proposed-data-center-cochise-county/",
+        "https://www.datacenterdynamics.com/en/news/spacexai-data-center-arizona-cochise-county-elon-musk/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-11-02",
+          "description": "Cochise County announces receipt of a special use application from Tombstone Resources LLC for a ~747-acre data center campus near the Apache Generating Station"
+        },
+        {
+          "date": "2026-11-04",
+          "description": "SpaceX confirms it is behind the project at a community meeting, pitching ~6 GW at full build-out, dry cooling, battery storage and ~$3.6B in power infrastructure"
+        }
+      ]
+    },
+    {
+      "name": "Lambda Red Clay Technology Center",
+      "owner": "Lambda",
+      "users": [
+        "Lambda"
+      ],
+      "powerMW": 1500,
+      "capitalCostB": 33.1,
+      "lat": 32.2725,
+      "lng": -86.5125,
+      "state": "Alabama",
+      "stateId": "AL",
+      "status": "planned",
+      "address": "~800-acre site at the junction of US-80 and AL-21, Lowndes County, AL",
+      "project": "Project Red Clay",
+      "h100Equivalents": 0,
+      "notes": "Announced November 4, 2026: Lambda will anchor the Red Clay Technology Center Campus, an estimated $33.1 billion investment on a site readied by developer Cloverleaf Infrastructure. The campus has requested ~1,500 MW from Alabama Power (contract still requires regulatory approval; some reports describe it as a ~1 GW campus). Over 225 full-time jobs and 1,000+ construction jobs projected; construction expected to begin in early 2027 and take up to five years. The Lowndes County Commission's ~$1.1 billion tax abatement approval is being challenged in court (two lawsuits), and residents have pressed for transparency; the site sits along the US-80 Selma-to-Montgomery National Historic Trail corridor. Coordinates anchored on the US-80/AL-21 junction (OSM).",
+      "sources": [
+        "https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center",
+        "https://www.alreporter.com/2026/11/05/lambda-to-build-new-data-center-in-lowndes-county-investing-33b-in-alabama",
+        "https://datacenterdynamics.com/en/news/lambda-to-develop-four-building-data-center-campus-in-lowndes-county-alabama"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-11-04",
+          "description": "Lambda announces the $33.1B Red Clay Technology Center Campus in Lowndes County, with Cloverleaf Infrastructure as site developer and Alabama Power supply pending regulatory approval"
+        }
+      ]
+    },
+    {
+      "name": "Amazon Attalia Campus",
+      "owner": "Amazon",
+      "users": [
+        "Amazon"
+      ],
+      "powerMW": 300,
+      "capitalCostB": 0,
+      "lat": 46.115,
+      "lng": -118.909,
+      "state": "Washington",
+      "stateId": "WA",
+      "status": "planned",
+      "address": "Wallula Gap Business Park, between Sundance, Dodd and Worden roads, Attalia (Wallula), Walla Walla County, WA 99363",
+      "project": "Amazon Attalia Data Center Campus",
+      "h100Equivalents": 0,
+      "notes": "AWS's first data center campus in Washington state: three 220,000-square-foot buildings on 134 acres in the Wallula Gap Business Park, expected to total ~300 MW. A State Environmental Policy Act (SEPA) review is underway with a second public comment period to follow; no construction timeline has been set. Coordinates anchored on Sundance Road in Attalia (OSM), inside the business park boundary.",
+      "sources": [
+        "https://writing.strisker.com/data-centers-daily-notes-november-5-2026/"
+      ],
+      "timelineEvents": [
+        {
+          "date": "2026-11-05",
+          "description": "Reported: AWS proceeding with the three-building, ~300 MW Attalia campus at Wallula Gap Business Park; SEPA environmental review underway"
+        }
+      ]
     }
   ],
-  "lastUpdated": "2026-11-02",
+  "lastUpdated": "2026-11-09",
   "attribution": "Data from Epoch AI Frontier Data Centers dataset (CC-BY). https://epoch.ai/data/frontier-data-centers"
 }
