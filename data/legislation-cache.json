@@ -8843,12 +8843,31 @@
       "session_end_date": "2026-12-31",
       "ai_summary": "New York S10731 ('RAISE Act 2.0'), introduced by Sen. Andrew Gounardes and Assemblymember Jordan Wright on October 28-29, 2026, builds on the Responsible AI Safety and Education (RAISE) Act enacted in 2025 by strengthening safety and transparency standards for developers of frontier AI models.",
       "introducer_party": "D"
+    },
+    {
+      "bill_id": 900112,
+      "bill_number": "A5607",
+      "state": "NJ",
+      "title": "Establishes content and data privacy requirements for AI chatbot providers; subjects chatbots to product liability claims",
+      "status": "introduced",
+      "last_action_date": "2026-10-05",
+      "last_action": "Introduced in the Assembly",
+      "relevance": 85,
+      "url": "https://www.njleg.state.nj.us/bill-search/2026/A5607",
+      "text_url": "",
+      "research_url": "",
+      "change_hash": "",
+      "search_query": "AI chatbot liability bill New Jersey",
+      "category": "ai_regulation",
+      "session_end_date": "2026-12-31",
+      "ai_summary": "New Jersey A5607 would create content and data privacy requirements for AI chatbot providers and treat chatbots as products subject to state product liability law, exposing violators to $5,000 per-violation penalties and enforcement by the state attorney general. Introduced October 5, 2026; drew national attention in early November 2026 as a novel product-liability approach to chatbot harms.",
+      "introducer_party": "unknown"
     }
   ],
-  "lastRefreshed": "2026-11-02T08:45:00.000Z",
+  "lastRefreshed": "2026-11-09T08:43:55.573Z",
   "queryTerms": [
     "\"data center\" AND (moratorium OR ban OR zoning OR legislation OR permit)",
     "\"artificial intelligence\" AND (data center OR computing OR infrastructure)"
   ],
-  "totalResults": 466
+  "totalResults": 467
 }
